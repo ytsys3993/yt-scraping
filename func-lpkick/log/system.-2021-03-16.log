@@ -1,0 +1,63 @@
+[2021-03-16T13:32:04.424] [INFO] system - 【Windows版起動】
+[2021-03-16T13:32:04.426] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/zepp0320/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"016","startTime":"2021-03-15 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-15 21:45","notCheckOnly":true}
+[2021-03-16T13:32:04.441] [INFO] system - 【テスト】
+[2021-03-16T13:32:04.446] [INFO] system - 2021-03-15 21:45:00にすでに到達
+[2021-03-16T13:32:04.457] [INFO] system - ログイン処理想定時間到達
+[2021-03-16T13:32:05.252] [INFO] system - ブラウザ起動後準備完了
+[2021-03-16T13:32:11.209] [INFO] system - ログインページに移動完了
+[2021-03-16T13:32:15.980] [INFO] system - ログイン完了
+[2021-03-16T13:32:16.014] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-378187)
+[2021-03-16T13:32:16.018] [INFO] system - 2021-03-15 22:00にすでに到達
+[2021-03-16T13:32:16.019] [INFO] system - 購入処理想定時間到達
+[2021-03-16T13:32:16.041] [INFO] system - <成績時間カウント開始>
+[2021-03-16T13:32:25.541] [ERROR] system - 購入ページ確認NG
+[2021-03-16T13:32:25.542] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:265:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-16T13:32:25.576] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-16T13:33:13.139] [INFO] system - 【Windows版起動】
+[2021-03-16T13:33:13.140] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/katacoto0321/","targetTicket":null,"targetName":"優先入場通常チケット整理番号券","targetNumber":"1","storeTypeId":"016","startTime":"2021-03-15 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-15 21:45","notCheckOnly":true}
+[2021-03-16T13:33:13.152] [INFO] system - 【テスト】
+[2021-03-16T13:33:13.158] [INFO] system - 2021-03-15 21:45:00にすでに到達
+[2021-03-16T13:33:13.161] [INFO] system - ログイン処理想定時間到達
+[2021-03-16T13:33:13.716] [INFO] system - ブラウザ起動後準備完了
+[2021-03-16T13:33:19.559] [INFO] system - ログインページに移動完了
+[2021-03-16T13:33:24.127] [INFO] system - ログイン完了
+[2021-03-16T13:33:24.285] [INFO] system - 「優先入場通常チケット整理番号券」の存在を確認(.table #ticket-376203)
+[2021-03-16T13:33:24.290] [INFO] system - 2021-03-15 22:00にすでに到達
+[2021-03-16T13:33:24.309] [INFO] system - 購入処理想定時間到達
+[2021-03-16T13:33:24.310] [INFO] system - <成績時間カウント開始>
+[2021-03-16T13:33:27.373] [INFO] system - 購入状態確認(1回目に成功)
+[2021-03-16T13:33:27.374] [INFO] system - 購入処理開始(確定前)
+[2021-03-16T13:33:29.167] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-03-16T13:33:29.168] [INFO] system - 購入処理開始(有料)
+[2021-03-16T13:33:29.522] [INFO] system - 規約に同意クリック
+[2021-03-16T13:33:29.523] [INFO] system - 【テスト:決済ロジック】
+[2021-03-16T13:33:29.526] [INFO] system - <成績：5.215秒>
+[2021-03-16T21:26:22.867] [INFO] system - 【Windows版起動】
+[2021-03-16T21:26:22.869] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0318/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-03-16 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-16 21:45","notCheckOnly":true}
+[2021-03-16T21:26:22.888] [INFO] system - 2021-03-16 21:45:00までログイン処理待機中...
+[2021-03-16T21:29:00.530] [INFO] system - 【Windows版起動】
+[2021-03-16T21:29:00.531] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0318/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-03-16 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-16 21:45","notCheckOnly":true}
+[2021-03-16T21:29:00.552] [INFO] system - 2021-03-16 21:45:00までログイン処理待機中...
+[2021-03-16T21:45:00.008] [INFO] system - ログイン処理想定時間到達
+[2021-03-16T21:45:00.630] [INFO] system - ブラウザ起動後準備完了
+[2021-03-16T21:45:05.980] [INFO] system - ログインページに移動完了
+[2021-03-16T21:45:10.630] [INFO] system - ログイン完了
+[2021-03-16T21:45:10.773] [INFO] system - 「１部前売チケット整理番号券,２部前売チケット整理番号券」の存在を確認(.table #ticket-378263,.table #ticket-378264)
+[2021-03-16T21:45:10.776] [INFO] system - 2021-03-16 22:00まで購入処理待機中...
+[2021-03-16T22:00:00.005] [INFO] system - 購入処理想定時間到達
+[2021-03-16T22:00:00.006] [INFO] system - <成績時間カウント開始>
+[2021-03-16T22:00:15.492] [INFO] system - 購入状態確認(1回目に成功)
+[2021-03-16T22:00:15.493] [INFO] system - 購入処理開始(確定前)
+[2021-03-16T22:00:19.401] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-03-16T22:00:19.402] [INFO] system - 購入処理開始(有料)
+[2021-03-16T22:01:50.642] [INFO] system - 規約に同意クリック
+[2021-03-16T22:01:56.006] [INFO] system - 購入処理完了(多分)
+[2021-03-16T22:01:56.008] [INFO] system - <現在時刻：Tue Mar 16 2021 22:01:56 GMT+0900／成績：116.002秒>

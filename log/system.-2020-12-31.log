@@ -1,0 +1,423 @@
+[2020-12-31T00:08:51.873] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T00:08:51.879] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T00:08:56.530] [INFO] system - ログインページに移動完了
+[2020-12-31T00:08:57.758] [INFO] system - ログイン完了
+[2020-12-31T00:08:57.760] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T00:08:57.762] [INFO] system - 購入処理想定時間到達
+[2020-12-31T00:08:57.769] [INFO] system - <成績時間カウント開始>
+[2020-12-31T00:08:57.770] [INFO] system - ターゲットページ：https://only-five.jp/posts/79580
+[2020-12-31T00:08:57.775] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: string value expected at position 11
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\sourse\scraping\ofkick.js:288:18)
+    at newBrowser (C:\sourse\scraping\ofkick.js:190:34)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:08:58.087] [ERROR] system - 購入ページ確認NG
+[2020-12-31T00:08:58.087] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkick.js:193:13)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:08:58.088] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:237:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:37:38.015] [INFO] system - 【テスト：開始】
+[2020-12-31T00:37:38.019] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T00:37:38.021] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T00:37:42.637] [INFO] system - ログインページに移動完了
+[2020-12-31T00:37:44.395] [INFO] system - ログイン完了
+[2020-12-31T00:37:44.398] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T00:37:44.402] [INFO] system - 購入処理想定時間到達
+[2020-12-31T00:37:44.414] [INFO] system - <成績時間カウント開始>
+[2020-12-31T00:37:44.415] [INFO] system - ターゲットページ：https://only-five.jp/posts/79478
+[2020-12-31T00:37:44.418] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: string value expected at position 11
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\sourse\scraping\ofkick.js:288:18)
+    at newBrowser (C:\sourse\scraping\ofkick.js:190:34)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:37:44.760] [ERROR] system - 購入ページ確認NG
+[2020-12-31T00:37:44.761] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkick.js:193:13)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:37:44.763] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:237:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:41:00.552] [INFO] system - 【テスト：開始】
+[2020-12-31T00:41:00.556] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T00:41:00.560] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T00:41:05.354] [INFO] system - ログインページに移動完了
+[2020-12-31T00:41:06.608] [INFO] system - ログイン完了
+[2020-12-31T00:41:06.611] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T00:41:06.617] [INFO] system - 購入処理想定時間到達
+[2020-12-31T00:41:06.627] [INFO] system - <成績時間カウント開始>
+[2020-12-31T00:41:06.630] [INFO] system - ターゲットページ：https://only-five.jp/posts/79478
+[2020-12-31T00:41:06.632] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: string value expected at position 11
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\sourse\scraping\ofkick.js:290:18)
+    at newBrowser (C:\sourse\scraping\ofkick.js:190:34)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:41:06.984] [ERROR] system - 購入ページ確認NG
+[2020-12-31T00:41:06.984] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkick.js:193:13)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:41:07.001] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:237:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:50:40.957] [INFO] system - 【テスト：開始】
+[2020-12-31T00:50:40.961] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T00:50:40.962] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T00:50:46.382] [INFO] system - ログインページに移動完了
+[2020-12-31T00:50:47.542] [INFO] system - ログイン完了
+[2020-12-31T00:50:47.544] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T00:50:47.548] [INFO] system - 購入処理想定時間到達
+[2020-12-31T00:50:47.559] [INFO] system - <成績時間カウント開始>
+[2020-12-31T00:50:47.560] [INFO] system - ターゲットページ：https://only-five.jp/posts/79478
+[2020-12-31T00:50:47.562] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: string value expected at position 11
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\sourse\scraping\ofkick.js:288:18)
+    at newBrowser (C:\sourse\scraping\ofkick.js:190:34)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:50:47.895] [ERROR] system - 購入ページ確認NG
+[2020-12-31T00:50:47.896] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkick.js:193:13)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:50:47.913] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:237:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:56:48.702] [INFO] system - 【テスト：開始】
+[2020-12-31T00:56:48.709] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T00:56:48.716] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T00:56:53.816] [INFO] system - ログインページに移動完了
+[2020-12-31T00:56:55.037] [INFO] system - ログイン完了
+[2020-12-31T00:56:55.039] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T00:56:55.040] [INFO] system - 購入処理想定時間到達
+[2020-12-31T00:56:55.054] [INFO] system - <成績時間カウント開始>
+[2020-12-31T00:56:55.055] [INFO] system - ターゲットページ：https://only-five.jp/posts/79478
+[2020-12-31T00:56:55.058] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: string value expected at position 11
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\sourse\scraping\ofkick.js:289:18)
+    at newBrowser (C:\sourse\scraping\ofkick.js:191:34)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:56:55.407] [ERROR] system - 購入ページ確認NG
+[2020-12-31T00:56:55.408] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkick.js:194:13)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T00:56:55.424] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:238:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:01:53.811] [INFO] system - 【テスト：開始】
+[2020-12-31T01:01:53.815] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T01:01:53.817] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T01:01:58.541] [INFO] system - ログインページに移動完了
+[2020-12-31T01:01:59.680] [INFO] system - ログイン完了
+[2020-12-31T01:01:59.683] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T01:01:59.685] [INFO] system - 購入処理想定時間到達
+[2020-12-31T01:01:59.698] [INFO] system - <成績時間カウント開始>
+[2020-12-31T01:01:59.699] [INFO] system - ターゲットページ：https://only-five.jp/posts/79478
+[2020-12-31T01:01:59.702] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: string value expected at position 11
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\sourse\scraping\ofkick.js:289:18)
+    at newBrowser (C:\sourse\scraping\ofkick.js:191:34)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:02:00.074] [ERROR] system - 購入ページ確認NG
+[2020-12-31T01:02:00.075] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkick.js:194:13)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:02:00.093] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:238:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:04:33.077] [INFO] system - 【テスト：開始】
+[2020-12-31T01:04:33.084] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T01:04:33.091] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T01:04:38.195] [INFO] system - ログインページに移動完了
+[2020-12-31T01:04:39.439] [INFO] system - ログイン完了
+[2020-12-31T01:04:39.441] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T01:04:39.443] [INFO] system - 購入処理想定時間到達
+[2020-12-31T01:04:39.457] [INFO] system - <成績時間カウント開始>
+[2020-12-31T01:04:39.458] [INFO] system - ターゲットページ：https://only-five.jp/posts/79478
+[2020-12-31T01:04:39.461] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: string value expected at position 11
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\sourse\scraping\ofkick.js:289:18)
+    at newBrowser (C:\sourse\scraping\ofkick.js:191:34)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:04:39.813] [ERROR] system - 購入ページ確認NG
+[2020-12-31T01:04:39.814] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkick.js:194:13)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:04:39.816] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:238:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:05:33.069] [INFO] system - 【テスト：開始】
+[2020-12-31T01:05:33.074] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T01:05:33.076] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T01:05:38.405] [INFO] system - ログインページに移動完了
+[2020-12-31T01:05:39.603] [INFO] system - ログイン完了
+[2020-12-31T01:05:39.605] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T01:05:39.609] [INFO] system - 購入処理想定時間到達
+[2020-12-31T01:05:39.620] [INFO] system - <成績時間カウント開始>
+[2020-12-31T01:05:39.621] [INFO] system - ターゲットページ：https://only-five.jp/posts/79478
+[2020-12-31T01:05:40.639] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: string value expected at position 11
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\sourse\scraping\ofkick.js:290:18)
+    at async newBrowser (C:\sourse\scraping\ofkick.js:191:28)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:05:41.034] [ERROR] system - 購入ページ確認NG
+[2020-12-31T01:05:41.035] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkick.js:194:13)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:05:41.053] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:238:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:07:06.777] [INFO] system - 【テスト：開始】
+[2020-12-31T01:07:06.781] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T01:07:06.784] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T01:07:11.848] [INFO] system - ログインページに移動完了
+[2020-12-31T01:07:13.015] [INFO] system - ログイン完了
+[2020-12-31T01:07:13.017] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T01:07:13.020] [INFO] system - 購入処理想定時間到達
+[2020-12-31T01:07:13.033] [INFO] system - <成績時間カウント開始>
+[2020-12-31T01:07:13.034] [INFO] system - ターゲットページ：https://only-five.jp/posts/79478
+[2020-12-31T01:07:14.394] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: string value expected at position 11
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\sourse\scraping\ofkick.js:291:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newBrowser (C:\sourse\scraping\ofkick.js:191:28)
+[2020-12-31T01:07:15.046] [ERROR] system - 購入ページ確認NG
+[2020-12-31T01:07:15.046] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkick.js:194:13)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:07:15.047] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:238:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:12:06.465] [INFO] system - 【テスト：開始】
+[2020-12-31T01:12:06.474] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T01:12:06.484] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T01:12:11.918] [INFO] system - ログインページに移動完了
+[2020-12-31T01:12:13.185] [INFO] system - ログイン完了
+[2020-12-31T01:12:13.187] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T01:12:13.188] [INFO] system - 購入処理想定時間到達
+[2020-12-31T01:12:13.200] [INFO] system - <成績時間カウント開始>
+[2020-12-31T01:12:13.201] [INFO] system - ターゲットページ：https://only-five.jp/posts/79478/
+[2020-12-31T01:12:14.849] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-31T01:12:14.850] [INFO] system - 購入処理開始(確定前)
+[2020-12-31T01:12:14.930] [INFO] system - 購入処理開始(有料)
+[2020-12-31T01:12:18.061] [ERROR] system - Error: Protocol error (Input.dispatchKeyEvent): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Keyboard.up (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Input.js:168:28)
+    at Keyboard.press (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Input.js:258:20)
+    at async Keyboard.type (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Input.js:224:17)
+    at async ElementHandle.type (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:522:9)
+    at async DOMWorld.type (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:308:9)
+    at async targetPayment (C:\sourse\scraping\ofkick.js:364:5)
+    at async targetPageBuy (C:\sourse\scraping\ofkick.js:326:20)
+    at async newBrowser (C:\sourse\scraping\ofkick.js:200:22)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:12:18.098] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+[2020-12-31T01:12:18.101] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+[2020-12-31T01:12:18.104] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:238:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T01:14:16.258] [INFO] system - 【テスト：開始】
+[2020-12-31T01:14:16.262] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T01:14:16.264] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T01:14:21.593] [INFO] system - ログインページに移動完了
+[2020-12-31T01:14:22.762] [INFO] system - ログイン完了
+[2020-12-31T01:14:22.764] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T01:14:22.765] [INFO] system - 購入処理想定時間到達
+[2020-12-31T01:14:22.772] [INFO] system - <成績時間カウント開始>
+[2020-12-31T01:14:22.773] [INFO] system - ターゲットページ：https://only-five.jp/posts/79478/
+[2020-12-31T01:14:24.380] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-31T01:14:24.380] [INFO] system - 購入処理開始(確定前)
+[2020-12-31T01:14:24.402] [INFO] system - 購入処理開始(有料)
+[2020-12-31T01:14:27.956] [INFO] system - 【テスト:決済ロジック】
+[2020-12-31T01:14:27.956] [INFO] system - <成績：5.184秒>
+[2020-12-31T21:38:44.733] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T21:38:44.736] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T21:38:51.611] [INFO] system - ログインページに移動完了
+[2020-12-31T21:38:52.979] [INFO] system - ログイン完了
+[2020-12-31T21:38:52.981] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T21:38:52.983] [INFO] system - 購入処理想定時間到達
+[2020-12-31T21:38:52.991] [INFO] system - <成績時間カウント開始>
+[2020-12-31T21:38:52.992] [INFO] system - ターゲットページ：https://only-five.jp/posts/79917/
+[2020-12-31T21:38:54.494] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-31T21:38:54.495] [INFO] system - 購入処理開始(確定前)
+[2020-12-31T21:38:54.559] [INFO] system - 購入処理開始(有料)
+[2020-12-31T22:11:11.874] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-12-31T22:11:11.897] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-12-31T22:11:11.899] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-12-31T22:11:11.900] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:239:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkick.js:84:5
+[2020-12-31T23:24:30.778] [ERROR] system - TypeError: kickUrl.endsWith is not a function
+    at C:\sourse\scraping\ofkick.js:64:19
+    at module.exports (C:\sourse\scraping\ofkick.js:92:3)
+    at C:\sourse\scraping\mailtoofkick.js:48:43
+[2020-12-31T23:26:32.875] [ERROR] system - TypeError: kickUrl.endsWith is not a function
+    at C:\sourse\scraping\ofkick.js:64:20
+    at module.exports (C:\sourse\scraping\ofkick.js:93:3)
+    at C:\sourse\scraping\mailtoofkick.js:48:43
+[2020-12-31T23:27:21.633] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T23:27:21.636] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T23:27:26.597] [INFO] system - ログインページに移動完了
+[2020-12-31T23:27:27.667] [INFO] system - ログイン完了
+[2020-12-31T23:27:27.668] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T23:27:27.669] [INFO] system - 購入処理想定時間到達
+[2020-12-31T23:27:27.677] [INFO] system - <成績時間カウント開始>
+[2020-12-31T23:27:27.678] [INFO] system - ターゲットページ：https://only-five.jp/posts/79891/
+[2020-12-31T23:27:29.277] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-31T23:27:29.284] [INFO] system - 購入処理開始(確定前)
+[2020-12-31T23:27:29.311] [INFO] system - 購入処理開始(有料)
+[2020-12-31T23:27:33.671] [INFO] system - send successful
+[2020-12-31T23:30:14.635] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-12-31T23:30:14.639] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-12-31T23:30:14.654] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-12-31T23:30:14.657] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:249:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T23:34:29.296] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T23:34:29.299] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T23:34:34.691] [INFO] system - ログインページに移動完了
+[2020-12-31T23:34:35.767] [INFO] system - ログイン完了
+[2020-12-31T23:34:35.769] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T23:34:35.781] [INFO] system - 購入処理想定時間到達
+[2020-12-31T23:34:35.781] [INFO] system - <成績時間カウント開始>
+[2020-12-31T23:34:35.783] [INFO] system - ターゲットページ：https://only-five.jp/posts/79891/
+[2020-12-31T23:34:37.464] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-31T23:34:37.470] [INFO] system - 購入処理開始(確定前)
+[2020-12-31T23:34:37.499] [INFO] system - 購入処理開始(有料)
+[2020-12-31T23:34:40.287] [INFO] system - send successful
+[2020-12-31T23:35:19.884] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-12-31T23:35:19.889] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-12-31T23:35:19.904] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-12-31T23:35:19.906] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:249:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2020-12-31T23:44:29.357] [INFO] system - 2020-12-24 22:45にすでに到達
+[2020-12-31T23:44:29.359] [INFO] system - ログイン処理想定時間到達
+[2020-12-31T23:45:07.191] [INFO] system - ログインページに移動完了
+[2020-12-31T23:45:09.340] [INFO] system - ログイン完了
+[2020-12-31T23:45:09.341] [INFO] system - 2020-12-24 23:00にすでに到達
+[2020-12-31T23:45:09.342] [INFO] system - 購入処理想定時間到達
+[2020-12-31T23:45:09.348] [INFO] system - <成績時間カウント開始>
+[2020-12-31T23:45:09.349] [INFO] system - ターゲットページ：https://only-five.jp/posts/79944/
+[2020-12-31T23:45:11.433] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-31T23:45:11.438] [INFO] system - 購入処理開始(確定前)
+[2020-12-31T23:45:11.471] [INFO] system - 購入処理開始(有料)
+[2020-12-31T23:45:16.717] [INFO] system - send successful

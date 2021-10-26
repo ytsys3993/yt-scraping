@@ -1,0 +1,28 @@
+[2021-07-10T20:59:44.527] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/pannana0713/","targetTicket":null,"targetName":"1部前売チケット整理番号券,2部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-07-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"isLogger":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-07-10 21:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"advSec":-200}
+[2021-07-10T20:59:44.529] [INFO] system - 【本番】
+[2021-07-10T20:59:44.533] [INFO] system - 2021-07-10 21:45:00までログイン処理待機中...
+[2021-07-10T21:00:11.505] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/pannana0713/","targetTicket":null,"targetName":"1部前売チケット整理番号券,2部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-07-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"isLogger":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-07-10 21:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"advSec":-200}
+[2021-07-10T21:00:11.518] [INFO] system - 【本番】
+[2021-07-10T21:00:11.522] [INFO] system - 2021-07-10 21:45:00までログイン処理待機中...
+[2021-07-10T21:45:00.017] [INFO] system - ログイン処理想定時間到達
+[2021-07-10T21:45:00.688] [INFO] system - ブラウザ起動後準備完了
+[2021-07-10T21:45:02.127] [INFO] system - ログインページに移動完了
+[2021-07-10T21:45:02.138] [INFO] system - 混線なし
+[2021-07-10T21:45:05.135] [INFO] system - ログイン完了
+[2021-07-10T21:45:05.148] [INFO] system - 混線なし
+[2021-07-10T21:45:05.170] [INFO] system - 「1部前売チケット整理番号券,2部前売チケット整理番号券」の存在を確認(.table #ticket-451099,.table #ticket-451100)
+[2021-07-10T21:45:05.171] [INFO] system - 2021-07-10 21:59:59まで購入処理待機中...
+[2021-07-10T21:59:59.812] [INFO] system - 購入処理想定時間到達
+[2021-07-10T21:59:59.813] [INFO] system - <成績時間カウント開始>
+[2021-07-10T21:59:59.814] [INFO] system - 購入可能状態確認start(1回目)
+[2021-07-10T22:00:05.093] [ERROR] system - 購入可能状態確認NG
+[2021-07-10T22:00:05.093] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:391:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:126:5
+[2021-07-10T22:00:05.104] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:510:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:126:5

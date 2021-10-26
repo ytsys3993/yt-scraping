@@ -1,0 +1,96 @@
+[2021-01-05T19:47:39.866] [INFO] system - 【テスト：開始】
+[2021-01-05T19:47:39.876] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-05T19:47:39.882] [INFO] system - ログイン処理想定時間到達
+[2021-01-05T19:47:46.016] [INFO] system - send successful
+[2021-01-05T19:47:48.031] [INFO] system - 混線なし
+[2021-01-05T19:47:48.032] [INFO] system - ログインページに移動完了
+[2021-01-05T19:47:50.379] [INFO] system - 混線なし
+[2021-01-05T19:47:52.711] [INFO] system - ログイン完了
+[2021-01-05T19:47:52.732] [INFO] system - 「通常 無料(伊藤のおごり)チケット整理番号券」の存在を確認(.table #ticket-333787)
+[2021-01-05T19:47:52.734] [INFO] system - 2021-01-02 23:00にすでに到達
+[2021-01-05T19:47:52.736] [INFO] system - 購入処理想定時間到達
+[2021-01-05T19:47:52.737] [INFO] system - <成績時間カウント開始>
+[2021-01-05T19:47:55.504] [INFO] system - 混線なし
+[2021-01-05T19:47:55.506] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-05T19:47:55.507] [INFO] system - 購入処理開始(確定前)
+[2021-01-05T19:47:56.912] [INFO] system - 混線なし
+[2021-01-05T19:47:56.913] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-05T19:47:56.913] [INFO] system - 購入処理開始(有料)
+[2021-01-05T19:53:07.994] [INFO] system - 【テスト：開始】
+[2021-01-05T19:53:08.006] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-05T19:53:08.009] [INFO] system - ログイン処理想定時間到達
+[2021-01-05T19:53:11.119] [INFO] system - send successful
+[2021-01-05T19:53:15.786] [INFO] system - 混線なし
+[2021-01-05T19:53:15.788] [INFO] system - ログインページに移動完了
+[2021-01-05T19:53:19.268] [INFO] system - 混線なし
+[2021-01-05T19:53:22.126] [INFO] system - ログイン完了
+[2021-01-05T19:53:22.265] [INFO] system - 「通常 無料(伊藤のおごり)チケット整理番号券」の存在を確認(.table #ticket-333787)
+[2021-01-05T19:53:22.266] [INFO] system - 2021-01-02 23:00にすでに到達
+[2021-01-05T19:53:22.269] [INFO] system - 購入処理想定時間到達
+[2021-01-05T19:53:22.275] [INFO] system - <成績時間カウント開始>
+[2021-01-05T19:53:25.239] [INFO] system - 混線なし
+[2021-01-05T19:53:25.241] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-05T19:53:25.242] [INFO] system - 購入処理開始(確定前)
+[2021-01-05T19:55:09.905] [INFO] system - 【テスト：開始】
+[2021-01-05T19:55:09.919] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-05T19:55:09.922] [INFO] system - ログイン処理想定時間到達
+[2021-01-05T19:55:12.984] [INFO] system - send successful
+[2021-01-05T19:55:17.224] [INFO] system - 混線なし
+[2021-01-05T19:55:17.225] [INFO] system - ログインページに移動完了
+[2021-01-05T19:55:20.680] [INFO] system - 混線なし
+[2021-01-05T19:55:23.290] [INFO] system - ログイン完了
+[2021-01-05T19:55:23.331] [INFO] system - true
+[2021-01-05T19:55:23.332] [INFO] system - 「通常 無料(伊藤のおごり)チケット整理番号券」の存在を確認(.table #ticket-333787)
+[2021-01-05T19:55:23.333] [INFO] system - 2021-01-02 23:00にすでに到達
+[2021-01-05T19:55:23.335] [INFO] system - 購入処理想定時間到達
+[2021-01-05T19:55:23.336] [INFO] system - <成績時間カウント開始>
+[2021-01-05T19:55:26.028] [INFO] system - 混線なし
+[2021-01-05T19:55:26.030] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-05T19:55:26.031] [INFO] system - 購入処理開始(確定前)
+[2021-01-05T19:55:29.410] [INFO] system - 混線なし
+[2021-01-05T19:55:29.411] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-01-05T19:55:29.411] [INFO] system - 購入処理開始(無料)
+[2021-01-05T19:55:29.446] [INFO] system - 混線なし
+[2021-01-05T19:55:29.491] [INFO] system - <成績：6.155秒>
+[2021-01-05T19:55:32.755] [INFO] system - send successful
+[2021-01-05T19:59:01.225] [INFO] system - 【テスト：開始】
+[2021-01-05T19:59:01.236] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-05T19:59:01.239] [INFO] system - ログイン処理想定時間到達
+[2021-01-05T19:59:04.759] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\sourse\scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-01-05T19:59:04.782] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:233:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:82:5
+[2021-01-05T19:59:05.202] [INFO] system - send successful
+[2021-01-05T20:00:08.678] [INFO] system - 【テスト：開始】
+[2021-01-05T20:00:08.690] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-05T20:00:08.694] [INFO] system - ログイン処理想定時間到達
+[2021-01-05T20:00:13.201] [INFO] system - send successful
+[2021-01-05T20:00:16.112] [INFO] system - 混線なし
+[2021-01-05T20:00:16.113] [INFO] system - ログインページに移動完了
+[2021-01-05T20:00:18.115] [INFO] system - 混線なし
+[2021-01-05T20:00:20.039] [INFO] system - ログイン完了
+[2021-01-05T20:00:20.150] [INFO] system - false
+[2021-01-05T20:00:20.151] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-332618)
+[2021-01-05T20:00:20.153] [INFO] system - 2021-01-02 23:00にすでに到達
+[2021-01-05T20:00:20.155] [INFO] system - 購入処理想定時間到達
+[2021-01-05T20:00:20.163] [INFO] system - <成績時間カウント開始>
+[2021-01-05T20:00:23.959] [INFO] system - 混線なし
+[2021-01-05T20:00:23.961] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-05T20:00:23.962] [INFO] system - 購入処理開始(確定前)
+[2021-01-05T20:00:25.259] [INFO] system - 混線なし
+[2021-01-05T20:00:25.260] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-05T20:00:25.260] [INFO] system - 購入処理開始(有料)
+[2021-01-05T20:00:25.432] [INFO] system - 【テスト:決済ロジック】
+[2021-01-05T20:00:25.433] [INFO] system - <成績：5.27秒>
+[2021-01-05T20:00:28.916] [INFO] system - send successful

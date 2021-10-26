@@ -1,0 +1,66 @@
+[2021-09-15T20:14:21.638] [INFO] system - 2021-08-30 23:05:00にすでに到達
+[2021-09-15T20:14:21.645] [INFO] system - ログイン処理想定時間到達
+[2021-09-15T20:15:29.814] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-09-15T20:15:29.823] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:254:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:83:5
+[2021-09-15T20:16:38.470] [INFO] system - 2021-09-15 22:45:00までログイン処理待機中...
+[2021-09-15T20:16:47.933] [INFO] system - 2021-09-15 22:30:00までログイン処理待機中...
+[2021-09-15T22:30:00.025] [INFO] system - ログイン処理想定時間到達
+[2021-09-15T22:30:02.332] [INFO] system - ログインページに移動完了
+[2021-09-15T22:30:03.580] [INFO] system - ログイン完了
+[2021-09-15T22:30:03.580] [INFO] system - <成績時間カウント開始>
+[2021-09-15T22:30:03.581] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-09-15T22:30:03.881] [INFO] system - 2021-09-15 22:35:00まで画面更新処理待機中...
+[2021-09-15T22:35:00.894] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-09-15T22:35:01.362] [INFO] system - 2021-09-15 22:40:00まで画面更新処理待機中...
+[2021-09-15T22:40:00.373] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-09-15T22:40:27.436] [INFO] system - 2021-09-15 22:45:00まで画面更新処理待機中...
+[2021-09-15T22:45:00.448] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-09-15T22:45:00.829] [INFO] system - 2021-09-15 22:50:00まで画面更新処理待機中...
+[2021-09-15T22:50:00.836] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-09-15T22:50:01.436] [INFO] system - 2021-09-15 22:55:00まで画面更新処理待機中...
+[2021-09-15T22:55:00.456] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-09-15T22:55:01.036] [INFO] system - 2021-09-15 23:00:00まで画面更新処理待機中...
+[2021-09-15T23:00:00.052] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-09-15T23:00:00.457] [INFO] system - ターゲットページ：https://only-five.jp/posts/138887
+[2021-09-15T23:00:00.914] [INFO] system - 購入状態確認(7回目に成功)
+[2021-09-15T23:00:00.916] [INFO] system - 購入処理開始(確定前)
+[2021-09-15T23:00:00.956] [INFO] system - 購入処理開始(有料)
+[2021-09-15T23:00:23.008] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-09-15T23:00:23.014] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-09-15T23:00:23.016] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-09-15T23:00:23.019] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:254:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:83:5

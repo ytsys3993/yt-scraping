@@ -1,0 +1,61 @@
+[2021-03-25T22:40:37.970] [INFO] system - 【Windows版起動】
+[2021-03-25T22:40:37.972] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/osaka0327/","targetTicket":null,"targetName":"１部優先入場チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-03-24 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-24 21:45","notCheckOnly":true}
+[2021-03-25T22:40:37.993] [INFO] system - 2021-03-24 21:45:00にすでに到達
+[2021-03-25T22:40:38.006] [INFO] system - ログイン処理想定時間到達
+[2021-03-25T22:40:38.319] [INFO] system - ブラウザ起動後準備完了
+[2021-03-25T22:40:40.897] [INFO] system - ログインページに移動完了
+[2021-03-25T22:40:45.094] [INFO] system - ログイン完了
+[2021-03-25T22:40:45.238] [ERROR] system - 設定不備の可能性があります
+[2021-03-25T22:40:45.239] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/osaka0327/","targetTicket":"","targetName":"１部優先入場チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-03-24 22:00","isBrowse":false,"isFree":true,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-24 21:45","notCheckOnly":true}
+[2021-03-25T22:40:45.240] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:238:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:111:5
+[2021-03-25T22:40:45.241] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:377:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:111:5
+[2021-03-25T22:45:01.098] [INFO] system - 【Windows版起動】
+[2021-03-25T22:45:01.100] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/osaka0327/","targetTicket":null,"targetName":"1部優先入場チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-03-25 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-25 22:45","notCheckOnly":true}
+[2021-03-25T22:45:01.107] [INFO] system - 2021-03-25 22:45:00にすでに到達
+[2021-03-25T22:45:01.125] [INFO] system - ログイン処理想定時間到達
+[2021-03-25T22:45:01.442] [INFO] system - ブラウザ起動後準備完了
+[2021-03-25T22:45:03.735] [INFO] system - ログインページに移動完了
+[2021-03-25T22:45:08.382] [INFO] system - ログイン完了
+[2021-03-25T22:45:08.418] [INFO] system - 「1部優先入場チケット整理番号券」の存在を確認(.table #ticket-384010)
+[2021-03-25T22:45:08.420] [INFO] system - 2021-03-25 23:00まで購入処理待機中...
+[2021-03-25T22:46:49.417] [INFO] system - 【Windows版起動】
+[2021-03-25T22:46:49.419] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/osaka0327/","targetTicket":null,"targetName":"1部優先入場チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-03-25 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-25 22:45","notCheckOnly":true}
+[2021-03-25T22:46:49.440] [INFO] system - 2021-03-25 22:45:00にすでに到達
+[2021-03-25T22:46:49.443] [INFO] system - ログイン処理想定時間到達
+[2021-03-25T22:46:49.717] [INFO] system - ブラウザ起動後準備完了
+[2021-03-25T22:46:52.191] [INFO] system - ログインページに移動完了
+[2021-03-25T22:46:55.982] [INFO] system - ログイン完了
+[2021-03-25T22:46:56.008] [INFO] system - 「1部優先入場チケット整理番号券」の存在を確認(.table #ticket-384010)
+[2021-03-25T22:46:56.009] [INFO] system - 2021-03-25 23:00まで購入処理待機中...
+[2021-03-25T23:00:00.017] [INFO] system - 購入処理想定時間到達
+[2021-03-25T23:00:00.018] [INFO] system - <成績時間カウント開始>
+[2021-03-25T23:00:00.019] [INFO] system - 購入可能状態確認start(1回目)
+[2021-03-25T23:00:08.258] [INFO] system - 購入可能状態確認end
+[2021-03-25T23:00:08.259] [INFO] system - 枚数選択start(1回目)
+[2021-03-25T23:00:20.688] [INFO] system - 枚数選択end
+[2021-03-25T23:00:20.689] [INFO] system - 決済処理start(1回目)
+[2021-03-25T23:00:20.690] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-03-25T23:00:20.691] [INFO] system - 購入処理開始(有料)
+[2021-03-25T23:00:20.811] [INFO] system - 規約に同意クリック
+[2021-03-25T23:00:26.704] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:161:64)
+    at async C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:102:30
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:94:26)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:311:35)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:111:5
+[2021-03-25T23:00:26.707] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:377:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:111:5

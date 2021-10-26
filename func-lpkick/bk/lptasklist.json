@@ -1,0 +1,24 @@
+[
+	{
+		"targetUrl": "https://t.livepocket.jp/e/wakkuru0128/",
+		"targetName": "１部前売チケット整理番号券,２部前売チケット整理番号券",
+		"targetNumber": "1,1",
+		"storeTypeId": "002",
+		"startTime": "2021-01-27 22:00",
+		"confUser": "kisyan3333@gmail.com",
+		"confPass": "*",
+		"isTest": false,
+		"toMail": "trigger@applet.ifttt.com"
+	},
+	{
+		"targetUrl": "https://t.livepocket.jp/e/wakkuru0128/",
+		"targetName": "１部前売チケット整理番号券,２部前売チケット整理番号券",
+		"targetNumber": "1,1",
+		"storeTypeId": "002",
+		"startTime": "2021-01-27 22:00",
+		"confUser": "kisyan3333@gmail.compw：6yjAWLhCxVT2",
+		"confPass": "*",
+		"isTest": true,
+		"toMail": "trigger@applet.ifttt.com"
+	}
+]

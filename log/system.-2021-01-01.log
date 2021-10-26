@@ -1,0 +1,759 @@
+[2021-01-01T00:07:05.924] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T00:07:05.947] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T00:07:05.949] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T00:07:05.983] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:249:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkick.js:83:5
+[2021-01-01T09:56:59.495] [INFO] system - 2020-12-24 22:45にすでに到達
+[2021-01-01T09:56:59.499] [INFO] system - ログイン処理想定時間到達
+[2021-01-01T09:57:04.577] [INFO] system - ログインページに移動完了
+[2021-01-01T09:57:05.798] [INFO] system - ログイン完了
+[2021-01-01T09:57:05.801] [INFO] system - 2020-12-24 23:00にすでに到達
+[2021-01-01T09:57:05.804] [INFO] system - 購入処理想定時間到達
+[2021-01-01T09:57:05.815] [INFO] system - <成績時間カウント開始>
+[2021-01-01T09:57:05.817] [INFO] system - ターゲットページ：https://only-five.jp/posts/79776/
+[2021-01-01T09:57:07.324] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-01T09:57:07.336] [INFO] system - 購入処理開始(確定前)
+[2021-01-01T09:57:07.429] [INFO] system - 購入処理開始(有料)
+[2021-01-01T09:57:10.891] [INFO] system - send successful
+[2021-01-01T09:57:43.562] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T09:57:43.591] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T09:57:43.612] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T09:57:43.614] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:253:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkick.js:84:5
+[2021-01-01T10:00:45.061] [INFO] system - 2020-12-24 22:45にすでに到達
+[2021-01-01T10:00:45.063] [INFO] system - ログイン処理想定時間到達
+[2021-01-01T10:00:49.891] [INFO] system - ログインページに移動完了
+[2021-01-01T10:00:51.011] [INFO] system - ログイン完了
+[2021-01-01T10:00:51.014] [INFO] system - 2020-12-24 23:00にすでに到達
+[2021-01-01T10:00:51.017] [INFO] system - 購入処理想定時間到達
+[2021-01-01T10:00:51.029] [INFO] system - <成績時間カウント開始>
+[2021-01-01T10:00:51.030] [INFO] system - ターゲットページ：https://only-five.jp/posts/79595/
+[2021-01-01T10:00:52.510] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-01T10:00:52.519] [INFO] system - 購入処理開始(確定前)
+[2021-01-01T10:00:52.577] [INFO] system - 購入処理開始(有料)
+[2021-01-01T10:00:55.302] [INFO] system - send successful
+[2021-01-01T10:01:03.698] [INFO] system - 購入処理完了(多分)
+[2021-01-01T10:01:03.700] [INFO] system - <成績：12.67秒>
+[2021-01-01T14:01:03.081] [INFO] system - 2020-12-24 22:45にすでに到達
+[2021-01-01T14:01:03.083] [INFO] system - ログイン処理想定時間到達
+[2021-01-01T14:01:03.127] [INFO] system - 2020-12-24 22:45にすでに到達
+[2021-01-01T14:01:03.130] [INFO] system - ログイン処理想定時間到達
+[2021-01-01T14:01:03.396] [INFO] system - 2020-12-24 22:45にすでに到達
+[2021-01-01T14:01:03.408] [INFO] system - ログイン処理想定時間到達
+[2021-01-01T14:01:08.291] [INFO] system - ログインページに移動完了
+[2021-01-01T14:01:08.664] [INFO] system - ログインページに移動完了
+[2021-01-01T14:01:08.683] [INFO] system - ログインページに移動完了
+[2021-01-01T14:01:09.498] [INFO] system - ログイン完了
+[2021-01-01T14:01:09.499] [INFO] system - 2020-12-24 23:00にすでに到達
+[2021-01-01T14:01:09.501] [INFO] system - 購入処理想定時間到達
+[2021-01-01T14:01:09.502] [INFO] system - <成績時間カウント開始>
+[2021-01-01T14:01:09.515] [INFO] system - ターゲットページ：https://only-five.jp/posts/80155/
+[2021-01-01T14:01:09.915] [INFO] system - ログイン完了
+[2021-01-01T14:01:09.918] [INFO] system - 2020-12-24 23:00にすでに到達
+[2021-01-01T14:01:09.922] [INFO] system - 購入処理想定時間到達
+[2021-01-01T14:01:09.962] [INFO] system - <成績時間カウント開始>
+[2021-01-01T14:01:09.967] [INFO] system - ターゲットページ：https://only-five.jp/posts/80155/
+[2021-01-01T14:01:09.990] [INFO] system - ログイン完了
+[2021-01-01T14:01:10.012] [INFO] system - 2020-12-24 23:00にすでに到達
+[2021-01-01T14:01:10.018] [INFO] system - 購入処理想定時間到達
+[2021-01-01T14:01:10.020] [INFO] system - <成績時間カウント開始>
+[2021-01-01T14:01:10.021] [INFO] system - ターゲットページ：https://only-five.jp/posts/80155/
+[2021-01-01T14:01:11.125] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-01T14:01:11.138] [INFO] system - 購入処理開始(確定前)
+[2021-01-01T14:01:11.211] [INFO] system - 購入処理開始(有料)
+[2021-01-01T14:01:11.619] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-01T14:01:11.622] [INFO] system - 購入処理開始(確定前)
+[2021-01-01T14:01:11.632] [INFO] system - 購入処理開始(有料)
+[2021-01-01T14:01:11.756] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-01T14:01:11.758] [INFO] system - 購入処理開始(確定前)
+[2021-01-01T14:01:11.830] [INFO] system - 購入処理開始(有料)
+[2021-01-01T14:01:13.929] [INFO] system - send successful
+[2021-01-01T14:01:14.680] [INFO] system - send successful
+[2021-01-01T14:01:15.507] [INFO] system - send successful
+[2021-01-01T14:01:30.349] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T14:01:30.404] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T14:01:30.408] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T14:01:30.432] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkick.js:253:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkick.js:84:5
+[2021-01-01T14:45:37.394] [INFO] system - 2020-12-24 22:45にすでに到達
+[2021-01-01T14:45:37.399] [INFO] system - ログイン処理想定時間到達
+[2021-01-01T14:45:43.653] [INFO] system - 混線なし
+[2021-01-01T14:45:43.654] [INFO] system - ログインページに移動完了
+[2021-01-01T15:45:02.081] [INFO] system - 【テスト：開始】
+[2021-01-01T15:45:07.290] [INFO] system - ログインページに移動完了
+[2021-01-01T15:45:08.424] [INFO] system - ログイン完了
+[2021-01-01T15:45:08.424] [INFO] system - <成績時間カウント開始>
+[2021-01-01T15:45:08.435] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:45:08.437] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:45:08.654] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-01T15:45:08.663] [INFO] system - 購入処理開始(確定前)
+[2021-01-01T15:45:14.296] [INFO] system - send successful
+[2021-01-01T15:46:10.469] [INFO] system - 【テスト：開始】
+[2021-01-01T15:46:14.841] [INFO] system - ログインページに移動完了
+[2021-01-01T15:46:15.813] [INFO] system - ログイン完了
+[2021-01-01T15:46:15.814] [INFO] system - <成績時間カウント開始>
+[2021-01-01T15:46:15.817] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:15.822] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:16.049] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:16.051] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:16.236] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:16.238] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:16.420] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:16.424] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:16.606] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:16.607] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:16.797] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:16.799] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:16.982] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:16.982] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:17.153] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:17.153] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:17.335] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:17.337] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:17.509] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:17.514] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:17.691] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:17.692] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:17.870] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:17.870] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:18.041] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:18.043] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:18.271] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:18.273] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:18.465] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:18.469] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:18.671] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:18.673] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:18.848] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:18.850] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:19.038] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:19.040] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:19.221] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:19.223] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:19.403] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:19.407] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:19.589] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:19.591] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:19.768] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:19.769] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:19.956] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:19.957] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:20.139] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:20.139] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:20.324] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:20.326] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:20.506] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:20.508] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:20.709] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:20.711] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:20.947] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:20.947] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:21.120] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:21.124] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:21.318] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:21.319] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:21.486] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:21.488] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:21.666] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:21.670] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:21.838] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:21.842] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:46:22.022] [INFO] system - -0NaN--NaN--NaN -NaN:-NaNまでログイン処理待機中...
+[2021-01-01T15:46:22.024] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:47:31.407] [INFO] system - 【テスト：開始】
+[2021-01-01T15:47:36.182] [INFO] system - ログインページに移動完了
+[2021-01-01T15:47:37.169] [INFO] system - ログイン完了
+[2021-01-01T15:47:37.169] [INFO] system - <成績時間カウント開始>
+[2021-01-01T15:47:37.171] [ERROR] system - TypeError: _now is not a function
+    at moveTargetPage (C:\sourse\scraping\ofkickloop.js:282:20)
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:171:34)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:70:5
+[2021-01-01T15:47:37.509] [ERROR] system - 購入ページ確認NG
+[2021-01-01T15:47:37.510] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:174:13)
+    at async C:\sourse\scraping\ofkickloop.js:70:5
+[2021-01-01T15:47:37.518] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:229:5)
+    at async C:\sourse\scraping\ofkickloop.js:70:5
+[2021-01-01T15:48:01.260] [INFO] system - 【テスト：開始】
+[2021-01-01T15:48:06.634] [INFO] system - ログインページに移動完了
+[2021-01-01T15:48:07.634] [INFO] system - ログイン完了
+[2021-01-01T15:48:07.635] [INFO] system - <成績時間カウント開始>
+[2021-01-01T15:48:07.636] [ERROR] system - TypeError: _now is not a function
+    at moveTargetPage (C:\sourse\scraping\ofkickloop.js:282:20)
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:171:34)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:70:5
+[2021-01-01T15:48:07.948] [ERROR] system - 購入ページ確認NG
+[2021-01-01T15:48:07.949] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:174:13)
+    at async C:\sourse\scraping\ofkickloop.js:70:5
+[2021-01-01T15:48:07.950] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:229:5)
+    at async C:\sourse\scraping\ofkickloop.js:70:5
+[2021-01-01T15:48:34.653] [INFO] system - 【テスト：開始】
+[2021-01-01T15:48:39.433] [INFO] system - ログインページに移動完了
+[2021-01-01T15:48:40.451] [INFO] system - ログイン完了
+[2021-01-01T15:48:40.452] [INFO] system - <成績時間カウント開始>
+[2021-01-01T15:48:40.453] [ERROR] system - TypeError: _now is not a function
+    at moveTargetPage (C:\sourse\scraping\ofkickloop.js:282:20)
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:171:34)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:70:5
+[2021-01-01T15:48:40.769] [ERROR] system - 購入ページ確認NG
+[2021-01-01T15:48:40.771] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:174:13)
+    at async C:\sourse\scraping\ofkickloop.js:70:5
+[2021-01-01T15:48:40.773] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:229:5)
+    at async C:\sourse\scraping\ofkickloop.js:70:5
+[2021-01-01T15:49:40.738] [INFO] system - 【テスト：開始】
+[2021-01-01T15:49:40.742] [ERROR] system - TypeError: _now is not a function
+    at C:\sourse\scraping\ofkickloop.js:71:18
+    at Object.<anonymous> (C:\sourse\scraping\ofkickloop.js:87:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[2021-01-01T15:49:57.286] [INFO] system - 【テスト：開始】
+[2021-01-01T15:49:57.289] [INFO] system - 40
+[2021-01-01T15:49:57.291] [ERROR] system - TypeError: _now is not a function
+    at C:\sourse\scraping\ofkickloop.js:72:18
+    at Object.<anonymous> (C:\sourse\scraping\ofkickloop.js:87:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[2021-01-01T15:50:35.468] [INFO] system - 【テスト：開始】
+[2021-01-01T15:50:35.471] [INFO] system - 50
+[2021-01-01T15:50:35.480] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:51:34.174] [INFO] system - 【テスト：開始】
+[2021-01-01T15:51:40.138] [INFO] system - ログインページに移動完了
+[2021-01-01T15:51:41.148] [INFO] system - ログイン完了
+[2021-01-01T15:51:41.148] [INFO] system - <成績時間カウント開始>
+[2021-01-01T15:51:41.150] [INFO] system - 51
+[2021-01-01T15:51:41.160] [INFO] system - 2021-01-01 15:52までログイン処理待機中...
+[2021-01-01T15:51:41.168] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:51:43.290] [INFO] system - 51
+[2021-01-01T15:51:43.290] [INFO] system - 2021-01-01 15:52までログイン処理待機中...
+[2021-01-01T15:51:43.292] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:51:43.487] [INFO] system - 51
+[2021-01-01T15:51:43.488] [INFO] system - 2021-01-01 15:52までログイン処理待機中...
+[2021-01-01T15:51:43.490] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:51:43.690] [INFO] system - 51
+[2021-01-01T15:51:43.690] [INFO] system - 2021-01-01 15:52までログイン処理待機中...
+[2021-01-01T15:51:43.692] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:51:43.890] [INFO] system - 51
+[2021-01-01T15:51:43.890] [INFO] system - 2021-01-01 15:52までログイン処理待機中...
+[2021-01-01T15:51:43.893] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:51:44.106] [INFO] system - 51
+[2021-01-01T15:51:44.106] [INFO] system - 2021-01-01 15:52までログイン処理待機中...
+[2021-01-01T15:51:44.108] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:51:44.290] [INFO] system - 51
+[2021-01-01T15:51:44.291] [INFO] system - 2021-01-01 15:52までログイン処理待機中...
+[2021-01-01T15:51:44.292] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:51:44.482] [INFO] system - 51
+[2021-01-01T15:51:44.482] [INFO] system - 2021-01-01 15:52までログイン処理待機中...
+[2021-01-01T15:51:44.484] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:51:44.673] [INFO] system - 51
+[2021-01-01T15:51:44.674] [INFO] system - 2021-01-01 15:52までログイン処理待機中...
+[2021-01-01T15:51:44.676] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:51:44.864] [INFO] system - 51
+[2021-01-01T15:51:44.864] [INFO] system - 2021-01-01 15:52までログイン処理待機中...
+[2021-01-01T15:51:44.866] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:51:50.169] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\sourse\scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-01-01T15:51:50.182] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T15:51:50.184] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:228:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:69:5
+[2021-01-01T15:52:10.497] [INFO] system - 【テスト：開始】
+[2021-01-01T15:52:15.067] [INFO] system - ログインページに移動完了
+[2021-01-01T15:52:16.058] [INFO] system - ログイン完了
+[2021-01-01T15:52:16.059] [INFO] system - <成績時間カウント開始>
+[2021-01-01T15:52:16.060] [INFO] system - 52
+[2021-01-01T15:52:16.072] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:16.074] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:16.304] [INFO] system - 52
+[2021-01-01T15:52:16.305] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:16.306] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:16.490] [INFO] system - 52
+[2021-01-01T15:52:16.491] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:16.492] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:16.673] [INFO] system - 52
+[2021-01-01T15:52:16.674] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:16.675] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:16.855] [INFO] system - 52
+[2021-01-01T15:52:16.856] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:16.857] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:17.043] [INFO] system - 52
+[2021-01-01T15:52:17.047] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:17.048] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:17.232] [INFO] system - 52
+[2021-01-01T15:52:17.233] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:17.234] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:17.418] [INFO] system - 52
+[2021-01-01T15:52:17.418] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:17.419] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:17.603] [INFO] system - 52
+[2021-01-01T15:52:17.603] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:17.604] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:17.783] [INFO] system - 52
+[2021-01-01T15:52:17.783] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:17.784] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:17.971] [INFO] system - 52
+[2021-01-01T15:52:17.971] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:17.972] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:18.156] [INFO] system - 52
+[2021-01-01T15:52:18.157] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:18.159] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:18.323] [INFO] system - 52
+[2021-01-01T15:52:18.323] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:18.324] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:18.546] [INFO] system - 52
+[2021-01-01T15:52:18.546] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:18.547] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:18.740] [INFO] system - 52
+[2021-01-01T15:52:18.740] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:18.741] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:18.938] [INFO] system - 52
+[2021-01-01T15:52:18.938] [INFO] system - 2021-01-01 15:54までログイン処理待機中...
+[2021-01-01T15:52:18.939] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:19.108] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\sourse\scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-01-01T15:52:19.136] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T15:52:19.141] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:228:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:69:5
+[2021-01-01T15:52:29.053] [INFO] system - 【テスト：開始】
+[2021-01-01T15:52:33.707] [INFO] system - ログインページに移動完了
+[2021-01-01T15:52:34.735] [INFO] system - ログイン完了
+[2021-01-01T15:52:34.736] [INFO] system - <成績時間カウント開始>
+[2021-01-01T15:52:34.737] [INFO] system - 50
+[2021-01-01T15:52:34.748] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:52:34.750] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:34.985] [INFO] system - 50
+[2021-01-01T15:52:34.985] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:52:34.987] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:35.167] [INFO] system - 50
+[2021-01-01T15:52:35.167] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:52:35.167] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:35.351] [INFO] system - 50
+[2021-01-01T15:52:35.352] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:52:35.353] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:35.525] [INFO] system - 50
+[2021-01-01T15:52:35.526] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:52:35.527] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:35.714] [INFO] system - 50
+[2021-01-01T15:52:35.714] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:52:35.716] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:35.887] [INFO] system - 50
+[2021-01-01T15:52:35.887] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:52:35.888] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:36.086] [INFO] system - 50
+[2021-01-01T15:52:36.086] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:52:36.087] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:36.269] [INFO] system - 50
+[2021-01-01T15:52:36.269] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:52:36.270] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:52:36.451] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at ElementHandle.evaluateHandle (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:46)
+    at Object.internalHandler.queryOne (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:44)
+    at ElementHandle.$ (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:621:29)
+    at moveTargetPage (C:\sourse\scraping\ofkickloop.js:296:46)
+    at runMicrotasks (<anonymous>)
+[2021-01-01T15:52:36.455] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T15:52:36.457] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:228:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:69:5
+[2021-01-01T15:54:29.084] [INFO] system - 【テスト：開始】
+[2021-01-01T15:54:34.051] [INFO] system - ログインページに移動完了
+[2021-01-01T15:54:36.727] [INFO] system - ログイン完了
+[2021-01-01T15:54:36.729] [INFO] system - <成績時間カウント開始>
+[2021-01-01T15:54:36.741] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:36.743] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:36.987] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:36.989] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:37.170] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:37.171] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:37.353] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:37.355] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:37.536] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:37.537] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:37.720] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:37.721] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:37.917] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:37.919] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:38.108] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:38.109] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:38.289] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:38.291] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:38.471] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:38.471] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:38.655] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:54:38.659] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T15:54:38.694] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\sourse\scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-01-01T15:54:38.705] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T15:54:38.707] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:228:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:69:5
+[2021-01-01T15:55:48.670] [INFO] system - 【テスト：開始】
+[2021-01-01T15:55:48.675] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:56:21.566] [INFO] system - 【テスト：開始】
+[2021-01-01T15:56:21.571] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:56:21.572] [INFO] system - 2021-01-01 16:00
+[2021-01-01T15:56:58.918] [INFO] system - 【テスト：開始】
+[2021-01-01T15:56:58.923] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T15:56:58.925] [INFO] system - 2021-01-01 15:56
+[2021-01-01T15:58:23.039] [INFO] system - 【テスト：開始】
+[2021-01-01T15:58:23.046] [INFO] system - 2021-01-01 16:00までログイン処理待機中...
+[2021-01-01T16:00:23.045] [INFO] system - aa
+[2021-01-01T16:00:59.751] [INFO] system - 【テスト：開始】
+[2021-01-01T16:00:59.756] [INFO] system - 2021-01-01 16:01までログイン処理待機中...
+[2021-01-01T16:01:20.425] [INFO] system - 【テスト：開始】
+[2021-01-01T16:01:20.431] [INFO] system - 2021-01-01 16:02までログイン処理待機中...
+[2021-01-01T16:02:25.190] [INFO] system - 【テスト：開始】
+[2021-01-01T16:02:25.202] [INFO] system - 2021-01-01 16:03までログイン処理待機中...
+[2021-01-01T16:03:25.195] [INFO] system - aa
+[2021-01-01T16:04:59.011] [INFO] system - 【テスト：開始】
+[2021-01-01T16:05:04.422] [INFO] system - ログインページに移動完了
+[2021-01-01T16:05:05.472] [INFO] system - ログイン完了
+[2021-01-01T16:05:05.473] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:05:05.477] [INFO] system - 2021-01-01 16:06までログイン処理待機中...
+[2021-01-01T16:05:54.273] [INFO] system - 【テスト：開始】
+[2021-01-01T16:05:59.028] [INFO] system - ログインページに移動完了
+[2021-01-01T16:06:00.024] [INFO] system - ログイン完了
+[2021-01-01T16:06:00.025] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:06:00.029] [INFO] system - 2021-01-01 16:07まで画面更新処理待機中...
+[2021-01-01T16:07:00.028] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2103
+[2021-01-01T16:07:00.382] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-01T16:07:00.388] [INFO] system - 購入処理開始(確定前)
+[2021-01-01T16:07:04.497] [INFO] system - send successful
+[2021-01-01T16:09:38.653] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T16:09:38.656] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-01T16:09:38.658] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:228:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:69:5
+[2021-01-01T16:09:43.370] [INFO] system - 【テスト：開始】
+[2021-01-01T16:09:48.499] [INFO] system - ログインページに移動完了
+[2021-01-01T16:09:49.511] [INFO] system - ログイン完了
+[2021-01-01T16:09:49.512] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:09:49.527] [INFO] system - 2021-01-01 16:10まで画面更新処理待機中...
+[2021-01-01T16:10:49.515] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2103
+[2021-01-01T16:10:49.892] [INFO] system - ターゲットページ：https://only-five.jp/posts/79827
+[2021-01-01T16:10:50.067] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-01T16:10:50.073] [INFO] system - 購入処理開始(確定前)
+[2021-01-01T16:10:55.252] [INFO] system - send successful
+[2021-01-01T16:10:58.889] [INFO] system - 購入処理開始(有料)
+[2021-01-01T16:11:04.379] [INFO] system - 【テスト:決済ロジック】
+[2021-01-01T16:11:04.380] [INFO] system - <成績：74.867秒>
+[2021-01-01T16:11:06.941] [INFO] system - send successful
+[2021-01-01T16:13:46.119] [INFO] system - ログインページに移動完了
+[2021-01-01T16:13:47.106] [INFO] system - ログイン完了
+[2021-01-01T16:13:47.107] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:13:47.111] [INFO] system - 2021-01-01 16:20まで画面更新処理待機中...
+[2021-01-01T16:17:29.632] [INFO] system - ログインページに移動完了
+[2021-01-01T16:17:42.496] [INFO] system - ログイン完了
+[2021-01-01T16:17:42.497] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:17:42.500] [INFO] system - 2021-01-01 16:27まで画面更新処理待機中...
+[2021-01-01T16:18:26.790] [INFO] system - ログインページに移動完了
+[2021-01-01T16:18:27.810] [INFO] system - ログイン完了
+[2021-01-01T16:18:27.811] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:18:27.815] [INFO] system - 2021-01-01 16:20まで画面更新処理待機中...
+[2021-01-01T16:20:27.814] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T16:20:51.106] [INFO] system - 2021-01-01 16:30まで画面更新処理待機中...
+[2021-01-01T16:22:15.897] [INFO] system - ログインページに移動完了
+[2021-01-01T16:22:16.907] [INFO] system - ログイン完了
+[2021-01-01T16:22:16.908] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:22:16.911] [INFO] system - 2021-01-01 16:30:00まで画面更新処理待機中...
+[2021-01-01T16:25:44.862] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\sourse\scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-01-01T16:25:44.893] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:232:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:69:5
+[2021-01-01T16:25:55.073] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\sourse\scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-01-01T16:25:55.097] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:232:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:69:5
+[2021-01-01T16:28:04.816] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\sourse\scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-01-01T16:28:04.823] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\ofkickloop.js:234:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\ofkickloop.js:69:5
+[2021-01-01T16:28:52.064] [INFO] system - ログインページに移動完了
+[2021-01-01T16:28:53.050] [INFO] system - ログイン完了
+[2021-01-01T16:28:53.051] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:28:53.054] [INFO] system - 2021-01-01 16:29:00まで画面更新処理待機中...
+[2021-01-01T16:29:00.055] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T16:29:00.339] [INFO] system - 2021-01-01 16:30:00まで画面更新処理待機中...
+[2021-01-01T16:30:00.340] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T16:30:00.551] [INFO] system - 2021-01-01 16:31:00まで画面更新処理待機中...
+[2021-01-01T16:31:00.553] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T16:31:00.897] [INFO] system - 2021-01-01 16:32:00まで画面更新処理待機中...
+[2021-01-01T16:32:27.825] [INFO] system - ログインページに移動完了
+[2021-01-01T16:32:28.850] [INFO] system - ログイン完了
+[2021-01-01T16:32:28.851] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:32:28.854] [INFO] system - 2021-01-01 16:40:00まで画面更新処理待機中...
+[2021-01-01T16:34:13.387] [INFO] system - ログインページに移動完了
+[2021-01-01T16:34:14.410] [INFO] system - ログイン完了
+[2021-01-01T16:34:14.411] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:34:14.415] [INFO] system - 2021-01-01 16:40:00まで画面更新処理待機中...
+[2021-01-01T16:34:56.589] [INFO] system - ログインページに移動完了
+[2021-01-01T16:34:57.613] [INFO] system - ログイン完了
+[2021-01-01T16:34:57.614] [INFO] system - <成績時間カウント開始>
+[2021-01-01T16:34:57.616] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T16:34:57.839] [INFO] system - 2021-01-01 16:40:00まで画面更新処理待機中...
+[2021-01-01T16:40:00.863] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T16:40:01.170] [INFO] system - 2021-01-01 16:50:00まで画面更新処理待機中...
+[2021-01-01T16:50:00.183] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T16:50:00.666] [INFO] system - 2021-01-01 17:00:00まで画面更新処理待機中...
+[2021-01-01T17:00:00.678] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T17:00:00.924] [INFO] system - 2021-01-01 17:10:00まで画面更新処理待機中...
+[2021-01-01T17:10:00.928] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T17:10:01.329] [INFO] system - 2021-01-01 17:20:00まで画面更新処理待機中...
+[2021-01-01T17:20:00.338] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T17:20:00.706] [INFO] system - 2021-01-01 17:30:00まで画面更新処理待機中...
+[2021-01-01T17:30:00.708] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T17:30:01.230] [INFO] system - 2021-01-01 17:40:00まで画面更新処理待機中...
+[2021-01-01T17:40:00.245] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T17:40:00.455] [INFO] system - 2021-01-01 17:50:00まで画面更新処理待機中...
+[2021-01-01T17:50:00.469] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T17:50:01.179] [INFO] system - 2021-01-01 18:00:00まで画面更新処理待機中...
+[2021-01-01T18:00:00.182] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T18:00:00.431] [INFO] system - 2021-01-01 18:10:00まで画面更新処理待機中...
+[2021-01-01T18:10:00.441] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T18:10:00.955] [INFO] system - 2021-01-01 18:20:00まで画面更新処理待機中...
+[2021-01-01T18:20:00.960] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T18:20:01.209] [INFO] system - 2021-01-01 18:30:00まで画面更新処理待機中...
+[2021-01-01T18:30:00.221] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T18:30:01.151] [INFO] system - 2021-01-01 18:40:00まで画面更新処理待機中...
+[2021-01-01T18:40:00.165] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T18:40:00.889] [INFO] system - 2021-01-01 18:50:00まで画面更新処理待機中...
+[2021-01-01T18:50:00.894] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T18:50:01.284] [INFO] system - 2021-01-01 19:00:00まで画面更新処理待機中...
+[2021-01-01T19:00:00.288] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T19:00:00.498] [INFO] system - 2021-01-01 19:10:00まで画面更新処理待機中...
+[2021-01-01T19:10:00.500] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T19:10:00.800] [INFO] system - 2021-01-01 19:20:00まで画面更新処理待機中...
+[2021-01-01T19:20:00.802] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T19:20:01.023] [INFO] system - 2021-01-01 19:30:00まで画面更新処理待機中...
+[2021-01-01T19:30:00.024] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T19:30:00.603] [INFO] system - 2021-01-01 19:40:00まで画面更新処理待機中...
+[2021-01-01T19:40:00.616] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T19:40:00.836] [INFO] system - 2021-01-01 19:50:00まで画面更新処理待機中...
+[2021-01-01T19:50:00.851] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T19:50:01.570] [INFO] system - 2021-01-01 20:00:00まで画面更新処理待機中...
+[2021-01-01T20:00:00.575] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T20:00:00.878] [INFO] system - 2021-01-01 20:10:00まで画面更新処理待機中...
+[2021-01-01T20:10:00.884] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T20:10:01.484] [INFO] system - 2021-01-01 20:20:00まで画面更新処理待機中...
+[2021-01-01T20:20:00.495] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T20:20:00.683] [INFO] system - 2021-01-01 20:30:00まで画面更新処理待機中...
+[2021-01-01T20:30:00.685] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T20:30:01.359] [INFO] system - 2021-01-01 20:40:00まで画面更新処理待機中...
+[2021-01-01T20:40:00.365] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T20:40:00.756] [INFO] system - 2021-01-01 20:50:00まで画面更新処理待機中...
+[2021-01-01T20:50:00.771] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T20:50:01.274] [INFO] system - 2021-01-01 21:00:00まで画面更新処理待機中...
+[2021-01-01T21:00:00.283] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T21:00:00.520] [INFO] system - 2021-01-01 21:10:00まで画面更新処理待機中...
+[2021-01-01T21:10:00.521] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T21:10:01.027] [INFO] system - 2021-01-01 21:20:00まで画面更新処理待機中...
+[2021-01-01T21:20:00.036] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T21:20:00.430] [INFO] system - 2021-01-01 21:30:00まで画面更新処理待機中...
+[2021-01-01T21:30:00.446] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T21:30:01.275] [INFO] system - 2021-01-01 21:40:00まで画面更新処理待機中...
+[2021-01-01T21:40:00.286] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T21:40:00.805] [INFO] system - 2021-01-01 21:50:00まで画面更新処理待機中...
+[2021-01-01T21:50:00.829] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T21:50:01.222] [INFO] system - 2021-01-01 22:00:00まで画面更新処理待機中...
+[2021-01-01T22:00:00.237] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T22:00:00.449] [INFO] system - 2021-01-01 22:10:00まで画面更新処理待機中...
+[2021-01-01T22:10:00.475] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T22:10:01.070] [INFO] system - 2021-01-01 22:20:00まで画面更新処理待機中...
+[2021-01-01T22:18:11.384] [INFO] system - ログインページに移動完了
+[2021-01-01T22:18:12.452] [INFO] system - ログイン完了
+[2021-01-01T22:18:12.452] [INFO] system - <成績時間カウント開始>
+[2021-01-01T22:18:12.454] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T22:18:12.679] [INFO] system - 2021-01-01 22:20:00まで画面更新処理待機中...
+[2021-01-01T22:20:00.680] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T22:20:00.894] [INFO] system - 2021-01-01 22:30:00まで画面更新処理待機中...
+[2021-01-01T22:30:00.911] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T22:30:01.139] [INFO] system - 2021-01-01 22:40:00まで画面更新処理待機中...
+[2021-01-01T22:40:00.161] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T22:40:00.972] [INFO] system - 2021-01-01 22:50:00まで画面更新処理待機中...
+[2021-01-01T22:50:00.991] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T22:50:01.235] [INFO] system - 2021-01-01 23:00:00まで画面更新処理待機中...
+[2021-01-01T23:00:00.252] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T23:00:01.324] [INFO] system - 2021-01-01 23:10:00まで画面更新処理待機中...
+[2021-01-01T23:10:00.338] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T23:10:00.789] [INFO] system - 2021-01-01 23:20:00まで画面更新処理待機中...
+[2021-01-01T23:20:00.793] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T23:20:01.519] [INFO] system - 2021-01-01 23:30:00まで画面更新処理待機中...
+[2021-01-01T23:30:00.525] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T23:30:00.765] [INFO] system - 2021-01-01 23:40:00まで画面更新処理待機中...
+[2021-01-01T23:40:00.772] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T23:40:01.328] [INFO] system - 2021-01-01 23:50:00まで画面更新処理待機中...
+[2021-01-01T23:50:00.335] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-01T23:50:00.568] [INFO] system - 2021-01-02 00:00:00まで画面更新処理待機中...

@@ -1,0 +1,316 @@
+[2020-12-16T18:30:56.076] [INFO] system - 【テスト：開始】
+[2020-12-16T18:30:56.083] [INFO] system - 2020-12-15 22:45にすでに到達
+[2020-12-16T18:30:56.086] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T18:31:00.604] [INFO] system - 混線なし
+[2020-12-16T18:31:00.605] [INFO] system - ログインページに移動完了
+[2020-12-16T18:31:02.060] [INFO] system - 混線なし
+[2020-12-16T18:31:11.687] [INFO] system - 【テスト：開始】
+[2020-12-16T18:31:11.694] [INFO] system - 2020-12-16 22:45までログイン処理待機中...
+[2020-12-16T22:23:49.993] [INFO] system - 【テスト：開始】
+[2020-12-16T22:23:50.000] [INFO] system - 2020-12-16 22:45までログイン処理待機中...
+[2020-12-16T22:24:30.113] [INFO] system - 【テスト：開始】
+[2020-12-16T22:24:30.118] [INFO] system - 2020-12-15 21:45にすでに到達
+[2020-12-16T22:24:30.130] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:24:34.679] [INFO] system - 混線なし
+[2020-12-16T22:24:34.680] [INFO] system - ログインページに移動完了
+[2020-12-16T22:24:36.923] [INFO] system - 混線なし
+[2020-12-16T22:24:39.731] [INFO] system - ログイン完了
+[2020-12-16T22:24:39.733] [INFO] system - 2020-12-15 22:00にすでに到達
+[2020-12-16T22:24:39.735] [INFO] system - 購入処理想定時間到達
+[2020-12-16T22:24:40.864] [INFO] system - 混線なし
+[2020-12-16T22:24:40.878] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T22:24:40.879] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T22:24:42.794] [INFO] system - 混線なし
+[2020-12-16T22:24:42.796] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T22:24:42.796] [INFO] system - 購入処理開始(有料)
+[2020-12-16T22:24:42.949] [INFO] system - 【テスト:決済ロジック】
+[2020-12-16T22:24:47.885] [INFO] system - send successful
+[2020-12-16T22:25:46.785] [INFO] system - 【テスト：開始】
+[2020-12-16T22:25:46.793] [INFO] system - 2020-12-15 21:45にすでに到達
+[2020-12-16T22:25:46.800] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:25:49.009] [INFO] system - 混線なし
+[2020-12-16T22:25:49.010] [INFO] system - ログインページに移動完了
+[2020-12-16T22:25:50.549] [INFO] system - 混線なし
+[2020-12-16T22:25:53.587] [INFO] system - ログイン完了
+[2020-12-16T22:25:53.589] [INFO] system - 2020-12-15 22:00にすでに到達
+[2020-12-16T22:25:53.590] [INFO] system - 購入処理想定時間到達
+[2020-12-16T22:25:54.436] [INFO] system - 混線なし
+[2020-12-16T22:25:54.448] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T22:25:54.449] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T22:25:58.186] [INFO] system - 混線なし
+[2020-12-16T22:25:58.187] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T22:25:58.188] [INFO] system - 購入処理開始(有料)
+[2020-12-16T22:25:58.291] [INFO] system - 【テスト:決済ロジック】
+[2020-12-16T22:26:02.175] [INFO] system - send successful
+[2020-12-16T22:33:37.742] [INFO] system - 【テスト：開始】
+[2020-12-16T22:33:37.748] [INFO] system - 2020-12-15 21:45にすでに到達
+[2020-12-16T22:33:37.759] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:33:40.639] [INFO] system - 混線なし
+[2020-12-16T22:33:40.640] [INFO] system - ログインページに移動完了
+[2020-12-16T22:33:42.080] [INFO] system - 混線なし
+[2020-12-16T22:33:46.647] [INFO] system - ログイン完了
+[2020-12-16T22:33:46.649] [INFO] system - 2020-12-15 22:00にすでに到達
+[2020-12-16T22:33:46.650] [INFO] system - 購入処理想定時間到達
+[2020-12-16T22:33:47.836] [INFO] system - 混線なし
+[2020-12-16T22:33:47.883] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T22:33:47.884] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T22:33:52.124] [INFO] system - 混線なし
+[2020-12-16T22:33:52.125] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T22:33:52.126] [INFO] system - 購入処理開始(有料)
+[2020-12-16T22:33:52.273] [INFO] system - 【テスト:決済ロジック】
+[2020-12-16T22:33:56.260] [INFO] system - send successful
+[2020-12-16T22:34:52.363] [INFO] system - 【テスト：開始】
+[2020-12-16T22:34:52.368] [INFO] system - 2020-12-15 21:45にすでに到達
+[2020-12-16T22:34:52.378] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:34:54.905] [INFO] system - 混線なし
+[2020-12-16T22:34:54.906] [INFO] system - ログインページに移動完了
+[2020-12-16T22:34:56.025] [INFO] system - 混線なし
+[2020-12-16T22:34:58.383] [INFO] system - ログイン完了
+[2020-12-16T22:34:58.385] [INFO] system - 2020-12-15 22:00にすでに到達
+[2020-12-16T22:34:58.386] [INFO] system - 購入処理想定時間到達
+[2020-12-16T22:34:58.906] [INFO] system - 混線なし
+[2020-12-16T22:34:58.949] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T22:34:58.951] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T22:35:02.971] [INFO] system - 混線なし
+[2020-12-16T22:35:02.972] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T22:35:02.973] [INFO] system - 購入処理開始(有料)
+[2020-12-16T22:35:03.075] [INFO] system - 【テスト:決済ロジック】
+[2020-12-16T22:35:03.076] [INFO] system - -4679
+[2020-12-16T22:35:06.286] [INFO] system - send successful
+[2020-12-16T22:37:25.967] [INFO] system - 【テスト：開始】
+[2020-12-16T22:37:25.973] [INFO] system - 2020-12-15 21:45にすでに到達
+[2020-12-16T22:37:25.982] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:37:30.934] [INFO] system - 混線なし
+[2020-12-16T22:37:30.935] [INFO] system - ログインページに移動完了
+[2020-12-16T22:37:34.516] [INFO] system - 混線なし
+[2020-12-16T22:37:43.536] [INFO] system - ログイン完了
+[2020-12-16T22:37:43.538] [INFO] system - 2020-12-15 22:00にすでに到達
+[2020-12-16T22:37:43.539] [INFO] system - 購入処理想定時間到達
+[2020-12-16T22:37:44.833] [INFO] system - 混線なし
+[2020-12-16T22:37:44.836] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T22:37:44.837] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T22:37:50.372] [INFO] system - 混線なし
+[2020-12-16T22:37:50.373] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T22:37:50.374] [INFO] system - 購入処理開始(有料)
+[2020-12-16T22:37:50.501] [INFO] system - 【テスト:決済ロジック】
+[2020-12-16T22:37:50.502] [INFO] system - 6
+[2020-12-16T22:37:55.978] [INFO] system - send successful
+[2020-12-16T22:39:56.553] [INFO] system - 【テスト：開始】
+[2020-12-16T22:39:56.560] [INFO] system - 2020-12-15 21:45にすでに到達
+[2020-12-16T22:39:56.567] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:40:00.010] [INFO] system - 混線なし
+[2020-12-16T22:40:00.011] [INFO] system - ログインページに移動完了
+[2020-12-16T22:40:02.540] [INFO] system - 混線なし
+[2020-12-16T22:40:06.071] [INFO] system - ログイン完了
+[2020-12-16T22:40:06.073] [INFO] system - 2020-12-15 22:00にすでに到達
+[2020-12-16T22:40:06.074] [INFO] system - 購入処理想定時間到達
+[2020-12-16T22:40:07.255] [INFO] system - 混線なし
+[2020-12-16T22:40:07.261] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T22:40:07.271] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T22:40:12.022] [INFO] system - 混線なし
+[2020-12-16T22:40:12.023] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T22:40:12.024] [INFO] system - 購入処理開始(有料)
+[2020-12-16T22:40:12.145] [INFO] system - 【テスト:決済ロジック】
+[2020-12-16T22:40:12.146] [INFO] system - 6061000
+[2020-12-16T22:40:17.846] [INFO] system - send successful
+[2020-12-16T22:42:27.059] [INFO] system - 【テスト：開始】
+[2020-12-16T22:42:27.066] [INFO] system - 2020-12-15 21:45にすでに到達
+[2020-12-16T22:42:27.075] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:42:29.781] [INFO] system - 混線なし
+[2020-12-16T22:42:29.782] [INFO] system - ログインページに移動完了
+[2020-12-16T22:42:31.342] [INFO] system - 混線なし
+[2020-12-16T22:42:35.319] [INFO] system - ログイン完了
+[2020-12-16T22:42:35.321] [INFO] system - 2020-12-15 22:00にすでに到達
+[2020-12-16T22:42:35.323] [INFO] system - 購入処理想定時間到達
+[2020-12-16T22:42:35.932] [INFO] system - 混線なし
+[2020-12-16T22:42:35.978] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T22:42:35.979] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T22:42:40.086] [INFO] system - 混線なし
+[2020-12-16T22:42:40.087] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T22:42:40.088] [INFO] system - 購入処理開始(有料)
+[2020-12-16T22:42:40.192] [INFO] system - 【テスト:決済ロジック】
+[2020-12-16T22:42:40.193] [INFO] system - 成績：4.861秒
+[2020-12-16T22:42:43.978] [INFO] system - send successful
+[2020-12-16T22:44:41.698] [INFO] system - 【テスト：開始】
+[2020-12-16T22:44:41.704] [INFO] system - 2020-12-15 21:45にすでに到達
+[2020-12-16T22:44:41.707] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:44:44.517] [INFO] system - 混線なし
+[2020-12-16T22:44:44.518] [INFO] system - ログインページに移動完了
+[2020-12-16T22:44:47.407] [INFO] system - 混線なし
+[2020-12-16T22:44:51.374] [INFO] system - ログイン完了
+[2020-12-16T22:44:51.376] [INFO] system - 2020-12-15 22:00にすでに到達
+[2020-12-16T22:44:51.390] [INFO] system - 購入処理想定時間到達
+[2020-12-16T22:44:53.938] [INFO] system - 混線なし
+[2020-12-16T22:44:53.942] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T22:44:53.951] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T22:44:58.266] [INFO] system - 混線なし
+[2020-12-16T22:44:58.267] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T22:44:58.268] [INFO] system - 購入処理開始(有料)
+[2020-12-16T22:44:58.393] [INFO] system - 【テスト:決済ロジック】
+[2020-12-16T22:44:58.394] [INFO] system - 成績：7.002秒
+[2020-12-16T22:45:02.822] [INFO] system - send successful
+[2020-12-16T22:46:42.724] [INFO] system - 【テスト：開始】
+[2020-12-16T22:46:42.732] [INFO] system - 2020-12-15 21:45にすでに到達
+[2020-12-16T22:46:42.741] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:46:46.783] [INFO] system - 混線なし
+[2020-12-16T22:46:46.784] [INFO] system - ログインページに移動完了
+[2020-12-16T22:46:48.620] [INFO] system - 混線なし
+[2020-12-16T22:46:51.405] [INFO] system - ログイン完了
+[2020-12-16T22:46:51.407] [INFO] system - 2020-12-15 22:00にすでに到達
+[2020-12-16T22:46:51.408] [INFO] system - 購入処理想定時間到達
+[2020-12-16T22:46:51.421] [INFO] system - <成績時間カウント開始>
+[2020-12-16T22:46:52.352] [INFO] system - 混線なし
+[2020-12-16T22:46:52.358] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T22:46:52.367] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T22:46:57.006] [INFO] system - 混線なし
+[2020-12-16T22:46:57.007] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T22:46:57.008] [INFO] system - 購入処理開始(有料)
+[2020-12-16T22:46:57.109] [INFO] system - 【テスト:決済ロジック】
+[2020-12-16T22:46:57.110] [INFO] system - <成績：5.687秒>
+[2020-12-16T22:47:06.864] [INFO] system - send successful
+[2020-12-16T22:51:51.581] [INFO] system - 2020-12-16 22:45にすでに到達
+[2020-12-16T22:51:51.586] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:51:57.882] [INFO] system - 混線なし
+[2020-12-16T22:51:57.883] [INFO] system - ログインページに移動完了
+[2020-12-16T22:52:00.098] [INFO] system - 混線なし
+[2020-12-16T22:52:05.168] [INFO] system - ログイン完了
+[2020-12-16T22:52:05.170] [INFO] system - 2020-12-16 23:00まで購入処理待機中...
+[2020-12-16T22:54:13.665] [INFO] system - 【テスト：開始】
+[2020-12-16T22:54:13.674] [INFO] system - 2020-12-15 21:45にすでに到達
+[2020-12-16T22:54:13.681] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:54:19.961] [INFO] system - 混線なし
+[2020-12-16T22:54:19.962] [INFO] system - ログインページに移動完了
+[2020-12-16T22:54:22.049] [INFO] system - 混線なし
+[2020-12-16T22:54:25.666] [INFO] system - ログイン完了
+[2020-12-16T22:54:25.668] [INFO] system - 2020-12-15 22:00にすでに到達
+[2020-12-16T22:54:25.671] [INFO] system - 購入処理想定時間到達
+[2020-12-16T22:54:25.680] [INFO] system - <成績時間カウント開始>
+[2020-12-16T22:54:26.669] [INFO] system - 混線なし
+[2020-12-16T22:54:26.674] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T22:54:26.682] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T22:54:31.258] [INFO] system - 混線なし
+[2020-12-16T22:54:31.259] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T22:54:31.260] [INFO] system - 購入処理開始(有料)
+[2020-12-16T22:54:31.452] [INFO] system - 【テスト:決済ロジック】
+[2020-12-16T22:54:31.453] [INFO] system - <成績：5.772秒>
+[2020-12-16T22:54:35.941] [INFO] system - send successful
+[2020-12-16T22:55:00.167] [INFO] system - 2020-12-16 22:45にすでに到達
+[2020-12-16T22:55:00.171] [INFO] system - ログイン処理想定時間到達
+[2020-12-16T22:55:06.931] [INFO] system - 混線なし
+[2020-12-16T22:55:06.932] [INFO] system - ログインページに移動完了
+[2020-12-16T22:55:11.327] [INFO] system - 混線なし
+[2020-12-16T22:55:18.106] [INFO] system - ログイン完了
+[2020-12-16T22:55:18.108] [INFO] system - 2020-12-16 23:00まで購入処理待機中...
+[2020-12-16T23:00:00.010] [INFO] system - 購入処理想定時間到達
+[2020-12-16T23:00:00.012] [INFO] system - <成績時間カウント開始>
+[2020-12-16T23:00:03.330] [INFO] system - 混線なし
+[2020-12-16T23:00:03.332] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-16T23:00:03.333] [INFO] system - 購入処理開始(確定前)
+[2020-12-16T23:00:20.731] [INFO] system - 混線なし
+[2020-12-16T23:00:20.732] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-16T23:00:20.733] [INFO] system - 購入処理開始(有料)
+[2020-12-16T23:00:20.989] [INFO] system - 混線なし
+[2020-12-16T23:00:50.991] [ERROR] system - TimeoutError: waiting for selector `body > .base-wrapper > .ticket-info > .buy-end-ticket-top-link > .btn-flat` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:482:34)
+    at DOMWorld.waitForSelectorInPage (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:415:26)
+    at Object.internalHandler.waitFor (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:313:29)
+    at Frame.waitForSelector (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:842:51)
+    at Page.waitForSelector (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1285:33)
+    at targetPayment (C:\sourse\scraping\puppeteer.js:406:20)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async targetPageBuy (C:\sourse\scraping\puppeteer.js:339:16)
+[2020-12-16T23:01:21.356] [INFO] system - 購入処理後、30秒経過
+[2020-12-16T23:01:27.960] [INFO] system - send successful
+[2020-12-19T14:02:48.383] [INFO] system - 【テスト：開始】
+[2020-12-19T14:02:48.387] [INFO] system - 2020-12-16 22:45にすでに到達
+[2020-12-19T14:02:48.389] [INFO] system - ログイン処理想定時間到達
+[2020-12-19T14:02:48.391] [ERROR] system - Error: Could not find browser revision 809590. Run "PUPPETEER_PRODUCT=firefox npm install" or "PUPPETEER_PRODUCT=firefox yarn install" to download a supported Firefox browser binary.
+    at ChromeLauncher.launch (C:\snapshot\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\Launcher.js:79:23)
+    at async newBrowser (C:\snapshot\scraping\puppeteer.js)
+    at async C:\snapshot\scraping\puppeteer.js
+[2020-12-19T14:02:48.393] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\snapshot\scraping\puppeteer.js)
+    at async C:\snapshot\scraping\puppeteer.js
+[2020-12-19T14:03:09.198] [INFO] system - 【テスト：開始】
+[2020-12-19T14:03:09.202] [INFO] system - 2020-12-16 22:45にすでに到達
+[2020-12-19T14:03:09.204] [INFO] system - ログイン処理想定時間到達
+[2020-12-19T14:03:09.206] [ERROR] system - Error: Could not find browser revision 809590. Run "PUPPETEER_PRODUCT=firefox npm install" or "PUPPETEER_PRODUCT=firefox yarn install" to download a supported Firefox browser binary.
+    at ChromeLauncher.launch (C:\snapshot\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\Launcher.js:79:23)
+    at async newBrowser (C:\snapshot\scraping\puppeteer.js)
+    at async C:\snapshot\scraping\puppeteer.js
+[2020-12-19T14:03:09.207] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\snapshot\scraping\puppeteer.js)
+    at async C:\snapshot\scraping\puppeteer.js
+[2020-12-19T14:03:16.798] [INFO] system - 【テスト：開始】
+[2020-12-19T14:03:16.802] [INFO] system - 2020-12-16 22:45にすでに到達
+[2020-12-19T14:03:16.805] [INFO] system - ログイン処理想定時間到達
+[2020-12-19T14:03:16.807] [ERROR] system - Error: Could not find browser revision 809590. Run "PUPPETEER_PRODUCT=firefox npm install" or "PUPPETEER_PRODUCT=firefox yarn install" to download a supported Firefox browser binary.
+    at ChromeLauncher.launch (C:\snapshot\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\Launcher.js:79:23)
+    at async newBrowser (C:\snapshot\scraping\puppeteer.js)
+    at async C:\snapshot\scraping\puppeteer.js
+[2020-12-19T14:03:16.808] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\snapshot\scraping\puppeteer.js)
+    at async C:\snapshot\scraping\puppeteer.js
+[2020-12-19T14:07:16.616] [INFO] system - 2020-12-19 21:45までログイン処理待機中...
+[2020-12-19T21:44:59.986] [INFO] system - ログイン処理想定時間到達
+[2020-12-19T21:45:04.034] [INFO] system - 混線なし
+[2020-12-19T21:45:04.034] [INFO] system - ログインページに移動完了
+[2020-12-19T21:45:04.795] [INFO] system - 混線なし
+[2020-12-19T21:45:06.867] [INFO] system - ログイン完了
+[2020-12-19T21:45:06.869] [INFO] system - 2020-12-19 22:00まで購入処理待機中...
+[2020-12-19T22:00:00.013] [INFO] system - 購入処理想定時間到達
+[2020-12-19T22:00:00.015] [INFO] system - <成績時間カウント開始>
+[2020-12-19T22:00:04.015] [INFO] system - 混線なし
+[2020-12-19T22:00:04.028] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-19T22:00:04.029] [INFO] system - 購入処理開始(確定前)
+[2020-12-19T22:00:10.576] [INFO] system - 混線なし
+[2020-12-19T22:00:10.577] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-19T22:00:10.577] [INFO] system - 購入処理開始(有料)
+[2020-12-19T22:00:10.822] [INFO] system - 混線なし
+[2020-12-19T22:00:22.199] [INFO] system - 購入処理完了(多分)
+[2020-12-19T22:00:22.200] [INFO] system - <成績：22.184秒>
+[2020-12-19T22:00:52.211] [INFO] system - 購入処理後、30秒経過
+[2020-12-19T22:00:55.673] [INFO] system - send successful
+[2020-12-20T00:10:36.254] [INFO] system - 【テスト：開始】
+[2020-12-20T00:10:36.261] [INFO] system - 2020-12-19 21:45にすでに到達
+[2020-12-20T00:10:36.275] [INFO] system - ログイン処理想定時間到達
+[2020-12-20T00:10:38.375] [INFO] system - 混線なし
+[2020-12-20T00:10:38.376] [INFO] system - ログインページに移動完了
+[2020-12-20T00:10:39.214] [INFO] system - 混線なし
+[2020-12-20T00:10:41.621] [INFO] system - ログイン完了
+[2020-12-20T00:10:41.622] [INFO] system - 2020-12-19 22:00にすでに到達
+[2020-12-20T00:10:41.625] [INFO] system - 購入処理想定時間到達
+[2020-12-20T00:10:41.633] [INFO] system - <成績時間カウント開始>
+[2020-12-20T00:10:42.257] [INFO] system - 混線なし
+[2020-12-20T00:10:42.279] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-20T00:10:42.281] [INFO] system - 購入処理開始(確定前)
+[2020-12-20T00:10:46.041] [INFO] system - 混線なし
+[2020-12-20T00:10:46.042] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-20T00:10:46.043] [INFO] system - 購入処理開始(有料)
+[2020-12-20T00:10:46.217] [INFO] system - 【テスト:決済ロジック】
+[2020-12-20T00:10:46.218] [INFO] system - <成績：4.585秒>
+[2020-12-20T00:10:49.214] [INFO] system - send successful
+[2020-12-20T16:16:24.943] [INFO] system - 2020-12-20 22:15までログイン処理待機中...
+[2020-12-20T22:03:32.957] [INFO] system - 2020-12-20 22:15までログイン処理待機中...
+[2020-12-20T22:04:37.626] [INFO] system - 2020-12-20 22:15までログイン処理待機中...
+[2020-12-20T22:15:00.009] [INFO] system - ログイン処理想定時間到達
+[2020-12-20T22:15:08.132] [INFO] system - 混線なし
+[2020-12-20T22:15:08.133] [INFO] system - ログインページに移動完了
+[2020-12-20T22:15:11.193] [INFO] system - 混線なし
+[2020-12-20T22:15:13.626] [INFO] system - ログイン完了
+[2020-12-20T22:15:13.628] [INFO] system - 2020-12-20 22:30まで購入処理待機中...
+[2020-12-20T22:30:00.002] [INFO] system - 購入処理想定時間到達
+[2020-12-20T22:30:00.003] [INFO] system - <成績時間カウント開始>
+[2020-12-20T22:30:06.506] [INFO] system - 混線なし
+[2020-12-20T22:30:06.508] [INFO] system - 購入状態確認(1回目に成功)
+[2020-12-20T22:30:06.509] [INFO] system - 購入処理開始(確定前)
+[2020-12-20T22:30:07.833] [INFO] system - 混線なし
+[2020-12-20T22:30:07.834] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2020-12-20T22:30:07.834] [INFO] system - 購入処理開始(有料)
+[2020-12-20T22:30:08.090] [INFO] system - 混線なし
+[2020-12-20T22:30:13.124] [INFO] system - 購入処理完了(多分)
+[2020-12-20T22:30:13.124] [INFO] system - <成績：13.121秒>
+[2020-12-20T22:30:43.125] [INFO] system - 購入処理後、30秒経過
+[2020-12-20T22:30:48.084] [INFO] system - send successful

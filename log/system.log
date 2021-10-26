@@ -1,0 +1,328 @@
+[2021-01-03T00:31:22.994] [INFO] system - 【テスト：開始】
+[2021-01-03T00:31:22.999] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-03T00:31:23.001] [INFO] system - ログイン処理想定時間到達
+[2021-01-03T00:31:31.692] [INFO] system - 混線なし
+[2021-01-03T00:31:31.693] [INFO] system - ログインページに移動完了
+[2021-01-03T00:31:34.154] [INFO] system - 混線なし
+[2021-01-03T00:31:54.666] [INFO] system - 【テスト：開始】
+[2021-01-03T00:31:54.670] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-03T00:31:54.673] [INFO] system - ログイン処理想定時間到達
+[2021-01-03T00:31:59.606] [INFO] system - 混線なし
+[2021-01-03T00:31:59.607] [INFO] system - ログインページに移動完了
+[2021-01-03T00:32:03.471] [INFO] system - 混線なし
+[2021-01-03T00:32:25.323] [INFO] system - 【テスト：開始】
+[2021-01-03T00:32:25.329] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-03T00:32:25.332] [INFO] system - ログイン処理想定時間到達
+[2021-01-03T00:32:29.812] [INFO] system - 混線なし
+[2021-01-03T00:32:29.813] [INFO] system - ログインページに移動完了
+[2021-01-03T00:32:32.796] [INFO] system - 混線なし
+[2021-01-03T00:32:36.824] [INFO] system - ログイン完了
+[2021-01-03T00:32:36.827] [INFO] system - 2021-01-02 23:00にすでに到達
+[2021-01-03T00:32:36.839] [INFO] system - 購入処理想定時間到達
+[2021-01-03T00:32:36.840] [INFO] system - <成績時間カウント開始>
+[2021-01-03T00:32:40.579] [INFO] system - 混線なし
+[2021-01-03T00:32:40.582] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-03T00:32:40.583] [INFO] system - 購入処理開始(確定前)
+[2021-01-03T00:51:29.708] [INFO] system - 【テスト：開始】
+[2021-01-03T00:51:29.715] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-03T00:51:29.717] [INFO] system - ログイン処理想定時間到達
+[2021-01-03T00:51:36.788] [INFO] system - 混線なし
+[2021-01-03T00:51:36.789] [INFO] system - ログインページに移動完了
+[2021-01-03T00:51:40.058] [INFO] system - 混線なし
+[2021-01-03T00:51:42.404] [INFO] system - ログイン完了
+[2021-01-03T00:51:42.407] [INFO] system - 2021-01-02 23:00にすでに到達
+[2021-01-03T00:51:42.413] [INFO] system - 購入処理想定時間到達
+[2021-01-03T00:51:42.414] [INFO] system - <成績時間カウント開始>
+[2021-01-03T00:51:45.110] [INFO] system - 混線なし
+[2021-01-03T00:51:45.112] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-03T00:51:45.113] [INFO] system - 購入処理開始(確定前)
+[2021-01-03T00:51:46.725] [INFO] system - 混線なし
+[2021-01-03T00:51:46.726] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-03T00:51:46.726] [INFO] system - 購入処理開始(有料)
+[2021-01-03T00:51:46.927] [INFO] system - 【テスト:決済ロジック】
+[2021-01-03T00:51:46.928] [INFO] system - <成績：4.513秒>
+[2021-01-03T00:51:51.461] [INFO] system - send successful
+[2021-01-03T16:26:30.713] [INFO] system - 【テスト：開始】
+[2021-01-03T16:26:30.720] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-03T16:26:30.723] [INFO] system - ログイン処理想定時間到達
+[2021-01-03T16:26:38.057] [INFO] system - 混線なし
+[2021-01-03T16:26:38.058] [INFO] system - ログインページに移動完了
+[2021-01-03T16:26:41.865] [INFO] system - 混線なし
+[2021-01-03T16:26:46.042] [INFO] system - ログイン完了
+[2021-01-03T16:26:46.068] [ERROR] system - 設定不備の可能性があります
+[2021-01-03T16:26:46.069] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\puppeteer.js:170:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\puppeteer.js:75:5
+[2021-01-03T16:26:46.074] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\puppeteer.js:236:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\puppeteer.js:75:5
+[2021-01-03T16:28:50.032] [INFO] system - 【テスト：開始】
+[2021-01-03T16:28:50.037] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-03T16:28:50.040] [INFO] system - ログイン処理想定時間到達
+[2021-01-03T16:28:57.928] [INFO] system - 混線なし
+[2021-01-03T16:28:57.930] [INFO] system - ログインページに移動完了
+[2021-01-03T16:29:00.157] [INFO] system - 混線なし
+[2021-01-03T16:29:03.339] [INFO] system - ログイン完了
+[2021-01-03T16:29:03.363] [ERROR] system - 設定不備の可能性があります
+[2021-01-03T16:29:03.365] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\puppeteer.js:170:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\puppeteer.js:75:5
+[2021-01-03T16:29:03.368] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\puppeteer.js:236:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\puppeteer.js:75:5
+[2021-01-03T16:31:14.780] [INFO] system - 【テスト：開始】
+[2021-01-03T16:31:14.787] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-03T16:31:14.798] [INFO] system - ログイン処理想定時間到達
+[2021-01-03T16:31:22.782] [INFO] system - 混線なし
+[2021-01-03T16:31:22.784] [INFO] system - ログインページに移動完了
+[2021-01-03T16:31:25.020] [INFO] system - 混線なし
+[2021-01-03T16:31:27.579] [INFO] system - ログイン完了
+[2021-01-03T16:31:27.596] [INFO] system - 優先入場チケット整理番号券
+[2021-01-03T16:31:27.606] [INFO] system - 優先入場チケット整理番号券
+[2021-01-03T16:31:27.711] [INFO] system - 通常チケット整理番号券
+[2021-01-03T16:31:27.739] [INFO] system - JSHandle {
+  _disposed: false,
+  _context: ExecutionContext {
+    _client: CDPSession {
+      eventsMap: [Map],
+      emitter: [Object],
+      _callbacks: Map(0) {},
+      _connection: [Connection],
+      _targetType: 'page',
+      _sessionId: '57D65809AE455C8525BD101220301E22'
+    },
+    _world: DOMWorld {
+      _documentPromise: [Promise],
+      _contextPromise: [Promise],
+      _contextResolveCallback: null,
+      _detached: false,
+      _waitTasks: Set(0) {},
+      _boundFunctions: Map(0) {},
+      _ctxBindings: Set(0) {},
+      _settingUpBinding: null,
+      _frameManager: [FrameManager],
+      _frame: [Frame],
+      _timeoutSettings: [TimeoutSettings]
+    },
+    _contextId: 19
+  },
+  _client: CDPSession {
+    eventsMap: Map(29) {
+      'Fetch.requestPaused' => [Array],
+      'Fetch.authRequired' => [Array],
+      'Network.requestWillBeSent' => [Array],
+      'Network.requestServedFromCache' => [Array],
+      'Network.responseReceived' => [Array],
+      'Network.loadingFinished' => [Array],
+      'Network.loadingFailed' => [Array],
+      'Page.frameAttached' => [Array],
+      'Page.frameNavigated' => [Array],
+      'Page.navigatedWithinDocument' => [Array],
+      'Page.frameDetached' => [Array],
+      'Page.frameStoppedLoading' => [Array],
+      'Runtime.executionContextCreated' => [Array],
+      'Runtime.executionContextDestroyed' => [Array],
+      'Runtime.executionContextsCleared' => [Array],
+      'Page.lifecycleEvent' => [Array],
+      'Target.attachedToTarget' => [Array],
+      'Target.detachedFromTarget' => [Array],
+      'Page.domContentEventFired' => [Array],
+      'Page.loadEventFired' => [Array],
+      'Runtime.consoleAPICalled' => [Array],
+      'Runtime.bindingCalled' => [Array],
+      'Page.javascriptDialogOpening' => [Array],
+      'Runtime.exceptionThrown' => [Array],
+      'Inspector.targetCrashed' => [Array],
+      'Performance.metrics' => [Array],
+      'Log.entryAdded' => [Array],
+      'Page.fileChooserOpened' => [Array],
+      Symbol(CDPSession.Disconnected) => []
+    },
+    emitter: {
+      all: [Map],
+      on: [Function: on],
+      off: [Function: off],
+      emit: [Function: emit]
+    },
+    _callbacks: Map(0) {},
+    _connection: Connection {
+      eventsMap: [Map],
+      emitter: [Object],
+      _lastId: 130,
+      _sessions: [Map],
+      _closed: false,
+      _callbacks: Map(0) {},
+      _url: 'ws://127.0.0.1:55333/devtools/browser/248398d4-91ea-4749-a6b7-1d9c17c11fca',
+      _delay: 0,
+      _transport: [NodeWebSocketTransport]
+    },
+    _targetType: 'page',
+    _sessionId: '57D65809AE455C8525BD101220301E22'
+  },
+  _remoteObject: { type: 'string', value: 'ticket-332435' }
+}
+[2021-01-03T16:31:27.806] [ERROR] system - 設定不備の可能性があります
+[2021-01-03T16:31:27.807] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\puppeteer.js:170:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\puppeteer.js:75:5
+[2021-01-03T16:31:27.810] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\puppeteer.js:236:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\puppeteer.js:75:5
+[2021-01-03T16:33:17.878] [INFO] system - 【テスト：開始】
+[2021-01-03T16:33:17.885] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-03T16:33:17.896] [INFO] system - ログイン処理想定時間到達
+[2021-01-03T16:33:26.230] [INFO] system - 混線なし
+[2021-01-03T16:33:26.231] [INFO] system - ログインページに移動完了
+[2021-01-03T16:33:30.225] [INFO] system - 混線なし
+[2021-01-03T16:33:32.629] [INFO] system - ログイン完了
+[2021-01-03T16:33:32.669] [INFO] system - 
+            
+                                                        戻る
+                                                    名阪ガチンコ3マン
+            
+        
+[2021-01-03T16:33:32.675] [INFO] system - 優先入場チケット整理番号券
+[2021-01-03T16:33:32.688] [INFO] system - 通常チケット整理番号券
+[2021-01-03T16:33:32.695] [INFO] system - JSHandle {
+  _disposed: false,
+  _context: ExecutionContext {
+    _client: CDPSession {
+      eventsMap: [Map],
+      emitter: [Object],
+      _callbacks: Map(0) {},
+      _connection: [Connection],
+      _targetType: 'page',
+      _sessionId: '2A7D7C3A56312F44C960B81171807609'
+    },
+    _world: DOMWorld {
+      _documentPromise: [Promise],
+      _contextPromise: [Promise],
+      _contextResolveCallback: null,
+      _detached: false,
+      _waitTasks: Set(0) {},
+      _boundFunctions: Map(0) {},
+      _ctxBindings: Set(0) {},
+      _settingUpBinding: null,
+      _frameManager: [FrameManager],
+      _frame: [Frame],
+      _timeoutSettings: [TimeoutSettings]
+    },
+    _contextId: 22
+  },
+  _client: CDPSession {
+    eventsMap: Map(29) {
+      'Fetch.requestPaused' => [Array],
+      'Fetch.authRequired' => [Array],
+      'Network.requestWillBeSent' => [Array],
+      'Network.requestServedFromCache' => [Array],
+      'Network.responseReceived' => [Array],
+      'Network.loadingFinished' => [Array],
+      'Network.loadingFailed' => [Array],
+      'Page.frameAttached' => [Array],
+      'Page.frameNavigated' => [Array],
+      'Page.navigatedWithinDocument' => [Array],
+      'Page.frameDetached' => [Array],
+      'Page.frameStoppedLoading' => [Array],
+      'Runtime.executionContextCreated' => [Array],
+      'Runtime.executionContextDestroyed' => [Array],
+      'Runtime.executionContextsCleared' => [Array],
+      'Page.lifecycleEvent' => [Array],
+      'Target.attachedToTarget' => [Array],
+      'Target.detachedFromTarget' => [Array],
+      'Page.domContentEventFired' => [Array],
+      'Page.loadEventFired' => [Array],
+      'Runtime.consoleAPICalled' => [Array],
+      'Runtime.bindingCalled' => [Array],
+      'Page.javascriptDialogOpening' => [Array],
+      'Runtime.exceptionThrown' => [Array],
+      'Inspector.targetCrashed' => [Array],
+      'Performance.metrics' => [Array],
+      'Log.entryAdded' => [Array],
+      'Page.fileChooserOpened' => [Array],
+      Symbol(CDPSession.Disconnected) => []
+    },
+    emitter: {
+      all: [Map],
+      on: [Function: on],
+      off: [Function: off],
+      emit: [Function: emit]
+    },
+    _callbacks: Map(0) {},
+    _connection: Connection {
+      eventsMap: [Map],
+      emitter: [Object],
+      _lastId: 133,
+      _sessions: [Map],
+      _closed: false,
+      _callbacks: Map(0) {},
+      _url: 'ws://127.0.0.1:55508/devtools/browser/0ce5f01f-a2e1-4777-b8a8-288313fb2f00',
+      _delay: 0,
+      _transport: [NodeWebSocketTransport]
+    },
+    _targetType: 'page',
+    _sessionId: '2A7D7C3A56312F44C960B81171807609'
+  },
+  _remoteObject: { type: 'string', value: 'ticket-332435' }
+}
+[2021-01-03T16:33:32.764] [ERROR] system - 設定不備の可能性があります
+[2021-01-03T16:33:32.771] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\puppeteer.js:170:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\puppeteer.js:75:5
+[2021-01-03T16:33:32.774] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\puppeteer.js:236:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\puppeteer.js:75:5
+[2021-01-03T16:36:08.213] [INFO] system - 【テスト：開始】
+[2021-01-03T16:36:08.218] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-03T16:36:08.220] [INFO] system - ログイン処理想定時間到達
+[2021-01-03T16:36:16.084] [INFO] system - 混線なし
+[2021-01-03T16:36:16.085] [INFO] system - ログインページに移動完了
+[2021-01-03T16:36:18.390] [INFO] system - 混線なし
+[2021-01-03T16:36:21.575] [INFO] system - ログイン完了
+[2021-01-03T16:36:21.705] [INFO] system - 優先入場チケット整理番号券
+[2021-01-03T16:36:21.710] [INFO] system - 優先入場チケット整理番号券
+[2021-01-03T16:36:21.714] [INFO] system - 通常チケット整理番号券
+[2021-01-03T16:36:21.728] [INFO] system - ticket-332435
+[2021-01-03T16:36:21.729] [ERROR] system - 設定不備の可能性があります
+[2021-01-03T16:36:21.730] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\puppeteer.js:170:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\puppeteer.js:75:5
+[2021-01-03T16:36:21.735] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\puppeteer.js:236:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\puppeteer.js:75:5
+[2021-01-03T16:38:27.689] [INFO] system - 【テスト：開始】
+[2021-01-03T16:38:27.696] [INFO] system - 2021-01-02 22:45:00にすでに到達
+[2021-01-03T16:38:27.706] [INFO] system - ログイン処理想定時間到達
+[2021-01-03T16:38:36.091] [INFO] system - 混線なし
+[2021-01-03T16:38:36.092] [INFO] system - ログインページに移動完了
+[2021-01-03T16:38:38.301] [INFO] system - 混線なし
+[2021-01-03T16:38:41.141] [INFO] system - ログイン完了
+[2021-01-03T16:38:41.294] [INFO] system - 通常チケット整理番号券の存在を確認(.table #ticket-332435)
+[2021-01-03T16:38:41.297] [INFO] system - 2021-01-02 23:00にすでに到達
+[2021-01-03T16:38:41.299] [INFO] system - 購入処理想定時間到達
+[2021-01-03T16:38:41.313] [INFO] system - <成績時間カウント開始>
+[2021-01-03T16:38:45.223] [INFO] system - 混線なし
+[2021-01-03T16:38:45.227] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-03T16:38:45.229] [INFO] system - 購入処理開始(確定前)
+[2021-01-03T16:38:47.141] [INFO] system - 混線なし
+[2021-01-03T16:38:47.142] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-03T16:38:47.143] [INFO] system - 購入処理開始(有料)
+[2021-01-03T16:38:47.362] [INFO] system - 【テスト:決済ロジック】
+[2021-01-03T16:38:47.363] [INFO] system - <成績：6.049秒>

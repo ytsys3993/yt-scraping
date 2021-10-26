@@ -1,0 +1,307 @@
+[2021-02-05T06:36:09.060] [INFO] system - 【Windows版起動】
+[2021-02-05T06:36:09.062] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru1st/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-02 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T06:36:09.082] [INFO] system - 【テスト】
+[2021-02-05T06:36:09.092] [INFO] system - 2021-02-02 22:45:00にすでに到達
+[2021-02-05T06:36:09.098] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T06:36:10.566] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T06:36:12.612] [INFO] system - send successful
+[2021-02-05T06:36:15.146] [INFO] system - 混線なし
+[2021-02-05T06:36:15.147] [INFO] system - ログインページに移動完了
+[2021-02-05T06:36:18.067] [INFO] system - 混線なし
+[2021-02-05T06:36:19.441] [INFO] system - ログイン完了
+[2021-02-05T06:36:19.464] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-348026)
+[2021-02-05T06:36:19.465] [INFO] system - 2021-02-02 23:00にすでに到達
+[2021-02-05T06:36:19.467] [INFO] system - 購入処理想定時間到達
+[2021-02-05T06:36:19.468] [INFO] system - <成績時間カウント開始>
+[2021-02-05T06:36:22.477] [INFO] system - 混線なし
+[2021-02-05T06:36:22.480] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T06:36:22.481] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T06:36:24.063] [INFO] system - 混線なし
+[2021-02-05T06:36:24.066] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-02-05T06:36:24.071] [INFO] system - 購入処理開始(有料)
+[2021-02-05T06:36:24.287] [INFO] system - 【テスト:決済ロジック】
+[2021-02-05T06:36:24.287] [INFO] system - <成績：4.819秒>
+[2021-02-05T06:36:27.006] [INFO] system - send successful
+[2021-02-05T06:37:31.640] [INFO] system - 【Windows版起動】
+[2021-02-05T06:37:31.641] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru1st/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-02 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T06:37:31.650] [INFO] system - 【テスト】
+[2021-02-05T06:37:31.661] [INFO] system - 2021-02-02 22:45:00にすでに到達
+[2021-02-05T06:37:31.663] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T06:37:32.172] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T06:37:34.819] [INFO] system - send successful
+[2021-02-05T06:37:37.009] [INFO] system - 混線なし
+[2021-02-05T06:37:37.010] [INFO] system - ログインページに移動完了
+[2021-02-05T06:37:39.494] [INFO] system - 混線なし
+[2021-02-05T06:37:41.332] [INFO] system - ログイン完了
+[2021-02-05T06:37:41.357] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-348026)
+[2021-02-05T06:37:41.359] [INFO] system - 2021-02-02 23:00にすでに到達
+[2021-02-05T06:37:41.360] [INFO] system - 購入処理想定時間到達
+[2021-02-05T06:37:41.361] [INFO] system - <成績時間カウント開始>
+[2021-02-05T06:37:43.758] [INFO] system - 混線なし
+[2021-02-05T06:37:43.761] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T06:37:43.770] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T06:37:43.849] [ERROR] system - Error: Evaluation failed: ReferenceError: targetTicket is not defined
+    at __puppeteer_evaluation_script__:2:32
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:433:7
+    at async Array.forEachAsync (C:\source\yt-scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\source\yt-scraping\func-lpkick\lpkick2.js:426:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick2.js:267:24)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:107:5
+[2021-02-05T06:37:46.583] [INFO] system - send successful
+[2021-02-05T06:40:32.397] [INFO] system - 【Windows版起動】
+[2021-02-05T06:40:32.398] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru1st/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-02 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T06:40:32.406] [INFO] system - 【テスト】
+[2021-02-05T06:40:32.418] [INFO] system - 2021-02-02 22:45:00にすでに到達
+[2021-02-05T06:40:32.423] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T06:40:32.923] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T06:40:34.739] [INFO] system - send successful
+[2021-02-05T06:40:37.796] [INFO] system - 混線なし
+[2021-02-05T06:40:37.796] [INFO] system - ログインページに移動完了
+[2021-02-05T06:40:41.184] [INFO] system - 混線なし
+[2021-02-05T06:40:42.599] [INFO] system - ログイン完了
+[2021-02-05T06:40:42.622] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-348026)
+[2021-02-05T06:40:42.623] [INFO] system - 2021-02-02 23:00にすでに到達
+[2021-02-05T06:40:42.626] [INFO] system - 購入処理想定時間到達
+[2021-02-05T06:40:42.626] [INFO] system - <成績時間カウント開始>
+[2021-02-05T06:40:46.115] [INFO] system - 混線なし
+[2021-02-05T06:40:46.116] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T06:40:46.117] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T06:40:46.176] [ERROR] system - Error: Evaluation failed: ReferenceError: goNextArea is not defined
+    at __puppeteer_evaluation_script__:3:9
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:433:7
+    at async Array.forEachAsync (C:\source\yt-scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\source\yt-scraping\func-lpkick\lpkick2.js:426:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick2.js:267:24)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:107:5
+[2021-02-05T06:40:48.884] [INFO] system - send successful
+[2021-02-05T06:44:16.545] [INFO] system - 【Windows版起動】
+[2021-02-05T06:44:16.546] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru1st/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-02 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T06:44:16.557] [INFO] system - 【テスト】
+[2021-02-05T06:44:16.567] [INFO] system - 2021-02-02 22:45:00にすでに到達
+[2021-02-05T06:44:16.569] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T06:44:17.046] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T06:44:19.518] [INFO] system - send successful
+[2021-02-05T06:44:21.842] [INFO] system - 混線なし
+[2021-02-05T06:44:21.843] [INFO] system - ログインページに移動完了
+[2021-02-05T06:44:25.260] [INFO] system - 混線なし
+[2021-02-05T06:44:27.061] [INFO] system - ログイン完了
+[2021-02-05T06:44:27.083] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-348026)
+[2021-02-05T06:44:27.085] [INFO] system - 2021-02-02 23:00にすでに到達
+[2021-02-05T06:44:27.085] [INFO] system - 購入処理想定時間到達
+[2021-02-05T06:44:27.086] [INFO] system - <成績時間カウント開始>
+[2021-02-05T06:44:30.532] [INFO] system - 混線なし
+[2021-02-05T06:44:30.536] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T06:44:30.545] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T06:44:30.574] [ERROR] system - Error: Evaluation failed: ReferenceError: targetTicketId is not defined
+    at __puppeteer_evaluation_script__:2:32
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:435:7
+    at async Array.forEachAsync (C:\source\yt-scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\source\yt-scraping\func-lpkick\lpkick2.js:426:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick2.js:267:24)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:107:5
+[2021-02-05T06:44:33.780] [INFO] system - send successful
+[2021-02-05T06:46:05.435] [INFO] system - 【Windows版起動】
+[2021-02-05T06:46:05.436] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru1st/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-02 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T06:46:05.446] [INFO] system - 【テスト】
+[2021-02-05T06:46:05.463] [INFO] system - 2021-02-02 22:45:00にすでに到達
+[2021-02-05T06:46:05.465] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T06:46:05.965] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T06:46:08.692] [INFO] system - send successful
+[2021-02-05T06:46:10.768] [INFO] system - 混線なし
+[2021-02-05T06:46:10.768] [INFO] system - ログインページに移動完了
+[2021-02-05T06:46:13.396] [INFO] system - 混線なし
+[2021-02-05T06:46:14.998] [INFO] system - ログイン完了
+[2021-02-05T06:46:15.017] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-348026)
+[2021-02-05T06:46:15.018] [INFO] system - 2021-02-02 23:00にすでに到達
+[2021-02-05T06:46:15.019] [INFO] system - 購入処理想定時間到達
+[2021-02-05T06:46:15.020] [INFO] system - <成績時間カウント開始>
+[2021-02-05T06:46:17.779] [INFO] system - 混線なし
+[2021-02-05T06:46:17.782] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T06:46:17.788] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T06:46:17.822] [ERROR] system - Error: Evaluation failed: ReferenceError: targetTicketId is not defined
+    at __puppeteer_evaluation_script__:2:32
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:443:7
+    at async Array.forEachAsync (C:\source\yt-scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\source\yt-scraping\func-lpkick\lpkick2.js:426:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick2.js:267:24)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:107:5
+[2021-02-05T06:46:21.154] [INFO] system - send successful
+[2021-02-05T06:46:43.766] [INFO] system - 【Windows版起動】
+[2021-02-05T06:46:43.767] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru1st/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-02 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T06:46:43.775] [INFO] system - 【テスト】
+[2021-02-05T06:46:43.787] [INFO] system - 2021-02-02 22:45:00にすでに到達
+[2021-02-05T06:46:43.794] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T06:46:44.285] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T06:46:46.259] [INFO] system - send successful
+[2021-02-05T06:46:49.417] [INFO] system - 混線なし
+[2021-02-05T06:46:49.418] [INFO] system - ログインページに移動完了
+[2021-02-05T06:46:52.350] [INFO] system - 混線なし
+[2021-02-05T06:46:54.171] [INFO] system - ログイン完了
+[2021-02-05T06:46:54.286] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-348026)
+[2021-02-05T06:46:54.287] [INFO] system - 2021-02-02 23:00にすでに到達
+[2021-02-05T06:46:54.288] [INFO] system - 購入処理想定時間到達
+[2021-02-05T06:46:54.292] [INFO] system - <成績時間カウント開始>
+[2021-02-05T06:46:56.952] [INFO] system - 混線なし
+[2021-02-05T06:46:56.955] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T06:46:56.956] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T06:46:57.000] [ERROR] system - Error: Evaluation failed: ReferenceError: targetTicketId is not defined
+    at __puppeteer_evaluation_script__:2:32
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:443:7
+    at async Array.forEachAsync (C:\source\yt-scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\source\yt-scraping\func-lpkick\lpkick2.js:426:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick2.js:267:24)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:107:5
+[2021-02-05T06:46:59.669] [INFO] system - send successful
+[2021-02-05T07:00:03.522] [INFO] system - 【Windows版起動】
+[2021-02-05T07:00:03.524] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru1st/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-02 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T07:00:03.527] [INFO] system - 【テスト】
+[2021-02-05T07:00:03.537] [INFO] system - 2021-02-02 22:45:00にすでに到達
+[2021-02-05T07:00:03.544] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T07:00:04.042] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T07:00:06.720] [INFO] system - send successful
+[2021-02-05T07:00:08.937] [INFO] system - ログインページに移動完了
+[2021-02-05T07:00:13.358] [INFO] system - ログイン完了
+[2021-02-05T07:00:13.377] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-348026)
+[2021-02-05T07:00:13.379] [INFO] system - 2021-02-02 23:00にすでに到達
+[2021-02-05T07:00:13.382] [INFO] system - 購入処理想定時間到達
+[2021-02-05T07:00:13.382] [INFO] system - <成績時間カウント開始>
+[2021-02-05T07:00:15.729] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T07:00:15.730] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T07:00:15.769] [ERROR] system - Error: Evaluation failed: ReferenceError: targetTicketId is not defined
+    at __puppeteer_evaluation_script__:2:32
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:445:7
+    at async Array.forEachAsync (C:\source\yt-scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\source\yt-scraping\func-lpkick\lpkick2.js:428:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick2.js:269:24)
+    at async C:\source\yt-scraping\func-lpkick\lpkick2.js:107:5
+[2021-02-05T07:00:18.434] [INFO] system - send successful
+[2021-02-05T07:01:05.020] [INFO] system - 【Windows版起動】
+[2021-02-05T07:01:05.021] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru1st/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-02 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T07:01:05.030] [INFO] system - 【テスト】
+[2021-02-05T07:01:05.046] [INFO] system - 2021-02-02 22:45:00にすでに到達
+[2021-02-05T07:01:05.051] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T07:01:05.378] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T07:01:07.555] [INFO] system - send successful
+[2021-02-05T07:01:08.059] [INFO] system - ログインページに移動完了
+[2021-02-05T07:01:11.513] [INFO] system - ログイン完了
+[2021-02-05T07:01:11.543] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-348026)
+[2021-02-05T07:01:11.544] [INFO] system - 2021-02-02 23:00にすでに到達
+[2021-02-05T07:01:11.546] [INFO] system - 購入処理想定時間到達
+[2021-02-05T07:01:11.551] [INFO] system - <成績時間カウント開始>
+[2021-02-05T07:01:14.395] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T07:01:14.396] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T07:01:17.397] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-02-05T07:01:17.398] [INFO] system - 購入処理開始(有料)
+[2021-02-05T07:01:17.614] [INFO] system - 【テスト:決済ロジック】
+[2021-02-05T07:01:17.615] [INFO] system - <成績：6.063秒>
+[2021-02-05T07:01:19.873] [INFO] system - send successful
+[2021-02-05T07:02:20.917] [INFO] system - 【Windows版起動】
+[2021-02-05T07:02:20.918] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru1st/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-02 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T07:02:20.918] [INFO] system - 【テスト】
+[2021-02-05T07:02:20.927] [INFO] system - 2021-02-02 22:45:00にすでに到達
+[2021-02-05T07:02:20.929] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T07:02:21.217] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T07:02:23.841] [INFO] system - send successful
+[2021-02-05T07:02:24.327] [INFO] system - 混線なし
+[2021-02-05T07:02:24.328] [INFO] system - ログインページに移動完了
+[2021-02-05T07:02:27.643] [INFO] system - 混線なし
+[2021-02-05T07:02:28.884] [INFO] system - ログイン完了
+[2021-02-05T07:02:28.906] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-348026)
+[2021-02-05T07:02:28.913] [INFO] system - 2021-02-02 23:00にすでに到達
+[2021-02-05T07:02:28.915] [INFO] system - 購入処理想定時間到達
+[2021-02-05T07:02:28.915] [INFO] system - <成績時間カウント開始>
+[2021-02-05T07:02:31.184] [INFO] system - 混線なし
+[2021-02-05T07:02:31.187] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T07:02:31.188] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T07:02:34.654] [INFO] system - 混線なし
+[2021-02-05T07:02:34.675] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-02-05T07:02:34.677] [INFO] system - 購入処理開始(有料)
+[2021-02-05T07:02:34.880] [INFO] system - 【テスト:決済ロジック】
+[2021-02-05T07:02:34.881] [INFO] system - <成績：5.964秒>
+[2021-02-05T07:02:38.125] [INFO] system - send successful
+[2021-02-05T07:10:36.847] [INFO] system - 【Windows版起動】
+[2021-02-05T07:10:36.848] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru1st/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-02 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T07:10:36.857] [INFO] system - 【テスト】
+[2021-02-05T07:10:36.871] [INFO] system - 2021-02-02 22:45:00にすでに到達
+[2021-02-05T07:10:36.875] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T07:10:37.161] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T07:10:39.720] [INFO] system - send successful
+[2021-02-05T07:10:40.168] [INFO] system - ログインページに移動完了
+[2021-02-05T07:10:44.048] [INFO] system - ログイン完了
+[2021-02-05T07:10:44.166] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-348026)
+[2021-02-05T07:10:44.167] [INFO] system - 2021-02-02 23:00にすでに到達
+[2021-02-05T07:10:44.170] [INFO] system - 購入処理想定時間到達
+[2021-02-05T07:10:44.174] [INFO] system - <成績時間カウント開始>
+[2021-02-05T07:10:46.498] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T07:10:46.499] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T07:10:49.859] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-02-05T07:10:49.860] [INFO] system - 購入処理開始(有料)
+[2021-02-05T07:10:50.117] [INFO] system - 【テスト:決済ロジック】
+[2021-02-05T07:10:50.118] [INFO] system - <成績：5.943秒>
+[2021-02-05T07:10:52.390] [INFO] system - send successful
+[2021-02-05T07:18:31.088] [INFO] system - 【Windows版起動】
+[2021-02-05T07:18:31.090] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/neco0213_osaka/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"2","storeTypeId":"002","startTime":"2021-02-05 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T07:18:31.103] [INFO] system - 2021-02-05 22:45:00までログイン処理待機中...
+[2021-02-05T19:22:38.879] [INFO] system - ReferenceError: taskLisS is not defined
+    at lpjsonWrite (C:\source\yt-scraping\func-lpkick\mailtolpjson.js:97:7)
+    at C:\source\yt-scraping\func-lpkick\mailtolpjson.js:39:13
+[2021-02-05T19:26:39.012] [INFO] system - TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Array
+    at Object.writeFileSync (fs.js:1460:5)
+    at lpjsonWrite (C:\source\yt-scraping\func-lpkick\mailtolpjson.js:101:10)
+    at C:\source\yt-scraping\func-lpkick\mailtolpjson.js:39:13 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2021-02-05T19:29:39.268] [INFO] system - TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Array
+    at Object.writeFileSync (fs.js:1460:5)
+    at lpjsonWrite (C:\source\yt-scraping\func-lpkick\mailtolpjson.js:101:10)
+    at C:\source\yt-scraping\func-lpkick\mailtolpjson.js:39:13 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2021-02-05T21:22:05.842] [INFO] system - 【Windows版起動】
+[2021-02-05T21:22:05.843] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/neco0213_osaka/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-02-05 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-05T21:22:05.885] [INFO] system - 2021-02-05 22:45:00までログイン処理待機中...
+[2021-02-05T21:22:09.162] [INFO] system - send successful
+[2021-02-05T22:45:00.013] [INFO] system - ログイン処理想定時間到達
+[2021-02-05T22:45:01.281] [INFO] system - ブラウザ起動後準備完了
+[2021-02-05T22:45:05.384] [INFO] system - 混線なし
+[2021-02-05T22:45:05.385] [INFO] system - ログインページに移動完了
+[2021-02-05T22:45:10.079] [INFO] system - 混線なし
+[2021-02-05T22:45:13.553] [INFO] system - ログイン完了
+[2021-02-05T22:45:13.571] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-349269)
+[2021-02-05T22:45:13.572] [INFO] system - 2021-02-05 23:00まで購入処理待機中...
+[2021-02-05T23:00:00.024] [INFO] system - 購入処理想定時間到達
+[2021-02-05T23:00:00.025] [INFO] system - <成績時間カウント開始>
+[2021-02-05T23:00:08.681] [INFO] system - 混線なし
+[2021-02-05T23:00:08.683] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-05T23:00:08.685] [INFO] system - 購入処理開始(確定前)
+[2021-02-05T23:00:22.463] [INFO] system - 混線なし
+[2021-02-05T23:00:22.494] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-02-05T23:00:22.495] [INFO] system - 購入処理開始(無料)
+[2021-02-05T23:00:22.557] [INFO] system - 混線なし
+[2021-02-05T23:00:22.584] [INFO] system - 購入処理完了(多分)
+[2021-02-05T23:00:22.585] [INFO] system - <成績：22.557秒>
+[2021-02-05T23:00:27.232] [INFO] system - send successful

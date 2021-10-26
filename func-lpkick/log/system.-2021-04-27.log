@@ -1,0 +1,93 @@
+[2021-04-27T20:42:03.969] [INFO] system - 【Windows版起動】
+[2021-04-27T20:42:03.970] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru0429/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-04-27 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-27 22:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-27T20:42:03.988] [INFO] system - 2021-04-27 22:45:00までログイン処理待機中...
+[2021-04-27T22:45:00.013] [INFO] system - ログイン処理想定時間到達
+[2021-04-27T22:45:00.618] [INFO] system - ブラウザ起動後準備完了
+[2021-04-27T22:45:04.221] [INFO] system - ログインページに移動完了
+[2021-04-27T22:45:10.493] [INFO] system - ログイン完了
+[2021-04-27T22:45:10.529] [INFO] system - 「１部前売チケット整理番号券,２部前売チケット整理番号券」の存在を確認(.table #ticket-402428,.table #ticket-402429)
+[2021-04-27T22:45:10.534] [INFO] system - 2021-04-27 23:00:00まで購入処理待機中...
+[2021-04-27T23:00:00.005] [INFO] system - 購入処理想定時間到達
+[2021-04-27T23:00:00.006] [INFO] system - <成績時間カウント開始>
+[2021-04-27T23:00:00.007] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-27T23:00:09.490] [INFO] system - 購入可能状態確認end
+[2021-04-27T23:00:10.492] [INFO] system - 枚数選択前に明示的に1秒待機
+[2021-04-27T23:00:10.494] [INFO] system - 枚数選択start(1回目)
+[2021-04-27T23:00:10.495] [INFO] system - 1枚目選択開始
+[2021-04-27T23:00:10.569] [INFO] system - 1枚目選択終了
+[2021-04-27T23:00:10.570] [INFO] system - 2枚目選択開始
+[2021-04-27T23:00:10.634] [INFO] system - 2枚目選択終了
+[2021-04-27T23:00:13.949] [INFO] system - 枚数選択start(2回目)
+[2021-04-27T23:00:13.950] [INFO] system - 1枚目選択開始
+[2021-04-27T23:00:13.959] [INFO] system - 混線のため59秒待機開始...
+[2021-04-27T23:01:13.971] [INFO] system - 1枚目選択終了
+[2021-04-27T23:01:13.972] [INFO] system - 2枚目選択開始
+[2021-04-27T23:01:14.033] [INFO] system - 2枚目選択終了
+[2021-04-27T23:01:16.144] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:161:64)
+    at async C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:102:30
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:94:26)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:139:33)
+[2021-04-27T23:01:18.064] [INFO] system - 枚数選択end
+[2021-04-27T23:01:18.065] [INFO] system - 決済処理start(1回目)
+[2021-04-27T23:01:18.065] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-04-27T23:01:18.066] [INFO] system - 購入処理開始(有料)
+[2021-04-27T23:01:18.194] [INFO] system - 規約に同意クリック
+[2021-04-27T23:01:24.842] [INFO] system - 決済処理end
+[2021-04-27T23:01:24.843] [INFO] system - <現在時刻：Tue Apr 27 2021 23:01:24 GMT+0900／成績：84.836秒>
+[2021-04-27T23:01:24.844] [INFO] system - <成績：84.837秒>
+[2021-04-27T23:04:20.517] [INFO] system - 【Windows版起動】
+[2021-04-27T23:04:20.519] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru_nurse/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"2","storeTypeId":"002","startTime":"2021-04-27 23:30","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-27 23:00","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-27T23:04:20.537] [INFO] system - 2021-04-27 23:15:00までログイン処理待機中...
+[2021-04-27T23:15:00.010] [INFO] system - ログイン処理想定時間到達
+[2021-04-27T23:15:00.315] [INFO] system - ブラウザ起動後準備完了
+[2021-04-27T23:15:03.132] [INFO] system - ログインページに移動完了
+[2021-04-27T23:15:08.366] [INFO] system - ログイン完了
+[2021-04-27T23:15:08.423] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-402433)
+[2021-04-27T23:15:08.425] [INFO] system - 2021-04-27 23:30:00まで購入処理待機中...
+[2021-04-27T23:30:00.002] [INFO] system - 購入処理想定時間到達
+[2021-04-27T23:30:00.003] [INFO] system - <成績時間カウント開始>
+[2021-04-27T23:30:00.004] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-27T23:30:03.504] [INFO] system - 購入可能状態確認end
+[2021-04-27T23:30:04.505] [INFO] system - 枚数選択前に明示的に1秒待機
+[2021-04-27T23:30:04.506] [INFO] system - 枚数選択start(1回目)
+[2021-04-27T23:30:04.507] [INFO] system - 1枚目選択開始
+[2021-04-27T23:30:04.580] [INFO] system - 1枚目選択終了
+[2021-04-27T23:30:58.772] [INFO] system - 【Windows版起動】
+[2021-04-27T23:30:58.774] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru_nurse/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"2","storeTypeId":"002","startTime":"2021-04-27 23:30","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-27 23:00","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-27T23:30:58.787] [INFO] system - 2021-04-27 23:15:00にすでに到達
+[2021-04-27T23:30:58.789] [INFO] system - ログイン処理想定時間到達
+[2021-04-27T23:30:59.067] [INFO] system - ブラウザ起動後準備完了
+[2021-04-27T23:31:01.694] [INFO] system - ログインページに移動完了
+[2021-04-27T23:31:06.839] [INFO] system - ログイン完了
+[2021-04-27T23:31:06.856] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-402433)
+[2021-04-27T23:31:06.858] [INFO] system - 2021-04-27 23:30にすでに到達
+[2021-04-27T23:31:06.860] [INFO] system - 購入処理想定時間到達
+[2021-04-27T23:31:06.861] [INFO] system - <成績時間カウント開始>
+[2021-04-27T23:31:06.862] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-27T23:31:08.853] [INFO] system - 購入可能状態確認end
+[2021-04-27T23:31:09.855] [INFO] system - 枚数選択前に明示的に1秒待機
+[2021-04-27T23:31:09.856] [INFO] system - 枚数選択start(1回目)
+[2021-04-27T23:31:09.858] [INFO] system - 1枚目選択開始
+[2021-04-27T23:31:09.927] [INFO] system - 1枚目選択終了
+[2021-04-27T23:31:16.925] [INFO] system - 枚数選択end
+[2021-04-27T23:31:16.926] [INFO] system - 決済処理start(1回目)
+[2021-04-27T23:31:16.926] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-04-27T23:31:16.927] [INFO] system - 購入処理開始(有料)
+[2021-04-27T23:31:17.024] [INFO] system - 規約に同意クリック
+[2021-04-27T23:31:25.424] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:161:64)
+    at async C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:102:30
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:94:26)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:373:35)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5
+[2021-04-27T23:31:25.426] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:454:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5

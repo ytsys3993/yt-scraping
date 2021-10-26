@@ -1,0 +1,224 @@
+[2021-04-30T19:13:01.273] [INFO] system - 【Windows版起動】
+[2021-04-30T19:13:01.275] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/anafes0503/","targetTicket":null,"targetName":"【KT Zepp Yokohama２部】前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 18:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:13:01.289] [INFO] system - 【テスト】
+[2021-04-30T19:13:01.294] [INFO] system - 2021-04-30 18:45:00にすでに到達
+[2021-04-30T19:13:01.297] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T19:13:01.789] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T19:13:04.203] [INFO] system - ログインページに移動完了
+[2021-04-30T19:13:08.822] [INFO] system - ログイン完了
+[2021-04-30T19:13:08.829] [ERROR] system - 設定不備の可能性があります
+[2021-04-30T19:13:08.835] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/anafes0503/","targetTicket":"","targetName":"【KT Zepp Yokohama２部】前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 18:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:13:08.838] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:286:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5
+[2021-04-30T19:13:08.839] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:454:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5
+[2021-04-30T19:15:01.036] [INFO] system - 【Windows版起動】
+[2021-04-30T19:15:01.038] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/anafes0503/","targetTicket":null,"targetName":"【KT Zepp Yokohama２部】前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 18:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:15:01.050] [INFO] system - 【テスト】
+[2021-04-30T19:15:01.054] [INFO] system - 2021-04-30 18:45:00にすでに到達
+[2021-04-30T19:15:01.058] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T19:15:01.556] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T19:15:04.094] [INFO] system - ログインページに移動完了
+[2021-04-30T19:16:23.675] [INFO] system - 【Windows版起動】
+[2021-04-30T19:16:23.676] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/anafes0503/","targetTicket":null,"targetName":"【KT Zepp Yokohama２部】前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 18:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:16:23.688] [INFO] system - 【テスト】
+[2021-04-30T19:16:23.694] [INFO] system - 2021-04-30 18:45:00にすでに到達
+[2021-04-30T19:16:23.696] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T19:16:24.198] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T19:16:26.825] [INFO] system - ログインページに移動完了
+[2021-04-30T19:16:26.835] [INFO] system - 混線のため111秒待機開始...
+[2021-04-30T19:17:15.573] [INFO] system - 【Windows版起動】
+[2021-04-30T19:17:15.575] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/anafes0503/","targetTicket":null,"targetName":"【KT Zepp Yokohama２部】前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 18:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:17:15.587] [INFO] system - 【テスト】
+[2021-04-30T19:17:15.592] [INFO] system - 2021-04-30 18:45:00にすでに到達
+[2021-04-30T19:17:15.594] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T19:17:16.118] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T19:17:19.013] [INFO] system - ログインページに移動完了
+[2021-04-30T19:18:33.817] [INFO] system - 【Windows版起動】
+[2021-04-30T19:18:33.818] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/anafes0503/","targetTicket":null,"targetName":"【KT Zepp Yokohama２部】前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 18:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:18:33.830] [INFO] system - 【テスト】
+[2021-04-30T19:18:33.837] [INFO] system - 2021-04-30 18:45:00にすでに到達
+[2021-04-30T19:18:33.839] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T19:18:34.352] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T19:18:37.179] [INFO] system - ログインページに移動完了
+[2021-04-30T19:18:37.267] [INFO] system - 混線なし
+[2021-04-30T19:19:06.372] [INFO] system - 【Windows版起動】
+[2021-04-30T19:19:06.373] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/anafes0503/","targetTicket":null,"targetName":"【KT Zepp Yokohama２部】前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 18:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:19:06.384] [INFO] system - 【テスト】
+[2021-04-30T19:19:06.389] [INFO] system - 2021-04-30 18:45:00にすでに到達
+[2021-04-30T19:19:06.392] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T19:19:06.891] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T19:19:09.730] [INFO] system - ログインページに移動完了
+[2021-04-30T19:19:09.736] [INFO] system - 混線なし
+[2021-04-30T19:19:53.942] [INFO] system - 【Windows版起動】
+[2021-04-30T19:19:53.944] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/anafes0503/","targetTicket":null,"targetName":"【KT Zepp Yokohama２部】前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 18:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:19:53.954] [INFO] system - 【テスト】
+[2021-04-30T19:19:53.959] [INFO] system - 2021-04-30 18:45:00にすでに到達
+[2021-04-30T19:19:53.962] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T19:19:54.463] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T19:19:56.537] [INFO] system - ログインページに移動完了
+[2021-04-30T19:19:59.756] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-04-30T19:19:59.759] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-04-30T19:19:59.769] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:454:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5
+[2021-04-30T19:23:40.286] [INFO] system - 【Windows版起動】
+[2021-04-30T19:23:40.287] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/anafes0503/","targetTicket":null,"targetName":"【KT Zepp Yokohama２部】前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 18:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:23:40.298] [INFO] system - 【テスト】
+[2021-04-30T19:23:40.303] [INFO] system - 2021-04-30 18:45:00にすでに到達
+[2021-04-30T19:23:40.313] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T19:23:40.778] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T19:23:43.486] [INFO] system - ログインページに移動完了
+[2021-04-30T19:23:43.501] [INFO] system - 混線なし
+[2021-04-30T19:23:48.770] [INFO] system - ログイン完了
+[2021-04-30T19:23:48.783] [INFO] system - 混線なし
+[2021-04-30T19:23:48.936] [INFO] system - 「【KT Zepp Yokohama２部】前方チケット整理番号券」の存在を確認(.table #ticket-403628)
+[2021-04-30T19:23:48.937] [INFO] system - 2021-04-30 19:00にすでに到達
+[2021-04-30T19:23:48.940] [INFO] system - 購入処理想定時間到達
+[2021-04-30T19:23:48.945] [INFO] system - <成績時間カウント開始>
+[2021-04-30T19:23:48.945] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-30T19:23:50.989] [INFO] system - 購入可能状態確認end
+[2021-04-30T19:23:51.990] [INFO] system - 枚数選択前に明示的に1秒待機
+[2021-04-30T19:23:51.991] [INFO] system - 枚数選択start(1回目)
+[2021-04-30T19:23:51.991] [INFO] system - 1枚目選択開始
+[2021-04-30T19:23:52.090] [INFO] system - 1枚目選択終了
+[2021-04-30T19:23:56.348] [INFO] system - 枚数選択end
+[2021-04-30T19:23:56.348] [INFO] system - 決済処理start(1回目)
+[2021-04-30T19:23:56.348] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-04-30T19:23:56.349] [INFO] system - 購入処理開始(有料)
+[2021-04-30T19:23:56.496] [INFO] system - 規約に同意クリック
+[2021-04-30T19:23:56.497] [INFO] system - 【テスト:決済ロジック】
+[2021-04-30T19:23:56.498] [INFO] system - テスト処理完了
+[2021-04-30T19:23:56.499] [INFO] system - <現在時刻：Fri Apr 30 2021 19:23:56 GMT+0900／成績：7.554秒>
+[2021-04-30T19:31:36.690] [INFO] system - 【Windows版起動】
+[2021-04-30T19:31:36.691] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/stainy0501nagoya/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:55","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 19:40","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:31:36.703] [INFO] system - 【テスト】
+[2021-04-30T19:31:36.707] [INFO] system - 2021-04-30 19:40:00までログイン処理待機中...
+[2021-04-30T19:32:03.001] [INFO] system - 【Windows版起動】
+[2021-04-30T19:32:03.002] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/stainy0501nagoya/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:55","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 19:40","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:32:03.013] [INFO] system - 【テスト】
+[2021-04-30T19:32:03.019] [INFO] system - 2021-04-30 19:40:00までログイン処理待機中...
+[2021-04-30T19:33:21.450] [INFO] system - 【Windows版起動】
+[2021-04-30T19:33:21.452] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/stainy0501nagoya/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:50","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 19:35","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:33:21.465] [INFO] system - 【テスト】
+[2021-04-30T19:33:21.470] [INFO] system - 2021-04-30 19:35:00までログイン処理待機中...
+[2021-04-30T19:33:29.051] [INFO] system - 【Windows版起動】
+[2021-04-30T19:33:29.052] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/stainy0501nagoya/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:50","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 19:35","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T19:33:29.065] [INFO] system - 【テスト】
+[2021-04-30T19:33:29.069] [INFO] system - 2021-04-30 19:35:00までログイン処理待機中...
+[2021-04-30T19:35:00.012] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T19:35:00.012] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T19:35:00.380] [ERROR] system - Error: Failed to launch the browser process!
+[31120:35320:0430/193500.276:ERROR:service_utils.cc(157)] --ignore-gpu-blacklist is deprecated and will be removed in 2020Q4, use --ignore-gpu-blocklist instead.
+[31120:30084:0430/193500.280:ERROR:service_utils.cc(157)] --ignore-gpu-blacklist is deprecated and will be removed in 2020Q4, use --ignore-gpu-blocklist instead.
+[31120:35320:0430/193500.292:ERROR:system_network_context_manager.cc(580)] Cannot use V8 Proxy resolver in single process mode.
+[31120:30812:0430/193500.312:ERROR:dxva_video_decode_accelerator_win.cc(1334)] DXVAVDA fatal error: Could not load mf.dll: �w�肳�ꂽ���W���[����������܂���B (0x7E)
+[31120:30084:0430/193500.314:ERROR:cache_util_win.cc(20)] Unable to move the cache: �A�N�Z�X�����ۂ���܂����B (0x5)
+[31120:30084:0430/193500.314:ERROR:cache_util.cc(140)] Unable to move cache folder C:\source\yt-scraping\func-lpkick\myUserDataDir\ShaderCache\GPUCache to C:\source\yt-scraping\func-lpkick\myUserDataDir\ShaderCache\old_GPUCache_000
+[31120:30084:0430/193500.314:ERROR:disk_cache.cc(184)] Unable to create cache
+[31120:30084:0430/193500.314:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[31120:30084:0430/193500.315:ERROR:cache_util_win.cc(20)] Unable to move the cache: �A�N�Z�X�����ۂ���܂����B (0x5)
+[31120:30084:0430/193500.315:ERROR:cache_util.cc(140)] Unable to move cache folder C:\source\yt-scraping\func-lpkick\myUserDataDir\GrShaderCache\GPUCache to C:\source\yt-scraping\func-lpkick\myUserDataDir\GrShaderCache\old_GPUCache_000
+[31120:30084:0430/193500.315:ERROR:disk_cache.cc(184)] Unable to create cache
+[31120:30084:0430/193500.315:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+    at onClose (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\BrowserRunner.js:193:20)
+    at ChildProcess.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\BrowserRunner.js:184:79)
+    at ChildProcess.emit (events.js:327:22)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)
+[2021-04-30T19:35:00.391] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:467:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5
+[2021-04-30T19:35:00.526] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T19:35:03.402] [INFO] system - ログインページに移動完了
+[2021-04-30T19:35:03.417] [INFO] system - 混線なし
+[2021-04-30T19:35:08.028] [INFO] system - ログイン完了
+[2021-04-30T19:35:08.037] [INFO] system - 混線なし
+[2021-04-30T19:35:08.050] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-403218)
+[2021-04-30T19:35:08.052] [INFO] system - 2021-04-30 19:50:00まで購入処理待機中...
+[2021-04-30T22:27:56.080] [INFO] system - 【Windows版起動】
+[2021-04-30T22:27:56.081] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/stainy0501nagoya/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-30 19:50","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 19:35","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T22:27:56.084] [INFO] system - 【テスト】
+[2021-04-30T22:27:56.088] [INFO] system - 2021-04-30 19:35:00にすでに到達
+[2021-04-30T22:27:56.091] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T22:27:56.730] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T22:27:58.826] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-04-30T22:27:58.871] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:467:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5
+[2021-04-30T22:28:10.204] [INFO] system - 【Windows版起動】
+[2021-04-30T22:28:10.205] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru_zepp0609/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"2","storeTypeId":"002","startTime":"2021-04-30 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-30 22:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-30T22:28:10.223] [INFO] system - 2021-04-30 22:45:00までログイン処理待機中...
+[2021-04-30T22:45:00.020] [INFO] system - ログイン処理想定時間到達
+[2021-04-30T22:45:00.293] [INFO] system - ブラウザ起動後準備完了
+[2021-04-30T22:45:02.910] [INFO] system - ログインページに移動完了
+[2021-04-30T22:45:02.928] [INFO] system - 混線なし
+[2021-04-30T22:45:08.166] [INFO] system - ログイン完了
+[2021-04-30T22:45:08.180] [INFO] system - 混線なし
+[2021-04-30T22:45:08.191] [INFO] system - 「前方チケット整理番号券」の存在を確認(.table #ticket-403832)
+[2021-04-30T22:45:08.193] [INFO] system - 2021-04-30 23:00:00まで購入処理待機中...
+[2021-04-30T23:00:00.014] [INFO] system - 購入処理想定時間到達
+[2021-04-30T23:00:00.016] [INFO] system - <成績時間カウント開始>
+[2021-04-30T23:00:00.017] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-30T23:00:07.108] [INFO] system - 購入可能状態確認end
+[2021-04-30T23:00:08.111] [INFO] system - 枚数選択前に明示的に1秒待機
+[2021-04-30T23:00:08.113] [INFO] system - 枚数選択start(1回目)
+[2021-04-30T23:00:08.115] [INFO] system - 1枚目選択開始
+[2021-04-30T23:00:08.186] [INFO] system - 1枚目選択終了
+[2021-04-30T23:00:12.230] [INFO] system - 混線のため58秒待機開始...
+[2021-04-30T23:01:12.774] [INFO] system - 混線解消(1回目に成功)
+[2021-04-30T23:01:12.776] [INFO] system - 枚数選択start(2回目)
+[2021-04-30T23:01:12.777] [INFO] system - 1枚目選択開始
+[2021-04-30T23:01:12.854] [INFO] system - 1枚目選択終了
+[2021-04-30T23:01:18.762] [INFO] system - 枚数選択end
+[2021-04-30T23:01:18.763] [INFO] system - 決済処理start(1回目)
+[2021-04-30T23:01:18.764] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-04-30T23:01:18.764] [INFO] system - 購入処理開始(有料)
+[2021-04-30T23:01:18.844] [INFO] system - 規約に同意クリック
+[2021-04-30T23:01:27.256] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:161:64)
+    at async C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:102:30
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:94:26)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:386:35)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5
+[2021-04-30T23:01:27.258] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:467:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5

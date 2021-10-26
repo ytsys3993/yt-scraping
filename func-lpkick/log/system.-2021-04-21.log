@@ -1,0 +1,220 @@
+[2021-04-21T15:26:02.004] [INFO] system - 【Windows版起動】
+[2021-04-21T15:26:02.005] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru0422/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-04-21 21:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-21 20:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-21T15:26:02.027] [INFO] system - 2021-04-21 20:45:00までログイン処理待機中...
+[2021-04-21T20:45:00.097] [INFO] system - ログイン処理想定時間到達
+[2021-04-21T20:45:00.546] [INFO] system - ブラウザ起動後準備完了
+[2021-04-21T20:45:03.468] [INFO] system - ログインページに移動完了
+[2021-04-21T20:45:08.967] [INFO] system - ログイン完了
+[2021-04-21T20:45:09.050] [INFO] system - 「１部前売チケット整理番号券,２部前売チケット整理番号券」の存在を確認(.table #ticket-399313,.table #ticket-399314)
+[2021-04-21T20:45:09.051] [INFO] system - 2021-04-21 21:00まで購入処理待機中...
+[2021-04-21T21:00:00.007] [INFO] system - 購入処理想定時間到達
+[2021-04-21T21:00:00.009] [INFO] system - <成績時間カウント開始>
+[2021-04-21T21:00:00.010] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-21T21:00:06.456] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-21T21:00:06.616] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:08.654] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-21T21:00:09.034] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:10.819] [INFO] system - 購入可能状態確認start(4回目)
+[2021-04-21T21:00:11.061] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:12.929] [INFO] system - 購入可能状態確認start(5回目)
+[2021-04-21T21:00:13.252] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:15.044] [INFO] system - 購入可能状態確認start(6回目)
+[2021-04-21T21:00:15.226] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:17.203] [INFO] system - 購入可能状態確認start(7回目)
+[2021-04-21T21:00:17.395] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:19.551] [INFO] system - 購入可能状態確認start(8回目)
+[2021-04-21T21:00:19.884] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:21.916] [INFO] system - 購入可能状態確認start(9回目)
+[2021-04-21T21:00:22.353] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:24.412] [INFO] system - 購入可能状態確認start(10回目)
+[2021-04-21T21:00:24.569] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:26.631] [INFO] system - 購入可能状態確認start(11回目)
+[2021-04-21T21:00:27.056] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:29.253] [INFO] system - 購入可能状態確認start(12回目)
+[2021-04-21T21:00:29.420] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:31.170] [INFO] system - 購入可能状態確認start(13回目)
+[2021-04-21T21:00:31.364] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:33.433] [INFO] system - 購入可能状態確認start(14回目)
+[2021-04-21T21:00:33.579] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:35.641] [INFO] system - 購入可能状態確認start(15回目)
+[2021-04-21T21:00:35.778] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:37.705] [INFO] system - 購入可能状態確認start(16回目)
+[2021-04-21T21:00:37.884] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:39.547] [INFO] system - 購入可能状態確認start(17回目)
+[2021-04-21T21:00:39.748] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:42.453] [INFO] system - 購入可能状態確認start(18回目)
+[2021-04-21T21:00:42.651] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:44.303] [INFO] system - 購入可能状態確認start(19回目)
+[2021-04-21T21:00:44.522] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:46.147] [INFO] system - 購入可能状態確認start(20回目)
+[2021-04-21T21:00:46.274] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:145:30)
+[2021-04-21T21:00:47.601] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-04-21T21:00:47.632] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:450:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5
+[2021-04-21T21:00:52.857] [INFO] system - 【Windows版起動】
+[2021-04-21T21:00:52.859] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru0422/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-04-21 21:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-21 20:45","notCheckOnly":true,"isClose":false,"isMobile":true}
+[2021-04-21T21:00:52.881] [INFO] system - 2021-04-21 20:45:00にすでに到達
+[2021-04-21T21:00:52.884] [INFO] system - ログイン処理想定時間到達
+[2021-04-21T21:00:53.479] [INFO] system - ブラウザ起動後準備完了
+[2021-04-21T21:00:55.838] [INFO] system - ログインページに移動完了
+[2021-04-21T21:01:47.762] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-04-21T21:01:47.798] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-04-21T21:01:47.801] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:450:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5

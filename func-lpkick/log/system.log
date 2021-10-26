@@ -1,0 +1,86 @@
+[2021-10-23T23:56:22.972] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"dabame8549@mi166.com","confPass":"6yjAWLhCxVT2","testUser":"sugachan.tectec@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru202110/","targetName":"【10/28(木)】１部前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","loginTime":"2021-10-09 16:45","startTime":"2021-10-09 17:00","isBrowse":true,"isTest":true,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":false,"isLogger":true,"advSec":-245,"isOrigin":true,"isOriginCancel":false,"jamTryCnt":10,"isProxy":false,"proxy":"45.130.126.194:8000","proxyUser":"Z3SpVY","proxyPass":"SqoYCw","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-10-23T23:56:22.976] [INFO] system - 【テスト】
+[2021-10-23T23:56:22.979] [INFO] system - 2021-10-09 16:45:00にすでに到達
+[2021-10-23T23:56:22.982] [INFO] system - ログイン処理想定時間到達
+[2021-10-23T23:56:23.820] [INFO] system - ブラウザ起動後準備完了
+[2021-10-23T23:56:27.988] [INFO] system - ログインページに移動完了
+[2021-10-23T23:56:30.573] [INFO] system - ログイン完了
+[2021-10-23T23:56:30.585] [INFO] system - 混線なし
+[2021-10-23T23:56:30.614] [INFO] system - 「【10/28(木)】１部前売チケット整理番号券」の存在を確認(.table #ticket-520664)
+[2021-10-23T23:56:33.386] [INFO] system - .table #ticket-520664ロック外し開始
+[2021-10-23T23:56:33.400] [INFO] system - 1セット選択終了
+[2021-10-23T23:56:33.403] [INFO] system - 2021-10-09 16:59にすでに到達
+[2021-10-23T23:56:33.416] [INFO] system - 前ページへ移動
+[2021-10-23T23:56:34.940] [INFO] system - 2021-10-09 16:59にすでに到達
+[2021-10-23T23:56:34.954] [INFO] system - 購入処理想定時間到達
+[2021-10-23T23:56:34.954] [INFO] system - <成績時間カウント開始>
+[2021-10-23T23:56:34.955] [INFO] system - 購入可能状態確認start(1回目)
+[2021-10-23T23:56:34.956] [INFO] system - 次ページへ移動
+[2021-10-23T23:56:36.309] [INFO] system - 購入可能状態確認end
+[2021-10-23T23:56:36.309] [INFO] system - 枚数選択start(1回目)
+[2021-10-23T23:56:36.309] [INFO] system - 購入クリック処理1回目
+[2021-10-23T23:56:36.313] [INFO] system - 購入クリック処理2回目
+[2021-10-23T23:56:36.318] [INFO] system - 購入クリック処理3回目
+[2021-10-23T23:56:36.320] [INFO] system - 購入クリック処理4回目
+[2021-10-23T23:56:36.324] [INFO] system - 購入クリック処理5回目
+[2021-10-23T23:56:36.326] [INFO] system - 購入クリック処理6回目
+[2021-10-23T23:56:36.328] [INFO] system - 購入クリック処理7回目
+[2021-10-23T23:56:36.331] [INFO] system - 購入クリック処理8回目
+[2021-10-23T23:56:36.333] [INFO] system - 購入クリック処理9回目
+[2021-10-23T23:56:36.335] [INFO] system - 購入クリック処理10回目
+[2021-10-23T23:56:36.337] [INFO] system - 購入クリック処理11回目
+[2021-10-23T23:56:36.341] [INFO] system - 購入クリック処理12回目
+[2021-10-23T23:56:36.343] [INFO] system - 購入クリック処理13回目
+[2021-10-23T23:56:36.346] [INFO] system - 購入クリック処理14回目
+[2021-10-23T23:56:36.349] [INFO] system - 購入クリック処理15回目
+[2021-10-23T23:56:36.350] [INFO] system - 購入クリック処理16回目
+[2021-10-23T23:56:36.352] [INFO] system - 購入クリック処理17回目
+[2021-10-23T23:56:36.354] [INFO] system - 購入クリック処理18回目
+[2021-10-23T23:56:36.357] [INFO] system - 購入クリック処理19回目
+[2021-10-23T23:56:36.359] [INFO] system - 購入クリック処理20回目
+[2021-10-23T23:56:36.361] [INFO] system - 購入クリック処理21回目
+[2021-10-23T23:56:36.363] [INFO] system - 購入クリック処理22回目
+[2021-10-23T23:56:36.365] [INFO] system - 購入クリック処理23回目
+[2021-10-23T23:56:36.367] [INFO] system - 購入クリック処理24回目
+[2021-10-23T23:56:36.369] [INFO] system - 購入クリック処理25回目
+[2021-10-23T23:56:36.371] [INFO] system - 購入クリック処理26回目
+[2021-10-23T23:56:36.373] [INFO] system - 購入クリック処理27回目
+[2021-10-23T23:56:36.375] [INFO] system - 購入クリック処理28回目
+[2021-10-23T23:56:36.377] [INFO] system - 購入クリック処理29回目
+[2021-10-23T23:56:36.379] [INFO] system - 購入クリック処理30回目
+[2021-10-23T23:56:36.381] [INFO] system - 購入クリック処理31回目
+[2021-10-23T23:56:36.383] [INFO] system - 購入クリック処理32回目
+[2021-10-23T23:56:36.385] [INFO] system - 購入クリック処理33回目
+[2021-10-23T23:56:36.388] [INFO] system - 購入クリック処理34回目
+[2021-10-23T23:56:36.390] [INFO] system - 購入クリック処理35回目
+[2021-10-23T23:56:36.393] [INFO] system - 購入クリック処理36回目
+[2021-10-23T23:56:36.395] [INFO] system - 購入クリック処理37回目
+[2021-10-23T23:56:36.397] [INFO] system - 購入クリック処理38回目
+[2021-10-23T23:56:36.399] [INFO] system - 購入クリック処理39回目
+[2021-10-23T23:56:36.401] [INFO] system - 購入クリック処理40回目
+[2021-10-23T23:56:36.403] [INFO] system - 購入クリック処理41回目
+[2021-10-23T23:56:36.405] [INFO] system - 購入クリック処理42回目
+[2021-10-23T23:56:36.408] [INFO] system - 購入クリック処理43回目
+[2021-10-23T23:56:36.411] [INFO] system - 購入クリック処理44回目
+[2021-10-23T23:56:36.412] [INFO] system - 購入クリック処理45回目
+[2021-10-23T23:56:36.414] [INFO] system - 購入クリック処理46回目
+[2021-10-23T23:56:36.416] [INFO] system - 購入クリック処理47回目
+[2021-10-23T23:56:36.421] [INFO] system - 購入クリック処理48回目
+[2021-10-23T23:56:36.426] [INFO] system - 購入クリック処理49回目
+[2021-10-23T23:56:37.227] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:902:11)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:519:11)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:115:5
+[2021-10-23T23:56:38.070] [INFO] system - 枚数選択end(1回目)
+[2021-10-23T23:56:38.082] [INFO] system - 決済処理ページ遷移済
+[2021-10-23T23:56:38.083] [INFO] system - 決済処理start(1回目)
+[2021-10-23T23:56:38.083] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-10-23T23:56:38.083] [INFO] system - 購入処理開始(無料)
+[2021-10-23T23:56:38.117] [INFO] system - 規約に同意クリック
+[2021-10-23T23:56:38.120] [INFO] system - テスト処理完了
+[2021-10-23T23:56:38.122] [INFO] system - <現在時刻：Sat Oct 23 2021 23:56:38 GMT+0900／成績：3.167秒>

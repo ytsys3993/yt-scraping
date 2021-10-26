@@ -1,0 +1,33 @@
+[2021-02-23T19:14:06.992] [INFO] system - 【Windows版起動】
+[2021-02-23T19:14:06.993] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0225/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-02-23 22:30","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-23T19:14:07.019] [INFO] system - 2021-02-23 22:15:00までログイン処理待機中...
+[2021-02-23T19:14:09.972] [INFO] system - send successful
+[2021-02-23T20:01:26.409] [INFO] system - 【Windows版起動】
+[2021-02-23T20:01:26.411] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0225/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-02-23 22:30","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-23T20:01:26.429] [INFO] system - 2021-02-23 22:15:00までログイン処理待機中...
+[2021-02-23T20:01:28.919] [INFO] system - send successful
+[2021-02-23T20:21:29.153] [INFO] system - 【Windows版起動】
+[2021-02-23T20:21:29.155] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0225/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-02-23 22:40","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-02-23T20:21:29.175] [INFO] system - 2021-02-23 22:25:00までログイン処理待機中...
+[2021-02-23T20:21:31.586] [INFO] system - send successful
+[2021-02-23T22:25:00.059] [INFO] system - ログイン処理想定時間到達
+[2021-02-23T22:25:00.365] [INFO] system - ブラウザ起動後準備完了
+[2021-02-23T22:25:03.371] [INFO] system - 混線なし
+[2021-02-23T22:25:03.372] [INFO] system - ログインページに移動完了
+[2021-02-23T22:25:05.598] [INFO] system - 混線なし
+[2021-02-23T22:25:07.006] [INFO] system - ログイン完了
+[2021-02-23T22:25:07.113] [INFO] system - 「１部前売チケット整理番号券,２部前売チケット整理番号券」の存在を確認(.table #ticket-362438,.table #ticket-362439)
+[2021-02-23T22:25:07.114] [INFO] system - 2021-02-23 22:40まで購入処理待機中...
+[2021-02-23T22:40:00.013] [INFO] system - 購入処理想定時間到達
+[2021-02-23T22:40:00.014] [INFO] system - <成績時間カウント開始>
+[2021-02-23T22:40:03.447] [INFO] system - 混線なし
+[2021-02-23T22:40:03.449] [INFO] system - 購入状態確認(1回目に成功)
+[2021-02-23T22:40:03.457] [INFO] system - 購入処理開始(確定前)
+[2021-02-23T22:40:14.524] [INFO] system - 混線なし
+[2021-02-23T22:40:14.526] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-02-23T22:40:14.527] [INFO] system - 購入処理開始(有料)
+[2021-02-23T22:40:14.892] [INFO] system - 規約に同意クリック
+[2021-02-23T22:40:15.051] [INFO] system - 混線なし
+[2021-02-23T22:40:21.104] [INFO] system - 購入処理完了(多分)
+[2021-02-23T22:40:21.105] [INFO] system - <現在時刻：Tue Feb 23 2021 22:40:21 GMT+0900／成績：21.091秒>
+[2021-02-23T22:40:24.074] [INFO] system - send successful

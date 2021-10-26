@@ -1,0 +1,98 @@
+[2021-06-08T22:26:12.884] [INFO] system - 【Windows版起動】
+[2021-06-08T22:26:12.885] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"mika2mi0321@ezweb.ne.jp","confPass":"mika2mi3","targetUrl":"https://t.livepocket.jp/e/wakkuru0610/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-06-08 23:30","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-06-08 23:15","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true}
+[2021-06-08T22:26:12.920] [INFO] system - 2021-06-08 23:15:00までログイン処理待機中...
+[2021-06-08T22:27:05.038] [INFO] system - 【Windows版起動】
+[2021-06-08T22:27:05.039] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru0610/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-06-08 23:30","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-06-08 23:15","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true}
+[2021-06-08T22:27:05.060] [INFO] system - 2021-06-08 23:15:00までログイン処理待機中...
+[2021-06-08T23:15:00.025] [INFO] system - ログイン処理想定時間到達
+[2021-06-08T23:15:00.694] [INFO] system - ブラウザ起動後準備完了
+[2021-06-08T23:15:01.992] [INFO] system - ログインページに移動完了
+[2021-06-08T23:15:02.001] [INFO] system - 混線なし
+[2021-06-08T23:15:04.036] [INFO] system - ログイン完了
+[2021-06-08T23:15:04.049] [INFO] system - 混線なし
+[2021-06-08T23:15:04.068] [INFO] system - 「１部前売チケット整理番号券,２部前売チケット整理番号券」の存在を確認(.table #ticket-430564,.table #ticket-430565)
+[2021-06-08T23:15:04.070] [INFO] system - 2021-06-08 23:30:00まで購入処理待機中...
+[2021-06-08T23:30:00.007] [INFO] system - 購入処理想定時間到達
+[2021-06-08T23:30:00.009] [INFO] system - <成績時間カウント開始>
+[2021-06-08T23:30:00.011] [INFO] system - 購入可能状態確認start(1回目)
+[2021-06-08T23:30:00.837] [ERROR] system - 購入可能状態確認NG
+[2021-06-08T23:30:00.839] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:383:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:119:5
+[2021-06-08T23:30:00.878] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:500:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:119:5
+[2021-06-08T23:30:09.903] [INFO] system - 【Windows版起動】
+[2021-06-08T23:30:09.904] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru0610/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-06-08 23:30","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-06-08 23:15","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true}
+[2021-06-08T23:30:09.909] [INFO] system - 2021-06-08 23:15:00にすでに到達
+[2021-06-08T23:30:09.911] [INFO] system - ログイン処理想定時間到達
+[2021-06-08T23:30:10.725] [INFO] system - ブラウザ起動後準備完了
+[2021-06-08T23:30:11.546] [INFO] system - ログインページに移動完了
+[2021-06-08T23:30:26.167] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-06-08T23:30:26.189] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:500:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:119:5
+[2021-06-08T23:30:29.223] [INFO] system - 【Windows版起動】
+[2021-06-08T23:30:29.225] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru0610/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-06-08 23:30","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-06-08 23:15","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true}
+[2021-06-08T23:30:29.243] [INFO] system - 2021-06-08 23:15:00にすでに到達
+[2021-06-08T23:30:29.246] [INFO] system - ログイン処理想定時間到達
+[2021-06-08T23:30:29.921] [INFO] system - ブラウザ起動後準備完了
+[2021-06-08T23:30:30.761] [INFO] system - ログインページに移動完了
+[2021-06-08T23:30:44.431] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-06-08T23:30:44.466] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:500:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:119:5
+[2021-06-08T23:30:46.254] [INFO] system - 【Windows版起動】
+[2021-06-08T23:30:46.255] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru0610/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-06-08 23:30","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-06-08 23:15","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true}
+[2021-06-08T23:30:46.274] [INFO] system - 2021-06-08 23:15:00にすでに到達
+[2021-06-08T23:30:46.276] [INFO] system - ログイン処理想定時間到達
+[2021-06-08T23:30:46.967] [INFO] system - ブラウザ起動後準備完了
+[2021-06-08T23:30:47.748] [INFO] system - ログインページに移動完了
+[2021-06-08T23:30:56.321] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-06-08T23:30:56.367] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:500:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:119:5
+[2021-06-08T23:30:58.788] [INFO] system - 【Windows版起動】
+[2021-06-08T23:30:58.790] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru0610/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","startTime":"2021-06-08 23:30","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-06-08 23:15","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true}
+[2021-06-08T23:30:58.809] [INFO] system - 2021-06-08 23:15:00にすでに到達
+[2021-06-08T23:30:58.811] [INFO] system - ログイン処理想定時間到達
+[2021-06-08T23:30:59.502] [INFO] system - ブラウザ起動後準備完了
+[2021-06-08T23:31:00.342] [INFO] system - ログインページに移動完了
+[2021-06-08T23:31:01.669] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-06-08T23:31:01.716] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:500:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:119:5

@@ -1,0 +1,316 @@
+[2021-01-12T21:44:04.799] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T21:44:04.801] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T21:44:08.513] [INFO] system - send successful
+[2021-01-12T21:44:10.610] [INFO] system - 混線なし
+[2021-01-12T21:44:10.611] [INFO] system - ログインページに移動完了
+[2021-01-12T21:44:13.129] [INFO] system - 混線なし
+[2021-01-12T21:44:14.948] [INFO] system - ログイン完了
+[2021-01-12T21:44:15.078] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-337518)
+[2021-01-12T21:44:15.080] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T21:44:15.083] [INFO] system - 購入処理想定時間到達
+[2021-01-12T21:44:15.084] [INFO] system - <成績時間カウント開始>
+[2021-01-12T21:44:17.778] [INFO] system - 混線なし
+[2021-01-12T21:44:20.512] [INFO] system - 混線なし
+[2021-01-12T21:44:23.241] [INFO] system - 混線なし
+[2021-01-12T21:44:23.245] [ERROR] system - 購入ページ確認NG
+[2021-01-12T21:44:23.245] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:199:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:44:23.254] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:233:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:45:30.735] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T21:45:30.737] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T21:45:33.780] [INFO] system - send successful
+[2021-01-12T21:45:34.388] [INFO] system - 混線なし
+[2021-01-12T21:45:34.391] [INFO] system - ログインページに移動完了
+[2021-01-12T21:45:36.932] [INFO] system - 混線なし
+[2021-01-12T21:45:39.497] [INFO] system - ログイン完了
+[2021-01-12T21:45:39.634] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-337518)
+[2021-01-12T21:45:39.636] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T21:45:39.637] [INFO] system - 購入処理想定時間到達
+[2021-01-12T21:45:39.642] [INFO] system - <成績時間カウント開始>
+[2021-01-12T21:45:42.589] [INFO] system - 混線なし
+[2021-01-12T21:45:45.226] [INFO] system - 混線なし
+[2021-01-12T21:45:47.751] [INFO] system - 混線なし
+[2021-01-12T21:45:47.754] [ERROR] system - 購入ページ確認NG
+[2021-01-12T21:45:47.755] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:199:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:45:47.767] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:233:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:47:00.772] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T21:47:00.777] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T21:47:03.344] [INFO] system - send successful
+[2021-01-12T21:47:04.837] [INFO] system - 混線なし
+[2021-01-12T21:47:04.838] [INFO] system - ログインページに移動完了
+[2021-01-12T21:47:07.090] [INFO] system - 混線なし
+[2021-01-12T21:47:09.546] [INFO] system - ログイン完了
+[2021-01-12T21:47:09.613] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-337518)
+[2021-01-12T21:47:09.614] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T21:47:09.615] [INFO] system - 購入処理想定時間到達
+[2021-01-12T21:47:09.615] [INFO] system - <成績時間カウント開始>
+[2021-01-12T21:47:13.046] [INFO] system - 混線なし
+[2021-01-12T21:47:16.129] [INFO] system - 混線なし
+[2021-01-12T21:47:18.971] [INFO] system - 混線なし
+[2021-01-12T21:47:18.975] [ERROR] system - 購入ページ確認NG
+[2021-01-12T21:47:18.976] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:199:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:47:18.985] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:233:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:50:27.377] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T21:50:27.379] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T21:50:30.727] [INFO] system - send successful
+[2021-01-12T21:50:31.196] [INFO] system - 混線なし
+[2021-01-12T21:50:31.197] [INFO] system - ログインページに移動完了
+[2021-01-12T21:50:34.047] [INFO] system - 混線なし
+[2021-01-12T21:50:36.359] [INFO] system - ログイン完了
+[2021-01-12T21:50:36.403] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-337518)
+[2021-01-12T21:50:36.405] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T21:50:36.409] [INFO] system - 購入処理想定時間到達
+[2021-01-12T21:50:36.410] [INFO] system - <成績時間カウント開始>
+[2021-01-12T21:50:39.604] [INFO] system - 混線なし
+[2021-01-12T21:50:39.608] [ERROR] system - ReferenceError: wasLoadBuyPage is not defined
+    at moveTargetPage (C:\sourse\scraping\func-lpkick\lpkick.js:331:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:196:28)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:50:39.862] [ERROR] system - 購入ページ確認NG
+[2021-01-12T21:50:39.863] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:199:13)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:50:39.865] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:233:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:54:13.327] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T21:54:13.331] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T21:54:15.963] [INFO] system - send successful
+[2021-01-12T21:54:17.026] [INFO] system - 混線なし
+[2021-01-12T21:54:17.027] [INFO] system - ログインページに移動完了
+[2021-01-12T21:54:20.023] [INFO] system - 混線なし
+[2021-01-12T21:54:22.033] [INFO] system - ログイン完了
+[2021-01-12T21:54:22.286] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-334767)
+[2021-01-12T21:54:22.288] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T21:54:22.296] [INFO] system - 購入処理想定時間到達
+[2021-01-12T21:54:22.297] [INFO] system - <成績時間カウント開始>
+[2021-01-12T21:54:25.789] [INFO] system - 混線なし
+[2021-01-12T21:54:25.792] [ERROR] system - ReferenceError: wasLoadBuyPage is not defined
+    at moveTargetPage (C:\sourse\scraping\func-lpkick\lpkick.js:331:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:196:28)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:54:26.031] [ERROR] system - 購入ページ確認NG
+[2021-01-12T21:54:26.032] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:199:13)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:54:26.034] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:233:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-12T21:55:12.175] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T21:55:12.182] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T21:55:15.133] [INFO] system - send successful
+[2021-01-12T21:55:15.968] [INFO] system - 混線なし
+[2021-01-12T21:55:15.970] [INFO] system - ログインページに移動完了
+[2021-01-12T21:55:18.899] [INFO] system - 混線なし
+[2021-01-12T21:55:20.674] [INFO] system - ログイン完了
+[2021-01-12T21:55:20.960] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-334767)
+[2021-01-12T21:55:20.961] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T21:55:20.962] [INFO] system - 購入処理想定時間到達
+[2021-01-12T21:55:20.966] [INFO] system - <成績時間カウント開始>
+[2021-01-12T21:55:23.374] [INFO] system - 混線なし
+[2021-01-12T21:55:23.377] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-12T21:55:23.385] [INFO] system - 購入処理開始(確定前)
+[2021-01-12T21:55:37.864] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T21:55:37.866] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T21:55:40.445] [INFO] system - send successful
+[2021-01-12T21:55:41.762] [INFO] system - 混線なし
+[2021-01-12T21:55:41.763] [INFO] system - ログインページに移動完了
+[2021-01-12T21:55:44.651] [INFO] system - 混線なし
+[2021-01-12T21:55:46.305] [INFO] system - ログイン完了
+[2021-01-12T21:55:46.584] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-334767)
+[2021-01-12T21:55:46.586] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T21:55:46.589] [INFO] system - 購入処理想定時間到達
+[2021-01-12T21:55:46.594] [INFO] system - <成績時間カウント開始>
+[2021-01-12T21:55:50.019] [INFO] system - 混線なし
+[2021-01-12T21:55:50.022] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-12T21:55:50.023] [INFO] system - 購入処理開始(確定前)
+[2021-01-12T21:57:54.306] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T21:57:54.309] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T21:57:57.197] [INFO] system - send successful
+[2021-01-12T21:57:59.078] [INFO] system - 混線なし
+[2021-01-12T21:57:59.080] [INFO] system - ログインページに移動完了
+[2021-01-12T21:58:01.376] [INFO] system - 混線なし
+[2021-01-12T21:58:03.779] [INFO] system - ログイン完了
+[2021-01-12T21:58:04.013] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-334767)
+[2021-01-12T21:58:04.015] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T21:58:04.019] [INFO] system - 購入処理想定時間到達
+[2021-01-12T21:58:04.022] [INFO] system - <成績時間カウント開始>
+[2021-01-12T21:58:07.430] [INFO] system - 混線なし
+[2021-01-12T21:58:07.433] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-12T21:58:07.435] [INFO] system - 購入処理開始(確定前)
+[2021-01-12T21:58:54.504] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T21:58:54.507] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T21:58:57.337] [INFO] system - send successful
+[2021-01-12T21:58:58.098] [INFO] system - 混線なし
+[2021-01-12T21:58:58.099] [INFO] system - ログインページに移動完了
+[2021-01-12T21:59:00.450] [INFO] system - 混線なし
+[2021-01-12T21:59:02.385] [INFO] system - ログイン完了
+[2021-01-12T21:59:02.693] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-334767)
+[2021-01-12T21:59:02.695] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T21:59:02.696] [INFO] system - 購入処理想定時間到達
+[2021-01-12T21:59:02.702] [INFO] system - <成績時間カウント開始>
+[2021-01-12T21:59:06.012] [INFO] system - 混線なし
+[2021-01-12T21:59:06.015] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-12T21:59:06.027] [INFO] system - 購入処理開始(確定前)
+[2021-01-12T21:59:07.642] [INFO] system - 混線なし
+[2021-01-12T21:59:07.643] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-12T21:59:07.644] [INFO] system - 購入処理開始(有料)
+[2021-01-12T21:59:07.764] [INFO] system - 【テスト:決済ロジック】
+[2021-01-12T21:59:07.765] [INFO] system - <成績：5.063秒>
+[2021-01-12T21:59:10.438] [INFO] system - send successful
+[2021-01-12T21:59:50.668] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T21:59:50.671] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T21:59:53.563] [INFO] system - send successful
+[2021-01-12T21:59:54.684] [INFO] system - 混線なし
+[2021-01-12T21:59:54.685] [INFO] system - ログインページに移動完了
+[2021-01-12T21:59:57.608] [INFO] system - 混線なし
+[2021-01-12T21:59:59.851] [INFO] system - ログイン完了
+[2021-01-12T22:00:00.097] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-334767)
+[2021-01-12T22:00:00.100] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T22:00:00.101] [INFO] system - 購入処理想定時間到達
+[2021-01-12T22:00:00.102] [INFO] system - <成績時間カウント開始>
+[2021-01-12T22:00:05.673] [INFO] system - 混線なし
+[2021-01-12T22:00:05.676] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-12T22:00:05.678] [INFO] system - 購入処理開始(確定前)
+[2021-01-12T22:00:36.850] [INFO] system - 2021-01-06 22:45:00にすでに到達
+[2021-01-12T22:00:36.853] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T22:00:39.804] [INFO] system - send successful
+[2021-01-12T22:00:40.737] [INFO] system - 混線なし
+[2021-01-12T22:00:40.738] [INFO] system - ログインページに移動完了
+[2021-01-12T22:00:43.239] [INFO] system - 混線なし
+[2021-01-12T22:00:45.058] [INFO] system - ログイン完了
+[2021-01-12T22:00:45.323] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-334767)
+[2021-01-12T22:00:45.324] [INFO] system - 2021-01-06 23:00にすでに到達
+[2021-01-12T22:00:45.326] [INFO] system - 購入処理想定時間到達
+[2021-01-12T22:00:45.332] [INFO] system - <成績時間カウント開始>
+[2021-01-12T22:00:48.385] [INFO] system - 混線なし
+[2021-01-12T22:00:48.389] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-12T22:00:48.391] [INFO] system - 購入処理開始(確定前)
+[2021-01-12T22:00:52.379] [INFO] system - 混線なし
+[2021-01-12T22:00:52.380] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-12T22:00:52.380] [INFO] system - 購入処理開始(有料)
+[2021-01-12T22:00:52.507] [INFO] system - 【テスト:決済ロジック】
+[2021-01-12T22:00:52.508] [INFO] system - <成績：7.176秒>
+[2021-01-12T22:00:55.713] [INFO] system - send successful
+[2021-01-12T22:14:02.006] [INFO] system - 2021-01-12 22:45:00までログイン処理待機中...
+[2021-01-12T22:16:00.674] [INFO] system - 2021-01-12 21:45:00にすでに到達
+[2021-01-12T22:16:00.676] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T22:16:03.231] [INFO] system - send successful
+[2021-01-12T22:16:04.551] [INFO] system - 混線なし
+[2021-01-12T22:16:04.551] [INFO] system - ログインページに移動完了
+[2021-01-12T22:16:07.140] [INFO] system - 混線なし
+[2021-01-12T22:16:09.171] [INFO] system - ログイン完了
+[2021-01-12T22:16:09.208] [INFO] system - 「１部前売チケット整理番号券」の存在を確認(.table #ticket-337598)
+[2021-01-12T22:16:09.212] [INFO] system - 2021-01-12 22:00にすでに到達
+[2021-01-12T22:16:09.215] [INFO] system - 購入処理想定時間到達
+[2021-01-12T22:16:09.216] [INFO] system - <成績時間カウント開始>
+[2021-01-12T22:16:12.159] [INFO] system - 混線なし
+[2021-01-12T22:16:15.054] [INFO] system - 混線なし
+[2021-01-12T22:16:26.510] [INFO] system - 2021-01-12 21:45:00にすでに到達
+[2021-01-12T22:16:26.512] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T22:16:29.478] [INFO] system - send successful
+[2021-01-12T22:16:30.391] [INFO] system - 混線なし
+[2021-01-12T22:16:30.393] [INFO] system - ログインページに移動完了
+[2021-01-12T22:16:33.770] [INFO] system - 混線なし
+[2021-01-12T22:16:35.974] [INFO] system - ログイン完了
+[2021-01-12T22:16:36.142] [INFO] system - 「２部前売チケット整理番号券」の存在を確認(.table #ticket-337599)
+[2021-01-12T22:16:36.143] [INFO] system - 2021-01-12 22:00にすでに到達
+[2021-01-12T22:16:36.148] [INFO] system - 購入処理想定時間到達
+[2021-01-12T22:16:36.150] [INFO] system - <成績時間カウント開始>
+[2021-01-12T22:52:30.214] [INFO] system - 2021-01-12 22:45:00にすでに到達
+[2021-01-12T22:52:30.220] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T22:52:32.838] [INFO] system - send successful
+[2021-01-12T22:52:34.090] [INFO] system - 混線なし
+[2021-01-12T22:52:34.091] [INFO] system - ログインページに移動完了
+[2021-01-12T22:52:36.552] [INFO] system - 混線なし
+[2021-01-12T22:52:37.960] [INFO] system - ログイン完了
+[2021-01-12T22:52:38.157] [INFO] system - 「２部前売チケット整理番号券」の存在を確認(.table #ticket-337599)
+[2021-01-12T22:52:38.159] [INFO] system - 2021-01-12 23:00まで購入処理待機中...
+[2021-01-12T22:55:30.773] [INFO] system - 2021-01-12 22:45:00にすでに到達
+[2021-01-12T22:55:30.777] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T22:55:33.143] [INFO] system - send successful
+[2021-01-12T22:55:34.588] [INFO] system - 混線なし
+[2021-01-12T22:55:34.590] [INFO] system - ログインページに移動完了
+[2021-01-12T22:55:36.816] [INFO] system - 混線なし
+[2021-01-12T22:55:38.300] [INFO] system - ログイン完了
+[2021-01-12T22:55:38.333] [INFO] system - 「２部前売チケット整理番号券」の存在を確認(.table #ticket-337599)
+[2021-01-12T22:55:38.338] [INFO] system - 2021-01-12 23:00まで購入処理待機中...
+[2021-01-12T22:55:58.438] [INFO] system - 2021-01-12 22:45:00にすでに到達
+[2021-01-12T22:55:58.441] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T22:56:01.363] [INFO] system - send successful
+[2021-01-12T22:56:02.131] [INFO] system - 混線なし
+[2021-01-12T22:56:02.133] [INFO] system - ログインページに移動完了
+[2021-01-12T22:56:04.556] [INFO] system - 混線なし
+[2021-01-12T22:56:06.273] [INFO] system - ログイン完了
+[2021-01-12T22:56:06.424] [INFO] system - 「１部前売チケット整理番号券」の存在を確認(.table #ticket-337598)
+[2021-01-12T22:56:06.426] [INFO] system - 2021-01-12 23:00まで購入処理待機中...
+[2021-01-12T23:00:00.004] [INFO] system - 購入処理想定時間到達
+[2021-01-12T23:00:00.005] [INFO] system - 購入処理想定時間到達
+[2021-01-12T23:00:00.005] [INFO] system - <成績時間カウント開始>
+[2021-01-12T23:00:00.006] [INFO] system - <成績時間カウント開始>
+[2021-01-12T23:00:07.365] [INFO] system - 混線なし
+[2021-01-12T23:00:07.367] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-12T23:00:07.368] [INFO] system - 購入処理開始(確定前)
+[2021-01-12T23:00:08.022] [INFO] system - 混線なし
+[2021-01-12T23:00:08.025] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-12T23:00:08.027] [INFO] system - 購入処理開始(確定前)
+[2021-01-12T23:00:19.016] [INFO] system - 混線なし
+[2021-01-12T23:00:19.017] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-01-12T23:00:19.017] [INFO] system - 購入処理開始(無料)
+[2021-01-12T23:00:19.060] [INFO] system - 混線なし
+[2021-01-12T23:00:19.081] [INFO] system - 購入処理完了(多分)
+[2021-01-12T23:00:19.082] [INFO] system - <成績：19.076秒>
+[2021-01-12T23:00:23.806] [INFO] system - send successful
+[2021-01-12T23:04:14.792] [INFO] system - 2021-01-12 22:45:00にすでに到達
+[2021-01-12T23:04:14.796] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T23:04:17.370] [INFO] system - send successful
+[2021-01-12T23:04:18.455] [INFO] system - 混線なし
+[2021-01-12T23:04:18.456] [INFO] system - ログインページに移動完了
+[2021-01-12T23:04:26.393] [INFO] system - 2021-01-12 22:45:00にすでに到達
+[2021-01-12T23:04:26.396] [INFO] system - ログイン処理想定時間到達
+[2021-01-12T23:04:29.327] [INFO] system - send successful
+[2021-01-12T23:04:29.977] [INFO] system - 混線なし
+[2021-01-12T23:04:29.979] [INFO] system - ログインページに移動完了
+[2021-01-12T23:04:32.288] [INFO] system - 混線なし
+[2021-01-12T23:04:34.037] [INFO] system - ログイン完了
+[2021-01-12T23:04:34.241] [INFO] system - 「２部前売チケット整理番号券」の存在を確認(.table #ticket-337599)
+[2021-01-12T23:04:34.243] [INFO] system - 2021-01-12 23:00にすでに到達
+[2021-01-12T23:04:34.245] [INFO] system - 購入処理想定時間到達
+[2021-01-12T23:04:34.246] [INFO] system - <成績時間カウント開始>
+[2021-01-12T23:04:37.026] [INFO] system - 混線なし
+[2021-01-12T23:04:37.029] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-12T23:04:37.035] [INFO] system - 購入処理開始(確定前)
+[2021-01-12T23:04:38.420] [INFO] system - 混線なし
+[2021-01-12T23:04:38.421] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-12T23:04:38.421] [INFO] system - 購入処理開始(有料)
+[2021-01-12T23:04:38.691] [INFO] system - 混線なし
+[2021-01-12T23:04:44.342] [INFO] system - 購入処理完了(多分)
+[2021-01-12T23:04:44.343] [INFO] system - <成績：10.097秒>
+[2021-01-12T23:04:47.653] [INFO] system - send successful

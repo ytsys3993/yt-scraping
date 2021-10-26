@@ -1,0 +1,892 @@
+[2021-08-05T17:29:47.389] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/osaka0803/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":true,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T17:29:47.419] [INFO] system - 【本番】
+[2021-08-05T17:29:47.425] [INFO] system - 2021-08-05 21:45:00までログイン処理待機中...
+[2021-08-05T21:45:00.025] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T21:45:00.722] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T21:45:01.082] [ERROR] system - Error: net::ERR_NETWORK_ACCESS_DENIED at https://t.livepocket.jp/e/osaka0803/
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:115:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:90:21)
+    at async Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:16)
+    at async Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:16)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:350:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T21:45:01.085] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:618:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T21:51:51.617] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":true,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T21:51:51.630] [INFO] system - 【本番】
+[2021-08-05T21:51:51.636] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T21:51:51.639] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T21:51:52.369] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T21:51:54.025] [INFO] system - ログインページに移動完了
+[2021-08-05T21:51:54.046] [INFO] system - 混線なし
+[2021-08-05T21:51:56.623] [INFO] system - ログイン完了
+[2021-08-05T21:51:56.636] [INFO] system - 混線なし
+[2021-08-05T21:51:56.688] [INFO] system - 「１部通常チケット整理番号券,２部通常チケット整理番号券」の存在を確認(.table #ticket-470385,.table #ticket-470387)
+[2021-08-05T21:51:59.339] [INFO] system - .table #ticket-470385ロック外し開始
+[2021-08-05T21:51:59.341] [INFO] system - .table #ticket-470387ロック外し開始
+[2021-08-05T21:51:59.357] [INFO] system - 2セット選択終了
+[2021-08-05T21:51:59.366] [INFO] system - 2021-08-05 21:59:29までページバック待機中...
+[2021-08-05T21:52:26.027] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":true,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T21:52:26.070] [INFO] system - 【本番】
+[2021-08-05T21:52:26.075] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T21:52:26.262] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T21:52:27.015] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T21:52:28.396] [INFO] system - ログインページに移動完了
+[2021-08-05T21:52:28.415] [INFO] system - 混線なし
+[2021-08-05T21:52:30.926] [INFO] system - ログイン完了
+[2021-08-05T21:52:30.941] [INFO] system - 混線なし
+[2021-08-05T21:52:30.993] [INFO] system - 「１部通常チケット整理番号券,２部通常チケット整理番号券」の存在を確認(.table #ticket-470385,.table #ticket-470387)
+[2021-08-05T21:52:33.746] [INFO] system - .table #ticket-470385ロック外し開始
+[2021-08-05T21:52:33.748] [INFO] system - .table #ticket-470387ロック外し開始
+[2021-08-05T21:52:33.766] [INFO] system - 2セット選択終了
+[2021-08-05T21:52:33.773] [INFO] system - 2021-08-05 21:59:29までページバック待機中...
+[2021-08-05T21:59:29.842] [INFO] system - 前ページへ移動
+[2021-08-05T21:59:31.979] [INFO] system - 2021-08-05 21:59:59まで購入処理待機中...
+[2021-08-05T21:59:59.825] [INFO] system - 購入処理想定時間到達
+[2021-08-05T21:59:59.827] [INFO] system - <成績時間カウント開始>
+[2021-08-05T21:59:59.828] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-05T21:59:59.838] [INFO] system - 次ページへ移動
+[2021-08-05T22:00:18.654] [INFO] system - 購入可能状態確認end
+[2021-08-05T22:00:18.656] [INFO] system - 枚数選択start(1回目)
+[2021-08-05T22:00:18.657] [INFO] system - 購入クリック処理1回目
+[2021-08-05T22:00:18.667] [INFO] system - 購入クリック処理2回目
+[2021-08-05T22:00:18.670] [INFO] system - 購入クリック処理3回目
+[2021-08-05T22:00:18.672] [INFO] system - 購入クリック処理4回目
+[2021-08-05T22:00:18.673] [INFO] system - 購入クリック処理5回目
+[2021-08-05T22:00:18.674] [INFO] system - 購入クリック処理6回目
+[2021-08-05T22:00:18.675] [INFO] system - 購入クリック処理7回目
+[2021-08-05T22:00:18.676] [INFO] system - 購入クリック処理8回目
+[2021-08-05T22:00:18.682] [INFO] system - 購入クリック処理9回目
+[2021-08-05T22:00:18.683] [INFO] system - 購入クリック処理10回目
+[2021-08-05T22:00:18.684] [INFO] system - 購入クリック処理11回目
+[2021-08-05T22:00:18.685] [INFO] system - 購入クリック処理12回目
+[2021-08-05T22:00:18.686] [INFO] system - 購入クリック処理13回目
+[2021-08-05T22:00:18.686] [INFO] system - 購入クリック処理14回目
+[2021-08-05T22:00:18.687] [INFO] system - 購入クリック処理15回目
+[2021-08-05T22:00:18.688] [INFO] system - 購入クリック処理16回目
+[2021-08-05T22:00:18.689] [INFO] system - 購入クリック処理17回目
+[2021-08-05T22:00:18.689] [INFO] system - 購入クリック処理18回目
+[2021-08-05T22:00:18.690] [INFO] system - 購入クリック処理19回目
+[2021-08-05T22:00:18.691] [INFO] system - 購入クリック処理20回目
+[2021-08-05T22:00:18.692] [INFO] system - 購入クリック処理21回目
+[2021-08-05T22:00:18.692] [INFO] system - 購入クリック処理22回目
+[2021-08-05T22:00:18.699] [INFO] system - 購入クリック処理23回目
+[2021-08-05T22:00:18.700] [INFO] system - 購入クリック処理24回目
+[2021-08-05T22:00:18.700] [INFO] system - 購入クリック処理25回目
+[2021-08-05T22:00:18.701] [INFO] system - 購入クリック処理26回目
+[2021-08-05T22:00:18.702] [INFO] system - 購入クリック処理27回目
+[2021-08-05T22:00:18.703] [INFO] system - 購入クリック処理28回目
+[2021-08-05T22:00:18.704] [INFO] system - 購入クリック処理29回目
+[2021-08-05T22:00:18.705] [INFO] system - 購入クリック処理30回目
+[2021-08-05T22:00:18.706] [INFO] system - 購入クリック処理31回目
+[2021-08-05T22:00:18.707] [INFO] system - 購入クリック処理32回目
+[2021-08-05T22:00:18.707] [INFO] system - 購入クリック処理33回目
+[2021-08-05T22:00:18.709] [INFO] system - 購入クリック処理34回目
+[2021-08-05T22:00:18.710] [INFO] system - 購入クリック処理35回目
+[2021-08-05T22:00:18.711] [INFO] system - 購入クリック処理36回目
+[2021-08-05T22:00:18.712] [INFO] system - 購入クリック処理37回目
+[2021-08-05T22:00:18.712] [INFO] system - 購入クリック処理38回目
+[2021-08-05T22:00:18.713] [INFO] system - 購入クリック処理39回目
+[2021-08-05T22:00:18.714] [INFO] system - 購入クリック処理40回目
+[2021-08-05T22:00:18.715] [INFO] system - 購入クリック処理41回目
+[2021-08-05T22:00:18.715] [INFO] system - 購入クリック処理42回目
+[2021-08-05T22:00:18.716] [INFO] system - 購入クリック処理43回目
+[2021-08-05T22:00:18.717] [INFO] system - 購入クリック処理44回目
+[2021-08-05T22:00:18.718] [INFO] system - 購入クリック処理45回目
+[2021-08-05T22:00:18.718] [INFO] system - 購入クリック処理46回目
+[2021-08-05T22:00:18.719] [INFO] system - 購入クリック処理47回目
+[2021-08-05T22:00:18.719] [INFO] system - 購入クリック処理48回目
+[2021-08-05T22:00:18.720] [INFO] system - 購入クリック処理49回目
+[2021-08-05T22:00:18.721] [INFO] system - 購入クリック処理50回目
+[2021-08-05T22:00:18.722] [INFO] system - 購入クリック処理51回目
+[2021-08-05T22:00:18.722] [INFO] system - 購入クリック処理52回目
+[2021-08-05T22:00:18.724] [INFO] system - 購入クリック処理53回目
+[2021-08-05T22:00:18.725] [INFO] system - 購入クリック処理54回目
+[2021-08-05T22:00:18.726] [INFO] system - 購入クリック処理55回目
+[2021-08-05T22:00:18.727] [INFO] system - 購入クリック処理56回目
+[2021-08-05T22:00:18.728] [INFO] system - 購入クリック処理57回目
+[2021-08-05T22:00:18.729] [INFO] system - 購入クリック処理58回目
+[2021-08-05T22:00:18.729] [INFO] system - 購入クリック処理59回目
+[2021-08-05T22:00:18.730] [INFO] system - 購入クリック処理60回目
+[2021-08-05T22:00:18.731] [INFO] system - 購入クリック処理61回目
+[2021-08-05T22:00:18.732] [INFO] system - 購入クリック処理62回目
+[2021-08-05T22:00:18.732] [INFO] system - 購入クリック処理63回目
+[2021-08-05T22:00:18.733] [INFO] system - 購入クリック処理64回目
+[2021-08-05T22:00:18.734] [INFO] system - 購入クリック処理65回目
+[2021-08-05T22:00:18.735] [INFO] system - 購入クリック処理66回目
+[2021-08-05T22:00:18.735] [INFO] system - 購入クリック処理67回目
+[2021-08-05T22:00:18.736] [INFO] system - 購入クリック処理68回目
+[2021-08-05T22:00:18.737] [INFO] system - 購入クリック処理69回目
+[2021-08-05T22:00:18.737] [INFO] system - 購入クリック処理70回目
+[2021-08-05T22:00:18.738] [INFO] system - 購入クリック処理71回目
+[2021-08-05T22:00:18.739] [INFO] system - 購入クリック処理72回目
+[2021-08-05T22:00:18.739] [INFO] system - 購入クリック処理73回目
+[2021-08-05T22:00:18.740] [INFO] system - 購入クリック処理74回目
+[2021-08-05T22:00:18.741] [INFO] system - 購入クリック処理75回目
+[2021-08-05T22:00:18.742] [INFO] system - 購入クリック処理76回目
+[2021-08-05T22:00:18.742] [INFO] system - 購入クリック処理77回目
+[2021-08-05T22:00:18.744] [INFO] system - 購入クリック処理78回目
+[2021-08-05T22:00:18.745] [INFO] system - 購入クリック処理79回目
+[2021-08-05T22:00:18.746] [INFO] system - 購入クリック処理80回目
+[2021-08-05T22:00:18.747] [INFO] system - 購入クリック処理81回目
+[2021-08-05T22:00:18.748] [INFO] system - 購入クリック処理82回目
+[2021-08-05T22:00:18.749] [INFO] system - 購入クリック処理83回目
+[2021-08-05T22:00:18.749] [INFO] system - 購入クリック処理84回目
+[2021-08-05T22:00:18.750] [INFO] system - 購入クリック処理85回目
+[2021-08-05T22:00:18.751] [INFO] system - 購入クリック処理86回目
+[2021-08-05T22:00:18.751] [INFO] system - 購入クリック処理87回目
+[2021-08-05T22:00:18.752] [INFO] system - 購入クリック処理88回目
+[2021-08-05T22:00:18.753] [INFO] system - 購入クリック処理89回目
+[2021-08-05T22:00:18.753] [INFO] system - 購入クリック処理90回目
+[2021-08-05T22:00:18.754] [INFO] system - 購入クリック処理91回目
+[2021-08-05T22:00:18.755] [INFO] system - 購入クリック処理92回目
+[2021-08-05T22:00:18.755] [INFO] system - 購入クリック処理93回目
+[2021-08-05T22:00:18.756] [INFO] system - 購入クリック処理94回目
+[2021-08-05T22:00:18.757] [INFO] system - 購入クリック処理95回目
+[2021-08-05T22:00:18.757] [INFO] system - 購入クリック処理96回目
+[2021-08-05T22:00:18.758] [INFO] system - 購入クリック処理97回目
+[2021-08-05T22:00:18.759] [INFO] system - 購入クリック処理98回目
+[2021-08-05T22:00:18.759] [INFO] system - 購入クリック処理99回目
+[2021-08-05T22:00:18.762] [INFO] system - 購入クリック処理100回目
+[2021-08-05T22:00:18.763] [INFO] system - 購入クリック処理101回目
+[2021-08-05T22:00:18.763] [INFO] system - 購入クリック処理102回目
+[2021-08-05T22:00:18.764] [INFO] system - 購入クリック処理103回目
+[2021-08-05T22:00:18.765] [INFO] system - 購入クリック処理104回目
+[2021-08-05T22:00:18.766] [INFO] system - 購入クリック処理105回目
+[2021-08-05T22:00:18.767] [INFO] system - 購入クリック処理106回目
+[2021-08-05T22:00:18.768] [INFO] system - 購入クリック処理107回目
+[2021-08-05T22:00:18.768] [INFO] system - 購入クリック処理108回目
+[2021-08-05T22:00:18.769] [INFO] system - 購入クリック処理109回目
+[2021-08-05T22:00:18.770] [INFO] system - 購入クリック処理110回目
+[2021-08-05T22:00:18.770] [INFO] system - 購入クリック処理111回目
+[2021-08-05T22:00:18.771] [INFO] system - 購入クリック処理112回目
+[2021-08-05T22:00:18.772] [INFO] system - 購入クリック処理113回目
+[2021-08-05T22:00:18.772] [INFO] system - 購入クリック処理114回目
+[2021-08-05T22:00:18.773] [INFO] system - 購入クリック処理115回目
+[2021-08-05T22:00:18.773] [INFO] system - 購入クリック処理116回目
+[2021-08-05T22:00:18.774] [INFO] system - 購入クリック処理117回目
+[2021-08-05T22:00:18.775] [INFO] system - 購入クリック処理118回目
+[2021-08-05T22:00:18.776] [INFO] system - 購入クリック処理119回目
+[2021-08-05T22:00:18.776] [INFO] system - 購入クリック処理120回目
+[2021-08-05T22:00:18.777] [INFO] system - 購入クリック処理121回目
+[2021-08-05T22:00:18.778] [INFO] system - 購入クリック処理122回目
+[2021-08-05T22:00:18.778] [INFO] system - 購入クリック処理123回目
+[2021-08-05T22:00:18.779] [INFO] system - 購入クリック処理124回目
+[2021-08-05T22:00:18.780] [INFO] system - 購入クリック処理125回目
+[2021-08-05T22:00:18.780] [INFO] system - 購入クリック処理126回目
+[2021-08-05T22:00:18.781] [INFO] system - 購入クリック処理127回目
+[2021-08-05T22:00:18.782] [INFO] system - 購入クリック処理128回目
+[2021-08-05T22:00:18.782] [INFO] system - 購入クリック処理129回目
+[2021-08-05T22:00:18.783] [INFO] system - 購入クリック処理130回目
+[2021-08-05T22:00:18.784] [INFO] system - 購入クリック処理131回目
+[2021-08-05T22:00:18.785] [INFO] system - 購入クリック処理132回目
+[2021-08-05T22:00:18.786] [INFO] system - 購入クリック処理133回目
+[2021-08-05T22:00:18.787] [INFO] system - 購入クリック処理134回目
+[2021-08-05T22:00:18.788] [INFO] system - 購入クリック処理135回目
+[2021-08-05T22:00:18.789] [INFO] system - 購入クリック処理136回目
+[2021-08-05T22:00:18.789] [INFO] system - 購入クリック処理137回目
+[2021-08-05T22:00:18.790] [INFO] system - 購入クリック処理138回目
+[2021-08-05T22:00:18.791] [INFO] system - 購入クリック処理139回目
+[2021-08-05T22:00:18.791] [INFO] system - 購入クリック処理140回目
+[2021-08-05T22:00:18.792] [INFO] system - 購入クリック処理141回目
+[2021-08-05T22:00:18.793] [INFO] system - 購入クリック処理142回目
+[2021-08-05T22:00:18.794] [INFO] system - 購入クリック処理143回目
+[2021-08-05T22:00:18.795] [INFO] system - 購入クリック処理144回目
+[2021-08-05T22:00:18.795] [INFO] system - 購入クリック処理145回目
+[2021-08-05T22:00:18.797] [INFO] system - 購入クリック処理146回目
+[2021-08-05T22:00:18.797] [INFO] system - 購入クリック処理147回目
+[2021-08-05T22:00:18.798] [INFO] system - 購入クリック処理148回目
+[2021-08-05T22:00:18.799] [INFO] system - 購入クリック処理149回目
+[2021-08-05T22:00:18.800] [INFO] system - 購入クリック処理150回目
+[2021-08-05T22:00:18.800] [INFO] system - 購入クリック処理151回目
+[2021-08-05T22:00:18.801] [INFO] system - 購入クリック処理152回目
+[2021-08-05T22:00:18.801] [INFO] system - 購入クリック処理153回目
+[2021-08-05T22:00:18.802] [INFO] system - 購入クリック処理154回目
+[2021-08-05T22:00:18.803] [INFO] system - 購入クリック処理155回目
+[2021-08-05T22:00:18.804] [INFO] system - 購入クリック処理156回目
+[2021-08-05T22:00:18.804] [INFO] system - 購入クリック処理157回目
+[2021-08-05T22:00:18.805] [INFO] system - 購入クリック処理158回目
+[2021-08-05T22:00:18.806] [INFO] system - 購入クリック処理159回目
+[2021-08-05T22:00:18.806] [INFO] system - 購入クリック処理160回目
+[2021-08-05T22:00:18.807] [INFO] system - 購入クリック処理161回目
+[2021-08-05T22:00:18.808] [INFO] system - 購入クリック処理162回目
+[2021-08-05T22:00:18.808] [INFO] system - 購入クリック処理163回目
+[2021-08-05T22:00:18.809] [INFO] system - 購入クリック処理164回目
+[2021-08-05T22:00:18.809] [INFO] system - 購入クリック処理165回目
+[2021-08-05T22:00:18.811] [INFO] system - 購入クリック処理166回目
+[2021-08-05T22:00:18.812] [INFO] system - 購入クリック処理167回目
+[2021-08-05T22:00:18.813] [INFO] system - 購入クリック処理168回目
+[2021-08-05T22:00:18.813] [INFO] system - 購入クリック処理169回目
+[2021-08-05T22:00:18.814] [INFO] system - 購入クリック処理170回目
+[2021-08-05T22:00:18.815] [INFO] system - 購入クリック処理171回目
+[2021-08-05T22:00:18.816] [INFO] system - 購入クリック処理172回目
+[2021-08-05T22:00:18.816] [INFO] system - 購入クリック処理173回目
+[2021-08-05T22:00:18.817] [INFO] system - 購入クリック処理174回目
+[2021-08-05T22:00:18.817] [INFO] system - 購入クリック処理175回目
+[2021-08-05T22:00:18.818] [INFO] system - 購入クリック処理176回目
+[2021-08-05T22:00:18.819] [INFO] system - 購入クリック処理177回目
+[2021-08-05T22:00:18.819] [INFO] system - 購入クリック処理178回目
+[2021-08-05T22:00:18.820] [INFO] system - 購入クリック処理179回目
+[2021-08-05T22:00:18.821] [INFO] system - 購入クリック処理180回目
+[2021-08-05T22:00:18.822] [INFO] system - 購入クリック処理181回目
+[2021-08-05T22:00:18.823] [INFO] system - 購入クリック処理182回目
+[2021-08-05T22:00:18.823] [INFO] system - 購入クリック処理183回目
+[2021-08-05T22:00:18.824] [INFO] system - 購入クリック処理184回目
+[2021-08-05T22:00:18.825] [INFO] system - 購入クリック処理185回目
+[2021-08-05T22:00:18.826] [INFO] system - 購入クリック処理186回目
+[2021-08-05T22:00:18.827] [INFO] system - 購入クリック処理187回目
+[2021-08-05T22:00:18.828] [INFO] system - 購入クリック処理188回目
+[2021-08-05T22:00:18.829] [INFO] system - 購入クリック処理189回目
+[2021-08-05T22:00:18.829] [INFO] system - 購入クリック処理190回目
+[2021-08-05T22:00:18.830] [INFO] system - 購入クリック処理191回目
+[2021-08-05T22:00:18.831] [INFO] system - 購入クリック処理192回目
+[2021-08-05T22:00:18.832] [INFO] system - 購入クリック処理193回目
+[2021-08-05T22:00:18.832] [INFO] system - 購入クリック処理194回目
+[2021-08-05T22:00:18.833] [INFO] system - 購入クリック処理195回目
+[2021-08-05T22:00:18.834] [INFO] system - 購入クリック処理196回目
+[2021-08-05T22:00:18.834] [INFO] system - 購入クリック処理197回目
+[2021-08-05T22:00:18.835] [INFO] system - 購入クリック処理198回目
+[2021-08-05T22:00:18.835] [INFO] system - 購入クリック処理199回目
+[2021-08-05T22:00:18.838] [INFO] system - 購入クリック処理200回目
+[2021-08-05T22:00:18.839] [INFO] system - 枚数選択後購入クリックに失敗
+[2021-08-05T22:00:18.839] [INFO] system - 枚数選択end(1回目)
+[2021-08-05T22:04:44.317] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:04:44.331] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:618:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T22:05:24.533] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":true,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:05:24.544] [INFO] system - 【本番】
+[2021-08-05T22:05:24.548] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:05:24.551] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:05:25.293] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:05:26.687] [INFO] system - ログインページに移動完了
+[2021-08-05T22:05:26.701] [INFO] system - 混線なし
+[2021-08-05T22:05:29.029] [INFO] system - ログイン完了
+[2021-08-05T22:05:29.039] [INFO] system - 混線なし
+[2021-08-05T22:05:29.058] [INFO] system - 「１部通常チケット整理番号券,２部通常チケット整理番号券」の存在を確認(.table #ticket-470385,.table #ticket-470387)
+[2021-08-05T22:05:31.597] [INFO] system - .table #ticket-470385ロック外し開始
+[2021-08-05T22:05:31.599] [INFO] system - .table #ticket-470387ロック外し開始
+[2021-08-05T22:05:31.606] [INFO] system - 2セット選択終了
+[2021-08-05T22:05:31.613] [INFO] system - 2021-08-05 21:59にすでに到達
+[2021-08-05T22:05:31.615] [INFO] system - 前ページへ移動
+[2021-08-05T22:05:32.626] [INFO] system - 2021-08-05 21:59にすでに到達
+[2021-08-05T22:05:32.639] [INFO] system - 購入処理想定時間到達
+[2021-08-05T22:05:32.640] [INFO] system - <成績時間カウント開始>
+[2021-08-05T22:05:32.641] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-05T22:05:32.642] [INFO] system - 次ページへ移動
+[2021-08-05T22:05:33.881] [INFO] system - 購入可能状態確認end
+[2021-08-05T22:05:33.882] [INFO] system - 枚数選択start(1回目)
+[2021-08-05T22:05:33.883] [INFO] system - 購入クリック処理1回目
+[2021-08-05T22:05:33.885] [INFO] system - 購入クリック処理2回目
+[2021-08-05T22:05:33.893] [INFO] system - 購入クリック処理3回目
+[2021-08-05T22:05:33.894] [INFO] system - 購入クリック処理4回目
+[2021-08-05T22:05:33.897] [INFO] system - 購入クリック処理5回目
+[2021-08-05T22:05:33.905] [INFO] system - 購入クリック処理6回目
+[2021-08-05T22:05:33.906] [INFO] system - 購入クリック処理7回目
+[2021-08-05T22:05:33.909] [INFO] system - 購入クリック処理8回目
+[2021-08-05T22:05:33.910] [INFO] system - 購入クリック処理9回目
+[2021-08-05T22:05:33.911] [INFO] system - 購入クリック処理10回目
+[2021-08-05T22:05:33.912] [INFO] system - 購入クリック処理11回目
+[2021-08-05T22:05:33.912] [INFO] system - 購入クリック処理12回目
+[2021-08-05T22:05:33.913] [INFO] system - 購入クリック処理13回目
+[2021-08-05T22:05:33.914] [INFO] system - 購入クリック処理14回目
+[2021-08-05T22:05:33.915] [INFO] system - 購入クリック処理15回目
+[2021-08-05T22:05:33.921] [INFO] system - 購入クリック処理16回目
+[2021-08-05T22:05:33.923] [INFO] system - 購入クリック処理17回目
+[2021-08-05T22:05:33.924] [INFO] system - 購入クリック処理18回目
+[2021-08-05T22:05:33.930] [INFO] system - 購入クリック処理19回目
+[2021-08-05T22:05:33.931] [INFO] system - 購入クリック処理20回目
+[2021-08-05T22:05:33.932] [INFO] system - 購入クリック処理21回目
+[2021-08-05T22:05:33.933] [INFO] system - 購入クリック処理22回目
+[2021-08-05T22:05:33.934] [INFO] system - 購入クリック処理23回目
+[2021-08-05T22:05:33.935] [INFO] system - 購入クリック処理24回目
+[2021-08-05T22:05:33.935] [INFO] system - 購入クリック処理25回目
+[2021-08-05T22:05:33.937] [INFO] system - 購入クリック処理26回目
+[2021-08-05T22:05:33.938] [INFO] system - 購入クリック処理27回目
+[2021-08-05T22:05:33.939] [INFO] system - 購入クリック処理28回目
+[2021-08-05T22:05:33.941] [INFO] system - 購入クリック処理29回目
+[2021-08-05T22:05:33.948] [INFO] system - 購入クリック処理30回目
+[2021-08-05T22:05:33.949] [INFO] system - 購入クリック処理31回目
+[2021-08-05T22:05:33.950] [INFO] system - 購入クリック処理32回目
+[2021-08-05T22:05:33.951] [INFO] system - 購入クリック処理33回目
+[2021-08-05T22:05:33.953] [INFO] system - 購入クリック処理34回目
+[2021-08-05T22:05:33.960] [INFO] system - 購入クリック処理35回目
+[2021-08-05T22:05:33.961] [INFO] system - 購入クリック処理36回目
+[2021-08-05T22:05:33.962] [INFO] system - 購入クリック処理37回目
+[2021-08-05T22:05:33.962] [INFO] system - 購入クリック処理38回目
+[2021-08-05T22:05:33.963] [INFO] system - 購入クリック処理39回目
+[2021-08-05T22:05:33.964] [INFO] system - 購入クリック処理40回目
+[2021-08-05T22:05:33.965] [INFO] system - 購入クリック処理41回目
+[2021-08-05T22:05:33.965] [INFO] system - 購入クリック処理42回目
+[2021-08-05T22:05:33.966] [INFO] system - 購入クリック処理43回目
+[2021-08-05T22:05:33.967] [INFO] system - 購入クリック処理44回目
+[2021-08-05T22:05:33.969] [INFO] system - 購入クリック処理45回目
+[2021-08-05T22:05:33.970] [INFO] system - 購入クリック処理46回目
+[2021-08-05T22:05:33.977] [INFO] system - 購入クリック処理47回目
+[2021-08-05T22:05:33.978] [INFO] system - 購入クリック処理48回目
+[2021-08-05T22:05:33.979] [INFO] system - 購入クリック処理49回目
+[2021-08-05T22:05:33.980] [INFO] system - 購入クリック処理50回目
+[2021-08-05T22:05:33.981] [INFO] system - 購入クリック処理51回目
+[2021-08-05T22:05:33.982] [INFO] system - 購入クリック処理52回目
+[2021-08-05T22:05:33.984] [INFO] system - 購入クリック処理53回目
+[2021-08-05T22:05:33.985] [INFO] system - 購入クリック処理54回目
+[2021-08-05T22:05:33.986] [INFO] system - 購入クリック処理55回目
+[2021-08-05T22:05:33.987] [INFO] system - 購入クリック処理56回目
+[2021-08-05T22:05:33.988] [INFO] system - 購入クリック処理57回目
+[2021-08-05T22:05:33.989] [INFO] system - 購入クリック処理58回目
+[2021-08-05T22:05:33.990] [INFO] system - 購入クリック処理59回目
+[2021-08-05T22:05:33.990] [INFO] system - 購入クリック処理60回目
+[2021-08-05T22:05:33.991] [INFO] system - 購入クリック処理61回目
+[2021-08-05T22:05:33.992] [INFO] system - 購入クリック処理62回目
+[2021-08-05T22:05:33.993] [INFO] system - 購入クリック処理63回目
+[2021-08-05T22:05:33.995] [ERROR] system - Error: Evaluation failed: ReferenceError: grecaptcha is not defined
+    at buy_ticket (https://t.livepocket.jp/e/fukuoka0808/:1357:9)
+    at __puppeteer_evaluation_script__:2:18
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:850:9)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:487:11)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T22:05:34.164] [INFO] system - 枚数選択end(1回目)
+[2021-08-05T22:06:04.020] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:06:04.029] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:618:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T22:06:16.264] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:06:16.276] [INFO] system - 【本番】
+[2021-08-05T22:06:16.280] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:06:16.283] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:06:16.979] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:06:18.484] [INFO] system - ログインページに移動完了
+[2021-08-05T22:06:18.497] [INFO] system - 混線なし
+[2021-08-05T22:06:20.921] [INFO] system - ログイン完了
+[2021-08-05T22:06:20.928] [INFO] system - 混線なし
+[2021-08-05T22:06:20.948] [INFO] system - 「１部通常チケット整理番号券,２部通常チケット整理番号券」の存在を確認(.table #ticket-470385,.table #ticket-470387)
+[2021-08-05T22:06:20.949] [INFO] system - 2021-08-05 21:59にすでに到達
+[2021-08-05T22:06:20.951] [INFO] system - 購入処理想定時間到達
+[2021-08-05T22:06:20.951] [INFO] system - <成績時間カウント開始>
+[2021-08-05T22:06:20.952] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-05T22:06:22.102] [INFO] system - 購入可能状態確認end
+[2021-08-05T22:06:22.104] [INFO] system - 枚数選択start(1回目)
+[2021-08-05T22:06:22.155] [INFO] system - 2セット選択終了
+[2021-08-05T22:06:24.548] [INFO] system - 枚数選択end(1回目)
+[2021-08-05T22:06:24.557] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:06:24.559] [INFO] system - 枚数選択start(2回目)
+[2021-08-05T22:06:24.602] [INFO] system - 2セット選択終了
+[2021-08-05T22:06:26.567] [INFO] system - 枚数選択end(2回目)
+[2021-08-05T22:06:26.574] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:06:26.577] [INFO] system - 枚数選択start(3回目)
+[2021-08-05T22:06:26.646] [INFO] system - 2セット選択終了
+[2021-08-05T22:06:28.734] [INFO] system - 枚数選択end(3回目)
+[2021-08-05T22:06:28.738] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:06:28.744] [INFO] system - 枚数選択start(4回目)
+[2021-08-05T22:06:28.805] [INFO] system - 2セット選択終了
+[2021-08-05T22:06:30.844] [INFO] system - 枚数選択end(4回目)
+[2021-08-05T22:06:30.853] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:06:30.856] [INFO] system - 枚数選択start(5回目)
+[2021-08-05T22:06:30.902] [INFO] system - 2セット選択終了
+[2021-08-05T22:06:32.877] [INFO] system - 枚数選択end(5回目)
+[2021-08-05T22:06:32.883] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:06:32.888] [INFO] system - 枚数選択start(6回目)
+[2021-08-05T22:06:32.948] [INFO] system - 2セット選択終了
+[2021-08-05T22:06:35.204] [INFO] system - 枚数選択end(6回目)
+[2021-08-05T22:06:35.211] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:06:35.213] [INFO] system - 枚数選択start(7回目)
+[2021-08-05T22:06:35.241] [INFO] system - 2セット選択終了
+[2021-08-05T22:06:37.514] [INFO] system - 枚数選択end(7回目)
+[2021-08-05T22:06:37.521] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:06:37.521] [INFO] system - 枚数選択start(8回目)
+[2021-08-05T22:06:37.554] [INFO] system - 2セット選択終了
+[2021-08-05T22:06:39.566] [INFO] system - 枚数選択end(8回目)
+[2021-08-05T22:06:39.572] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:06:39.575] [INFO] system - 枚数選択start(9回目)
+[2021-08-05T22:06:39.631] [INFO] system - 2セット選択終了
+[2021-08-05T22:06:41.710] [INFO] system - 枚数選択end(9回目)
+[2021-08-05T22:06:41.725] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:06:41.725] [INFO] system - 枚数選択start(10回目)
+[2021-08-05T22:06:41.769] [INFO] system - 2セット選択終了
+[2021-08-05T22:06:43.852] [INFO] system - 枚数選択end(10回目)
+[2021-08-05T22:06:43.861] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:06:43.864] [INFO] system - 決済処理ページ遷移済
+[2021-08-05T22:06:43.864] [INFO] system - 決済処理start(1回目)
+[2021-08-05T22:06:43.865] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-08-05T22:06:43.865] [INFO] system - 購入処理開始(無料)
+[2021-08-05T22:07:04.147] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:07:04.151] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:07:04.154] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:07:04.155] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:618:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T22:07:10.745] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:07:10.749] [INFO] system - 【本番】
+[2021-08-05T22:07:10.759] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:07:10.762] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:07:11.444] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:07:12.910] [INFO] system - ログインページに移動完了
+[2021-08-05T22:07:12.924] [INFO] system - 混線なし
+[2021-08-05T22:07:15.183] [INFO] system - ログイン完了
+[2021-08-05T22:07:15.190] [INFO] system - 混線なし
+[2021-08-05T22:07:15.209] [INFO] system - 「１部通常チケット整理番号券,２部通常チケット整理番号券」の存在を確認(.table #ticket-470385,.table #ticket-470387)
+[2021-08-05T22:07:15.215] [INFO] system - 2021-08-05 21:59にすでに到達
+[2021-08-05T22:07:15.229] [INFO] system - 購入処理想定時間到達
+[2021-08-05T22:07:15.229] [INFO] system - <成績時間カウント開始>
+[2021-08-05T22:07:15.230] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-05T22:07:16.203] [INFO] system - 購入可能状態確認end
+[2021-08-05T22:07:16.204] [INFO] system - 枚数選択start(1回目)
+[2021-08-05T22:07:16.268] [INFO] system - 2セット選択終了
+[2021-08-05T22:07:18.241] [INFO] system - 枚数選択end(1回目)
+[2021-08-05T22:07:18.249] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:07:18.252] [INFO] system - 枚数選択start(2回目)
+[2021-08-05T22:07:18.293] [INFO] system - 2セット選択終了
+[2021-08-05T22:07:20.385] [INFO] system - 枚数選択end(2回目)
+[2021-08-05T22:07:20.392] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:07:20.395] [INFO] system - 枚数選択start(3回目)
+[2021-08-05T22:07:20.422] [INFO] system - 2セット選択終了
+[2021-08-05T22:07:21.836] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onClose (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:128:21)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:17:30)
+    at WebSocket.onClose (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:136:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-08-05T22:07:21.847] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:07:21.849] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:618:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T22:07:47.407] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:07:47.412] [INFO] system - 【本番】
+[2021-08-05T22:07:47.423] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:07:47.432] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:07:48.128] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:07:49.614] [INFO] system - ログインページに移動完了
+[2021-08-05T22:07:49.627] [INFO] system - 混線なし
+[2021-08-05T22:07:51.824] [INFO] system - ログイン完了
+[2021-08-05T22:07:51.833] [INFO] system - 混線なし
+[2021-08-05T22:07:51.853] [INFO] system - 「１部通常チケット整理番号券,２部通常チケット整理番号券」の存在を確認(.table #ticket-470385,.table #ticket-470387)
+[2021-08-05T22:07:51.858] [INFO] system - 2021-08-05 21:59にすでに到達
+[2021-08-05T22:07:51.868] [INFO] system - 購入処理想定時間到達
+[2021-08-05T22:07:51.868] [INFO] system - <成績時間カウント開始>
+[2021-08-05T22:07:51.869] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-05T22:07:52.884] [INFO] system - 購入可能状態確認end
+[2021-08-05T22:07:52.885] [INFO] system - 枚数選択start(1回目)
+[2021-08-05T22:07:52.952] [INFO] system - 2セット選択終了
+[2021-08-05T22:07:54.913] [INFO] system - 枚数選択end(1回目)
+[2021-08-05T22:07:54.921] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:07:54.922] [INFO] system - 枚数選択start(2回目)
+[2021-08-05T22:07:54.947] [INFO] system - 2セット選択終了
+[2021-08-05T22:07:57.442] [INFO] system - 枚数選択end(2回目)
+[2021-08-05T22:07:57.450] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:07:57.453] [INFO] system - 枚数選択start(3回目)
+[2021-08-05T22:07:57.496] [INFO] system - 2セット選択終了
+[2021-08-05T22:07:59.600] [INFO] system - 枚数選択end(3回目)
+[2021-08-05T22:07:59.609] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:07:59.609] [INFO] system - 枚数選択start(4回目)
+[2021-08-05T22:07:59.645] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:01.666] [INFO] system - 枚数選択end(4回目)
+[2021-08-05T22:08:01.674] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:01.675] [INFO] system - 枚数選択start(5回目)
+[2021-08-05T22:08:01.722] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:03.921] [INFO] system - 枚数選択end(5回目)
+[2021-08-05T22:08:03.927] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:03.930] [INFO] system - 枚数選択start(6回目)
+[2021-08-05T22:08:03.959] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:05.943] [INFO] system - 枚数選択end(6回目)
+[2021-08-05T22:08:05.951] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:05.955] [INFO] system - 枚数選択start(7回目)
+[2021-08-05T22:08:05.981] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:08.150] [INFO] system - 枚数選択end(7回目)
+[2021-08-05T22:08:08.157] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:08.160] [INFO] system - 枚数選択start(8回目)
+[2021-08-05T22:08:08.250] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:10.454] [INFO] system - 枚数選択end(8回目)
+[2021-08-05T22:08:10.460] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:10.461] [INFO] system - 枚数選択start(9回目)
+[2021-08-05T22:08:10.528] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:12.509] [INFO] system - 枚数選択end(9回目)
+[2021-08-05T22:08:12.516] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:12.519] [INFO] system - 枚数選択start(10回目)
+[2021-08-05T22:08:12.566] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:14.600] [INFO] system - 枚数選択end(10回目)
+[2021-08-05T22:08:14.609] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:14.611] [INFO] system - 決済処理ページ遷移済
+[2021-08-05T22:08:14.611] [INFO] system - 決済処理start(1回目)
+[2021-08-05T22:08:14.612] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-08-05T22:08:14.613] [INFO] system - 購入処理開始(無料)
+[2021-08-05T22:08:33.747] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:08:33.757] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:08:33.764] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:08:33.770] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:618:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T22:08:36.018] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:08:36.030] [INFO] system - 【本番】
+[2021-08-05T22:08:36.035] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:08:36.038] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:08:36.725] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:08:38.082] [INFO] system - ログインページに移動完了
+[2021-08-05T22:08:38.096] [INFO] system - 混線なし
+[2021-08-05T22:08:40.260] [INFO] system - ログイン完了
+[2021-08-05T22:08:40.269] [INFO] system - 混線なし
+[2021-08-05T22:08:40.286] [INFO] system - 「１部通常チケット整理番号券,２部通常チケット整理番号券」の存在を確認(.table #ticket-470385,.table #ticket-470387)
+[2021-08-05T22:08:40.288] [INFO] system - 2021-08-05 21:59にすでに到達
+[2021-08-05T22:08:40.293] [INFO] system - 購入処理想定時間到達
+[2021-08-05T22:08:40.293] [INFO] system - <成績時間カウント開始>
+[2021-08-05T22:08:40.294] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-05T22:08:41.286] [INFO] system - 購入可能状態確認end
+[2021-08-05T22:08:41.287] [INFO] system - 枚数選択start(1回目)
+[2021-08-05T22:08:41.377] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:43.322] [INFO] system - 枚数選択end(1回目)
+[2021-08-05T22:08:43.331] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:43.333] [INFO] system - 枚数選択start(2回目)
+[2021-08-05T22:08:43.359] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:45.575] [INFO] system - 枚数選択end(2回目)
+[2021-08-05T22:08:45.583] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:45.584] [INFO] system - 枚数選択start(3回目)
+[2021-08-05T22:08:45.611] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:47.537] [INFO] system - 枚数選択end(3回目)
+[2021-08-05T22:08:47.544] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:47.546] [INFO] system - 枚数選択start(4回目)
+[2021-08-05T22:08:47.606] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:49.590] [INFO] system - 枚数選択end(4回目)
+[2021-08-05T22:08:49.600] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:49.602] [INFO] system - 枚数選択start(5回目)
+[2021-08-05T22:08:49.630] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:51.756] [INFO] system - 枚数選択end(5回目)
+[2021-08-05T22:08:51.766] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:51.767] [INFO] system - 枚数選択start(6回目)
+[2021-08-05T22:08:51.796] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:53.808] [INFO] system - 枚数選択end(6回目)
+[2021-08-05T22:08:53.817] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:53.820] [INFO] system - 枚数選択start(7回目)
+[2021-08-05T22:08:53.865] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:55.871] [INFO] system - 枚数選択end(7回目)
+[2021-08-05T22:08:55.876] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:55.881] [INFO] system - 枚数選択start(8回目)
+[2021-08-05T22:08:55.954] [INFO] system - 2セット選択終了
+[2021-08-05T22:08:58.027] [INFO] system - 枚数選択end(8回目)
+[2021-08-05T22:08:58.030] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:08:58.036] [INFO] system - 枚数選択start(9回目)
+[2021-08-05T22:08:58.083] [INFO] system - 2セット選択終了
+[2021-08-05T22:09:00.123] [INFO] system - 枚数選択end(9回目)
+[2021-08-05T22:09:00.138] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:09:00.139] [INFO] system - 枚数選択start(10回目)
+[2021-08-05T22:09:00.177] [INFO] system - 2セット選択終了
+[2021-08-05T22:09:02.163] [INFO] system - 枚数選択end(10回目)
+[2021-08-05T22:09:02.171] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:09:02.175] [INFO] system - 決済処理ページ遷移済
+[2021-08-05T22:09:02.176] [INFO] system - 決済処理start(1回目)
+[2021-08-05T22:09:02.177] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-08-05T22:09:02.178] [INFO] system - 購入処理開始(無料)
+[2021-08-05T22:09:32.190] [ERROR] system - TimeoutError: waiting for selector `.base-layout > .form-flat > .content > .text-center > .agreement-text` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:482:34)
+    at DOMWorld.waitForSelectorInPage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:415:26)
+    at Object.internalHandler.waitFor (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:313:29)
+    at Frame.waitForSelector (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:842:51)
+    at Page.waitForSelector (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1285:33)
+    at targetFree (C:\source\yt-scraping\func-lpkick\lpkick.js:1009:18)
+    at targetPageBuyConfirm (C:\source\yt-scraping\func-lpkick\lpkick.js:880:22)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:534:15)
+    at runMicrotasks (<anonymous>)
+[2021-08-05T22:09:32.399] [INFO] system - (検証用)成功1
+[2021-08-05T22:11:03.314] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:11:03.316] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:618:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T22:11:06.025] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:11:06.030] [INFO] system - 【本番】
+[2021-08-05T22:11:06.034] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:11:06.037] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:11:06.739] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:11:07.871] [INFO] system - ログインページに移動完了
+[2021-08-05T22:11:07.888] [INFO] system - 混線のため115秒待機開始...
+[2021-08-05T22:11:42.387] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:11:42.400] [INFO] system - 【本番】
+[2021-08-05T22:11:42.404] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:11:42.407] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:11:43.094] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:11:44.214] [INFO] system - ログインページに移動完了
+[2021-08-05T22:11:44.229] [INFO] system - 混線のため116秒待機開始...
+[2021-08-05T22:12:37.347] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:12:37.358] [INFO] system - 【本番】
+[2021-08-05T22:12:37.363] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:12:37.365] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:12:38.065] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:12:39.189] [INFO] system - ログインページに移動完了
+[2021-08-05T22:12:39.202] [INFO] system - 混線のため114秒待機開始...
+[2021-08-05T22:14:34.144] [INFO] system - 混線のため90秒待機開始...
+[2021-08-05T22:16:05.169] [INFO] system - 混線のため97秒待機開始...
+[2021-08-05T22:17:43.329] [INFO] system - 混線解消(3回目に成功)
+[2021-08-05T22:17:57.673] [INFO] system - ログイン完了
+[2021-08-05T22:17:57.685] [INFO] system - 混線のため114秒待機開始...
+[2021-08-05T22:19:52.692] [INFO] system - 混線のため116秒待機開始...
+[2021-08-05T22:21:50.052] [INFO] system - 混線解消(2回目に成功)
+[2021-08-05T22:21:50.068] [INFO] system - 「１部通常チケット整理番号券,２部通常チケット整理番号券」の存在を確認(.table #ticket-470385,.table #ticket-470387)
+[2021-08-05T22:21:50.071] [INFO] system - 2021-08-05 21:59にすでに到達
+[2021-08-05T22:21:50.079] [INFO] system - 購入処理想定時間到達
+[2021-08-05T22:21:50.079] [INFO] system - <成績時間カウント開始>
+[2021-08-05T22:21:50.079] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-05T22:21:51.238] [INFO] system - 購入可能状態確認end
+[2021-08-05T22:21:51.239] [INFO] system - 枚数選択start(1回目)
+[2021-08-05T22:21:51.305] [INFO] system - 2セット選択終了
+[2021-08-05T22:21:53.485] [INFO] system - 枚数選択end(1回目)
+[2021-08-05T22:21:53.491] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:21:53.495] [INFO] system - 枚数選択start(2回目)
+[2021-08-05T22:21:53.522] [INFO] system - 2セット選択終了
+[2021-08-05T22:21:55.451] [INFO] system - 枚数選択end(2回目)
+[2021-08-05T22:21:55.459] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:21:55.462] [INFO] system - 枚数選択start(3回目)
+[2021-08-05T22:21:55.503] [INFO] system - 2セット選択終了
+[2021-08-05T22:21:57.403] [INFO] system - 枚数選択end(3回目)
+[2021-08-05T22:21:57.409] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:21:57.412] [INFO] system - 枚数選択start(4回目)
+[2021-08-05T22:21:57.468] [INFO] system - 2セット選択終了
+[2021-08-05T22:21:59.630] [INFO] system - 枚数選択end(4回目)
+[2021-08-05T22:21:59.638] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:21:59.642] [INFO] system - 枚数選択start(5回目)
+[2021-08-05T22:21:59.685] [INFO] system - 2セット選択終了
+[2021-08-05T22:22:01.966] [INFO] system - 枚数選択end(5回目)
+[2021-08-05T22:22:01.971] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:22:01.977] [INFO] system - 枚数選択start(6回目)
+[2021-08-05T22:22:02.007] [INFO] system - 2セット選択終了
+[2021-08-05T22:22:03.965] [INFO] system - 枚数選択end(6回目)
+[2021-08-05T22:22:03.974] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:22:03.978] [INFO] system - 枚数選択start(7回目)
+[2021-08-05T22:22:04.067] [INFO] system - 2セット選択終了
+[2021-08-05T22:22:06.125] [INFO] system - 枚数選択end(7回目)
+[2021-08-05T22:22:06.133] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:22:06.136] [INFO] system - 枚数選択start(8回目)
+[2021-08-05T22:22:06.178] [INFO] system - 2セット選択終了
+[2021-08-05T22:22:08.398] [INFO] system - 枚数選択end(8回目)
+[2021-08-05T22:22:08.404] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:22:08.406] [INFO] system - 枚数選択start(9回目)
+[2021-08-05T22:22:08.482] [INFO] system - 2セット選択終了
+[2021-08-05T22:22:10.592] [INFO] system - 枚数選択end(9回目)
+[2021-08-05T22:22:10.601] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:22:10.604] [INFO] system - 枚数選択start(10回目)
+[2021-08-05T22:22:10.632] [INFO] system - 2セット選択終了
+[2021-08-05T22:22:12.610] [INFO] system - 枚数選択end(10回目)
+[2021-08-05T22:22:12.614] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:22:12.619] [INFO] system - 決済処理ページ遷移済
+[2021-08-05T22:22:12.620] [INFO] system - 決済処理start(1回目)
+[2021-08-05T22:22:12.620] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-08-05T22:22:12.621] [INFO] system - 購入処理開始(無料)
+[2021-08-05T22:22:42.638] [ERROR] system - TimeoutError: waiting for selector `.base-layout > .form-flat > .content > .text-center > .agreement-text` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:482:34)
+    at DOMWorld.waitForSelectorInPage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:415:26)
+    at Object.internalHandler.waitFor (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:313:29)
+    at Frame.waitForSelector (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:842:51)
+    at Page.waitForSelector (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1285:33)
+    at targetFree (C:\source\yt-scraping\func-lpkick\lpkick.js:1009:18)
+    at targetPageBuyConfirm (C:\source\yt-scraping\func-lpkick\lpkick.js:880:22)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:534:15)
+    at runMicrotasks (<anonymous>)
+[2021-08-05T22:22:42.817] [INFO] system - (検証用)成功1
+[2021-08-05T22:24:07.304] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:24:07.306] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:618:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T22:24:29.180] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:24:29.184] [INFO] system - 【本番】
+[2021-08-05T22:24:29.197] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:24:29.200] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:24:29.910] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:24:31.122] [INFO] system - ログインページに移動完了
+[2021-08-05T22:24:33.302] [INFO] system - ログイン完了
+[2021-08-05T22:24:33.317] [INFO] system - 混線のため120秒待機開始...
+[2021-08-05T22:26:34.488] [INFO] system - 混線解消(1回目に成功)
+[2021-08-05T22:26:34.495] [INFO] system - 混線なし
+[2021-08-05T22:26:34.516] [INFO] system - 「１部通常チケット整理番号券,２部通常チケット整理番号券」の存在を確認(.table #ticket-470385,.table #ticket-470387)
+[2021-08-05T22:26:34.518] [INFO] system - 2021-08-05 21:59にすでに到達
+[2021-08-05T22:26:34.530] [INFO] system - 購入処理想定時間到達
+[2021-08-05T22:26:34.530] [INFO] system - <成績時間カウント開始>
+[2021-08-05T22:26:34.531] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-05T22:26:35.799] [INFO] system - 購入可能状態確認end
+[2021-08-05T22:26:35.800] [INFO] system - 枚数選択start(1回目)
+[2021-08-05T22:26:35.893] [INFO] system - 2セット選択終了
+[2021-08-05T22:26:38.121] [INFO] system - 枚数選択end(1回目)
+[2021-08-05T22:26:38.129] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:26:38.132] [INFO] system - 枚数選択start(2回目)
+[2021-08-05T22:26:38.175] [INFO] system - 2セット選択終了
+[2021-08-05T22:26:40.194] [INFO] system - 枚数選択end(2回目)
+[2021-08-05T22:26:40.201] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:26:40.204] [INFO] system - 枚数選択start(3回目)
+[2021-08-05T22:26:40.245] [INFO] system - 2セット選択終了
+[2021-08-05T22:26:42.423] [INFO] system - 枚数選択end(3回目)
+[2021-08-05T22:26:42.431] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:26:42.433] [INFO] system - 枚数選択start(4回目)
+[2021-08-05T22:26:42.491] [INFO] system - 2セット選択終了
+[2021-08-05T22:26:44.469] [INFO] system - 枚数選択end(4回目)
+[2021-08-05T22:26:44.477] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:26:44.477] [INFO] system - 枚数選択start(5回目)
+[2021-08-05T22:26:44.506] [INFO] system - 2セット選択終了
+[2021-08-05T22:26:46.719] [INFO] system - 枚数選択end(5回目)
+[2021-08-05T22:26:46.726] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:26:46.729] [INFO] system - 枚数選択start(6回目)
+[2021-08-05T22:26:46.792] [INFO] system - 2セット選択終了
+[2021-08-05T22:26:48.825] [INFO] system - 枚数選択end(6回目)
+[2021-08-05T22:26:48.830] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:26:48.831] [INFO] system - 枚数選択start(7回目)
+[2021-08-05T22:26:48.876] [INFO] system - 2セット選択終了
+[2021-08-05T22:26:50.943] [INFO] system - 枚数選択end(7回目)
+[2021-08-05T22:26:50.948] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:26:50.950] [INFO] system - 枚数選択start(8回目)
+[2021-08-05T22:26:50.980] [INFO] system - 2セット選択終了
+[2021-08-05T22:26:53.049] [INFO] system - 枚数選択end(8回目)
+[2021-08-05T22:26:53.056] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:26:53.058] [INFO] system - 枚数選択start(9回目)
+[2021-08-05T22:26:53.121] [INFO] system - 2セット選択終了
+[2021-08-05T22:26:55.302] [INFO] system - 枚数選択end(9回目)
+[2021-08-05T22:26:55.309] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:26:55.310] [INFO] system - 枚数選択start(10回目)
+[2021-08-05T22:26:55.386] [INFO] system - 2セット選択終了
+[2021-08-05T22:26:57.325] [INFO] system - 枚数選択end(10回目)
+[2021-08-05T22:26:57.332] [INFO] system - 現在アクセスが集中しています。再度お試しください。
+[2021-08-05T22:26:57.334] [INFO] system - 決済処理ページ遷移済
+[2021-08-05T22:26:57.334] [INFO] system - 決済処理start(1回目)
+[2021-08-05T22:26:57.335] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-08-05T22:26:57.336] [INFO] system - 購入処理開始(無料)
+[2021-08-05T22:27:27.345] [ERROR] system - TimeoutError: waiting for selector `.base-layout > .form-flat > .content > .text-center > .agreement-text` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:482:34)
+    at DOMWorld.waitForSelectorInPage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:415:26)
+    at Object.internalHandler.waitFor (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:313:29)
+    at Frame.waitForSelector (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:842:51)
+    at Page.waitForSelector (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1285:33)
+    at targetFree (C:\source\yt-scraping\func-lpkick\lpkick.js:1011:18)
+    at targetPageBuyConfirm (C:\source\yt-scraping\func-lpkick\lpkick.js:882:22)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:536:15)
+    at runMicrotasks (<anonymous>)
+[2021-08-05T22:27:27.519] [INFO] system - (検証用)成功1
+[2021-08-05T22:34:01.557] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:34:01.873] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:620:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T22:34:03.018] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:34:03.028] [INFO] system - 【本番】
+[2021-08-05T22:34:03.032] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:34:03.034] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:34:03.735] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:34:05.102] [INFO] system - ログインページに移動完了
+[2021-08-05T22:34:07.360] [INFO] system - ログイン完了
+[2021-08-05T22:36:19.103] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-05T22:36:19.106] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:623:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-05T22:36:20.269] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/fukuoka0808/","targetName":"１部通常チケット整理番号券,２部通常チケット整理番号券","targetNumber":"2,2","storeTypeId":"002","loginTime":"2021-08-05 21:45","startTime":"2021-08-05 22:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-180,"isOrigin":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-05T22:36:20.273] [INFO] system - 【本番】
+[2021-08-05T22:36:20.281] [INFO] system - 2021-08-05 21:45:00にすでに到達
+[2021-08-05T22:36:20.284] [INFO] system - ログイン処理想定時間到達
+[2021-08-05T22:36:21.033] [INFO] system - ブラウザ起動後準備完了
+[2021-08-05T22:36:22.231] [INFO] system - ログインページに移動完了
+[2021-08-05T22:36:24.300] [INFO] system - ログイン完了
+[2021-08-05T22:36:24.315] [INFO] system - 混線のため119秒待機開始...
+[2021-08-05T22:38:24.203] [INFO] system - 混線のため120秒待機開始...

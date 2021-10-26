@@ -1,0 +1,71 @@
+[2021-05-04T13:14:01.679] [INFO] system - 【Windows版起動】
+[2021-05-04T13:14:01.681] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0506/","targetTicket":null,"targetName":"１部通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-05-03 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-05-03 21:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":2}
+[2021-05-04T13:14:01.705] [INFO] system - 2021-05-03 21:45:00にすでに到達
+[2021-05-04T13:14:01.709] [INFO] system - ログイン処理想定時間到達
+[2021-05-04T13:14:02.281] [INFO] system - ブラウザ起動後準備完了
+[2021-05-04T13:14:05.749] [INFO] system - ログインページに移動完了
+[2021-05-04T13:14:05.771] [INFO] system - 混線なし
+[2021-05-04T13:14:12.239] [INFO] system - ログイン完了
+[2021-05-04T13:14:12.256] [INFO] system - 混線なし
+[2021-05-04T13:14:12.316] [INFO] system - 「１部通常チケット整理番号券」の存在を確認(.table #ticket-405315)
+[2021-05-04T13:14:12.319] [INFO] system - 2021-05-03 22:00にすでに到達
+[2021-05-04T13:14:12.325] [INFO] system - 購入処理想定時間到達
+[2021-05-04T13:14:12.343] [INFO] system - <成績時間カウント開始>
+[2021-05-04T13:14:12.344] [INFO] system - 購入可能状態確認start(1回目)
+[2021-05-04T13:14:14.737] [INFO] system - 購入可能状態確認end
+[2021-05-04T13:14:14.738] [INFO] system - 枚数選択start(1回目)
+[2021-05-04T13:14:16.741] [INFO] system - 枚数選択時に明示的に2秒待機
+[2021-05-04T13:14:16.743] [INFO] system - 1枚目選択開始
+[2021-05-04T13:14:16.849] [INFO] system - 1枚目選択終了
+[2021-05-04T13:16:11.995] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-05-04T13:16:12.034] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-05-04T13:16:12.071] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:465:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:113:5
+[2021-05-04T13:16:18.493] [INFO] system - 【Windows版起動】
+[2021-05-04T13:16:18.495] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0506/","targetTicket":null,"targetName":"２部通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-05-03 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-05-03 21:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":2}
+[2021-05-04T13:16:18.510] [INFO] system - 2021-05-03 21:45:00にすでに到達
+[2021-05-04T13:16:18.512] [INFO] system - ログイン処理想定時間到達
+[2021-05-04T13:16:19.008] [INFO] system - ブラウザ起動後準備完了
+[2021-05-04T13:16:22.371] [INFO] system - ログインページに移動完了
+[2021-05-04T13:16:22.392] [INFO] system - 混線なし
+[2021-05-04T13:16:28.788] [INFO] system - ログイン完了
+[2021-05-04T13:16:28.803] [INFO] system - 混線なし
+[2021-05-04T13:16:28.860] [INFO] system - 「２部通常チケット整理番号券」の存在を確認(.table #ticket-405317)
+[2021-05-04T13:16:28.863] [INFO] system - 2021-05-03 22:00にすでに到達
+[2021-05-04T13:16:28.868] [INFO] system - 購入処理想定時間到達
+[2021-05-04T13:16:28.869] [INFO] system - <成績時間カウント開始>
+[2021-05-04T13:16:28.870] [INFO] system - 購入可能状態確認start(1回目)
+[2021-05-04T13:16:30.767] [INFO] system - 購入可能状態確認end
+[2021-05-04T13:16:30.768] [INFO] system - 枚数選択start(1回目)
+[2021-05-04T13:16:32.769] [INFO] system - 枚数選択時に明示的に2秒待機
+[2021-05-04T13:16:32.770] [INFO] system - 1枚目選択開始
+[2021-05-04T13:16:32.909] [INFO] system - 1枚目選択終了
+[2021-05-04T13:16:36.825] [INFO] system - 枚数選択end
+[2021-05-04T13:16:36.825] [INFO] system - 決済処理start(1回目)
+[2021-05-04T13:16:36.826] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-05-04T13:16:36.828] [INFO] system - 購入処理開始(無料)
+[2021-05-04T13:16:36.880] [INFO] system - 規約に同意クリック
+[2021-05-04T13:16:41.139] [INFO] system - (検証用)成功1
+[2021-05-04T13:16:41.149] [INFO] system - (検証用)成功2
+[2021-05-04T13:16:41.170] [INFO] system - (検証用)成功3
+[2021-05-04T13:16:41.171] [INFO] system - 決済処理end
+[2021-05-04T13:16:41.174] [INFO] system - <現在時刻：Tue May 04 2021 13:16:41 GMT+0900／成績：12.303秒>
+[2021-05-04T13:16:41.175] [INFO] system - <成績：12.305秒>

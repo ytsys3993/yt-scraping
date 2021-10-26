@@ -1,0 +1,23 @@
+Wait for LP (Successfully connected to server)
+mail post start(lp)
+mail post start(lp)
+mail post start(lp)
+lpkick start from this mail
+[32m[2021-01-27T08:39:29.191] [INFO] system - [39m【Linux版起動】
+[32m[2021-01-27T08:39:29.192] [INFO] system - [39mキック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"016","startTime":"2021-01-25 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":null}
+[32m[2021-01-27T08:39:29.192] [INFO] system - [39m【テスト】
+[32m[2021-01-27T08:39:29.201] [INFO] system - [39m2021-01-25 22:45:00にすでに到達
+[32m[2021-01-27T08:39:29.204] [INFO] system - [39mログイン処理想定時間到達
+[32m[2021-01-27T08:39:29.746] [INFO] system - [39mログインページに移動前
+[32m[2021-01-27T08:39:32.202] [INFO] system - [39msend successful
+[32m[2021-01-27T08:39:33.138] [INFO] system - [39m混線なし
+[32m[2021-01-27T08:39:33.138] [INFO] system - [39mログインページに移動完了
+[32m[2021-01-27T08:39:35.888] [INFO] system - [39m混線なし
+[32m[2021-01-27T08:39:38.087] [INFO] system - [39mログイン完了
+[32m[2021-01-27T08:39:38.340] [INFO] system - [39m「通常チケット整理番号券」の存在を確認(.table #ticket-344483)
+[32m[2021-01-27T08:39:38.362] [INFO] system - [39m2021-01-25 23:00にすでに到達
+[32m[2021-01-27T08:39:38.363] [INFO] system - [39m購入処理想定時間到達
+[32m[2021-01-27T08:39:38.363] [INFO] system - [39m<成績時間カウント開始>
+[32m[2021-01-27T08:39:40.815] [INFO] system - [39m混線なし
+[32m[2021-01-27T08:39:40.816] [INFO] system - [39m購入状態確認(1回目に成功)
+[32m[2021-01-27T08:39:40.816] [INFO] system - [39m購入処理開始(確定前)

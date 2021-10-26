@@ -1,0 +1,459 @@
+[2021-01-15T00:38:17.840] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T00:38:17.843] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T00:38:21.558] [INFO] system - send successful
+[2021-01-15T00:38:27.166] [INFO] system - 混線なし
+[2021-01-15T00:38:27.167] [INFO] system - ログインページに移動完了
+[2021-01-15T00:38:28.565] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\sourse\scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-01-15T00:38:28.567] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-15T00:38:28.582] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:233:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:80:5
+[2021-01-15T00:40:15.074] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T00:40:15.077] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T00:40:19.082] [INFO] system - send successful
+[2021-01-15T00:40:23.164] [INFO] system - 混線なし
+[2021-01-15T00:40:23.165] [INFO] system - ログインページに移動完了
+[2021-01-15T00:40:25.646] [INFO] system - 混線なし
+[2021-01-15T00:40:27.100] [INFO] system - ログイン完了
+[2021-01-15T00:40:27.207] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(null)
+[2021-01-15T00:40:27.209] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T00:40:27.211] [INFO] system - 購入処理想定時間到達
+[2021-01-15T00:40:27.221] [INFO] system - <成績時間カウント開始>
+[2021-01-15T00:41:50.754] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T00:41:50.757] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T00:41:53.889] [INFO] system - send successful
+[2021-01-15T00:41:58.360] [INFO] system - 混線なし
+[2021-01-15T00:41:58.361] [INFO] system - ログインページに移動完了
+[2021-01-15T00:42:00.987] [INFO] system - 混線なし
+[2021-01-15T00:42:27.793] [INFO] system - 【テスト】
+[2021-01-15T00:42:27.803] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T00:42:27.808] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T00:42:31.303] [INFO] system - send successful
+[2021-01-15T00:42:34.895] [INFO] system - 混線なし
+[2021-01-15T00:42:34.896] [INFO] system - ログインページに移動完了
+[2021-01-15T00:42:37.482] [INFO] system - 混線なし
+[2021-01-15T00:42:39.062] [INFO] system - ログイン完了
+[2021-01-15T00:42:39.102] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認()
+[2021-01-15T00:42:39.103] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T00:42:39.107] [INFO] system - 購入処理想定時間到達
+[2021-01-15T00:42:39.115] [INFO] system - <成績時間カウント開始>
+[2021-01-15T00:42:42.009] [INFO] system - 混線なし
+[2021-01-15T00:42:42.012] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T00:42:42.024] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T00:42:42.048] [ERROR] system - Error: Evaluation failed: DOMException: Failed to execute 'querySelector' on 'Document': The provided selector is empty.
+    at predicateQueryHandler (eval at waitForPredicatePageFunction (:2:23), <anonymous>:5:68)
+    at predicate (eval at waitForPredicatePageFunction (:2:23), <anonymous>:23:26)
+    at eval (eval at waitForPredicatePageFunction (:2:23), <anonymous>:26:11)
+    at eval (eval at waitForPredicatePageFunction (:2:23), <anonymous>:27:7)
+    at pollMutation (__puppeteer_evaluation_script__:16:31)
+    at waitForPredicatePageFunction (__puppeteer_evaluation_script__:9:22)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:23)
+[2021-01-15T00:42:46.353] [INFO] system - send successful
+[2021-01-15T00:45:29.782] [INFO] system - 【テスト】
+[2021-01-15T00:45:29.792] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T00:45:29.795] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T00:45:32.762] [INFO] system - send successful
+[2021-01-15T00:45:36.988] [INFO] system - 混線なし
+[2021-01-15T00:45:36.989] [INFO] system - ログインページに移動完了
+[2021-01-15T00:45:39.615] [INFO] system - 混線なし
+[2021-01-15T00:45:41.474] [INFO] system - ログイン完了
+[2021-01-15T00:45:41.516] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認()
+[2021-01-15T00:45:41.519] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T00:45:41.529] [INFO] system - 購入処理想定時間到達
+[2021-01-15T00:45:41.529] [INFO] system - <成績時間カウント開始>
+[2021-01-15T00:45:44.621] [INFO] system - 混線なし
+[2021-01-15T00:45:44.624] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T00:45:44.625] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T00:45:44.652] [ERROR] system - Error: Evaluation failed: DOMException: Failed to execute 'querySelector' on 'Document': The provided selector is empty.
+    at predicateQueryHandler (eval at waitForPredicatePageFunction (:2:23), <anonymous>:5:68)
+    at predicate (eval at waitForPredicatePageFunction (:2:23), <anonymous>:23:26)
+    at eval (eval at waitForPredicatePageFunction (:2:23), <anonymous>:26:11)
+    at eval (eval at waitForPredicatePageFunction (:2:23), <anonymous>:27:7)
+    at pollMutation (__puppeteer_evaluation_script__:16:31)
+    at waitForPredicatePageFunction (__puppeteer_evaluation_script__:9:22)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:23)
+[2021-01-15T00:45:49.212] [INFO] system - send successful
+[2021-01-15T00:52:27.953] [INFO] system - 【テスト】
+[2021-01-15T00:52:27.965] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T00:52:27.968] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T00:52:32.106] [INFO] system - send successful
+[2021-01-15T00:52:34.907] [INFO] system - 混線なし
+[2021-01-15T00:52:34.908] [INFO] system - ログインページに移動完了
+[2021-01-15T00:52:37.043] [INFO] system - 混線なし
+[2021-01-15T00:52:38.794] [INFO] system - ログイン完了
+[2021-01-15T00:52:38.974] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認()
+[2021-01-15T00:52:38.975] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T00:52:38.979] [INFO] system - 購入処理想定時間到達
+[2021-01-15T00:52:38.979] [INFO] system - <成績時間カウント開始>
+[2021-01-15T00:52:41.052] [INFO] system - 混線なし
+[2021-01-15T00:52:41.055] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T00:52:41.056] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T00:52:41.085] [ERROR] system - Error: Evaluation failed: DOMException: Failed to execute 'querySelector' on 'Document': The provided selector is empty.
+    at predicateQueryHandler (eval at waitForPredicatePageFunction (:2:23), <anonymous>:5:68)
+    at predicate (eval at waitForPredicatePageFunction (:2:23), <anonymous>:23:26)
+    at eval (eval at waitForPredicatePageFunction (:2:23), <anonymous>:26:11)
+    at eval (eval at waitForPredicatePageFunction (:2:23), <anonymous>:27:7)
+    at pollMutation (__puppeteer_evaluation_script__:16:31)
+    at waitForPredicatePageFunction (__puppeteer_evaluation_script__:9:22)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:23)
+[2021-01-15T00:52:44.309] [INFO] system - send successful
+[2021-01-15T00:53:31.671] [INFO] system - 【テスト】
+[2021-01-15T00:53:31.681] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T00:53:31.683] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T00:53:35.236] [INFO] system - send successful
+[2021-01-15T00:53:39.111] [INFO] system - 混線なし
+[2021-01-15T00:53:39.112] [INFO] system - ログインページに移動完了
+[2021-01-15T00:53:42.450] [INFO] system - 混線なし
+[2021-01-15T00:53:44.040] [INFO] system - ログイン完了
+[2021-01-15T00:53:44.155] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認()
+[2021-01-15T00:53:44.157] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T00:53:44.159] [INFO] system - 購入処理想定時間到達
+[2021-01-15T00:53:44.159] [INFO] system - <成績時間カウント開始>
+[2021-01-15T00:53:47.395] [INFO] system - 混線なし
+[2021-01-15T00:53:47.396] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T00:53:47.396] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T00:53:47.428] [ERROR] system - Error: Evaluation failed: DOMException: Failed to execute 'querySelector' on 'Document': The provided selector is empty.
+    at predicateQueryHandler (eval at waitForPredicatePageFunction (:2:23), <anonymous>:5:68)
+    at predicate (eval at waitForPredicatePageFunction (:2:23), <anonymous>:23:26)
+    at eval (eval at waitForPredicatePageFunction (:2:23), <anonymous>:26:11)
+    at eval (eval at waitForPredicatePageFunction (:2:23), <anonymous>:27:7)
+    at pollMutation (__puppeteer_evaluation_script__:16:31)
+    at waitForPredicatePageFunction (__puppeteer_evaluation_script__:9:22)
+    at ExecutionContext._evaluateInternal (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async WaitTask.rerun (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:23)
+[2021-01-15T00:53:51.120] [INFO] system - send successful
+[2021-01-15T00:54:51.268] [INFO] system - 【テスト】
+[2021-01-15T00:54:51.278] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T00:54:51.281] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T00:54:54.994] [INFO] system - send successful
+[2021-01-15T00:54:57.966] [INFO] system - 混線なし
+[2021-01-15T00:54:57.967] [INFO] system - ログインページに移動完了
+[2021-01-15T00:55:00.219] [INFO] system - 混線なし
+[2021-01-15T00:55:01.684] [INFO] system - ログイン完了
+[2021-01-15T00:55:01.896] [ERROR] system - ReferenceError: targetTickets is not defined
+    at checkTargetPage (C:\sourse\scraping\func-lpkick\lpkick.js:304:25)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:179:26)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T00:55:02.208] [ERROR] system - 設定不備の可能性があります
+[2021-01-15T00:55:02.209] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kyoto0117/","targetTicket":null,"targetName":"１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券","targetNumber":"1,2,1","storeTypeId":"002","startTime":"2021-01-14 23:30","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com"}
+[2021-01-15T00:55:02.223] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:183:13)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T00:55:02.225] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:239:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T00:55:52.532] [INFO] system - 【テスト】
+[2021-01-15T00:55:52.542] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T00:55:52.546] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T00:55:56.010] [INFO] system - send successful
+[2021-01-15T00:55:59.125] [INFO] system - 混線なし
+[2021-01-15T00:55:59.126] [INFO] system - ログインページに移動完了
+[2021-01-15T00:56:01.270] [INFO] system - 混線なし
+[2021-01-15T00:56:02.915] [INFO] system - ログイン完了
+[2021-01-15T00:56:03.107] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T00:56:03.109] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T00:56:03.120] [INFO] system - 購入処理想定時間到達
+[2021-01-15T00:56:03.121] [INFO] system - <成績時間カウント開始>
+[2021-01-15T00:56:05.386] [INFO] system - 混線なし
+[2021-01-15T00:56:05.388] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T00:56:05.397] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T00:56:05.532] [ERROR] system - TypeError: Assignment to constant variable.
+    at C:\sourse\scraping\func-lpkick\lpkick.js:381:10
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Array.forEachAsync (C:\sourse\scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\sourse\scraping\func-lpkick\lpkick.js:370:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:211:22)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T00:56:10.143] [INFO] system - send successful
+[2021-01-15T00:58:05.010] [INFO] system - 【テスト】
+[2021-01-15T00:58:05.021] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T00:58:05.024] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T00:58:08.132] [INFO] system - send successful
+[2021-01-15T00:58:12.226] [INFO] system - 混線なし
+[2021-01-15T00:58:12.227] [INFO] system - ログインページに移動完了
+[2021-01-15T00:58:14.406] [INFO] system - 混線なし
+[2021-01-15T00:58:15.906] [INFO] system - ログイン完了
+[2021-01-15T00:58:16.073] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T00:58:16.075] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T00:58:16.078] [INFO] system - 購入処理想定時間到達
+[2021-01-15T00:58:16.084] [INFO] system - <成績時間カウント開始>
+[2021-01-15T00:58:18.199] [INFO] system - 混線なし
+[2021-01-15T00:58:18.200] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T00:58:18.201] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T00:58:18.333] [ERROR] system - TypeError: Assignment to constant variable.
+    at C:\sourse\scraping\func-lpkick\lpkick.js:381:10
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Array.forEachAsync (C:\sourse\scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\sourse\scraping\func-lpkick\lpkick.js:370:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:211:22)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T00:58:21.334] [INFO] system - send successful
+[2021-01-15T01:01:17.683] [INFO] system - 【テスト】
+[2021-01-15T01:01:17.694] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T01:01:17.697] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T01:01:20.375] [INFO] system - send successful
+[2021-01-15T01:01:24.454] [INFO] system - 混線なし
+[2021-01-15T01:01:24.455] [INFO] system - ログインページに移動完了
+[2021-01-15T01:01:26.810] [INFO] system - 混線なし
+[2021-01-15T01:01:28.160] [INFO] system - ログイン完了
+[2021-01-15T01:01:28.326] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T01:01:28.329] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T01:01:28.331] [INFO] system - 購入処理想定時間到達
+[2021-01-15T01:01:28.331] [INFO] system - <成績時間カウント開始>
+[2021-01-15T01:01:30.555] [INFO] system - 混線なし
+[2021-01-15T01:01:30.556] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T01:01:30.557] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T01:01:30.692] [ERROR] system - TypeError: Assignment to constant variable.
+    at C:\sourse\scraping\func-lpkick\lpkick.js:381:10
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Array.forEachAsync (C:\sourse\scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\sourse\scraping\func-lpkick\lpkick.js:370:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:211:22)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T01:01:34.584] [INFO] system - send successful
+[2021-01-15T01:05:55.111] [INFO] system - 【テスト】
+[2021-01-15T01:05:55.121] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T01:05:55.126] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T01:05:59.851] [INFO] system - send successful
+[2021-01-15T01:06:01.981] [INFO] system - 混線なし
+[2021-01-15T01:06:01.982] [INFO] system - ログインページに移動完了
+[2021-01-15T01:06:04.020] [INFO] system - 混線なし
+[2021-01-15T01:06:05.469] [INFO] system - ログイン完了
+[2021-01-15T01:06:05.498] [ERROR] system - ReferenceError: row is not defined
+    at checkTargetPage (C:\sourse\scraping\func-lpkick\lpkick.js:289:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:179:26)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T01:06:05.800] [ERROR] system - 設定不備の可能性があります
+[2021-01-15T01:06:05.801] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kyoto0117/","targetTicket":null,"targetName":"１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券","targetNumber":"1,2,1","storeTypeId":"002","startTime":"2021-01-14 23:30","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com"}
+[2021-01-15T01:06:05.816] [ERROR] system - Error
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:183:13)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T01:06:05.818] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:239:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T01:06:23.623] [INFO] system - 【テスト】
+[2021-01-15T01:06:23.634] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T01:06:23.636] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T01:06:26.842] [INFO] system - send successful
+[2021-01-15T01:06:30.582] [INFO] system - 混線なし
+[2021-01-15T01:06:30.583] [INFO] system - ログインページに移動完了
+[2021-01-15T01:06:32.736] [INFO] system - 混線なし
+[2021-01-15T01:06:34.658] [INFO] system - ログイン完了
+[2021-01-15T01:06:34.732] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T01:06:34.734] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T01:06:34.737] [INFO] system - 購入処理想定時間到達
+[2021-01-15T01:06:34.738] [INFO] system - <成績時間カウント開始>
+[2021-01-15T01:06:37.125] [INFO] system - 混線なし
+[2021-01-15T01:06:37.127] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T01:06:37.127] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T01:06:37.251] [ERROR] system - TypeError: Assignment to constant variable.
+    at C:\sourse\scraping\func-lpkick\lpkick.js:382:10
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Array.forEachAsync (C:\sourse\scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\sourse\scraping\func-lpkick\lpkick.js:371:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:211:22)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T01:06:40.239] [INFO] system - send successful
+[2021-01-15T01:11:25.065] [INFO] system - 【テスト】
+[2021-01-15T01:11:25.075] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T01:11:25.080] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T01:11:28.133] [INFO] system - send successful
+[2021-01-15T01:11:32.020] [INFO] system - 混線なし
+[2021-01-15T01:11:32.021] [INFO] system - ログインページに移動完了
+[2021-01-15T01:11:33.935] [INFO] system - 混線なし
+[2021-01-15T01:11:35.184] [INFO] system - ログイン完了
+[2021-01-15T01:11:35.421] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T01:11:35.423] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T01:11:35.428] [INFO] system - 購入処理想定時間到達
+[2021-01-15T01:11:35.434] [INFO] system - <成績時間カウント開始>
+[2021-01-15T01:11:37.833] [INFO] system - 混線なし
+[2021-01-15T01:11:37.836] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T01:11:37.847] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T01:11:37.964] [ERROR] system - TypeError: Assignment to constant variable.
+    at C:\sourse\scraping\func-lpkick\lpkick.js:382:10
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Array.forEachAsync (C:\sourse\scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\sourse\scraping\func-lpkick\lpkick.js:371:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:211:22)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T01:11:41.586] [INFO] system - send successful
+[2021-01-15T01:17:09.333] [INFO] system - 【テスト】
+[2021-01-15T01:17:09.344] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T01:17:09.347] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T01:17:12.504] [INFO] system - send successful
+[2021-01-15T01:17:16.274] [INFO] system - 混線なし
+[2021-01-15T01:17:16.275] [INFO] system - ログインページに移動完了
+[2021-01-15T01:17:18.373] [INFO] system - 混線なし
+[2021-01-15T01:17:19.679] [INFO] system - ログイン完了
+[2021-01-15T01:17:19.785] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T01:17:19.786] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T01:17:19.787] [INFO] system - 購入処理想定時間到達
+[2021-01-15T01:17:19.800] [INFO] system - <成績時間カウント開始>
+[2021-01-15T01:17:21.790] [INFO] system - 混線なし
+[2021-01-15T01:17:21.793] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T01:17:21.794] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T01:17:21.898] [ERROR] system - TypeError: Assignment to constant variable.
+    at C:\sourse\scraping\func-lpkick\lpkick.js:379:10
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Array.forEachAsync (C:\sourse\scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\sourse\scraping\func-lpkick\lpkick.js:369:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:211:22)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T01:17:24.928] [INFO] system - send successful
+[2021-01-15T01:18:23.448] [INFO] system - 【テスト】
+[2021-01-15T01:18:23.458] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T01:18:23.461] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T01:18:25.956] [INFO] system - send successful
+[2021-01-15T01:18:30.085] [INFO] system - 混線なし
+[2021-01-15T01:18:30.086] [INFO] system - ログインページに移動完了
+[2021-01-15T01:18:32.212] [INFO] system - 混線なし
+[2021-01-15T01:18:33.550] [INFO] system - ログイン完了
+[2021-01-15T01:18:33.678] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T01:18:33.680] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T01:18:33.692] [INFO] system - 購入処理想定時間到達
+[2021-01-15T01:18:33.693] [INFO] system - <成績時間カウント開始>
+[2021-01-15T01:18:35.873] [INFO] system - 混線なし
+[2021-01-15T01:18:35.875] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T01:18:35.876] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T01:18:36.033] [ERROR] system - Error: Values must be strings. Found value "undefined" of type "undefined"
+    at Object.exports.assert (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at ElementHandle.select (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:409:25)
+    at DOMWorld.select (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:296:37)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:374:7
+    at async Array.forEachAsync (C:\sourse\scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\sourse\scraping\func-lpkick\lpkick.js:369:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:211:22)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T01:18:39.661] [INFO] system - send successful
+[2021-01-15T01:19:12.448] [INFO] system - 【テスト】
+[2021-01-15T01:19:12.459] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T01:19:12.463] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T01:19:15.052] [INFO] system - send successful
+[2021-01-15T01:19:19.196] [INFO] system - 混線なし
+[2021-01-15T01:19:19.197] [INFO] system - ログインページに移動完了
+[2021-01-15T01:19:21.295] [INFO] system - 混線なし
+[2021-01-15T01:19:22.637] [INFO] system - ログイン完了
+[2021-01-15T01:19:22.787] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T01:19:22.788] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T01:19:22.790] [INFO] system - 購入処理想定時間到達
+[2021-01-15T01:19:22.798] [INFO] system - <成績時間カウント開始>
+[2021-01-15T01:19:24.939] [INFO] system - 混線なし
+[2021-01-15T01:19:24.940] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T01:19:24.941] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T01:19:25.106] [ERROR] system - Error: Values must be strings. Found value "undefined" of type "undefined"
+    at Object.exports.assert (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at ElementHandle.select (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:409:25)
+    at DOMWorld.select (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:296:37)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:375:7
+    at async Array.forEachAsync (C:\sourse\scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\sourse\scraping\func-lpkick\lpkick.js:369:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:211:22)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T01:19:27.893] [INFO] system - send successful
+[2021-01-15T01:22:05.794] [INFO] system - 【テスト】
+[2021-01-15T01:22:05.804] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T01:22:05.808] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T01:22:08.782] [INFO] system - send successful
+[2021-01-15T01:22:12.989] [INFO] system - 混線なし
+[2021-01-15T01:22:12.991] [INFO] system - ログインページに移動完了
+[2021-01-15T01:22:15.185] [INFO] system - 混線なし
+[2021-01-15T01:22:16.441] [INFO] system - ログイン完了
+[2021-01-15T01:22:16.585] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T01:22:16.587] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T01:22:16.597] [INFO] system - 購入処理想定時間到達
+[2021-01-15T01:22:16.598] [INFO] system - <成績時間カウント開始>
+[2021-01-15T01:22:18.821] [INFO] system - 混線なし
+[2021-01-15T01:22:18.823] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T01:22:18.824] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T01:22:18.984] [ERROR] system - Error: Values must be strings. Found value "undefined" of type "undefined"
+    at Object.exports.assert (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at ElementHandle.select (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:409:25)
+    at DOMWorld.select (C:\sourse\scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:296:37)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:376:7
+    at async Array.forEachAsync (C:\sourse\scraping\node_modules\array-foreach-async\index.js:15:13)
+    at async targetPageBuy (C:\sourse\scraping\func-lpkick\lpkick.js:370:5)
+    at async newBrowser (C:\sourse\scraping\func-lpkick\lpkick.js:211:22)
+    at async C:\sourse\scraping\func-lpkick\lpkick.js:86:5
+[2021-01-15T01:22:21.706] [INFO] system - send successful
+[2021-01-15T01:24:41.411] [INFO] system - 【テスト】
+[2021-01-15T01:24:41.421] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T01:24:41.425] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T01:24:44.369] [INFO] system - send successful
+[2021-01-15T01:24:48.292] [INFO] system - 混線なし
+[2021-01-15T01:24:48.293] [INFO] system - ログインページに移動完了
+[2021-01-15T01:24:50.493] [INFO] system - 混線なし
+[2021-01-15T01:24:51.752] [INFO] system - ログイン完了
+[2021-01-15T01:24:51.901] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T01:24:51.903] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T01:24:51.906] [INFO] system - 購入処理想定時間到達
+[2021-01-15T01:24:51.914] [INFO] system - <成績時間カウント開始>
+[2021-01-15T01:24:54.294] [INFO] system - 混線なし
+[2021-01-15T01:24:54.295] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T01:24:54.296] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T01:24:56.165] [INFO] system - 混線なし
+[2021-01-15T01:24:56.166] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-01-15T01:24:56.166] [INFO] system - 購入処理開始(無料)
+[2021-01-15T01:24:56.205] [INFO] system - 混線なし
+[2021-01-15T01:24:56.205] [INFO] system - <成績：4.291秒>
+[2021-01-15T01:24:58.733] [INFO] system - send successful
+[2021-01-15T01:27:07.029] [INFO] system - 【テスト】
+[2021-01-15T01:27:07.039] [INFO] system - 2021-01-14 23:15:00にすでに到達
+[2021-01-15T01:27:07.044] [INFO] system - ログイン処理想定時間到達
+[2021-01-15T01:27:09.521] [INFO] system - send successful
+[2021-01-15T01:27:14.150] [INFO] system - 混線なし
+[2021-01-15T01:27:14.151] [INFO] system - ログインページに移動完了
+[2021-01-15T01:27:16.873] [INFO] system - 混線なし
+[2021-01-15T01:27:18.308] [INFO] system - ログイン完了
+[2021-01-15T01:27:18.447] [INFO] system - 「１部前方チケット整理番号券,１部通常チケット整理番号券,２部前方チケット整理番号券」の存在を確認(.table #ticket-339055,.table #ticket-339056,.table #ticket-339057)
+[2021-01-15T01:27:18.448] [INFO] system - 2021-01-14 23:30にすでに到達
+[2021-01-15T01:27:18.450] [INFO] system - 購入処理想定時間到達
+[2021-01-15T01:27:18.461] [INFO] system - <成績時間カウント開始>
+[2021-01-15T01:27:21.616] [INFO] system - 混線なし
+[2021-01-15T01:27:21.620] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-15T01:27:21.632] [INFO] system - 購入処理開始(確定前)
+[2021-01-15T01:27:25.120] [INFO] system - 混線なし
+[2021-01-15T01:27:25.121] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-15T01:27:25.121] [INFO] system - 購入処理開始(有料)
+[2021-01-15T01:27:25.241] [INFO] system - 【テスト:決済ロジック】
+[2021-01-15T01:27:25.242] [INFO] system - <成績：6.78秒>
+[2021-01-15T01:27:28.437] [INFO] system - send successful

@@ -1,0 +1,1237 @@
+[2021-04-05T17:58:40.007] [INFO] system - 【Windows版起動】
+[2021-04-05T17:58:40.009] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/osaka0416/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"2","storeTypeId":"002","startTime":"2021-04-05 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 22:45","notCheckOnly":true,"isClose":false}
+[2021-04-05T17:58:40.023] [INFO] system - 2021-04-05 22:45:00までログイン処理待機中...
+[2021-04-05T18:30:42.978] [INFO] system - 【Windows版起動】
+[2021-04-05T18:30:42.980] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/osaka0416/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"2","storeTypeId":"002","startTime":"2021-04-05 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 22:45","notCheckOnly":true,"isClose":false}
+[2021-04-05T18:30:43.001] [INFO] system - 2021-04-05 22:45:00までログイン処理待機中...
+[2021-04-05T21:49:56.845] [INFO] system - 【Windows版起動】
+[2021-04-05T21:49:56.846] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T21:49:56.861] [INFO] system - 【テスト】
+[2021-04-05T21:49:56.866] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T21:49:56.869] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T21:49:59.193] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T21:50:04.727] [INFO] system - ログインページに移動完了
+[2021-04-05T21:50:09.467] [INFO] system - ログイン完了
+[2021-04-05T21:50:11.330] [INFO] system - 「前方チケット整理番号券」の存在を確認(.table #ticket-389237)
+[2021-04-05T21:50:11.333] [INFO] system - 2021-04-05 21:59まで購入処理待機中...
+[2021-04-05T21:59:59.907] [INFO] system - 購入処理想定時間到達
+[2021-04-05T21:59:59.909] [INFO] system - <成績時間カウント開始>
+[2021-04-05T21:59:59.910] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:00:07.868] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:00:08.094] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:150:30)
+[2021-04-05T22:00:09.841] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-05T22:00:10.283] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:150:30)
+[2021-04-05T22:00:12.037] [INFO] system - 購入可能状態確認start(4回目)
+[2021-04-05T22:00:12.337] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:150:30)
+[2021-04-05T22:00:14.185] [INFO] system - 購入可能状態確認start(5回目)
+[2021-04-05T22:00:14.484] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:150:30)
+[2021-04-05T22:00:16.567] [INFO] system - 購入可能状態確認start(6回目)
+[2021-04-05T22:00:16.839] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:150:30)
+[2021-04-05T22:00:18.958] [INFO] system - 購入可能状態確認start(7回目)
+[2021-04-05T22:00:19.255] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:150:30)
+[2021-04-05T22:00:20.960] [INFO] system - 購入可能状態確認start(8回目)
+[2021-04-05T22:00:21.253] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:150:30)
+[2021-04-05T22:00:22.972] [INFO] system - 購入可能状態確認start(9回目)
+[2021-04-05T22:00:23.168] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:150:30)
+[2021-04-05T22:07:58.635] [INFO] system - 【Windows版起動】
+[2021-04-05T22:07:58.636] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:07:58.650] [INFO] system - 【テスト】
+[2021-04-05T22:07:58.655] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:07:58.658] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:07:59.164] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:08:03.302] [INFO] system - ログインページに移動完了
+[2021-04-05T22:08:07.889] [INFO] system - ログイン完了
+[2021-04-05T22:08:09.855] [ERROR] system - 設定不備の可能性があります
+[2021-04-05T22:08:09.856] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":"","targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:08:09.880] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:249:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:08:09.885] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:403:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:09:32.408] [INFO] system - 【Windows版起動】
+[2021-04-05T22:09:32.409] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:09:32.423] [INFO] system - 【テスト】
+[2021-04-05T22:09:32.428] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:09:32.431] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:09:32.960] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:09:37.622] [INFO] system - ログインページに移動完了
+[2021-04-05T22:09:42.469] [INFO] system - ログイン完了
+[2021-04-05T22:09:44.971] [INFO] system - 「前方チケット整理番号券」の存在を確認(.table #ticket-389237)
+[2021-04-05T22:09:44.973] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:09:44.975] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:09:44.992] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:09:44.993] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:09:46.892] [INFO] system - [object Promise]:movedJam
+[2021-04-05T22:09:46.893] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:09:47.243] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:144:33)
+[2021-04-05T22:09:49.060] [INFO] system - [object Promise]:movedJam
+[2021-04-05T22:09:49.061] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-05T22:09:49.341] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:144:33)
+[2021-04-05T22:09:50.339] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-04-05T22:09:50.378] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:404:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:11:12.573] [INFO] system - 【Windows版起動】
+[2021-04-05T22:11:12.574] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:11:12.588] [INFO] system - 【テスト】
+[2021-04-05T22:11:12.592] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:11:12.595] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:11:13.096] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:11:17.453] [INFO] system - ログインページに移動完了
+[2021-04-05T22:11:22.347] [INFO] system - ログイン完了
+[2021-04-05T22:11:24.455] [ERROR] system - 設定不備の可能性があります
+[2021-04-05T22:11:24.456] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":"","targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:11:24.479] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:249:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:11:24.503] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:406:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:15:53.958] [INFO] system - 【Windows版起動】
+[2021-04-05T22:15:53.959] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:15:53.974] [INFO] system - 【テスト】
+[2021-04-05T22:15:53.981] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:15:53.984] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:15:54.527] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:15:58.907] [INFO] system - ログインページに移動完了
+[2021-04-05T22:16:03.823] [INFO] system - ログイン完了
+[2021-04-05T22:16:05.637] [ERROR] system - 設定不備の可能性があります
+[2021-04-05T22:16:05.639] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":"","targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:16:05.660] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:249:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:16:05.665] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:409:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:18:40.515] [INFO] system - 【Windows版起動】
+[2021-04-05T22:18:40.517] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:18:40.531] [INFO] system - 【テスト】
+[2021-04-05T22:18:40.536] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:18:40.539] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:18:41.050] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:18:45.323] [INFO] system - ログインページに移動完了
+[2021-04-05T22:18:49.901] [INFO] system - ログイン完了
+[2021-04-05T22:18:51.614] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:18:51.619] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:18:51.635] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:18:51.636] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:18:53.324] [INFO] system - JSHandle@node:resultSelectorErr
+[2021-04-05T22:18:53.356] [ERROR] system - Error: Node is either not visible or not an HTMLElement
+    at ElementHandle._clickablePoint (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:329:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ElementHandle.click (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:390:26)
+    at async DOMWorld.click (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:278:9)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:287:9)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:18:53.363] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:409:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:19:34.511] [INFO] system - 【Windows版起動】
+[2021-04-05T22:19:34.513] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:19:34.525] [INFO] system - 【テスト】
+[2021-04-05T22:19:34.530] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:19:34.532] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:19:35.047] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:19:39.321] [INFO] system - ログインページに移動完了
+[2021-04-05T22:19:43.746] [INFO] system - ログイン完了
+[2021-04-05T22:19:45.931] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:19:45.933] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:19:45.934] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:19:45.952] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:19:47.823] [INFO] system - JSHandle@node:resultSelectorErr
+[2021-04-05T22:19:47.846] [ERROR] system - Error: Node is either not visible or not an HTMLElement
+    at ElementHandle._clickablePoint (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:329:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ElementHandle.click (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:390:26)
+    at async DOMWorld.click (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:278:9)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:287:9)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:19:47.853] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:409:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:20:39.729] [INFO] system - 【Windows版起動】
+[2021-04-05T22:20:39.730] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:20:39.741] [INFO] system - 【テスト】
+[2021-04-05T22:20:39.746] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:20:39.748] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:20:40.264] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:20:44.490] [INFO] system - ログインページに移動完了
+[2021-04-05T22:20:49.707] [INFO] system - ログイン完了
+[2021-04-05T22:20:51.550] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:20:51.551] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:20:51.552] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:20:51.575] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:20:53.578] [INFO] system - span#remain_sec
+[2021-04-05T22:20:53.617] [INFO] system - JSHandle@node:resultSelectorErr
+[2021-04-05T22:20:53.629] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:20:54.541] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:150:30)
+[2021-04-05T22:20:56.364] [INFO] system - span#remain_sec
+[2021-04-05T22:20:56.369] [INFO] system - JSHandle@node:resultSelectorErr
+[2021-04-05T22:20:56.381] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-05T22:20:56.605] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async ElementHandle.getProperty (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:125:30)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:150:30)
+[2021-04-05T22:21:33.986] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-04-05T22:21:34.007] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:407:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:26:27.135] [INFO] system - 【Windows版起動】
+[2021-04-05T22:26:27.136] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:26:27.149] [INFO] system - 【テスト】
+[2021-04-05T22:26:27.156] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:26:27.164] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:26:27.697] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:26:32.020] [INFO] system - ログインページに移動完了
+[2021-04-05T22:26:37.237] [INFO] system - ログイン完了
+[2021-04-05T22:26:38.923] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:26:38.924] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:26:38.925] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:26:38.944] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:26:40.760] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:26:41.059] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:144:33)
+[2021-04-05T22:26:42.637] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-05T22:26:42.798] [ERROR] system - Error: net::ERR_ABORTED at https://t.livepocket.jp/e/east0409/
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:115:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:90:21)
+    at async Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:16)
+    at async Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:16)
+    at async Promise.all (index 0)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:282:9)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:26:42.825] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:406:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:26:42.859] [INFO] system - 混線のため112秒待機開始...
+[2021-04-05T22:27:51.849] [INFO] system - 【Windows版起動】
+[2021-04-05T22:27:51.850] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:27:51.864] [INFO] system - 【テスト】
+[2021-04-05T22:27:51.869] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:27:51.871] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:27:52.403] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:27:56.780] [INFO] system - ログインページに移動完了
+[2021-04-05T22:28:02.160] [INFO] system - ログイン完了
+[2021-04-05T22:28:04.106] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:28:04.108] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:28:04.110] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:28:04.128] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:28:05.932] [INFO] system - jamerr
+[2021-04-05T22:28:05.933] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:28:06.131] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:144:33)
+[2021-04-05T22:30:02.524] [INFO] system - 【Windows版起動】
+[2021-04-05T22:30:02.525] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:30:02.540] [INFO] system - 【テスト】
+[2021-04-05T22:30:02.546] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:30:02.549] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:30:03.124] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:30:07.340] [INFO] system - ログインページに移動完了
+[2021-04-05T22:30:12.318] [INFO] system - ログイン完了
+[2021-04-05T22:30:14.163] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:30:14.167] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:30:14.185] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:30:14.186] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:30:16.209] [INFO] system - jamerr
+[2021-04-05T22:30:16.211] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:30:16.353] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:18.524] [INFO] system - jamerr
+[2021-04-05T22:30:18.525] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-05T22:30:18.725] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:20.624] [INFO] system - jamerr
+[2021-04-05T22:30:20.625] [INFO] system - 購入可能状態確認start(4回目)
+[2021-04-05T22:30:20.870] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:22.914] [INFO] system - jamerr
+[2021-04-05T22:30:22.915] [INFO] system - 購入可能状態確認start(5回目)
+[2021-04-05T22:30:23.264] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:25.159] [INFO] system - jamerr
+[2021-04-05T22:30:25.161] [INFO] system - 購入可能状態確認start(6回目)
+[2021-04-05T22:30:25.350] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:27.051] [INFO] system - jamerr
+[2021-04-05T22:30:27.056] [INFO] system - 購入可能状態確認start(7回目)
+[2021-04-05T22:30:27.259] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:28.935] [INFO] system - jamerr
+[2021-04-05T22:30:28.935] [INFO] system - 購入可能状態確認start(8回目)
+[2021-04-05T22:30:29.138] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:30.871] [INFO] system - jamerr
+[2021-04-05T22:30:30.872] [INFO] system - 購入可能状態確認start(9回目)
+[2021-04-05T22:30:31.144] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:33.268] [INFO] system - jamerr
+[2021-04-05T22:30:33.269] [INFO] system - 購入可能状態確認start(10回目)
+[2021-04-05T22:30:33.459] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:35.215] [INFO] system - jamerr
+[2021-04-05T22:30:35.215] [INFO] system - 購入可能状態確認start(11回目)
+[2021-04-05T22:30:35.431] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:37.155] [INFO] system - jamerr
+[2021-04-05T22:30:37.156] [INFO] system - 購入可能状態確認start(12回目)
+[2021-04-05T22:30:37.338] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:38.946] [INFO] system - jamerr
+[2021-04-05T22:30:38.953] [INFO] system - 購入可能状態確認start(13回目)
+[2021-04-05T22:30:39.160] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:40.830] [INFO] system - jamerr
+[2021-04-05T22:30:40.833] [INFO] system - 購入可能状態確認start(14回目)
+[2021-04-05T22:30:41.067] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:42.623] [INFO] system - jamerr
+[2021-04-05T22:30:42.624] [INFO] system - 購入可能状態確認start(15回目)
+[2021-04-05T22:30:42.815] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:44.423] [INFO] system - jamerr
+[2021-04-05T22:30:44.425] [INFO] system - 購入可能状態確認start(16回目)
+[2021-04-05T22:30:44.560] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:46.215] [INFO] system - jamerr
+[2021-04-05T22:30:46.216] [INFO] system - 購入可能状態確認start(17回目)
+[2021-04-05T22:30:46.415] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:48.064] [INFO] system - jamerr
+[2021-04-05T22:30:48.065] [INFO] system - 購入可能状態確認start(18回目)
+[2021-04-05T22:30:48.358] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:49.970] [INFO] system - jamerr
+[2021-04-05T22:30:49.971] [INFO] system - 購入可能状態確認start(19回目)
+[2021-04-05T22:30:50.107] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:51.702] [INFO] system - jamerr
+[2021-04-05T22:30:51.703] [INFO] system - 購入可能状態確認start(20回目)
+[2021-04-05T22:30:51.871] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:53.461] [INFO] system - jamerr
+[2021-04-05T22:30:53.462] [INFO] system - 購入可能状態確認start(21回目)
+[2021-04-05T22:30:53.659] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:55.538] [INFO] system - jamerr
+[2021-04-05T22:30:55.539] [INFO] system - 購入可能状態確認start(22回目)
+[2021-04-05T22:30:55.765] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:30:57.316] [INFO] system - jamerr
+[2021-04-05T22:30:57.319] [INFO] system - 購入可能状態確認start(23回目)
+[2021-04-05T22:30:57.522] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async jamErrorTry (C:\source\yt-scraping\func-lpkick\lpkick.js:141:33)
+[2021-04-05T22:32:13.478] [INFO] system - 【Windows版起動】
+[2021-04-05T22:32:13.479] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:32:13.481] [INFO] system - 【テスト】
+[2021-04-05T22:32:13.485] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:32:13.487] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:32:14.016] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:32:18.700] [INFO] system - ログインページに移動完了
+[2021-04-05T22:32:23.098] [INFO] system - ログイン完了
+[2021-04-05T22:32:25.184] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:32:25.187] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:32:25.197] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:32:25.199] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:32:27.567] [INFO] system - jamerr
+[2021-04-05T22:32:27.568] [INFO] system - jamstart
+[2021-04-05T22:32:27.569] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:32:27.970] [ERROR] system - Error: net::ERR_ABORTED at https://t.livepocket.jp/e/east0409/
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:115:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:90:21)
+    at async Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:16)
+    at async Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:16)
+    at async Promise.all (index 0)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:305:9)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:32:27.986] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:429:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:33:08.874] [INFO] system - 【Windows版起動】
+[2021-04-05T22:33:08.878] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:33:08.894] [INFO] system - 【テスト】
+[2021-04-05T22:33:08.898] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:33:08.907] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:33:09.402] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:33:13.601] [INFO] system - ログインページに移動完了
+[2021-04-05T22:33:17.845] [INFO] system - ログイン完了
+[2021-04-05T22:33:19.978] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:33:19.980] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:33:19.981] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:33:19.993] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:33:21.954] [INFO] system - jamerr
+[2021-04-05T22:33:21.956] [INFO] system - jamstart
+[2021-04-05T22:33:21.957] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:33:48.584] [INFO] system - 【Windows版起動】
+[2021-04-05T22:33:48.586] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:33:48.595] [INFO] system - 【テスト】
+[2021-04-05T22:33:48.603] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:33:48.612] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:33:49.143] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:33:54.128] [INFO] system - ログインページに移動完了
+[2021-04-05T22:33:58.032] [INFO] system - ログイン完了
+[2021-04-05T22:34:00.164] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:34:00.166] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:34:00.167] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:34:00.179] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:34:02.670] [INFO] system - jamerr
+[2021-04-05T22:34:02.671] [INFO] system - jamstart
+[2021-04-05T22:34:02.672] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:34:02.779] [ERROR] system - Error: net::ERR_ABORTED at https://t.livepocket.jp/e/east0409/
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:115:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:90:21)
+    at async Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:16)
+    at async Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:16)
+    at async Promise.all (index 0)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:306:9)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:34:02.794] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:430:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:34:33.551] [INFO] system - 【Windows版起動】
+[2021-04-05T22:34:33.553] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:34:33.561] [INFO] system - 【テスト】
+[2021-04-05T22:34:33.567] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:34:33.573] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:34:34.097] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:34:38.336] [INFO] system - ログインページに移動完了
+[2021-04-05T22:34:43.735] [INFO] system - ログイン完了
+[2021-04-05T22:34:46.155] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:34:46.160] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:34:46.161] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:34:46.175] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:34:48.089] [INFO] system - jamerr
+[2021-04-05T22:34:48.091] [INFO] system - jamstart
+[2021-04-05T22:34:48.092] [INFO] system - aaa
+[2021-04-05T22:34:48.105] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:34:49.950] [INFO] system - jamerr
+[2021-04-05T22:34:49.951] [INFO] system - jamstart
+[2021-04-05T22:34:49.952] [INFO] system - aaa
+[2021-04-05T22:34:49.953] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-05T22:34:51.875] [INFO] system - jamerr
+[2021-04-05T22:34:51.876] [INFO] system - jamstart
+[2021-04-05T22:34:51.876] [INFO] system - aaa
+[2021-04-05T22:34:51.878] [INFO] system - 購入可能状態確認start(4回目)
+[2021-04-05T22:34:51.969] [ERROR] system - Error: net::ERR_ABORTED at https://t.livepocket.jp/e/east0409/
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:115:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:90:21)
+    at async Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:16)
+    at async Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:16)
+    at async Promise.all (index 0)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:299:9)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:34:51.989] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:423:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:36:31.401] [INFO] system - 【Windows版起動】
+[2021-04-05T22:36:31.402] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:36:31.410] [INFO] system - 【テスト】
+[2021-04-05T22:36:31.416] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:36:31.419] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:36:31.925] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:36:36.554] [INFO] system - ログインページに移動完了
+[2021-04-05T22:36:40.439] [INFO] system - ログイン完了
+[2021-04-05T22:36:42.286] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:36:42.288] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:36:42.289] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:36:42.302] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:36:44.038] [INFO] system - jamerr
+[2021-04-05T22:36:44.040] [INFO] system - jamstart
+[2021-04-05T22:36:44.040] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:36:45.286] [INFO] system - jamerr
+[2021-04-05T22:36:45.287] [INFO] system - jamstart
+[2021-04-05T22:36:45.288] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-05T22:36:45.388] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-04-05T22:36:45.396] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:430:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:38:39.837] [INFO] system - 【Windows版起動】
+[2021-04-05T22:38:39.838] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:38:39.841] [INFO] system - 【テスト】
+[2021-04-05T22:38:39.846] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:38:39.857] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:38:40.379] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:38:45.205] [INFO] system - ログインページに移動完了
+[2021-04-05T22:38:50.184] [INFO] system - ログイン完了
+[2021-04-05T22:38:52.152] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:38:52.157] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:38:52.169] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:38:52.170] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:38:54.096] [INFO] system - jamerr
+[2021-04-05T22:38:54.097] [INFO] system - jamstart
+[2021-04-05T22:38:54.098] [INFO] system - aaa
+[2021-04-05T22:38:54.105] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:38:56.382] [INFO] system - jamerr
+[2021-04-05T22:38:56.383] [INFO] system - jamstart
+[2021-04-05T22:38:56.384] [INFO] system - aaa
+[2021-04-05T22:38:56.396] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-05T22:40:34.630] [INFO] system - 【Windows版起動】
+[2021-04-05T22:40:34.632] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:40:34.640] [INFO] system - 【テスト】
+[2021-04-05T22:40:34.646] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:40:34.649] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:40:35.166] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:40:39.534] [INFO] system - ログインページに移動完了
+[2021-04-05T22:40:43.783] [INFO] system - ログイン完了
+[2021-04-05T22:40:45.565] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:40:45.569] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:40:45.569] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:40:45.576] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:40:47.221] [INFO] system - jamerr
+[2021-04-05T22:40:47.223] [INFO] system - jamstart
+[2021-04-05T22:40:47.224] [INFO] system - aaa
+[2021-04-05T22:40:47.235] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T22:40:49.122] [INFO] system - jamerr
+[2021-04-05T22:40:49.128] [INFO] system - jamstart
+[2021-04-05T22:40:49.129] [INFO] system - aaa
+[2021-04-05T22:40:49.132] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-05T22:40:50.902] [INFO] system - jamerr
+[2021-04-05T22:40:50.904] [INFO] system - jamstart
+[2021-04-05T22:40:50.905] [INFO] system - aaa
+[2021-04-05T22:40:50.906] [INFO] system - 購入可能状態確認start(4回目)
+[2021-04-05T22:44:10.490] [INFO] system - 【Windows版起動】
+[2021-04-05T22:44:10.491] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:44:10.500] [INFO] system - 【テスト】
+[2021-04-05T22:44:10.505] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:44:10.508] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:44:11.017] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:44:15.132] [INFO] system - ログインページに移動完了
+[2021-04-05T22:44:20.598] [INFO] system - ログイン完了
+[2021-04-05T22:44:22.450] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:44:22.454] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:44:22.467] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:44:22.468] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:44:24.315] [INFO] system - jamerr
+[2021-04-05T22:44:24.317] [ERROR] system - TypeError: movedJam.getProperty is not a function
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:309:45)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:44:24.336] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:431:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:47:56.893] [INFO] system - 【Windows版起動】
+[2021-04-05T22:47:56.894] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:47:56.905] [INFO] system - 【テスト】
+[2021-04-05T22:47:56.909] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:47:56.911] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:47:57.467] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:48:01.685] [INFO] system - ログインページに移動完了
+[2021-04-05T22:48:06.261] [INFO] system - ログイン完了
+[2021-04-05T22:48:08.146] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:48:08.147] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:48:08.148] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:48:08.149] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:48:09.726] [INFO] system - jamerr
+[2021-04-05T22:48:09.729] [ERROR] system - TypeError: movedJam.getProperty is not a function
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:309:45)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:48:09.744] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:431:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:48:48.917] [INFO] system - 【Windows版起動】
+[2021-04-05T22:48:48.919] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:48:48.929] [INFO] system - 【テスト】
+[2021-04-05T22:48:48.934] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:48:48.935] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:48:49.480] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:48:53.730] [INFO] system - ログインページに移動完了
+[2021-04-05T22:48:58.489] [INFO] system - ログイン完了
+[2021-04-05T22:49:00.675] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:49:00.677] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:49:00.679] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:49:00.691] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:49:02.522] [INFO] system - jamerr
+[2021-04-05T22:49:02.523] [ERROR] system - TypeError: movedJam.getProperty is not a function
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:309:45)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:49:02.539] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:431:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:54:42.250] [INFO] system - 【Windows版起動】
+[2021-04-05T22:54:42.251] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:54:42.261] [INFO] system - 【テスト】
+[2021-04-05T22:54:42.271] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:54:42.273] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:54:42.787] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:54:47.546] [INFO] system - ログインページに移動完了
+[2021-04-05T22:54:52.019] [INFO] system - ログイン完了
+[2021-04-05T22:54:54.544] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:54:54.548] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:54:54.560] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:54:54.562] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:54:56.642] [INFO] system - jamerr
+[2021-04-05T22:54:56.643] [ERROR] system - ReferenceError: item is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:310:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:54:56.649] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:432:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:55:23.487] [INFO] system - 【Windows版起動】
+[2021-04-05T22:55:23.488] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:55:23.500] [INFO] system - 【テスト】
+[2021-04-05T22:55:23.504] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:55:23.514] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:55:24.043] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:55:29.335] [INFO] system - ログインページに移動完了
+[2021-04-05T22:55:33.691] [INFO] system - ログイン完了
+[2021-04-05T22:55:36.080] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:55:36.081] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:55:36.082] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:55:36.083] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:55:38.203] [INFO] system - jamerr
+[2021-04-05T22:55:38.204] [ERROR] system - ReferenceError: item is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:310:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:55:38.220] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:432:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:57:15.607] [INFO] system - 【Windows版起動】
+[2021-04-05T22:57:15.609] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:57:15.621] [INFO] system - 【テスト】
+[2021-04-05T22:57:15.627] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:57:15.631] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:57:16.188] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:57:21.375] [INFO] system - ログインページに移動完了
+[2021-04-05T22:57:25.703] [INFO] system - ログイン完了
+[2021-04-05T22:57:27.765] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:57:27.770] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:57:27.782] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:57:27.784] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:57:29.863] [INFO] system - jamerr
+[2021-04-05T22:57:29.881] [ERROR] system - Error: Protocol error (Runtime.evaluate): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:162:18)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:102:44
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-04-05T22:57:29.887] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:434:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:58:51.747] [INFO] system - 【Windows版起動】
+[2021-04-05T22:58:51.748] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:58:51.757] [INFO] system - 【テスト】
+[2021-04-05T22:58:51.762] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:58:51.771] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:58:52.271] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:58:57.001] [INFO] system - ログインページに移動完了
+[2021-04-05T22:59:01.007] [INFO] system - ログイン完了
+[2021-04-05T22:59:03.270] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:59:03.276] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:59:03.289] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:59:03.290] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:59:05.451] [INFO] system - jamerr
+[2021-04-05T22:59:05.453] [ERROR] system - TypeError: movedJam.getProperty is not a function
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:310:45)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:59:05.469] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:435:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T22:59:28.154] [INFO] system - 【Windows版起動】
+[2021-04-05T22:59:28.156] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T22:59:28.166] [INFO] system - 【テスト】
+[2021-04-05T22:59:28.170] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T22:59:28.172] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T22:59:28.702] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T22:59:33.113] [INFO] system - ログインページに移動完了
+[2021-04-05T22:59:37.728] [INFO] system - ログイン完了
+[2021-04-05T22:59:39.955] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T22:59:39.959] [INFO] system - 購入処理想定時間到達
+[2021-04-05T22:59:39.972] [INFO] system - <成績時間カウント開始>
+[2021-04-05T22:59:39.973] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T22:59:41.859] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-04-05T22:59:41.866] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:435:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:00:08.427] [INFO] system - 【Windows版起動】
+[2021-04-05T23:00:08.428] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T23:00:08.440] [INFO] system - 【テスト】
+[2021-04-05T23:00:08.445] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T23:00:08.448] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T23:00:08.933] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T23:00:14.185] [INFO] system - ログインページに移動完了
+[2021-04-05T23:00:18.454] [INFO] system - ログイン完了
+[2021-04-05T23:00:21.029] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T23:00:21.031] [INFO] system - 購入処理想定時間到達
+[2021-04-05T23:00:21.032] [INFO] system - <成績時間カウント開始>
+[2021-04-05T23:00:21.044] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T23:00:33.552] [INFO] system - jamerr
+[2021-04-05T23:00:33.554] [ERROR] system - TypeError: movedJam.getProperty is not a function
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:310:45)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:00:33.570] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:435:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:01:29.015] [INFO] system - 【Windows版起動】
+[2021-04-05T23:01:29.016] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T23:01:29.024] [INFO] system - 【テスト】
+[2021-04-05T23:01:29.030] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T23:01:29.033] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T23:01:29.542] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T23:01:34.216] [INFO] system - ログインページに移動完了
+[2021-04-05T23:01:39.131] [INFO] system - ログイン完了
+[2021-04-05T23:01:41.464] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T23:01:41.466] [INFO] system - 購入処理想定時間到達
+[2021-04-05T23:01:41.467] [INFO] system - <成績時間カウント開始>
+[2021-04-05T23:01:41.479] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T23:01:53.591] [INFO] system - jamerr
+[2021-04-05T23:01:53.592] [ERROR] system - TypeError: movedJam.getProperty is not a function
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:310:45)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:01:53.600] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:435:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:05:39.877] [INFO] system - 【Windows版起動】
+[2021-04-05T23:05:39.878] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T23:05:39.888] [INFO] system - 【テスト】
+[2021-04-05T23:05:39.894] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T23:05:39.897] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T23:05:40.383] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T23:05:45.074] [INFO] system - ログインページに移動完了
+[2021-04-05T23:05:49.712] [INFO] system - ログイン完了
+[2021-04-05T23:05:51.951] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T23:05:51.956] [INFO] system - 購入処理想定時間到達
+[2021-04-05T23:05:51.968] [INFO] system - <成績時間カウント開始>
+[2021-04-05T23:05:51.969] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T23:06:36.738] [INFO] system - 【Windows版起動】
+[2021-04-05T23:06:36.739] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T23:06:36.748] [INFO] system - 【テスト】
+[2021-04-05T23:06:36.752] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T23:06:36.755] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T23:06:37.289] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T23:06:41.796] [INFO] system - ログインページに移動完了
+[2021-04-05T23:06:47.082] [INFO] system - ログイン完了
+[2021-04-05T23:06:49.422] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T23:06:49.428] [INFO] system - 購入処理想定時間到達
+[2021-04-05T23:06:49.441] [INFO] system - <成績時間カウント開始>
+[2021-04-05T23:06:49.443] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T23:06:51.999] [INFO] system - jamerr
+[2021-04-05T23:06:52.006] [INFO] system - 混線なし
+[2021-04-05T23:06:52.014] [INFO] system - 購入可能状態確認start(2回目)
+[2021-04-05T23:06:53.898] [INFO] system - jamerr
+[2021-04-05T23:06:53.904] [INFO] system - 混線なし
+[2021-04-05T23:06:53.913] [INFO] system - 購入可能状態確認start(3回目)
+[2021-04-05T23:06:56.025] [INFO] system - jamerr
+[2021-04-05T23:06:56.032] [INFO] system - 混線なし
+[2021-04-05T23:06:56.041] [INFO] system - 購入可能状態確認start(4回目)
+[2021-04-05T23:06:58.261] [INFO] system - jamerr
+[2021-04-05T23:06:58.267] [INFO] system - 混線なし
+[2021-04-05T23:06:58.277] [INFO] system - 購入可能状態確認start(5回目)
+[2021-04-05T23:07:00.034] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-04-05T23:07:00.062] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:426:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:23.647] [INFO] system - 【Windows版起動】
+[2021-04-05T23:07:23.648] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T23:07:23.657] [INFO] system - 【テスト】
+[2021-04-05T23:07:23.662] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T23:07:23.670] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T23:07:24.173] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T23:07:29.011] [INFO] system - ログインページに移動完了
+[2021-04-05T23:07:33.945] [INFO] system - ログイン完了
+[2021-04-05T23:07:36.226] [INFO] system - 2021-04-05 21:59にすでに到達
+[2021-04-05T23:07:36.227] [INFO] system - 購入処理想定時間到達
+[2021-04-05T23:07:36.229] [INFO] system - <成績時間カウント開始>
+[2021-04-05T23:07:36.240] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T23:07:38.408] [INFO] system - 購入可能状態確認end
+[2021-04-05T23:07:38.409] [INFO] system - 枚数選択start(1回目)
+[2021-04-05T23:07:38.411] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:38.735] [INFO] system - 枚数選択start(2回目)
+[2021-04-05T23:07:38.736] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:39.045] [INFO] system - 枚数選択start(3回目)
+[2021-04-05T23:07:39.046] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:39.354] [INFO] system - 枚数選択start(4回目)
+[2021-04-05T23:07:39.355] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:39.658] [INFO] system - 枚数選択start(5回目)
+[2021-04-05T23:07:39.659] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:39.958] [INFO] system - 枚数選択start(6回目)
+[2021-04-05T23:07:39.959] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:40.262] [INFO] system - 枚数選択start(7回目)
+[2021-04-05T23:07:40.264] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:40.561] [INFO] system - 枚数選択start(8回目)
+[2021-04-05T23:07:40.562] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:40.887] [INFO] system - 枚数選択start(9回目)
+[2021-04-05T23:07:40.889] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:41.190] [INFO] system - 枚数選択start(10回目)
+[2021-04-05T23:07:41.191] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:41.493] [INFO] system - 枚数選択start(11回目)
+[2021-04-05T23:07:41.495] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:41.822] [INFO] system - 枚数選択start(12回目)
+[2021-04-05T23:07:41.823] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:42.132] [INFO] system - 枚数選択start(13回目)
+[2021-04-05T23:07:42.133] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:42.433] [INFO] system - 枚数選択start(14回目)
+[2021-04-05T23:07:42.434] [ERROR] system - TypeError: Cannot read property 'split' of null
+    at targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:579:29)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:324:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:07:42.479] [ERROR] system - Error: Protocol error (Page.captureScreenshot): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1111:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-04-05T23:07:42.483] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:426:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-05T23:08:16.786] [INFO] system - 【Windows版起動】
+[2021-04-05T23:08:16.787] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T23:08:16.796] [INFO] system - 【テスト】
+[2021-04-05T23:08:16.802] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T23:08:16.805] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T23:08:17.281] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T23:08:22.039] [INFO] system - ログインページに移動完了
+[2021-04-05T23:08:26.401] [INFO] system - ログイン完了
+[2021-04-05T23:08:26.525] [INFO] system - 「前方チケット整理番号券」の存在を確認(.table #ticket-389237)
+[2021-04-05T23:08:26.529] [INFO] system - 2021-04-05 22:00にすでに到達
+[2021-04-05T23:08:26.531] [INFO] system - 購入処理想定時間到達
+[2021-04-05T23:08:26.541] [INFO] system - <成績時間カウント開始>
+[2021-04-05T23:08:26.542] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T23:08:28.687] [INFO] system - 購入可能状態確認end
+[2021-04-05T23:08:28.688] [INFO] system - 枚数選択start(1回目)
+[2021-04-05T23:08:33.272] [INFO] system - 枚数選択end
+[2021-04-05T23:08:33.273] [INFO] system - 決済処理start(1回目)
+[2021-04-05T23:08:33.274] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-04-05T23:08:33.275] [INFO] system - 購入処理開始(有料)
+[2021-04-05T23:08:33.482] [INFO] system - 規約に同意クリック
+[2021-04-05T23:08:33.483] [INFO] system - 【テスト:決済ロジック】
+[2021-04-05T23:08:33.485] [INFO] system - テスト処理完了
+[2021-04-05T23:09:04.978] [INFO] system - 【Windows版起動】
+[2021-04-05T23:09:04.979] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/east0409/","targetTicket":null,"targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-05 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-05 21:47","notCheckOnly":true,"isClose":false}
+[2021-04-05T23:09:04.989] [INFO] system - 【テスト】
+[2021-04-05T23:09:04.993] [INFO] system - 2021-04-05 21:45:00にすでに到達
+[2021-04-05T23:09:04.996] [INFO] system - ログイン処理想定時間到達
+[2021-04-05T23:09:05.526] [INFO] system - ブラウザ起動後準備完了
+[2021-04-05T23:09:10.074] [INFO] system - ログインページに移動完了
+[2021-04-05T23:09:14.538] [INFO] system - ログイン完了
+[2021-04-05T23:09:14.713] [INFO] system - 「前方チケット整理番号券」の存在を確認(.table #ticket-389237)
+[2021-04-05T23:09:14.717] [INFO] system - 2021-04-05 22:00にすでに到達
+[2021-04-05T23:09:14.719] [INFO] system - 購入処理想定時間到達
+[2021-04-05T23:09:14.729] [INFO] system - <成績時間カウント開始>
+[2021-04-05T23:09:14.730] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-05T23:09:16.693] [INFO] system - 購入可能状態確認end
+[2021-04-05T23:09:16.694] [INFO] system - 枚数選択start(1回目)
+[2021-04-05T23:09:23.143] [INFO] system - 枚数選択end
+[2021-04-05T23:09:23.144] [INFO] system - 決済処理start(1回目)
+[2021-04-05T23:09:23.145] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-04-05T23:09:23.147] [INFO] system - 購入処理開始(有料)
+[2021-04-05T23:09:23.321] [INFO] system - 規約に同意クリック
+[2021-04-05T23:09:23.322] [INFO] system - 【テスト:決済ロジック】
+[2021-04-05T23:09:23.325] [INFO] system - テスト処理完了

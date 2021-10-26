@@ -1,0 +1,145 @@
+[2021-01-30T23:35:12.499] [INFO] system - 【Windows版起動】
+[2021-01-30T23:35:12.501] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/dr6-v/","targetTicket":".table #ticket-334786","targetName":"一般券（指定席）","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-30T23:35:12.513] [INFO] system - 【テスト】
+[2021-01-30T23:35:12.524] [INFO] system - 2021-01-27 21:45:00にすでに到達
+[2021-01-30T23:35:12.532] [INFO] system - ログイン処理想定時間到達
+[2021-01-30T23:35:16.406] [INFO] system - send successful
+[2021-01-30T23:35:18.361] [INFO] system - 混線なし
+[2021-01-30T23:35:18.362] [INFO] system - ログインページに移動完了
+[2021-01-30T23:35:21.156] [INFO] system - 混線なし
+[2021-01-30T23:35:23.146] [INFO] system - ログイン完了
+[2021-01-30T23:35:23.318] [INFO] system - 「一般券（指定席）」の存在を確認(.table #ticket-346203)
+[2021-01-30T23:35:23.322] [INFO] system - 2021-01-27 22:00にすでに到達
+[2021-01-30T23:35:23.344] [INFO] system - 購入処理想定時間到達
+[2021-01-30T23:35:23.345] [INFO] system - <成績時間カウント開始>
+[2021-01-30T23:35:25.877] [INFO] system - 混線なし
+[2021-01-30T23:35:25.880] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-30T23:35:25.882] [INFO] system - 購入処理開始(確定前)
+[2021-01-30T23:35:37.779] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-30T23:35:37.815] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-30T23:35:37.816] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:299:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-01-30T23:36:14.080] [INFO] system - 【Windows版起動】
+[2021-01-30T23:36:14.081] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/dr6-v/","targetTicket":".table #ticket-334786","targetName":"一般券（指定席）","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-30T23:36:14.092] [INFO] system - 【テスト】
+[2021-01-30T23:36:14.104] [INFO] system - 2021-01-27 21:45:00にすでに到達
+[2021-01-30T23:36:14.112] [INFO] system - ログイン処理想定時間到達
+[2021-01-30T23:36:17.708] [INFO] system - send successful
+[2021-01-30T23:36:19.775] [INFO] system - 混線なし
+[2021-01-30T23:36:19.776] [INFO] system - ログインページに移動完了
+[2021-01-30T23:36:22.093] [INFO] system - 混線なし
+[2021-01-30T23:36:23.883] [INFO] system - ログイン完了
+[2021-01-30T23:36:24.044] [INFO] system - 「一般券（指定席）」の存在を確認(.table #ticket-346203)
+[2021-01-30T23:36:24.047] [INFO] system - 2021-01-27 22:00にすでに到達
+[2021-01-30T23:36:24.054] [INFO] system - 購入処理想定時間到達
+[2021-01-30T23:36:24.061] [INFO] system - <成績時間カウント開始>
+[2021-01-30T23:36:26.902] [INFO] system - 混線なし
+[2021-01-30T23:36:26.905] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-30T23:36:26.907] [INFO] system - 購入処理開始(確定前)
+[2021-01-30T23:37:46.903] [INFO] system - 【Windows版起動】
+[2021-01-30T23:37:46.904] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/dr6-v/","targetTicket":".table #ticket-334786","targetName":"一般券（指定席）","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-30T23:37:46.915] [INFO] system - 【テスト】
+[2021-01-30T23:37:46.929] [INFO] system - 2021-01-27 21:45:00にすでに到達
+[2021-01-30T23:37:46.932] [INFO] system - ログイン処理想定時間到達
+[2021-01-30T23:37:50.122] [INFO] system - send successful
+[2021-01-30T23:37:52.043] [INFO] system - 混線なし
+[2021-01-30T23:37:52.045] [INFO] system - ログインページに移動完了
+[2021-01-30T23:37:54.910] [INFO] system - 混線なし
+[2021-01-30T23:37:56.669] [INFO] system - ログイン完了
+[2021-01-30T23:37:56.809] [INFO] system - 「一般券（指定席）」の存在を確認(.table #ticket-346203)
+[2021-01-30T23:37:56.812] [INFO] system - 2021-01-27 22:00にすでに到達
+[2021-01-30T23:37:56.828] [INFO] system - 購入処理想定時間到達
+[2021-01-30T23:37:56.829] [INFO] system - <成績時間カウント開始>
+[2021-01-30T23:37:59.161] [INFO] system - 混線なし
+[2021-01-30T23:37:59.164] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-30T23:37:59.165] [INFO] system - 購入処理開始(確定前)
+[2021-01-30T23:38:31.778] [INFO] system - 【Windows版起動】
+[2021-01-30T23:38:31.779] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/dr6-v/","targetTicket":".table #ticket-334786","targetName":"一般券（指定席）","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-30T23:38:31.792] [INFO] system - 【テスト】
+[2021-01-30T23:38:31.804] [INFO] system - 2021-01-27 21:45:00にすでに到達
+[2021-01-30T23:38:31.806] [INFO] system - ログイン処理想定時間到達
+[2021-01-30T23:38:34.540] [INFO] system - send successful
+[2021-01-30T23:38:36.798] [INFO] system - 混線なし
+[2021-01-30T23:38:36.799] [INFO] system - ログインページに移動完了
+[2021-01-30T23:38:39.643] [INFO] system - 混線なし
+[2021-01-30T23:38:41.898] [INFO] system - ログイン完了
+[2021-01-30T23:38:41.926] [INFO] system - 「一般券（指定席）」の存在を確認(.table #ticket-346203)
+[2021-01-30T23:38:41.929] [INFO] system - 2021-01-27 22:00にすでに到達
+[2021-01-30T23:38:41.932] [INFO] system - 購入処理想定時間到達
+[2021-01-30T23:38:41.933] [INFO] system - <成績時間カウント開始>
+[2021-01-30T23:38:44.299] [INFO] system - 混線なし
+[2021-01-30T23:38:44.302] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-30T23:38:44.305] [INFO] system - 購入処理開始(確定前)
+[2021-01-30T23:39:39.721] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-30T23:39:39.747] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-30T23:39:39.766] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:299:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-01-30T23:43:40.681] [INFO] system - 【Windows版起動】
+[2021-01-30T23:43:40.683] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/dr6-v/","targetTicket":".table #ticket-334786","targetName":"一般券（指定席）","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-30T23:43:40.697] [INFO] system - 【テスト】
+[2021-01-30T23:43:40.711] [INFO] system - 2021-01-27 21:45:00にすでに到達
+[2021-01-30T23:43:40.714] [INFO] system - ログイン処理想定時間到達
+[2021-01-30T23:43:43.957] [INFO] system - send successful
+[2021-01-30T23:43:46.003] [INFO] system - 混線なし
+[2021-01-30T23:43:46.004] [INFO] system - ログインページに移動完了
+[2021-01-30T23:43:48.998] [INFO] system - 混線なし
+[2021-01-30T23:43:51.087] [INFO] system - ログイン完了
+[2021-01-30T23:43:51.271] [INFO] system - 「一般券（指定席）」の存在を確認(.table #ticket-346203)
+[2021-01-30T23:43:51.275] [INFO] system - 2021-01-27 22:00にすでに到達
+[2021-01-30T23:43:51.278] [INFO] system - 購入処理想定時間到達
+[2021-01-30T23:43:51.293] [INFO] system - <成績時間カウント開始>
+[2021-01-30T23:43:53.442] [INFO] system - 混線なし
+[2021-01-30T23:43:53.446] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-30T23:43:53.449] [INFO] system - 購入処理開始(確定前)
+[2021-01-30T23:44:06.084] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-30T23:44:06.144] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-30T23:44:06.149] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:299:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5

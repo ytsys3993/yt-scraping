@@ -1,0 +1,186 @@
+[2021-04-02T21:32:30.613] [INFO] system - 【Windows版起動】
+[2021-04-02T21:32:30.616] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":null,"targetName":"【名古屋編】通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T21:32:30.626] [INFO] system - 2021-04-02 21:45:00までログイン処理待機中...
+[2021-04-02T21:45:00.023] [INFO] system - ログイン処理想定時間到達
+[2021-04-02T21:45:01.563] [INFO] system - ブラウザ起動後準備完了
+[2021-04-02T21:45:06.365] [INFO] system - ログインページに移動完了
+[2021-04-02T21:45:10.257] [INFO] system - ログイン完了
+[2021-04-02T21:45:10.307] [INFO] system - 「【名古屋編】通常チケット整理番号券」の存在を確認(.table #ticket-387604)
+[2021-04-02T21:45:10.309] [INFO] system - 2021-04-02 21:59まで購入処理待機中...
+[2021-04-02T21:59:59.904] [INFO] system - 購入処理想定時間到達
+[2021-04-02T21:59:59.905] [INFO] system - <成績時間カウント開始>
+[2021-04-02T21:59:59.909] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-02T22:00:03.918] [INFO] system - 購入可能状態確認end
+[2021-04-02T22:00:03.919] [INFO] system - 枚数選択start(1回目)
+[2021-04-02T22:00:10.971] [INFO] system - 枚数選択end
+[2021-04-02T22:00:10.972] [INFO] system - 決済処理start(1回目)
+[2021-04-02T22:00:10.973] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-04-02T22:00:10.974] [INFO] system - 購入処理開始(無料)
+[2021-04-02T22:00:10.982] [INFO] system - 混線なし
+[2021-04-02T22:00:11.009] [INFO] system - 規約に同意クリック
+[2021-04-02T22:00:18.231] [INFO] system - 決済処理end
+[2021-04-02T22:00:18.233] [INFO] system - <現在時刻：Fri Apr 02 2021 22:00:18 GMT+0900／成績：18.325秒>
+[2021-04-02T22:00:18.234] [INFO] system - <成績：18.326秒>
+[2021-04-02T22:06:24.108] [INFO] system - 【Windows版起動】
+[2021-04-02T22:06:24.109] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":null,"targetName":"【名古屋編】通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:06:24.123] [INFO] system - 【テスト】
+[2021-04-02T22:06:24.128] [INFO] system - 2021-04-02 21:45:00にすでに到達
+[2021-04-02T22:06:24.131] [INFO] system - ログイン処理想定時間到達
+[2021-04-02T22:06:24.625] [INFO] system - ブラウザ起動後準備完了
+[2021-04-02T22:06:29.028] [INFO] system - ログインページに移動完了
+[2021-04-02T22:06:33.626] [INFO] system - ログイン完了
+[2021-04-02T22:06:33.792] [INFO] system - 「【名古屋編】通常チケット整理番号券」の存在を確認(.table #ticket-387604)
+[2021-04-02T22:06:33.795] [INFO] system - 2021-04-02 21:59にすでに到達
+[2021-04-02T22:06:33.801] [INFO] system - 購入処理想定時間到達
+[2021-04-02T22:06:33.814] [INFO] system - <成績時間カウント開始>
+[2021-04-02T22:06:33.815] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-02T22:06:36.032] [INFO] system - 購入可能状態確認end
+[2021-04-02T22:06:36.032] [INFO] system - 枚数選択start(1回目)
+[2021-04-02T22:06:39.765] [INFO] system - 枚数選択end
+[2021-04-02T22:06:39.765] [INFO] system - 決済処理start(1回目)
+[2021-04-02T22:06:39.766] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-04-02T22:06:39.768] [INFO] system - 購入処理開始(無料)
+[2021-04-02T22:06:39.790] [INFO] system - 混線なし
+[2021-04-02T22:06:39.813] [INFO] system - 規約に同意クリック
+[2021-04-02T22:06:39.835] [INFO] system - テスト処理完了
+[2021-04-02T22:09:15.002] [INFO] system - 【Windows版起動】
+[2021-04-02T22:09:15.003] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":null,"targetName":"【名古屋編】前方チケット整理番号順","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:09:15.017] [INFO] system - 【テスト】
+[2021-04-02T22:09:15.022] [INFO] system - 2021-04-02 21:45:00にすでに到達
+[2021-04-02T22:09:15.024] [INFO] system - ログイン処理想定時間到達
+[2021-04-02T22:09:15.520] [INFO] system - ブラウザ起動後準備完了
+[2021-04-02T22:09:20.507] [INFO] system - ログインページに移動完了
+[2021-04-02T22:09:24.667] [INFO] system - ログイン完了
+[2021-04-02T22:09:24.827] [ERROR] system - 設定不備の可能性があります
+[2021-04-02T22:09:24.828] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":"","targetName":"【名古屋編】前方チケット整理番号順","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:09:24.861] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:245:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:09:24.865] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:399:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:10:11.622] [INFO] system - 【Windows版起動】
+[2021-04-02T22:10:11.624] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":null,"targetName":"【名古屋編】前方VIPチケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:10:11.635] [INFO] system - 【テスト】
+[2021-04-02T22:10:11.640] [INFO] system - 2021-04-02 21:45:00にすでに到達
+[2021-04-02T22:10:11.642] [INFO] system - ログイン処理想定時間到達
+[2021-04-02T22:10:12.149] [INFO] system - ブラウザ起動後準備完了
+[2021-04-02T22:10:16.504] [INFO] system - ログインページに移動完了
+[2021-04-02T22:10:21.325] [INFO] system - ログイン完了
+[2021-04-02T22:10:21.436] [ERROR] system - 設定不備の可能性があります
+[2021-04-02T22:10:21.436] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":"","targetName":"【名古屋編】前方VIPチケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:10:21.458] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:245:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:10:21.461] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:399:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:10:47.763] [INFO] system - 【Windows版起動】
+[2021-04-02T22:10:47.765] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":null,"targetName":"【名古屋編】前方VIPチケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:10:47.775] [INFO] system - 【テスト】
+[2021-04-02T22:10:47.789] [INFO] system - 2021-04-02 21:45:00にすでに到達
+[2021-04-02T22:10:47.791] [INFO] system - ログイン処理想定時間到達
+[2021-04-02T22:10:48.274] [INFO] system - ブラウザ起動後準備完了
+[2021-04-02T22:10:52.526] [INFO] system - ログインページに移動完了
+[2021-04-02T22:10:57.317] [INFO] system - ログイン完了
+[2021-04-02T22:10:57.326] [ERROR] system - 設定不備の可能性があります
+[2021-04-02T22:10:57.335] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":"","targetName":"【名古屋編】前方VIPチケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:10:57.356] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:245:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:10:57.360] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:399:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:11:43.905] [INFO] system - 【Windows版起動】
+[2021-04-02T22:11:43.906] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":null,"targetName":"【名古屋編】前方VIPチケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:11:43.910] [INFO] system - 【テスト】
+[2021-04-02T22:11:43.915] [INFO] system - 2021-04-02 21:45:00にすでに到達
+[2021-04-02T22:11:43.924] [INFO] system - ログイン処理想定時間到達
+[2021-04-02T22:11:44.397] [INFO] system - ブラウザ起動後準備完了
+[2021-04-02T22:11:48.687] [INFO] system - ログインページに移動完了
+[2021-04-02T22:11:53.762] [INFO] system - ログイン完了
+[2021-04-02T22:11:53.771] [ERROR] system - 設定不備の可能性があります
+[2021-04-02T22:11:53.783] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":"","targetName":"【名古屋編】前方VIPチケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:11:53.803] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:245:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:11:53.822] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:399:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:13:09.736] [INFO] system - 【Windows版起動】
+[2021-04-02T22:13:09.737] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":null,"targetName":"【名古屋編】前方VIPチケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:13:09.752] [INFO] system - 【テスト】
+[2021-04-02T22:13:09.755] [INFO] system - 2021-04-02 21:45:00にすでに到達
+[2021-04-02T22:13:09.757] [INFO] system - ログイン処理想定時間到達
+[2021-04-02T22:13:10.228] [INFO] system - ブラウザ起動後準備完了
+[2021-04-02T22:13:14.473] [INFO] system - ログインページに移動完了
+[2021-04-02T22:13:19.423] [INFO] system - ログイン完了
+[2021-04-02T22:13:21.277] [ERROR] system - 設定不備の可能性があります
+[2021-04-02T22:13:21.278] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":"","targetName":"【名古屋編】前方VIPチケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:13:21.300] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:247:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:13:21.304] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:401:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:14:32.761] [INFO] system - 【Windows版起動】
+[2021-04-02T22:14:32.763] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":null,"targetName":"【名古屋編】前方VIPチケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:14:32.776] [INFO] system - 【テスト】
+[2021-04-02T22:14:32.782] [INFO] system - 2021-04-02 21:45:00にすでに到達
+[2021-04-02T22:14:32.785] [INFO] system - ログイン処理想定時間到達
+[2021-04-02T22:14:33.265] [INFO] system - ブラウザ起動後準備完了
+[2021-04-02T22:14:37.517] [INFO] system - ログインページに移動完了
+[2021-04-02T22:14:42.505] [INFO] system - ログイン完了
+[2021-04-02T22:14:44.748] [INFO] system - 混線のため113秒待機開始...
+[2021-04-02T22:16:40.203] [INFO] system - 混線のため103秒待機開始...
+[2021-04-02T22:18:25.351] [INFO] system - 混線のため116秒待機開始...
+[2021-04-02T22:20:23.892] [INFO] system - 混線解消(3回目に成功)
+[2021-04-02T22:20:23.901] [ERROR] system - 設定不備の可能性があります
+[2021-04-02T22:20:23.911] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock_toumeihan/","targetTicket":"","targetName":"【名古屋編】前方VIPチケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T22:20:23.915] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:249:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T22:20:23.918] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:403:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:118:5
+[2021-04-02T23:35:11.612] [INFO] system - 【Windows版起動】
+[2021-04-02T23:35:11.613] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/osaka0404/","targetTicket":null,"targetName":"２部前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-02 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-02 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-02T23:35:11.628] [INFO] system - 【テスト】
+[2021-04-02T23:35:11.633] [INFO] system - 2021-04-02 21:45:00にすでに到達
+[2021-04-02T23:35:11.645] [INFO] system - ログイン処理想定時間到達
+[2021-04-02T23:35:12.123] [INFO] system - ブラウザ起動後準備完了
+[2021-04-02T23:35:16.642] [INFO] system - ログインページに移動完了
+[2021-04-02T23:35:21.390] [INFO] system - ログイン完了
+[2021-04-02T23:35:23.842] [INFO] system - 混線なし
+[2021-04-02T23:35:23.882] [INFO] system - 「２部前方チケット整理番号券」の存在を確認(.table #ticket-388554)
+[2021-04-02T23:35:23.885] [INFO] system - 2021-04-02 21:59にすでに到達
+[2021-04-02T23:35:23.887] [INFO] system - 購入処理想定時間到達
+[2021-04-02T23:35:23.887] [INFO] system - <成績時間カウント開始>
+[2021-04-02T23:35:23.888] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-02T23:35:25.872] [INFO] system - 購入可能状態確認end
+[2021-04-02T23:35:25.873] [INFO] system - 枚数選択start(1回目)
+[2021-04-02T23:35:29.271] [INFO] system - 枚数選択end
+[2021-04-02T23:35:29.272] [INFO] system - 決済処理start(1回目)
+[2021-04-02T23:35:29.273] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-04-02T23:35:29.275] [INFO] system - 購入処理開始(有料)
+[2021-04-02T23:35:29.498] [INFO] system - 規約に同意クリック
+[2021-04-02T23:35:29.499] [INFO] system - 【テスト:決済ロジック】
+[2021-04-02T23:35:29.515] [INFO] system - テスト処理完了

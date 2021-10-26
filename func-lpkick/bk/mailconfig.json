@@ -1,0 +1,7 @@
+{
+    "---2---": "====== MailSetting(GmailOnly) ======",
+    "fromMail":"sugachan.tectec@gmail.com",
+    "fromMailPass":"sero3202",
+    "toMail":"",
+    "toSysMail":"trigger@applet.ifttt.com"
+}

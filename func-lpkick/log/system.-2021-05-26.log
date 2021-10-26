@@ -1,0 +1,133 @@
+[2021-05-26T09:30:15.962] [INFO] system - 【Windows版起動】
+[2021-05-26T09:30:15.965] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan4444@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/wakkuru0527/","targetTicket":null,"targetName":"１部前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-05-25 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-05-25 22:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"chromePath":"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"}
+[2021-05-26T09:30:15.985] [INFO] system - 【テスト】
+[2021-05-26T09:30:15.992] [INFO] system - 2021-05-25 22:45:00にすでに到達
+[2021-05-26T09:30:15.995] [INFO] system - ログイン処理想定時間到達
+[2021-05-26T09:30:16.537] [INFO] system - ブラウザ起動後準備完了
+[2021-05-26T09:30:19.288] [INFO] system - ログインページに移動完了
+[2021-05-26T09:30:19.304] [INFO] system - 混線なし
+[2021-05-26T09:30:24.701] [INFO] system - ログイン完了
+[2021-05-26T09:30:24.714] [INFO] system - 混線なし
+[2021-05-26T09:30:24.730] [INFO] system - 「１部前売チケット整理番号券」の存在を確認(.table #ticket-419079)
+[2021-05-26T09:30:24.731] [INFO] system - 2021-05-25 23:00にすでに到達
+[2021-05-26T09:30:24.733] [INFO] system - 購入処理想定時間到達
+[2021-05-26T09:30:24.734] [INFO] system - <成績時間カウント開始>
+[2021-05-26T09:30:24.745] [INFO] system - 購入可能状態確認start(1回目)
+[2021-05-26T09:30:26.888] [INFO] system - 購入可能状態確認end
+[2021-05-26T09:30:26.889] [INFO] system - 枚数選択start(1回目)
+[2021-05-26T09:30:26.892] [INFO] system - 枚数選択時に明示的に0秒待機
+[2021-05-26T09:30:26.903] [INFO] system - 1枚目選択開始
+[2021-05-26T09:30:26.986] [INFO] system - 1枚目選択終了
+[2021-05-26T09:30:31.544] [INFO] system - 枚数選択end
+[2021-05-26T09:30:31.544] [INFO] system - 決済処理start(1回目)
+[2021-05-26T09:30:31.544] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-05-26T09:30:31.545] [INFO] system - 購入処理開始(無料)
+[2021-05-26T09:30:31.560] [INFO] system - 規約に同意クリック
+[2021-05-26T09:30:31.562] [INFO] system - テスト処理完了
+[2021-05-26T09:30:31.562] [INFO] system - <現在時刻：Wed May 26 2021 09:30:31 GMT+0900／成績：6.817秒>
+[2021-05-26T09:30:56.304] [INFO] system - 【Windows版起動】
+[2021-05-26T09:30:56.412] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0527/","targetTicket":null,"targetName":"１部前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-05-25 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-05-25 22:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"chromePath":"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"}
+[2021-05-26T09:30:56.425] [INFO] system - 【テスト】
+[2021-05-26T09:30:56.431] [INFO] system - 2021-05-25 22:45:00にすでに到達
+[2021-05-26T09:30:56.434] [INFO] system - ログイン処理想定時間到達
+[2021-05-26T09:30:56.908] [INFO] system - ブラウザ起動後準備完了
+[2021-05-26T09:30:59.644] [INFO] system - ログインページに移動完了
+[2021-05-26T09:30:59.656] [INFO] system - 混線なし
+[2021-05-26T09:31:05.347] [INFO] system - ログイン完了
+[2021-05-26T09:31:05.356] [INFO] system - 混線なし
+[2021-05-26T09:31:05.375] [INFO] system - 「１部前売チケット整理番号券」の存在を確認(.table #ticket-419079)
+[2021-05-26T09:31:05.381] [INFO] system - 2021-05-25 23:00にすでに到達
+[2021-05-26T09:31:05.384] [INFO] system - 購入処理想定時間到達
+[2021-05-26T09:31:05.391] [INFO] system - <成績時間カウント開始>
+[2021-05-26T09:31:05.392] [INFO] system - 購入可能状態確認start(1回目)
+[2021-05-26T09:31:07.522] [INFO] system - 購入可能状態確認end
+[2021-05-26T09:31:07.523] [INFO] system - 枚数選択start(1回目)
+[2021-05-26T09:31:07.525] [INFO] system - 枚数選択時に明示的に0秒待機
+[2021-05-26T09:31:07.525] [INFO] system - 1枚目選択開始
+[2021-05-26T09:31:07.622] [INFO] system - 1枚目選択終了
+[2021-05-26T09:31:11.498] [INFO] system - 枚数選択end
+[2021-05-26T09:31:11.499] [INFO] system - 決済処理start(1回目)
+[2021-05-26T09:31:11.500] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-05-26T09:31:11.501] [INFO] system - 購入処理開始(無料)
+[2021-05-26T09:31:11.524] [INFO] system - 規約に同意クリック
+[2021-05-26T09:31:11.526] [INFO] system - テスト処理完了
+[2021-05-26T09:31:11.528] [INFO] system - <現在時刻：Wed May 26 2021 09:31:11 GMT+0900／成績：6.136秒>
+[2021-05-26T09:31:26.396] [INFO] system - 【Windows版起動】
+[2021-05-26T09:31:26.398] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0527/","targetTicket":null,"targetName":"２部前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-05-25 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-05-25 22:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"chromePath":"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"}
+[2021-05-26T09:31:26.410] [INFO] system - 【テスト】
+[2021-05-26T09:31:26.414] [INFO] system - 2021-05-25 22:45:00にすでに到達
+[2021-05-26T09:31:26.417] [INFO] system - ログイン処理想定時間到達
+[2021-05-26T09:31:26.696] [INFO] system - ブラウザ起動後準備完了
+[2021-05-26T09:31:29.416] [INFO] system - ログインページに移動完了
+[2021-05-26T09:31:29.435] [INFO] system - 混線なし
+[2021-05-26T09:31:33.966] [INFO] system - ログイン完了
+[2021-05-26T09:31:33.978] [INFO] system - 混線なし
+[2021-05-26T09:31:33.994] [INFO] system - 「２部前売チケット整理番号券」の存在を確認(.table #ticket-419080)
+[2021-05-26T09:31:33.995] [INFO] system - 2021-05-25 23:00にすでに到達
+[2021-05-26T09:31:33.997] [INFO] system - 購入処理想定時間到達
+[2021-05-26T09:31:33.997] [INFO] system - <成績時間カウント開始>
+[2021-05-26T09:31:33.997] [INFO] system - 購入可能状態確認start(1回目)
+[2021-05-26T09:31:36.378] [INFO] system - 購入可能状態確認end
+[2021-05-26T09:31:36.379] [INFO] system - 枚数選択start(1回目)
+[2021-05-26T09:31:36.381] [INFO] system - 枚数選択時に明示的に0秒待機
+[2021-05-26T09:31:36.390] [INFO] system - 1枚目選択開始
+[2021-05-26T09:31:36.446] [INFO] system - 1枚目選択終了
+[2021-05-26T09:31:42.260] [INFO] system - 枚数選択end
+[2021-05-26T09:31:42.261] [INFO] system - 決済処理start(1回目)
+[2021-05-26T09:31:42.262] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-05-26T09:31:42.262] [INFO] system - 購入処理開始(有料)
+[2021-05-26T09:31:42.358] [INFO] system - 規約に同意クリック
+[2021-05-26T09:31:42.358] [INFO] system - 【テスト:決済ロジック】
+[2021-05-26T09:31:42.359] [INFO] system - テスト処理完了
+[2021-05-26T09:31:42.360] [INFO] system - <現在時刻：Wed May 26 2021 09:31:42 GMT+0900／成績：8.363秒>
+[2021-05-26T14:15:34.158] [INFO] system - 【Windows版起動】
+[2021-05-26T14:15:34.159] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0527/","targetTicket":null,"targetName":"２部前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-05-25 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-05-25 22:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"chromePath":"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"}
+[2021-05-26T14:15:34.171] [INFO] system - 【テスト】
+[2021-05-26T14:15:34.176] [INFO] system - 2021-05-25 22:45:00にすでに到達
+[2021-05-26T14:15:34.191] [INFO] system - ログイン処理想定時間到達
+[2021-05-26T14:15:34.510] [INFO] system - ブラウザ起動後準備完了
+[2021-05-26T14:15:34.517] [ERROR] system - Error: net::ERR_FAILED at https://t.livepocket.jp/e/wakkuru0527/
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:115:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:90:21)
+    at async Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:16)
+    at async Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:16)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:301:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:117:5
+[2021-05-26T14:15:34.524] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:497:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:117:5
+[2021-05-26T14:19:07.977] [INFO] system - 【Windows版起動】
+[2021-05-26T14:19:07.979] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0527/","targetTicket":null,"targetName":"２部前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-05-25 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-05-25 22:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"chromePath":"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"}
+[2021-05-26T14:19:07.991] [INFO] system - 【テスト】
+[2021-05-26T14:19:07.996] [INFO] system - 2021-05-25 22:45:00にすでに到達
+[2021-05-26T14:19:07.998] [INFO] system - ログイン処理想定時間到達
+[2021-05-26T14:19:08.266] [INFO] system - ブラウザ起動後準備完了
+[2021-05-26T14:19:10.999] [INFO] system - ログインページに移動完了
+[2021-05-26T14:19:11.013] [INFO] system - 混線なし
+[2021-05-26T14:19:16.162] [INFO] system - ログイン完了
+[2021-05-26T14:19:16.171] [INFO] system - 混線なし
+[2021-05-26T14:19:16.181] [INFO] system - 「２部前売チケット整理番号券」の存在を確認(.table #ticket-419080)
+[2021-05-26T14:19:16.188] [INFO] system - 2021-05-25 23:00にすでに到達
+[2021-05-26T14:19:16.191] [INFO] system - 購入処理想定時間到達
+[2021-05-26T14:19:16.191] [INFO] system - <成績時間カウント開始>
+[2021-05-26T14:19:16.191] [INFO] system - 購入可能状態確認start(1回目)
+[2021-05-26T14:19:44.514] [INFO] system - 【Windows版起動】
+[2021-05-26T14:19:44.515] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0527/","targetTicket":null,"targetName":"２部前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-05-25 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-05-25 22:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"chromePath":"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"}
+[2021-05-26T14:19:44.528] [INFO] system - 【テスト】
+[2021-05-26T14:19:44.533] [INFO] system - 2021-05-25 22:45:00にすでに到達
+[2021-05-26T14:19:44.536] [INFO] system - ログイン処理想定時間到達
+[2021-05-26T14:19:44.987] [INFO] system - ブラウザ起動後準備完了
+[2021-05-26T14:19:44.997] [ERROR] system - Error: net::ERR_FAILED at https://t.livepocket.jp/e/wakkuru0527/
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:115:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:90:21)
+    at async Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:16)
+    at async Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:16)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:301:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:117:5
+[2021-05-26T14:19:45.005] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:497:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:117:5

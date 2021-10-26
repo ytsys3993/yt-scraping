@@ -1,0 +1,84 @@
+{
+    "---1---": "====== BasicSetting ======",
+    "targetUrl": "https://t.livepocket.jp/p/i39be?eid=43529/",
+    "intervalMinute": "10",
+    "optionList": [
+        {
+            "startTime": "02:00",
+            "endTime": "08:00",
+            "intervalMinute": "stop"
+        },
+        {
+            "startTime": "08:00",
+            "endTime": "18:00",
+            "intervalMinute": "20"
+        },
+        {
+            "startTime": "18:00",
+            "endTime": "23:59",
+            "intervalMinute": "10"
+        },
+        {
+            "startTime": "00:00",
+            "endTime": "02:00",
+            "intervalMinute": "10"
+        }
+    ],
+    "targetList": [
+        {
+            "search": "PANnana",
+            "element": "title",
+            "message": "check P"
+        },
+        {
+            "search": "パンナナ",
+            "element": "title",
+            "message": "check P"
+        },
+        {
+            "search": "ワッツ",
+            "element": "title",
+            "message": "check W"
+        },
+        {
+            "search": "ワッくる",
+            "element": "title",
+            "message": "check W"
+        },
+        {
+            "search": "アナフェス大阪",
+            "element": "title",
+            "message": "check A-O"
+        },
+        {
+            "search": "周年",
+            "element": "title",
+            "message": "check years"
+        },
+        {
+            "search": "梅田",
+            "element": "day",
+            "message": "check U"
+        },
+        {
+            "search": "10月5日",
+            "element": "day",
+            "message": "check 1005"
+        },
+        {
+            "search": "10月7日",
+            "element": "day",
+            "message": "check 11                                                       07"
+        },
+        {
+            "search": "11月3日",
+            "element": "day",
+            "message": "check 1103"
+        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ],
+    "---2---": "====== MailSetting(GmailOnly) ======",
+    "fromMail":"sugachan.tectec@gmail.com",
+    "fromMailPass":"sero3202",
+    "toMail":"",
+    "toSysMail":"trigger@applet.ifttt.com"   
+}

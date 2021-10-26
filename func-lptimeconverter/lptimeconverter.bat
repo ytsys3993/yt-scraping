@@ -1,0 +1,2 @@
+node lptimeconverter.js
+pause

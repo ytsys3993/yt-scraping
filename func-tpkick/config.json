@@ -1,0 +1,12 @@
+{
+    "---1---": "====== BasicSetting ======",
+    "targetUrl": "https://talkport.com/publishers/100623/live_detail/",
+    "loginTime": "2021-09-29 17:58",
+    "startTime": "2021-09-29 18:00",
+    "isTest": false,
+   "---2---": "====== MailSetting(GmailOnly) ======",
+    "fromMail":"sugachan.tectec@gmail.com",
+    "fromMailPass":"sero3202",
+    "toMail":"",
+    "toSysMail":"trigger@applet.ifttt.com"   
+}

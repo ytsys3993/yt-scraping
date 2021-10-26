@@ -1,0 +1,700 @@
+@charset "UTF-8";
+
+#responsiveBaseFrame #areaContents {
+    padding-top: 10px;
+}
+
+/*-- 購入ボタンが無い場合のマージン --*/
+/*-- (ある場合は相殺) --*/
+#discription {
+    padding: 15px;
+}
+
+/*-- イベントスケジュール --*/
+#responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.map,
+#responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.artist {
+    max-width: 175px;
+    box-sizing: content-box;
+    margin-right: 0;
+}
+@media screen and (min-width: 340px) {
+    #responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.map,
+    #responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.artist {
+        max-width: 185px;
+    }
+}
+@media screen and (min-width: 360px) {
+    #responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.map,
+    #responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.artist {
+        max-width: 205px;
+    }
+}
+#responsiveBaseFrame #areaContents #schedule .arrowGreen {
+    padding-right: 30px;
+}
+
+#responsiveBaseFrame #areaContents #schedule .label-status {
+    margin-right: 3px;
+}
+
+/*-- 関連リンク --*/
+#responsiveBaseFrame #areaContents #linkContactOrganizer .fix-button a{
+}
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer .fix-button a:before{
+    right: 10px;
+}
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer .fix-button a span:before{
+    background-image: none;
+}
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a figure{
+    vertical-align: middle;
+}
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a section {
+    width: 100%;
+}
+
+#responsiveBaseFrame #areaContents #ticket .reception-end {
+}
+
+#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary {
+    min-height: 0;
+}
+
+/* 販売元 */
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section.fix-border {
+    border-top: none;
+}
+
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #organizer .button {
+    margin-bottom: 0;
+}
+
+
+/*-- 購入枚数制限で申込済み --*/
+#responsiveBaseFrame #areaContents #ticket .ticket .table .num .ordered-text {
+    color: #E25454;
+    margin-top: 5px;
+}
+
+/*-- 受付ごとにマージン調整 −−*/
+#responsiveBaseFrame #areaContents #ticket .wrapAllTicket {
+    border: none;
+}
+
+#responsiveBaseFrame #areaContents #ticket .wrapAllTicket h2 {
+    text-align:center;
+}
+
+#responsiveBaseFrame #areaContents #ticket .wrapAllTicket .wrapTicket {
+    margin-top: 10px;
+    color: #111;
+}
+
+#responsiveBaseFrame #areaContents #ticket .wrapAllTicket .wrapTicket:first-child {
+    margin-top: 0;
+}
+
+/*-- お問い合わせアイコン付きボタン --*/
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="http"],
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="mailto:"],
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="tel:"] {
+    background-image: none;
+    position: relative;
+    text-align: center;
+    padding-left: 10px;
+}
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="http"]:after,
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="mailto:"]:after,
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="tel:"]:after {
+    display: none;
+}
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a span {
+	margin-left: -23px;
+    padding-left: 23px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="tel:"] span {
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="mailto:"] span {
+	
+}
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="http"] span {
+	background-image: url(../../pc_images_v2/sp/event/iconWeb.png);
+    -webkit-background-size: 17px 17px;
+    background-size: 17px 17px;
+}
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="tel:"] span {
+}
+
+
+#responsiveBaseFrame #areaContents #information > .data div.content-body {
+    padding: 0px;
+}
+
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section a.no-icon:after {
+    background-image: none;
+}
+
+#responsiveBaseFrame #areaContents #ticket .ticket .table .num label select {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .title {
+    margin-bottom: 3px;
+}
+
+#responsiveBaseFrame #areaContents #information .shareAndBookmarkSP {
+    text-align: left;
+}
+
+#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .shareAndBookmarkSP p a {
+    line-height: 23px;
+}
+
+/*-- wysiwygから入る情報等 --*/
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg,
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg * ,
+#responsiveBaseFrame #areaContents #contact .wysiwyg,
+#responsiveBaseFrame #areaContents #contact .wysiwyg * {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg a,
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg a:link,
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg a:visited,
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg a:active {
+    color: #19B5AF!important;
+}
+
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg a:hover {
+    color: #53c8c3!important;
+}
+
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg ul {
+    list-style: disc;
+}
+
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg ol {
+    list-style: decimal;
+}
+
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg li {
+    list-style-image: none;
+    list-style-position: inside;
+}
+
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg ul li {
+    list-style-type: disc;
+}
+
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg ol li {
+    list-style-type: decimal;
+}
+
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg em {
+    font-family: 'ＭＳ Ｐゴシック', Arial, verdana, sans-serif;
+}
+
+#responsiveBaseFrame #areaContents #information > .data .wysiwyg img {
+    width: 100%!important;
+    height: auto;
+}
+
+/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+SMS認証
+(シリアルコード/FC連携を参考に記述
+ 変更する場合は共通部分も変更すること)
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+#responsiveBaseFrame #areaContents #ticket .auth-ticket {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#responsiveBaseFrame #areaContents #ticket .sms-auth-ticket {
+
+}
+
+#responsiveBaseFrame #areaContents #ticket .auth-ticket .title,
+#responsiveBaseFrame #areaContents #ticket .auth-ticket .text {
+    letter-spacing: -.3px;
+}
+
+#responsiveBaseFrame #areaContents #ticket .auth-ticket .title {
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    color: #111;
+}
+
+#responsiveBaseFrame #areaContents #ticket .auth-ticket .title:before {
+    position: absolute;
+    content: '';
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    -webkit-background-size: 28px 28px;
+    background-size: 28px 28px;
+    left: 0;
+    top: 0;
+}
+
+#responsiveBaseFrame #areaContents #ticket .sms-auth-ticket .title {
+    padding-left: 35px;
+    margin-bottom: 2px;
+}
+
+#responsiveBaseFrame #areaContents #ticket .sms-auth-ticket .title:before {
+    background-image: url(../../pc_images_v2/sp/event/icon/sms_auth_sq.png);
+}
+
+
+#responsiveBaseFrame #areaContents #ticket .auth-ticket .text {
+    font-size: 12px;
+    margin-left: 35px;
+    color: #111;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+シリアルコード / FC連携
+( 変更する場合はSMS認証の共通部分も変更すること)
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+#responsiveBaseFrame #areaContents #ticket .limited-ticket {
+    position: relative;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#responsiveBaseFrame #areaContents #ticket .serial-code-ticket {
+
+}
+
+#responsiveBaseFrame #areaContents #ticket .fan-club-ticket {
+    color: #666;
+    border: none;
+}
+
+#responsiveBaseFrame #areaContents #ticket .limited-ticket .title,
+#responsiveBaseFrame #areaContents #ticket .limited-ticket .text {
+    letter-spacing: -.3px;
+}
+#responsiveBaseFrame #areaContents #ticket .limited-ticket .title {
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    color: #111;
+}
+
+#responsiveBaseFrame #areaContents #ticket .limited-ticket .title:before {
+    position: absolute;
+    content: '';
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    -webkit-background-size: 28px 28px;
+            background-size: 28px 28px;
+    left: 0;
+    top: 0;
+}
+
+#responsiveBaseFrame #areaContents #ticket .serial-code-ticket .title,
+#responsiveBaseFrame #areaContents #ticket .fan-club-ticket .title,
+#responsiveBaseFrame #areaContents #ticket .fc-appli-ticket .title {
+    padding-left: 35px;
+    margin-bottom: 2px;
+}
+
+#responsiveBaseFrame #areaContents #ticket .serial-code-ticket .title:before {
+    background-image: url(../../pc_images_v2/sp/event/icon/serial_code_circle.png);
+}
+
+#responsiveBaseFrame #areaContents #ticket .fan-club-ticket .title:before,
+#responsiveBaseFrame #areaContents #ticket .fc-appli-ticket .title:before {
+    background-image: url(../../pc_images_v2/sp/event/icon/fan_club_circle.png);
+}
+
+#responsiveBaseFrame #areaContents #ticket .fc-appli-ticket .element {
+    margin-right: 14px;
+}
+
+#responsiveBaseFrame #areaContents #ticket .fc-appli-ticket .caution {
+    text-align: justify;
+}
+
+#responsiveBaseFrame #areaContents #ticket .limited-ticket .text {
+    font-size: 12px;
+    margin-left: 35px;
+    color: #111;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+#responsiveBaseFrame #areaContents #ticket .limited-ticket.fan-club-ticket .text .date {
+    color: #fff;
+    padding: 2px 5px 1px;
+    margin-right: 0.5em;
+    background-color: #f012b5;
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-top: 0.3em;
+    margin-bottom: 0.4em;
+}
+
+
+#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .shareAndBookmarkSP p.btnBookmark a#delete_bookmark_sp {
+    background-image: url(../../pc_images_v2/sp/event/iconBookmarkOn.png);
+}
+
+/* wysiwygの background-image 打ち消し */
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg {
+    margin-top: 10px;
+}
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="http"],
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="mailto:"],
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="tel:"] {
+    position: static;
+    height: auto;
+    margin: 0;
+    padding-left: 0;
+    text-align: left;
+    line-height: 1.7;
+    background-image: none;
+}
+
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="http"]:after,
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="mailto:"]:after,
+#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="tel:"]:after {
+    display: none;
+    background-image: none;
+    margin-top: 0;
+    margin-left: 0;
+    width: 0;
+    height: 0;
+    background-repeat: no-repeat;
+}
+
+/* -- 関連イベント -- */
+#responsiveBaseFrame #areaContents #information .related-event a {
+    margin-top: 15px;
+    padding: 3px 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #D9E0E0;
+    font-size: 15px;
+}
+
+#responsiveBaseFrame #areaContents #information .related-event a:hover {
+}
+
+#responsiveBaseFrame #areaContents #information .related-event a:before {
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-image: url(../../pc_images_v2/sp/event/icon_chain.png);
+    width: 10px;
+    height: 10px;
+    -webkit-background-size: 10px;
+    background-size: 10px;
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+}
+
+/*-- 問合わせボタン修正 --*/
+#responsiveBaseFrame #areaContents .button.fix-button span {
+    background: none;
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: static;
+}
+
+/*-- 中止設定のお問い合わせボタン --*/
+#responsiveBaseFrame .atention-msg .btn-inquiry {
+    margin-top: 7px;
+}
+
+
+/* -- QRcode section -- */
+#responsiveBaseFrame .outer-below-box .pull-left {
+    float: left;
+    margin-bottom: 20px;
+}
+
+#responsiveBaseFrame .sec-qr-code {
+    width: 100%;
+    height: 130px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #D9E0E0;
+    margin: 0 10px 0 0;
+    padding: 10px 15px;
+}
+
+#responsiveBaseFrame .sec-qr-code-qr {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border: 1px solid #D9E0E0;
+}
+
+#responsiveBaseFrame .sec-qr-code-text .title {
+    margin-top: 13px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#responsiveBaseFrame .sec-qr-code-text .body {
+    line-height: 1.3;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+#responsiveBaseFrame .sec-share-module {
+    width: 100%;
+    height: 116px;
+    border: 1px solid #D9E0E0;
+    padding: 15px 10px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#responsiveBaseFrame .sec-share-module .share-button-outer {
+    width: 278px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#responsiveBaseFrame .sec-share-module .share-button {
+    width: 50px;
+    height: 50px;
+    margin-left: 7px;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+#responsiveBaseFrame .sec-share-module .share-button a{
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-indent: -9999px;
+}
+
+#responsiveBaseFrame .sec-share-module .share-button:first-child {
+    margin-left: 0;
+}
+
+#responsiveBaseFrame .sec-share-module .title {
+    width: 188px;
+    height: 20px;
+    background-image: url(../../pc_images_v2/sp/event/share_event.png);
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    text-indent: -9999px;
+}
+
+#responsiveBaseFrame .sec-share-module .twitter {
+    background-image: url(../../pc_images_v2/sp/event/share/tw.png);
+}
+
+#responsiveBaseFrame .sec-share-module .fb {
+    background-image: url(../../pc_images_v2/sp/event/share/fb.png);
+}
+
+#responsiveBaseFrame .sec-share-module .mixi {
+    background-image: url(../../pc_images_v2/sp/event/share/mixi.png);
+}
+
+#responsiveBaseFrame .sec-share-module .mail {
+    background-image: url(../../pc_images_v2/sp/event/share/mail.png);
+}
+
+#responsiveBaseFrame .sec-share-module .line {
+    background-image: url(../../pc_images_v2/sp/event/share/line.png);
+}
+
+/*-- 招待コードPOPUPリンク --*/
+#responsiveBaseFrame .discount-code-link {
+    background: rgba(255, 255, 255, 1); !important;
+    width: 100% !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+}
+#responsiveBaseFrame .discount-code-uncheck {
+    /*text-align: right;*/
+}
+#responsiveBaseFrame .discount-code-link a {
+    text-decoration: underline;
+    font-size:  20px;
+    padding-left: 30px;
+    padding-right: 24px;
+    padding-top: 2px;
+    color: #ef3481;
+}
+
+/*-- 招待コード金額 --*/
+#responsiveBaseFrame .real_price {
+    color: #000000;
+    margin-right: 8px;
+}
+
+/* ----------------
+   LINK
+---------------- */
+#responsiveBaseFrame a,
+#responsiveBaseFrame a:link,
+#responsiveBaseFrame a:visited,
+#responsiveBaseFrame a:active,
+#responsiveBaseFrame a:hover,
+#responsiveBaseFrame header a:hover,
+#responsiveBaseFrame #sideMenu a:hover
+{
+    text-decoration:none!important;
+}
+
+.button.btn-procedure-pc-only {
+    display: none;
+}
+
+/**
+ * event detail lightbox
+ */
+#lightboxOverlay {
+    opacity: 1;
+}
+
+#lightbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#lightbox .lb-wrapContainer {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+#lightbox .lb-outerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border: 0 none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    background-color: transparent;
+}
+
+#lightbox .lb-image {
+    border: 0 none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+#lightbox .lb-prev,
+#lightbox .lb-next,
+#lightbox .lb-zoom-in,
+#lightbox .lb-zoom-reset,
+#lightbox .lb-zoom-out,
+#lightbox .lb-close {
+    position: absolute;
+    outline: none;
+    background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+    cursor: pointer;
+}
+#lightbox .lb-prev,
+#lightbox .lb-next {
+    height: 77px;
+    width: 46px;
+    bottom: 0;
+    display: block;
+    background-color: rgb(226, 226,226) !important;
+    opacity: 0.6;
+}
+#lightbox .lb-prev {
+    left: 0;
+    background: url('/pc_js_v2/lightbox2/images/prev.png') 48% 48% no-repeat;
+}
+#lightbox .lb-next {
+    right: 0;
+    background: url('/pc_js_v2/lightbox2/images/next.png') 48% 48% no-repeat;
+}
+#lightbox .lb-zoom-in,
+#lightbox .lb-zoom-out,
+#lightbox .lb-zoom-reset {
+    display: none;
+}
+
+#lightbox .lb-close {
+    top: 16px;
+    right: 8px;
+    width: 48px;
+    height: 48px;
+    display: block;
+    background: url(/pc_js_v2/lightbox2/images/close.png) top right no-repeat;
+    outline: none;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+

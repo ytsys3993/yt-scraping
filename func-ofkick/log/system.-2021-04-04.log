@@ -1,0 +1,178 @@
+[2021-04-04T00:00:00.391] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T00:00:00.735] [INFO] system - 2021-04-04 00:05:00まで画面更新処理待機中...
+[2021-04-04T00:05:00.736] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T00:05:01.171] [INFO] system - 2021-04-04 00:10:00まで画面更新処理待機中...
+[2021-04-04T00:10:00.172] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T00:10:00.585] [INFO] system - 2021-04-04 00:15:00まで画面更新処理待機中...
+[2021-04-04T00:15:00.596] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T00:15:01.089] [INFO] system - 2021-04-04 00:20:00まで画面更新処理待機中...
+[2021-04-04T00:20:00.091] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T00:20:00.437] [INFO] system - 2021-04-04 00:25:00まで画面更新処理待機中...
+[2021-04-04T00:25:00.438] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T00:25:00.781] [INFO] system - 2021-04-04 00:30:00まで画面更新処理待機中...
+[2021-04-04T16:09:14.963] [INFO] system - 2021-04-04 16:10:00までログイン処理待機中...
+[2021-04-04T16:18:56.406] [INFO] system - 2021-04-04 16:20:00までログイン処理待機中...
+[2021-04-04T16:20:00.007] [INFO] system - ログイン処理想定時間到達
+[2021-04-04T16:20:04.930] [INFO] system - ログインページに移動完了
+[2021-04-04T16:20:06.097] [INFO] system - ログイン完了
+[2021-04-04T16:20:06.098] [INFO] system - <成績時間カウント開始>
+[2021-04-04T16:20:06.099] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T16:20:06.469] [ERROR] system - ReferenceError: endTime is not defined
+    at moveTargetPage (C:\source\yt-scraping\func-ofkick\ofkickloop.js:305:29)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:189:28)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:82:5
+[2021-04-04T16:20:06.832] [ERROR] system - 購入ページ確認NG
+[2021-04-04T16:20:06.833] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:192:13)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:82:5
+[2021-04-04T16:20:06.834] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:247:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:82:5
+[2021-04-04T16:31:33.502] [INFO] system - 2021-04-04 16:32:00までログイン処理待機中...
+[2021-04-04T16:32:00.009] [INFO] system - ログイン処理想定時間到達
+[2021-04-04T16:32:06.485] [INFO] system - ログインページに移動完了
+[2021-04-04T16:32:07.638] [INFO] system - ログイン完了
+[2021-04-04T16:32:07.639] [INFO] system - <成績時間カウント開始>
+[2021-04-04T16:32:07.640] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T16:32:07.966] [INFO] system - 2021-04-04 16:33:00に到達したため終了します
+[2021-04-04T16:32:07.967] [INFO] system - 強制終了
+[2021-04-04T16:32:07.968] [ERROR] system - 購入ページ確認NG
+[2021-04-04T16:32:07.969] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:193:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:83:5
+[2021-04-04T16:32:07.973] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:248:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:83:5
+[2021-04-04T16:34:43.000] [INFO] system - 2021-04-04 16:32:00にすでに到達
+[2021-04-04T16:34:43.004] [INFO] system - ログイン処理想定時間到達
+[2021-04-04T16:34:47.648] [INFO] system - ログインページに移動完了
+[2021-04-04T16:34:48.796] [INFO] system - ログイン完了
+[2021-04-04T16:34:48.797] [INFO] system - <成績時間カウント開始>
+[2021-04-04T16:34:48.798] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T16:34:49.092] [INFO] system - 2021-04-04 16:33:00に到達したため終了します
+[2021-04-04T16:34:49.093] [INFO] system - 強制終了
+[2021-04-04T16:34:49.093] [ERROR] system - 購入ページ確認NG
+[2021-04-04T16:34:49.094] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:193:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:83:5
+[2021-04-04T16:34:49.095] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:248:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:83:5
+[2021-04-04T16:38:26.425] [INFO] system - 2021-04-04 16:32:00にすでに到達
+[2021-04-04T16:38:26.430] [INFO] system - ログイン処理想定時間到達
+[2021-04-04T16:38:31.358] [INFO] system - ログインページに移動完了
+[2021-04-04T16:38:32.562] [INFO] system - ログイン完了
+[2021-04-04T16:38:32.563] [INFO] system - <成績時間カウント開始>
+[2021-04-04T16:38:32.564] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T16:38:32.857] [INFO] system - 2021-04-04 16:33:00に到達したため終了します
+[2021-04-04T16:38:32.858] [INFO] system - 強制終了
+[2021-04-04T16:38:32.858] [ERROR] system - 購入ページ確認NG
+[2021-04-04T16:38:32.858] [WARN] system - 購入状態確認NG
+[2021-04-04T16:39:34.209] [INFO] system - 2021-04-04 16:40:00までログイン処理待機中...
+[2021-04-04T16:40:00.009] [INFO] system - ログイン処理想定時間到達
+[2021-04-04T16:40:04.905] [INFO] system - ログインページに移動完了
+[2021-04-04T16:40:06.090] [INFO] system - ログイン完了
+[2021-04-04T16:40:06.091] [INFO] system - <成績時間カウント開始>
+[2021-04-04T16:40:06.092] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T16:40:06.390] [INFO] system - 2021-04-04 16:45:00まで画面更新処理待機中...
+[2021-04-04T16:45:00.390] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T16:45:00.696] [INFO] system - 2021-04-04 16:41:00に到達したため終了します
+[2021-04-04T16:45:00.697] [INFO] system - 強制終了
+[2021-04-04T16:45:00.697] [WARN] system - 購入状態確認NG
+[2021-04-04T16:48:49.446] [INFO] system - 2021-04-04 16:40:00にすでに到達
+[2021-04-04T16:48:49.450] [INFO] system - ログイン処理想定時間到達
+[2021-04-04T16:48:54.393] [INFO] system - ログインページに移動完了
+[2021-04-04T16:48:55.549] [INFO] system - ログイン完了
+[2021-04-04T16:48:55.549] [INFO] system - <成績時間カウント開始>
+[2021-04-04T16:48:55.550] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T16:48:55.834] [INFO] system - 2021-04-04 16:41:00に到達したため終了します
+[2021-04-04T16:48:55.834] [INFO] system - 強制終了
+[2021-04-04T16:48:55.834] [ERROR] system - 購入ページ確認NG
+[2021-04-04T16:48:55.835] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:196:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:83:5
+[2021-04-04T16:48:55.841] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:251:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:83:5
+[2021-04-04T16:49:17.898] [INFO] system - 2021-04-04 16:40:00にすでに到達
+[2021-04-04T16:49:17.903] [INFO] system - ログイン処理想定時間到達
+[2021-04-04T16:49:22.541] [INFO] system - ログインページに移動完了
+[2021-04-04T16:49:23.726] [INFO] system - ログイン完了
+[2021-04-04T16:49:23.727] [INFO] system - <成績時間カウント開始>
+[2021-04-04T16:49:23.728] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T16:49:24.019] [INFO] system - 2021-04-04 16:41:00に到達したため終了します
+[2021-04-04T16:49:24.019] [INFO] system - 強制終了
+[2021-04-04T16:49:24.028] [ERROR] system - 購入ページ確認NG
+[2021-04-04T16:49:24.029] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:196:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:83:5
+[2021-04-04T16:49:24.031] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:251:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:83:5
+[2021-04-04T16:50:25.747] [INFO] system - 2021-04-04 16:40:00にすでに到達
+[2021-04-04T16:50:25.751] [INFO] system - ログイン処理想定時間到達
+[2021-04-04T16:50:30.627] [INFO] system - ログインページに移動完了
+[2021-04-04T16:50:31.836] [INFO] system - ログイン完了
+[2021-04-04T16:50:31.836] [INFO] system - <成績時間カウント開始>
+[2021-04-04T16:50:31.838] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T16:50:32.166] [INFO] system - 2021-04-04 16:41:00に到達したため終了します
+[2021-04-04T16:50:32.166] [INFO] system - 強制終了
+[2021-04-04T16:50:32.172] [WARN] system - 購入状態確認NG
+[2021-04-04T16:50:46.449] [INFO] system - 2021-04-04 16:40:00にすでに到達
+[2021-04-04T16:50:46.454] [INFO] system - ログイン処理想定時間到達
+[2021-04-04T16:50:51.085] [INFO] system - ログインページに移動完了
+[2021-04-04T16:50:52.222] [INFO] system - ログイン完了
+[2021-04-04T16:50:52.223] [INFO] system - <成績時間カウント開始>
+[2021-04-04T16:50:52.224] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T16:50:52.554] [INFO] system - 2021-04-04 16:41:00に到達したため終了します
+[2021-04-04T16:50:52.556] [INFO] system - 強制終了
+[2021-04-04T16:51:29.001] [INFO] system - 2021-04-04 22:30:00までログイン処理待機中...
+[2021-04-04T22:30:00.437] [INFO] system - ログイン処理想定時間到達
+[2021-04-04T22:30:06.111] [INFO] system - ログインページに移動完了
+[2021-04-04T22:30:07.222] [INFO] system - ログイン完了
+[2021-04-04T22:30:07.223] [INFO] system - <成績時間カウント開始>
+[2021-04-04T22:30:07.224] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T22:30:07.546] [INFO] system - 2021-04-04 22:35:00まで画面更新処理待機中...
+[2021-04-04T22:35:00.556] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T22:35:00.800] [INFO] system - 2021-04-04 22:40:00まで画面更新処理待機中...
+[2021-04-04T22:40:00.813] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T22:40:01.083] [INFO] system - 2021-04-04 22:45:00まで画面更新処理待機中...
+[2021-04-04T22:45:00.101] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T22:45:00.366] [INFO] system - 2021-04-04 22:50:00まで画面更新処理待機中...
+[2021-04-04T22:50:00.367] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T22:50:00.845] [INFO] system - 2021-04-04 22:55:00まで画面更新処理待機中...
+[2021-04-04T22:55:00.848] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T22:55:02.344] [INFO] system - 2021-04-04 23:00:00まで画面更新処理待機中...
+[2021-04-04T23:00:00.347] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:00:00.649] [INFO] system - 2021-04-04 23:05:00まで画面更新処理待機中...
+[2021-04-04T23:05:00.664] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:05:01.181] [INFO] system - 2021-04-04 23:10:00まで画面更新処理待機中...
+[2021-04-04T23:10:00.181] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:10:00.445] [INFO] system - 2021-04-04 23:15:00まで画面更新処理待機中...
+[2021-04-04T23:15:00.446] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:15:00.733] [INFO] system - 2021-04-04 23:20:00まで画面更新処理待機中...
+[2021-04-04T23:20:00.741] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:20:01.181] [INFO] system - 2021-04-04 23:25:00まで画面更新処理待機中...
+[2021-04-04T23:25:00.181] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:25:00.464] [INFO] system - 2021-04-04 23:30:00まで画面更新処理待機中...
+[2021-04-04T23:30:00.466] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:30:00.731] [INFO] system - 2021-04-04 23:35:00まで画面更新処理待機中...
+[2021-04-04T23:35:00.733] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:35:01.000] [INFO] system - 2021-04-04 23:40:00まで画面更新処理待機中...
+[2021-04-04T23:40:00.007] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:40:00.542] [INFO] system - 2021-04-04 23:45:00まで画面更新処理待機中...
+[2021-04-04T23:45:00.541] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:45:00.840] [INFO] system - 2021-04-04 23:50:00まで画面更新処理待機中...
+[2021-04-04T23:50:00.839] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:50:01.106] [INFO] system - 2021-04-04 23:55:00まで画面更新処理待機中...
+[2021-04-04T23:55:00.107] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2188
+[2021-04-04T23:55:00.619] [INFO] system - 2021-04-05 00:00:00まで画面更新処理待機中...

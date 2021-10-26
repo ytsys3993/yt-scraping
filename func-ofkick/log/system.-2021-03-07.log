@@ -1,0 +1,41 @@
+[2021-03-07T23:09:13.968] [INFO] system - 2021-01-02 07:00:00にすでに到達
+[2021-03-07T23:09:13.973] [INFO] system - ログイン処理想定時間到達
+[2021-03-07T23:09:48.612] [INFO] system - ログインページに移動完了
+[2021-03-07T23:10:07.585] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-03-07T23:10:07.589] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-03-07T23:10:07.595] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:246:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:81:5
+[2021-03-07T23:10:09.909] [INFO] system - 2021-01-02 07:00:00にすでに到達
+[2021-03-07T23:10:09.913] [INFO] system - ログイン処理想定時間到達
+[2021-03-07T23:10:46.488] [INFO] system - ログインページに移動完了
+[2021-03-07T23:10:47.564] [INFO] system - ログイン完了
+[2021-03-07T23:10:47.565] [INFO] system - <成績時間カウント開始>
+[2021-03-07T23:10:47.565] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-03-07T23:10:47.748] [INFO] system - 2021-03-07 23:15:00まで画面更新処理待機中...
+[2021-03-07T23:15:00.749] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-03-07T23:15:00.930] [INFO] system - 2021-03-07 23:20:00まで画面更新処理待機中...
+[2021-03-07T23:20:00.930] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-03-07T23:20:01.134] [INFO] system - 2021-03-07 23:25:00まで画面更新処理待機中...
+[2021-03-07T23:25:00.133] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-03-07T23:25:00.361] [INFO] system - 2021-03-07 23:30:00まで画面更新処理待機中...
+[2021-03-07T23:30:00.361] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-03-07T23:30:00.658] [INFO] system - 2021-03-07 23:35:00まで画面更新処理待機中...
+[2021-03-07T23:35:00.661] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-03-07T23:35:00.876] [INFO] system - 2021-03-07 23:40:00まで画面更新処理待機中...
+[2021-03-07T23:40:00.877] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-03-07T23:40:01.090] [INFO] system - 2021-03-07 23:45:00まで画面更新処理待機中...
+[2021-03-07T23:45:00.091] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-03-07T23:45:00.357] [INFO] system - 2021-03-07 23:50:00まで画面更新処理待機中...
+[2021-03-07T23:50:00.358] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-03-07T23:50:00.594] [INFO] system - 2021-03-07 23:55:00まで画面更新処理待機中...

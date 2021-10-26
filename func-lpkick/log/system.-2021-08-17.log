@@ -1,0 +1,156 @@
+[2021-08-17T19:46:51.762] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"sugachan.tectec@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/osaka0819/","targetName":"1部前売チケット整理番号券,2部前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","loginTime":"2021-08-17 22:15","startTime":"2021-08-17 22:30","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":false,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-230,"isOrigin":true,"isOriginCancel":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-17T19:46:51.780] [INFO] system - 【本番】
+[2021-08-17T19:46:51.786] [INFO] system - 2021-08-17 22:15:00までログイン処理待機中...
+[2021-08-17T19:49:29.689] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"sugachan.tectec@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/osaka0819/","targetName":"1部前売チケット整理番号券,2部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","loginTime":"2021-08-17 22:15","startTime":"2021-08-17 22:30","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":false,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-230,"isOrigin":true,"isOriginCancel":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-17T19:49:29.701] [INFO] system - 【本番】
+[2021-08-17T19:49:29.705] [INFO] system - 2021-08-17 22:15:00までログイン処理待機中...
+[2021-08-17T21:42:10.651] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"chiaochiao.sonmi@gmail.com","testPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/stainy0821/","targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","loginTime":"2021-08-17 22:15","startTime":"2021-08-17 22:30","isBrowse":true,"isTest":true,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":false,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-230,"isOrigin":true,"isOriginCancel":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-17T21:42:10.655] [INFO] system - 【テスト】
+[2021-08-17T21:42:10.661] [INFO] system - 2021-08-17 22:15:00までログイン処理待機中...
+[2021-08-17T21:42:35.838] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"chiaochiao.sonmi@gmail.com","testPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/stainy0821/","targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","loginTime":"2021-08-17 21:45","startTime":"2021-08-17 22:00","isBrowse":true,"isTest":true,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":false,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-230,"isOrigin":true,"isOriginCancel":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-17T21:42:35.852] [INFO] system - 【テスト】
+[2021-08-17T21:42:35.856] [INFO] system - 2021-08-17 21:45:00までログイン処理待機中...
+[2021-08-17T21:45:00.018] [INFO] system - ログイン処理想定時間到達
+[2021-08-17T21:45:00.677] [INFO] system - ブラウザ起動後準備完了
+[2021-08-17T21:45:02.126] [INFO] system - ログインページに移動完了
+[2021-08-17T21:45:03.845] [INFO] system - ログイン完了
+[2021-08-17T21:45:03.866] [INFO] system - 混線なし
+[2021-08-17T21:45:03.878] [INFO] system - 「前方チケット整理番号券」の存在を確認(.table #ticket-478115)
+[2021-08-17T21:45:06.856] [INFO] system - .table #ticket-478115ロック外し開始
+[2021-08-17T21:45:06.869] [INFO] system - 1セット選択終了
+[2021-08-17T21:45:06.872] [INFO] system - 2021-08-17 21:59:29までページバック待機中...
+[2021-08-17T21:59:29.785] [INFO] system - 前ページへ移動
+[2021-08-17T21:59:31.518] [INFO] system - 2021-08-17 21:59:59まで購入処理待機中...
+[2021-08-17T21:59:59.774] [INFO] system - 購入処理想定時間到達
+[2021-08-17T21:59:59.776] [INFO] system - <成績時間カウント開始>
+[2021-08-17T21:59:59.777] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-17T21:59:59.783] [INFO] system - 次ページへ移動
+[2021-08-17T22:00:29.433] [INFO] system - 購入可能状態確認end
+[2021-08-17T22:00:29.434] [INFO] system - 枚数選択start(1回目)
+[2021-08-17T22:00:29.435] [INFO] system - 購入クリック処理1回目
+[2021-08-17T22:00:29.447] [INFO] system - 購入クリック処理2回目
+[2021-08-17T22:00:34.354] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:863:9)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:490:11)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-17T22:00:35.309] [INFO] system - 枚数選択end(1回目)
+[2021-08-17T22:00:35.316] [INFO] system - 混線のため60秒待機開始...
+[2021-08-17T22:01:50.275] [INFO] system - 混線解消(1回目に成功)
+[2021-08-17T22:01:50.276] [INFO] system - 枚数選択start(2回目)
+[2021-08-17T22:01:50.277] [INFO] system - 購入クリック処理1回目
+[2021-08-17T22:02:00.149] [INFO] system - 購入クリック処理2回目
+[2021-08-17T22:02:01.208] [INFO] system - 購入クリック処理3回目
+[2021-08-17T22:02:03.296] [INFO] system - 購入クリック処理4回目
+[2021-08-17T22:02:04.136] [INFO] system - 購入クリック処理5回目
+[2021-08-17T22:02:32.019] [INFO] system - 購入クリック処理6回目
+[2021-08-17T22:02:37.796] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:27)
+    at DOMWorld.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:91:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-17T22:02:37.803] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-17T22:02:37.807] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:627:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-17T22:03:24.093] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"sugachan.tectec@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/osaka0819/","targetName":"1部前売チケット整理番号券,2部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","loginTime":"2021-08-17 22:15","startTime":"2021-08-17 22:30","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":false,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-230,"isOrigin":true,"isOriginCancel":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-17T22:03:24.102] [INFO] system - 【本番】
+[2021-08-17T22:03:24.107] [INFO] system - 2021-08-17 22:15:00までログイン処理待機中...
+[2021-08-17T22:15:00.033] [INFO] system - ログイン処理想定時間到達
+[2021-08-17T22:15:00.672] [INFO] system - ブラウザ起動後準備完了
+[2021-08-17T22:15:02.313] [INFO] system - ログインページに移動完了
+[2021-08-17T22:15:04.181] [INFO] system - ログイン完了
+[2021-08-17T22:15:04.201] [INFO] system - 混線なし
+[2021-08-17T22:15:04.212] [INFO] system - 「1部前売チケット整理番号券,2部前売チケット整理番号券」の存在を確認(.table #ticket-478054,.table #ticket-478055)
+[2021-08-17T22:15:07.269] [INFO] system - .table #ticket-478054ロック外し開始
+[2021-08-17T22:15:07.270] [INFO] system - .table #ticket-478055ロック外し開始
+[2021-08-17T22:15:07.280] [INFO] system - 2セット選択終了
+[2021-08-17T22:15:07.282] [INFO] system - 2021-08-17 22:29:29までページバック待機中...
+[2021-08-17T22:29:29.781] [INFO] system - 前ページへ移動
+[2021-08-17T22:29:32.414] [INFO] system - 2021-08-17 22:29:59まで購入処理待機中...
+[2021-08-17T22:29:59.783] [INFO] system - 購入処理想定時間到達
+[2021-08-17T22:29:59.784] [INFO] system - <成績時間カウント開始>
+[2021-08-17T22:29:59.785] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-17T22:29:59.794] [INFO] system - 次ページへ移動
+[2021-08-17T22:30:08.082] [INFO] system - 購入可能状態確認end
+[2021-08-17T22:30:08.083] [INFO] system - 枚数選択start(1回目)
+[2021-08-17T22:30:08.084] [INFO] system - 購入クリック処理1回目
+[2021-08-17T22:30:08.089] [INFO] system - 購入クリック処理2回目
+[2021-08-17T22:30:27.369] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:863:9)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:490:11)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-17T22:30:27.814] [INFO] system - 枚数選択end(1回目)
+[2021-08-17T22:30:27.825] [INFO] system - 決済処理ページ遷移済
+[2021-08-17T22:30:27.825] [INFO] system - 決済処理start(1回目)
+[2021-08-17T22:30:27.826] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-08-17T22:30:27.826] [INFO] system - 購入処理開始(有料)
+[2021-08-17T22:30:27.944] [INFO] system - 規約に同意クリック
+[2021-08-17T22:30:40.282] [INFO] system - 決済ボタンクリック
+[2021-08-17T22:30:40.287] [INFO] system - (検証用)成功1
+[2021-08-17T22:30:42.474] [INFO] system - (検証用)成功2
+[2021-08-17T22:30:42.479] [INFO] system - (検証用)成功3
+[2021-08-17T22:30:42.482] [INFO] system - 決済処理end
+[2021-08-17T22:30:42.483] [INFO] system - <現在時刻：Tue Aug 17 2021 22:30:42 GMT+0900／成績：42.698秒>
+[2021-08-17T22:30:42.483] [INFO] system - <成績：42.698秒>
+[2021-08-17T22:36:23.912] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","testUser":"sugachan.tectec@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya0821/","targetName":"ライオンドーム２部前方チケット整理番号券","targetNumber":"2","storeTypeId":"016","loginTime":"2021-08-17 22:45","startTime":"2021-08-17 23:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":false,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-230,"isOrigin":true,"isOriginCancel":false,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-08-17T22:36:23.922] [INFO] system - 【本番】
+[2021-08-17T22:36:23.928] [INFO] system - 2021-08-17 22:45:00までログイン処理待機中...
+[2021-08-17T22:45:00.018] [INFO] system - ログイン処理想定時間到達
+[2021-08-17T22:45:00.699] [INFO] system - ブラウザ起動後準備完了
+[2021-08-17T22:45:02.151] [INFO] system - ログインページに移動完了
+[2021-08-17T22:45:04.166] [INFO] system - ログイン完了
+[2021-08-17T22:45:04.189] [INFO] system - 混線なし
+[2021-08-17T22:45:04.209] [INFO] system - 「ライオンドーム２部前方チケット整理番号券」の存在を確認(.table #ticket-478130)
+[2021-08-17T22:45:06.765] [INFO] system - .table #ticket-478130ロック外し開始
+[2021-08-17T22:45:06.777] [INFO] system - 1セット選択終了
+[2021-08-17T22:45:06.779] [INFO] system - 2021-08-17 22:59:29までページバック待機中...
+[2021-08-17T22:59:29.777] [INFO] system - 前ページへ移動
+[2021-08-17T22:59:31.744] [INFO] system - 2021-08-17 22:59:59まで購入処理待機中...
+[2021-08-17T22:59:59.774] [INFO] system - 購入処理想定時間到達
+[2021-08-17T22:59:59.776] [INFO] system - <成績時間カウント開始>
+[2021-08-17T22:59:59.777] [INFO] system - 購入可能状態確認start(1回目)
+[2021-08-17T22:59:59.786] [INFO] system - 次ページへ移動
+[2021-08-17T23:00:18.144] [INFO] system - 購入可能状態確認end
+[2021-08-17T23:00:18.145] [INFO] system - 枚数選択start(1回目)
+[2021-08-17T23:00:18.146] [INFO] system - 購入クリック処理1回目
+[2021-08-17T23:00:18.150] [ERROR] system - Error: Evaluation failed: ReferenceError: grecaptcha is not defined
+    at buy_ticket (https://t.livepocket.jp/e/nagoya0821/:1372:9)
+    at __puppeteer_evaluation_script__:2:18
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:863:9)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:490:11)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-08-17T23:00:18.588] [INFO] system - 枚数選択end(1回目)
+[2021-08-17T23:01:42.751] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-08-17T23:01:42.753] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:627:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5

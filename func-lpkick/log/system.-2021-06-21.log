@@ -1,0 +1,30 @@
+[2021-06-21T13:18:50.227] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"chiaochiao.sonmi@gmail.com","confPass":"sero3202","targetUrl":"https://t.livepocket.jp/e/pannana0622/","targetTicket":null,"targetName":"1部前売チケット整理番号券","targetNumber":"2","storeTypeId":"002","startTime":"2021-06-21 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"isLogger":true,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-06-21 21:45","notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true}
+[2021-06-21T13:18:50.238] [INFO] system - 2021-06-21 21:45:00までログイン処理待機中...
+[2021-06-21T21:44:59.793] [INFO] system - ログイン処理想定時間到達
+[2021-06-21T21:45:00.494] [INFO] system - ブラウザ起動後準備完了
+[2021-06-21T21:45:02.478] [INFO] system - ログインページに移動完了
+[2021-06-21T21:45:02.487] [INFO] system - 混線なし
+[2021-06-21T21:45:04.871] [INFO] system - ログイン完了
+[2021-06-21T21:45:04.878] [INFO] system - 混線なし
+[2021-06-21T21:45:04.901] [INFO] system - 「1部前売チケット整理番号券」の存在を確認(.table #ticket-439317)
+[2021-06-21T21:45:04.903] [INFO] system - 2021-06-21 22:00:00まで購入処理待機中...
+[2021-06-21T21:59:59.989] [INFO] system - 購入処理想定時間到達
+[2021-06-21T21:59:59.991] [INFO] system - <成績時間カウント開始>
+[2021-06-21T21:59:59.992] [INFO] system - 購入可能状態確認start(1回目)
+[2021-06-21T22:00:06.597] [INFO] system - 購入可能状態確認end
+[2021-06-21T22:00:06.598] [INFO] system - 枚数選択start(1回目)
+[2021-06-21T22:00:06.606] [INFO] system - 枚数選択時に明示的に0秒待機
+[2021-06-21T22:00:06.614] [INFO] system - 1枚目選択開始
+[2021-06-21T22:00:06.684] [INFO] system - 1枚目選択終了
+[2021-06-21T22:00:25.772] [INFO] system - 枚数選択end
+[2021-06-21T22:00:25.773] [INFO] system - 決済処理start(1回目)
+[2021-06-21T22:00:25.773] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-06-21T22:00:25.774] [INFO] system - 購入処理開始(無料)
+[2021-06-21T22:00:25.791] [INFO] system - 規約に同意クリック
+[2021-06-21T22:00:46.578] [INFO] system - (検証用)成功1
+[2021-06-21T22:00:46.588] [INFO] system - (検証用)成功2
+[2021-06-21T22:00:46.606] [INFO] system - (検証用)成功3
+[2021-06-21T22:00:46.620] [INFO] system - 決済処理end
+[2021-06-21T22:00:46.622] [INFO] system - <現在時刻：Mon Jun 21 2021 22:00:46 GMT+0900／成績：46.631秒>
+[2021-06-21T22:00:46.631] [INFO] system - <成績：46.64秒>
+[2021-06-21T23:00:45.033] [INFO] system - <現在時刻：Mon Jun 21 2021 23:00:45 GMT+0900／成績：45.031秒>

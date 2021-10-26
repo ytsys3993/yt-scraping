@@ -1,0 +1,686 @@
+[2021-03-10T17:49:21.536] [INFO] system - 【Windows版起動】
+[2021-03-10T17:49:21.538] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/pajama0310/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-03-09 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-09 21:45"}
+[2021-03-10T17:49:21.550] [INFO] system - 【テスト】
+[2021-03-10T17:49:21.551] [ERROR] system - Error ReferenceError: isMailSend is not defined
+    at statusSendMail (C:\source\yt-scraping\func-lpkick\lpkick.js:603:5)
+    at C:\source\yt-scraping\func-lpkick\lpkick.js:89:5
+    at module.exports (C:\source\yt-scraping\func-lpkick\lpkick.js:113:3)
+    at Object.<anonymous> (C:\source\yt-scraping\func-lpkick\lpkickrun.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[2021-03-10T17:49:22.380] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T17:49:27.815] [INFO] system - ログインページに移動完了
+[2021-03-10T17:49:32.514] [INFO] system - ログイン完了
+[2021-03-10T17:49:32.547] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-371981)
+[2021-03-10T17:49:32.548] [ERROR] system - Error ReferenceError: isMailSend is not defined
+    at statusSendMail (C:\source\yt-scraping\func-lpkick\lpkick.js:603:5)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:241:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T17:49:32.551] [INFO] system - チェック完了／設定に問題ありません
+[2021-03-10T17:50:31.430] [INFO] system - 【Windows版起動】
+[2021-03-10T17:50:31.432] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/pajama0310/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-03-09 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-09 21:45"}
+[2021-03-10T17:50:31.445] [INFO] system - 【テスト】
+[2021-03-10T17:50:31.447] [ERROR] system - Error ReferenceError: isMailSend is not defined
+    at statusSendMail (C:\source\yt-scraping\func-lpkick\lpkick.js:603:5)
+    at C:\source\yt-scraping\func-lpkick\lpkick.js:89:5
+    at module.exports (C:\source\yt-scraping\func-lpkick\lpkick.js:113:3)
+    at Object.<anonymous> (C:\source\yt-scraping\func-lpkick\lpkickrun.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[2021-03-10T17:50:32.024] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T17:50:37.500] [INFO] system - ログインページに移動完了
+[2021-03-10T17:50:41.641] [INFO] system - ログイン完了
+[2021-03-10T17:50:41.673] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-371981)
+[2021-03-10T17:50:41.674] [ERROR] system - Error ReferenceError: isMailSend is not defined
+    at statusSendMail (C:\source\yt-scraping\func-lpkick\lpkick.js:603:5)
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:241:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T17:50:41.677] [INFO] system - チェック完了／設定に問題ありません
+[2021-03-10T17:51:48.957] [INFO] system - 【Windows版起動】
+[2021-03-10T17:51:48.959] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/pajama0310/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-03-09 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-09 21:45"}
+[2021-03-10T17:51:48.971] [INFO] system - 【テスト】
+[2021-03-10T17:51:49.536] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T17:51:55.365] [INFO] system - ログインページに移動完了
+[2021-03-10T17:52:00.241] [INFO] system - ログイン完了
+[2021-03-10T17:52:00.270] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-371981)
+[2021-03-10T17:52:00.272] [INFO] system - チェック完了／設定に問題ありません
+[2021-03-10T17:54:11.469] [INFO] system - 【Windows版起動】
+[2021-03-10T17:54:11.471] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/pajama0310/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-03-09 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-09 21:45","notCheckOnly":false}
+[2021-03-10T17:54:11.485] [INFO] system - 【テスト】
+[2021-03-10T17:54:12.073] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T17:54:17.453] [INFO] system - ログインページに移動完了
+[2021-03-10T17:54:22.526] [INFO] system - ログイン完了
+[2021-03-10T17:54:22.558] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-371981)
+[2021-03-10T17:54:22.561] [INFO] system - チェック完了／設定に問題ありません
+[2021-03-10T17:55:20.219] [INFO] system - 【Windows版起動】
+[2021-03-10T17:55:20.221] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/pajama0310/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-03-09 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-09 21:45","notCheckOnly":true}
+[2021-03-10T17:55:20.235] [INFO] system - 【テスト】
+[2021-03-10T17:55:20.241] [INFO] system - 2021-03-09 21:45:00にすでに到達
+[2021-03-10T17:55:20.244] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T17:55:20.828] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T17:55:26.339] [INFO] system - ログインページに移動完了
+[2021-03-10T17:55:31.149] [INFO] system - ログイン完了
+[2021-03-10T17:55:31.212] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-371981)
+[2021-03-10T17:55:31.215] [INFO] system - 2021-03-09 22:00にすでに到達
+[2021-03-10T17:55:31.216] [INFO] system - 購入処理想定時間到達
+[2021-03-10T17:55:31.217] [INFO] system - <成績時間カウント開始>
+[2021-03-10T17:55:34.065] [INFO] system - 購入状態確認(1回目に成功)
+[2021-03-10T17:55:34.066] [INFO] system - 購入処理開始(確定前)
+[2021-03-10T17:55:35.631] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-03-10T17:55:35.632] [INFO] system - 購入処理開始(有料)
+[2021-03-10T17:55:47.403] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-03-10T17:55:47.466] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-03-10T17:55:47.468] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-03-10T17:55:47.471] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T17:56:31.188] [INFO] system - 【Windows版起動】
+[2021-03-10T17:56:31.189] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/jurock0321/","targetTicket":null,"targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-03-09 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-09 21:45","notCheckOnly":true}
+[2021-03-10T17:56:31.191] [INFO] system - 【テスト】
+[2021-03-10T17:56:31.196] [INFO] system - 2021-03-09 21:45:00にすでに到達
+[2021-03-10T17:56:31.199] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T17:56:31.759] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T17:56:37.180] [INFO] system - ログインページに移動完了
+[2021-03-10T17:56:42.095] [INFO] system - ログイン完了
+[2021-03-10T17:56:42.244] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-368389)
+[2021-03-10T17:56:42.246] [INFO] system - 2021-03-09 22:00にすでに到達
+[2021-03-10T17:56:42.248] [INFO] system - 購入処理想定時間到達
+[2021-03-10T17:56:42.279] [INFO] system - <成績時間カウント開始>
+[2021-03-10T17:56:45.436] [INFO] system - 購入状態確認(1回目に成功)
+[2021-03-10T17:56:45.437] [INFO] system - 購入処理開始(確定前)
+[2021-03-10T17:56:49.242] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-03-10T17:56:49.243] [INFO] system - 購入処理開始(有料)
+[2021-03-10T17:56:49.589] [INFO] system - 規約に同意クリック
+[2021-03-10T17:56:49.590] [INFO] system - 【テスト:決済ロジック】
+[2021-03-10T17:56:49.591] [INFO] system - <成績：7.31秒>
+[2021-03-10T20:27:26.011] [INFO] system - 【Windows版起動】
+[2021-03-10T20:27:26.013] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":false}
+[2021-03-10T20:27:26.034] [INFO] system - 【テスト】
+[2021-03-10T20:27:26.449] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T20:27:29.461] [INFO] system - ログインページに移動完了
+[2021-03-10T20:27:33.752] [INFO] system - ログイン完了
+[2021-03-10T20:27:33.804] [INFO] system - 「１部前売チケット整理番号券,２部前売チケット整理番号券」の存在を確認(.table #ticket-374573,.table #ticket-374574)
+[2021-03-10T20:27:33.805] [INFO] system - チェック完了／設定に問題ありません
+[2021-03-10T20:29:25.814] [INFO] system - 【Windows版起動】
+[2021-03-10T20:29:25.815] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T20:29:25.837] [INFO] system - 2021-03-10 21:45:00までログイン処理待機中...
+[2021-03-10T21:45:00.024] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T21:45:00.384] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T21:45:03.203] [INFO] system - ログインページに移動完了
+[2021-03-10T21:45:07.512] [INFO] system - ログイン完了
+[2021-03-10T21:45:07.571] [INFO] system - 「１部前売チケット整理番号券,２部前売チケット整理番号券」の存在を確認(.table #ticket-374573,.table #ticket-374574)
+[2021-03-10T21:45:07.574] [INFO] system - 2021-03-10 22:00まで購入処理待機中...
+[2021-03-10T22:00:00.004] [INFO] system - 購入処理想定時間到達
+[2021-03-10T22:00:00.005] [INFO] system - <成績時間カウント開始>
+[2021-03-10T22:00:23.217] [INFO] system - 購入状態確認(1回目に成功)
+[2021-03-10T22:00:23.219] [INFO] system - 購入処理開始(確定前)
+[2021-03-10T22:02:03.135] [INFO] system - 【Windows版起動】
+[2021-03-10T22:02:03.139] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:02:03.146] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:02:03.150] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:02:03.508] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:02:45.382] [INFO] system - 【Windows版起動】
+[2021-03-10T22:02:45.383] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:02:45.389] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:02:45.392] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:02:45.732] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:02:46.873] [INFO] system - ログインページに移動完了
+[2021-03-10T22:03:34.821] [INFO] system - 【Windows版起動】
+[2021-03-10T22:03:34.823] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:03:34.841] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:03:34.853] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:03:35.185] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:03:36.316] [INFO] system - ログインページに移動完了
+[2021-03-10T22:03:37.362] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:03:37.612] [ERROR] system - ログインエラー
+[2021-03-10T22:03:37.613] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:03:37.615] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:03:59.385] [INFO] system - 【Windows版起動】
+[2021-03-10T22:03:59.387] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:03:59.406] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:03:59.408] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:03:59.759] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:04:00.901] [INFO] system - ログインページに移動完了
+[2021-03-10T22:04:01.955] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:04:02.210] [ERROR] system - ログインエラー
+[2021-03-10T22:04:02.211] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:04:02.222] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:07:55.836] [INFO] system - 【Windows版起動】
+[2021-03-10T22:07:55.837] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:07:55.855] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:07:55.866] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:07:56.216] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:07:58.295] [INFO] system - ログインページに移動完了
+[2021-03-10T22:08:57.195] [INFO] system - 【Windows版起動】
+[2021-03-10T22:08:57.197] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:08:57.215] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:08:57.218] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:08:57.554] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:08:59.579] [INFO] system - ログインページに移動完了
+[2021-03-10T22:16:14.021] [INFO] system - ログイン完了
+[2021-03-10T22:16:14.028] [ERROR] system - 設定不備の可能性があります
+[2021-03-10T22:16:14.039] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":"","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":true,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:16:14.041] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:234:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:16:14.044] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:31:51.280] [INFO] system - 【Windows版起動】
+[2021-03-10T22:31:51.282] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:31:51.301] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:31:51.312] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:31:51.652] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:31:52.814] [INFO] system - ログインページに移動完了
+[2021-03-10T22:34:53.846] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:34:54.102] [ERROR] system - ログインエラー
+[2021-03-10T22:34:54.103] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:34:54.114] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:41:55.688] [INFO] system - 【Windows版起動】
+[2021-03-10T22:41:55.690] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:41:55.709] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:41:55.711] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:41:56.073] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:42:17.100] [INFO] system - ログインページに移動完了
+[2021-03-10T22:45:09.939] [INFO] system - ログイン完了
+[2021-03-10T22:45:09.944] [ERROR] system - 設定不備の可能性があります
+[2021-03-10T22:45:09.954] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":"","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":true,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:45:09.969] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:234:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:45:09.984] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:45:24.611] [INFO] system - 【Windows版起動】
+[2021-03-10T22:45:24.613] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:45:24.633] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:45:24.648] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:45:25.019] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:45:26.156] [INFO] system - ログインページに移動完了
+[2021-03-10T22:45:27.195] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:45:27.441] [ERROR] system - ログインエラー
+[2021-03-10T22:45:27.441] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:45:27.444] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:45:35.042] [INFO] system - 【Windows版起動】
+[2021-03-10T22:45:35.044] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:45:35.063] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:45:35.073] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:45:35.399] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:45:36.533] [INFO] system - ログインページに移動完了
+[2021-03-10T22:45:37.573] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:45:37.824] [ERROR] system - ログインエラー
+[2021-03-10T22:45:37.825] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:45:37.827] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:47:31.293] [INFO] system - 【Windows版起動】
+[2021-03-10T22:47:31.294] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:47:31.312] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:47:31.326] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:47:31.673] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:47:32.797] [INFO] system - ログインページに移動完了
+[2021-03-10T22:47:33.832] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:47:34.079] [ERROR] system - ログインエラー
+[2021-03-10T22:47:34.080] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:47:34.082] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:50:16.537] [INFO] system - 【Windows版起動】
+[2021-03-10T22:50:16.539] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:50:16.559] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:50:16.571] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:50:16.890] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:50:31.674] [INFO] system - ログインページに移動完了
+[2021-03-10T22:50:32.780] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:50:33.026] [ERROR] system - ログインエラー
+[2021-03-10T22:50:33.027] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:50:33.029] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:50:53.706] [INFO] system - 【Windows版起動】
+[2021-03-10T22:50:53.708] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:50:53.726] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:50:53.728] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:50:54.063] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:50:56.010] [INFO] system - ログインページに移動完了
+[2021-03-10T22:52:01.689] [INFO] system - ログイン完了
+[2021-03-10T22:52:01.694] [ERROR] system - 設定不備の可能性があります
+[2021-03-10T22:52:01.702] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":"","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":true,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:52:01.705] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:234:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:52:01.707] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T22:52:09.993] [INFO] system - 【Windows版起動】
+[2021-03-10T22:52:09.995] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:52:10.012] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:52:10.024] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:52:10.311] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:52:20.835] [INFO] system - ログインページに移動完了
+[2021-03-10T22:54:32.320] [INFO] system - 【Windows版起動】
+[2021-03-10T22:54:32.322] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:54:32.346] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:54:32.350] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:54:32.693] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:54:46.762] [INFO] system - ログインページに移動完了
+[2021-03-10T22:59:13.685] [INFO] system - 【Windows版起動】
+[2021-03-10T22:59:13.686] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T22:59:13.711] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T22:59:13.715] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T22:59:14.296] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T22:59:20.155] [INFO] system - ログインページに移動完了
+[2021-03-10T23:00:25.217] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-03-10T23:00:25.256] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-03-10T23:00:25.280] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:02:06.097] [INFO] system - 【Windows版起動】
+[2021-03-10T23:02:06.099] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:02:06.119] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:02:06.130] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:02:06.694] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:02:11.486] [INFO] system - ログインページに移動完了
+[2021-03-10T23:02:12.842] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:02:13.175] [ERROR] system - ログインエラー
+[2021-03-10T23:02:13.176] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:02:13.200] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:05:52.963] [INFO] system - 【Windows版起動】
+[2021-03-10T23:05:52.965] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:05:52.988] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:05:52.993] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:05:53.578] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:05:56.605] [INFO] system - ログインページに移動完了
+[2021-03-10T23:05:57.647] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:05:57.966] [ERROR] system - ログインエラー
+[2021-03-10T23:05:57.967] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:05:57.988] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:06:27.846] [INFO] system - 【Windows版起動】
+[2021-03-10T23:06:27.848] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:06:27.865] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:06:27.867] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:06:28.448] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:06:31.429] [INFO] system - ログインページに移動完了
+[2021-03-10T23:08:16.104] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-03-10T23:08:16.144] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-03-10T23:08:16.170] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:08:22.334] [INFO] system - 【Windows版起動】
+[2021-03-10T23:08:22.336] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:08:22.352] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:08:22.355] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:08:22.932] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:08:27.843] [INFO] system - ログインページに移動完了
+[2021-03-10T23:09:57.797] [ERROR] system - Error: Navigation failed because browser has disconnected!
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:247:14)
+    at Connection._onMessage (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:94:25)
+    at WebSocket.<anonymous> (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (C:\source\yt-scraping\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:315:20)
+[2021-03-10T23:09:57.828] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-03-10T23:09:57.830] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:10:07.850] [INFO] system - 【Windows版起動】
+[2021-03-10T23:10:07.851] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:10:07.869] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:10:07.880] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:10:08.454] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:10:14.374] [INFO] system - ログインページに移動完了
+[2021-03-10T23:10:33.898] [ERROR] system - Error: net::ERR_ABORTED at https://t.livepocket.jp/my_top
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:115:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:90:21)
+    at async Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:16)
+    at async Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:16)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:311:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:10:33.934] [ERROR] system - Error: Protocol error (Target.activateTarget): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-03-10T23:10:33.956] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:11:06.285] [INFO] system - 【Windows版起動】
+[2021-03-10T23:11:06.286] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:11:06.307] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:11:06.311] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:11:06.873] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:11:11.772] [INFO] system - ログインページに移動完了
+[2021-03-10T23:11:12.899] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:11:13.203] [ERROR] system - ログインエラー
+[2021-03-10T23:11:13.204] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:11:13.221] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:11:59.184] [INFO] system - 【Windows版起動】
+[2021-03-10T23:11:59.185] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:11:59.200] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:11:59.203] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:11:59.734] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:12:02.755] [INFO] system - ログインページに移動完了
+[2021-03-10T23:14:36.918] [INFO] system - ログイン完了
+[2021-03-10T23:14:36.928] [ERROR] system - 設定不備の可能性があります
+[2021-03-10T23:14:36.946] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":"","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:14:36.969] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:234:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:14:36.972] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:15:34.664] [INFO] system - 【Windows版起動】
+[2021-03-10T23:15:34.666] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:15:34.683] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:15:34.685] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:15:35.244] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:15:40.125] [INFO] system - ログインページに移動完了
+[2021-03-10T23:15:41.201] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:15:41.511] [ERROR] system - ログインエラー
+[2021-03-10T23:15:41.512] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:15:41.530] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:16:11.756] [INFO] system - 【Windows版起動】
+[2021-03-10T23:16:11.758] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:16:11.774] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:16:11.777] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:16:12.333] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:16:20.516] [INFO] system - ログインページに移動完了
+[2021-03-10T23:16:49.148] [INFO] system - ログイン完了
+[2021-03-10T23:16:49.157] [ERROR] system - 設定不備の可能性があります
+[2021-03-10T23:16:49.177] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":"","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:16:49.181] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:234:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:16:49.186] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:19:13.146] [INFO] system - 【Windows版起動】
+[2021-03-10T23:19:13.147] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:19:13.163] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:19:13.166] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:19:13.755] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:19:37.585] [INFO] system - ログインページに移動完了
+[2021-03-10T23:23:11.925] [INFO] system - ログイン完了
+[2021-03-10T23:23:11.938] [ERROR] system - 設定不備の可能性があります
+[2021-03-10T23:23:11.954] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":"","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:23:11.957] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:234:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:23:11.962] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:24:56.784] [INFO] system - 【Windows版起動】
+[2021-03-10T23:24:56.786] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:24:56.806] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:24:56.809] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:24:57.391] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:25:00.370] [INFO] system - ログインページに移動完了
+[2021-03-10T23:25:01.409] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:25:01.716] [ERROR] system - ログインエラー
+[2021-03-10T23:25:01.717] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:25:01.735] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:31:47.297] [INFO] system - 【Windows版起動】
+[2021-03-10T23:31:47.299] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:31:47.320] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:31:47.331] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:31:47.904] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:31:50.920] [INFO] system - ログインページに移動完了
+[2021-03-10T23:31:51.962] [ERROR] system - Error: No node found for selector: #email
+    at Object.exports.assert (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\assert.js:26:15)
+    at DOMWorld.type (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:307:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async newLogin (C:\source\yt-scraping\func-lpkick\lpkick.js:315:5)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:223:22)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:31:52.273] [ERROR] system - ログインエラー
+[2021-03-10T23:31:52.274] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:226:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:31:52.275] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:32:18.793] [INFO] system - 【Windows版起動】
+[2021-03-10T23:32:18.794] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:32:18.815] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:32:18.817] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:32:19.546] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:32:25.831] [INFO] system - ログインページに移動完了
+[2021-03-10T23:32:38.584] [INFO] system - ログイン完了
+[2021-03-10T23:32:38.594] [ERROR] system - 設定不備の可能性があります
+[2021-03-10T23:32:38.610] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":"","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:32:38.615] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:234:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:32:38.619] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:38:24.814] [INFO] system - 【Windows版起動】
+[2021-03-10T23:38:24.816] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":null,"targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:38:24.834] [INFO] system - 2021-03-10 21:45:00にすでに到達
+[2021-03-10T23:38:24.842] [INFO] system - ログイン処理想定時間到達
+[2021-03-10T23:38:25.446] [INFO] system - ブラウザ起動後準備完了
+[2021-03-10T23:38:30.219] [INFO] system - ログインページに移動完了
+[2021-03-10T23:39:34.850] [INFO] system - ログイン完了
+[2021-03-10T23:39:34.898] [ERROR] system - 設定不備の可能性があります
+[2021-03-10T23:39:34.899] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0311/","targetTicket":"","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-03-10 22:00","isBrowse":true,"isFree":true,"isCredit":false,"isTest":false,"isLanguage":"ja","isStage":false,"isJamCheck":false,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-03-10 21:45","notCheckOnly":true}
+[2021-03-10T23:39:34.901] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:234:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-03-10T23:39:34.904] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:302:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5

@@ -1,0 +1,459 @@
+[2021-01-27T12:30:08.200] [INFO] system - 【Windows版起動】
+[2021-01-27T12:30:08.202] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:30:08.215] [INFO] system - 【テスト】
+[2021-01-27T12:30:08.224] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:30:08.226] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:30:08.723] [INFO] system - ログインページに移動前
+[2021-01-27T12:30:11.582] [INFO] system - send successful
+[2021-01-27T12:30:12.305] [INFO] system - 混線なし
+[2021-01-27T12:30:12.306] [INFO] system - ログインページに移動完了
+[2021-01-27T12:30:14.866] [INFO] system - 混線なし
+[2021-01-27T12:30:17.574] [INFO] system - ログイン完了
+[2021-01-27T12:30:17.781] [INFO] system - 「前方チケット整理番号券,通常チケット整理番号券」の存在を確認(.table #ticket-328362,.table #ticket-328363)
+[2021-01-27T12:30:17.783] [INFO] system - 2021-01-19 23:00にすでに到達
+[2021-01-27T12:30:17.788] [INFO] system - 購入処理想定時間到達
+[2021-01-27T12:30:17.789] [INFO] system - <成績時間カウント開始>
+[2021-01-27T12:30:19.995] [INFO] system - 混線なし
+[2021-01-27T12:30:19.998] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T12:30:20.000] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T12:30:21.357] [INFO] system - 混線なし
+[2021-01-27T12:30:21.362] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-27T12:30:21.363] [INFO] system - 購入処理開始(有料)
+[2021-01-27T12:30:21.514] [INFO] system - 【テスト:決済ロジック】
+[2021-01-27T12:30:21.515] [INFO] system - <成績：3.725秒>
+[2021-01-27T12:30:24.860] [INFO] system - send successful
+[2021-01-27T12:35:09.707] [INFO] system - 【Windows版起動】
+[2021-01-27T12:35:09.708] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:35:09.716] [INFO] system - 【テスト】
+[2021-01-27T12:35:09.732] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:35:09.736] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:35:10.043] [INFO] system - ログインページに移動前
+[2021-01-27T12:35:19.293] [INFO] system - 【Windows版起動】
+[2021-01-27T12:35:19.294] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:35:19.305] [INFO] system - 【テスト】
+[2021-01-27T12:35:19.313] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:35:19.324] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:35:19.629] [INFO] system - ログインページに移動前
+[2021-01-27T12:35:29.210] [INFO] system - 【Windows版起動】
+[2021-01-27T12:35:29.211] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:35:29.221] [INFO] system - 【テスト】
+[2021-01-27T12:35:29.235] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:35:29.238] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:35:29.561] [INFO] system - ログインページに移動前
+[2021-01-27T12:37:47.556] [INFO] system - 【Windows版起動】
+[2021-01-27T12:37:47.557] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:37:47.565] [INFO] system - 【テスト】
+[2021-01-27T12:37:47.575] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:37:47.577] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:37:47.889] [INFO] system - ログインページに移動前
+[2021-01-27T12:37:50.473] [INFO] system - 混線なし
+[2021-01-27T12:37:50.474] [INFO] system - ログインページに移動完了
+[2021-01-27T12:37:50.965] [INFO] system - send successful
+[2021-01-27T12:37:52.639] [INFO] system - 混線なし
+[2021-01-27T12:37:54.366] [INFO] system - ログイン完了
+[2021-01-27T12:37:54.392] [INFO] system - 「前方チケット整理番号券,通常チケット整理番号券」の存在を確認(.table #ticket-328362,.table #ticket-328363)
+[2021-01-27T12:37:54.394] [INFO] system - 2021-01-19 23:00にすでに到達
+[2021-01-27T12:37:54.396] [INFO] system - 購入処理想定時間到達
+[2021-01-27T12:37:54.401] [INFO] system - <成績時間カウント開始>
+[2021-01-27T12:37:56.824] [INFO] system - 混線なし
+[2021-01-27T12:37:56.828] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T12:37:56.830] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T12:38:00.554] [INFO] system - 混線なし
+[2021-01-27T12:38:00.570] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-27T12:38:00.571] [INFO] system - 購入処理開始(有料)
+[2021-01-27T12:38:00.742] [INFO] system - 【テスト:決済ロジック】
+[2021-01-27T12:38:00.743] [INFO] system - <成績：6.341秒>
+[2021-01-27T12:38:03.366] [INFO] system - send successful
+[2021-01-27T12:39:10.328] [INFO] system - 【Windows版起動】
+[2021-01-27T12:39:10.329] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:39:10.338] [INFO] system - 【テスト】
+[2021-01-27T12:39:10.347] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:39:10.348] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:39:10.662] [INFO] system - ログインページに移動前
+[2021-01-27T12:39:12.413] [INFO] system - 混線なし
+[2021-01-27T12:39:12.414] [INFO] system - ログインページに移動完了
+[2021-01-27T12:39:13.252] [INFO] system - send successful
+[2021-01-27T12:39:13.454] [INFO] system - 混線なし
+[2021-01-27T12:39:13.766] [INFO] system - ログイン完了
+[2021-01-27T12:39:13.772] [ERROR] system - 設定不備の可能性があります
+[2021-01-27T12:39:13.776] [ERROR] system - {"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":"","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":true,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:39:13.778] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:214:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:96:5
+[2021-01-27T12:39:13.780] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:270:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:96:5
+[2021-01-27T12:39:26.339] [INFO] system - 【Windows版起動】
+[2021-01-27T12:39:26.340] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:39:26.349] [INFO] system - 【テスト】
+[2021-01-27T12:39:26.357] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:39:26.359] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:39:26.661] [INFO] system - ログインページに移動前
+[2021-01-27T12:39:28.981] [INFO] system - send successful
+[2021-01-27T12:39:29.623] [INFO] system - 混線なし
+[2021-01-27T12:39:29.624] [INFO] system - ログインページに移動完了
+[2021-01-27T12:39:32.253] [INFO] system - 混線なし
+[2021-01-27T12:39:33.992] [INFO] system - ログイン完了
+[2021-01-27T12:39:34.081] [INFO] system - 「前方チケット整理番号券,通常チケット整理番号券」の存在を確認(.table #ticket-328362,.table #ticket-328363)
+[2021-01-27T12:39:34.084] [INFO] system - 2021-01-19 23:00にすでに到達
+[2021-01-27T12:39:34.085] [INFO] system - 購入処理想定時間到達
+[2021-01-27T12:39:34.089] [INFO] system - <成績時間カウント開始>
+[2021-01-27T12:39:36.355] [INFO] system - 混線なし
+[2021-01-27T12:39:36.357] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T12:39:36.359] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T12:42:37.074] [INFO] system - 【Windows版起動】
+[2021-01-27T12:42:37.075] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:42:37.084] [INFO] system - 【テスト】
+[2021-01-27T12:42:37.093] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:42:37.096] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:42:37.418] [INFO] system - ログインページに移動前
+[2021-01-27T12:42:39.537] [INFO] system - send successful
+[2021-01-27T12:42:40.564] [INFO] system - 混線なし
+[2021-01-27T12:42:40.565] [INFO] system - ログインページに移動完了
+[2021-01-27T12:42:42.656] [INFO] system - 混線なし
+[2021-01-27T12:42:44.369] [INFO] system - ログイン完了
+[2021-01-27T12:42:44.395] [INFO] system - 「前方チケット整理番号券,通常チケット整理番号券」の存在を確認(.table #ticket-328362,.table #ticket-328363)
+[2021-01-27T12:42:44.396] [INFO] system - 2021-01-19 23:00にすでに到達
+[2021-01-27T12:42:44.397] [INFO] system - 購入処理想定時間到達
+[2021-01-27T12:42:44.402] [INFO] system - <成績時間カウント開始>
+[2021-01-27T12:42:44.462] [INFO] system - 混線なし
+[2021-01-27T12:42:44.951] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async moveTargetPage (C:\source\yt-scraping\func-lpkick\lpkick.js:366:29)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:233:28)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:96:5
+[2021-01-27T12:42:45.341] [ERROR] system - 購入ページ確認NG
+[2021-01-27T12:42:45.342] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:236:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:96:5
+[2021-01-27T12:42:45.343] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:270:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:96:5
+[2021-01-27T12:42:53.199] [INFO] system - 【Windows版起動】
+[2021-01-27T12:42:53.200] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:42:53.207] [INFO] system - 【テスト】
+[2021-01-27T12:42:53.218] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:42:53.220] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:42:53.527] [INFO] system - ログインページに移動前
+[2021-01-27T12:42:56.074] [INFO] system - 混線なし
+[2021-01-27T12:42:56.075] [INFO] system - ログインページに移動完了
+[2021-01-27T12:42:56.144] [INFO] system - send successful
+[2021-01-27T12:42:58.336] [INFO] system - 混線なし
+[2021-01-27T12:43:00.423] [INFO] system - ログイン完了
+[2021-01-27T12:43:00.539] [INFO] system - 「前方チケット整理番号券,通常チケット整理番号券」の存在を確認(.table #ticket-328362,.table #ticket-328363)
+[2021-01-27T12:43:00.541] [INFO] system - 2021-01-19 23:00にすでに到達
+[2021-01-27T12:43:00.546] [INFO] system - 購入処理想定時間到達
+[2021-01-27T12:43:00.548] [INFO] system - <成績時間カウント開始>
+[2021-01-27T12:43:00.551] [INFO] system - 混線なし
+[2021-01-27T12:43:01.070] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ElementHandle.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:16)
+    at async Object.internalHandler.queryOne (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:24:30)
+    at async DOMWorld.$ (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:95:23)
+    at async moveTargetPage (C:\source\yt-scraping\func-lpkick\lpkick.js:366:29)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:233:28)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:96:5
+[2021-01-27T12:43:01.439] [ERROR] system - 購入ページ確認NG
+[2021-01-27T12:43:01.440] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:236:13)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:96:5
+[2021-01-27T12:43:01.441] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:270:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:96:5
+[2021-01-27T12:43:12.725] [INFO] system - 【Windows版起動】
+[2021-01-27T12:43:12.727] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:43:12.737] [INFO] system - 【テスト】
+[2021-01-27T12:43:12.746] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:43:12.751] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:43:13.057] [INFO] system - ログインページに移動前
+[2021-01-27T12:43:15.793] [INFO] system - send successful
+[2021-01-27T12:43:15.873] [INFO] system - 混線なし
+[2021-01-27T12:43:15.874] [INFO] system - ログインページに移動完了
+[2021-01-27T12:43:18.502] [INFO] system - 混線なし
+[2021-01-27T12:43:20.166] [INFO] system - ログイン完了
+[2021-01-27T12:43:20.277] [INFO] system - 「前方チケット整理番号券,通常チケット整理番号券」の存在を確認(.table #ticket-328362,.table #ticket-328363)
+[2021-01-27T12:43:20.279] [INFO] system - 2021-01-19 23:00にすでに到達
+[2021-01-27T12:43:20.282] [INFO] system - 購入処理想定時間到達
+[2021-01-27T12:43:20.285] [INFO] system - <成績時間カウント開始>
+[2021-01-27T12:43:22.399] [INFO] system - 混線なし
+[2021-01-27T12:43:22.402] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T12:43:22.404] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T12:44:04.399] [INFO] system - 【Windows版起動】
+[2021-01-27T12:44:04.400] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:44:04.408] [INFO] system - 【テスト】
+[2021-01-27T12:44:04.417] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:44:04.428] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:44:04.724] [INFO] system - ログインページに移動前
+[2021-01-27T12:44:07.055] [INFO] system - send successful
+[2021-01-27T12:44:07.488] [INFO] system - 混線なし
+[2021-01-27T12:44:07.489] [INFO] system - ログインページに移動完了
+[2021-01-27T12:44:09.514] [INFO] system - 混線なし
+[2021-01-27T12:44:11.397] [INFO] system - ログイン完了
+[2021-01-27T12:44:11.506] [INFO] system - 「前方チケット整理番号券,通常チケット整理番号券」の存在を確認(.table #ticket-328362,.table #ticket-328363)
+[2021-01-27T12:44:11.508] [INFO] system - 2021-01-19 23:00にすでに到達
+[2021-01-27T12:44:11.513] [INFO] system - 購入処理想定時間到達
+[2021-01-27T12:44:11.514] [INFO] system - <成績時間カウント開始>
+[2021-01-27T12:44:13.869] [INFO] system - 混線なし
+[2021-01-27T12:44:13.871] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T12:44:13.873] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T12:45:06.753] [INFO] system - 【Windows版起動】
+[2021-01-27T12:45:06.754] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:45:06.763] [INFO] system - 【テスト】
+[2021-01-27T12:45:06.772] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:45:06.777] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:45:07.057] [INFO] system - ログインページに移動前
+[2021-01-27T12:45:09.714] [INFO] system - send successful
+[2021-01-27T12:45:10.294] [INFO] system - 混線なし
+[2021-01-27T12:45:10.295] [INFO] system - ログインページに移動完了
+[2021-01-27T12:45:12.663] [INFO] system - 混線なし
+[2021-01-27T12:45:14.526] [INFO] system - ログイン完了
+[2021-01-27T12:45:14.700] [INFO] system - 「前方チケット整理番号券,通常チケット整理番号券」の存在を確認(.table #ticket-328362,.table #ticket-328363)
+[2021-01-27T12:45:14.702] [INFO] system - 2021-01-19 23:00にすでに到達
+[2021-01-27T12:45:14.705] [INFO] system - 購入処理想定時間到達
+[2021-01-27T12:45:14.708] [INFO] system - <成績時間カウント開始>
+[2021-01-27T12:45:17.556] [INFO] system - 混線なし
+[2021-01-27T12:45:17.558] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T12:45:17.559] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T12:45:21.739] [INFO] system - 混線なし
+[2021-01-27T12:45:21.750] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-27T12:45:21.753] [INFO] system - 購入処理開始(有料)
+[2021-01-27T12:45:21.890] [INFO] system - 【テスト:決済ロジック】
+[2021-01-27T12:45:21.891] [INFO] system - <成績：7.182秒>
+[2021-01-27T12:45:24.963] [INFO] system - send successful
+[2021-01-27T12:45:41.068] [INFO] system - 【Windows版起動】
+[2021-01-27T12:45:41.069] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"]}
+[2021-01-27T12:45:41.077] [INFO] system - 【テスト】
+[2021-01-27T12:45:41.087] [INFO] system - 2021-01-19 22:45:00にすでに到達
+[2021-01-27T12:45:41.090] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T12:45:41.403] [INFO] system - ログインページに移動前
+[2021-01-27T12:45:43.701] [INFO] system - send successful
+[2021-01-27T12:45:44.252] [INFO] system - 混線なし
+[2021-01-27T12:45:44.253] [INFO] system - ログインページに移動完了
+[2021-01-27T12:45:46.587] [INFO] system - 混線なし
+[2021-01-27T12:45:48.382] [INFO] system - ログイン完了
+[2021-01-27T12:45:48.511] [INFO] system - 「前方チケット整理番号券,通常チケット整理番号券」の存在を確認(.table #ticket-328362,.table #ticket-328363)
+[2021-01-27T12:45:48.513] [INFO] system - 2021-01-19 23:00にすでに到達
+[2021-01-27T12:45:48.516] [INFO] system - 購入処理想定時間到達
+[2021-01-27T12:45:48.519] [INFO] system - <成績時間カウント開始>
+[2021-01-27T12:45:51.293] [INFO] system - 混線なし
+[2021-01-27T12:45:51.295] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T12:45:51.296] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T12:45:55.346] [INFO] system - 混線なし
+[2021-01-27T12:45:55.377] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-27T12:45:55.378] [INFO] system - 購入処理開始(有料)
+[2021-01-27T12:45:55.609] [INFO] system - 【テスト:決済ロジック】
+[2021-01-27T12:45:55.610] [INFO] system - <成績：7.09秒>
+[2021-01-27T12:45:58.657] [INFO] system - send successful
+[2021-01-27T15:28:13.926] [INFO] system - 【Windows版起動】
+[2021-01-27T15:28:13.927] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kidouseyo0130/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券,通常チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-19 23:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notOnlyCheck":false}
+[2021-01-27T15:28:13.942] [INFO] system - 【テスト】
+[2021-01-27T15:28:17.123] [INFO] system - 混線なし
+[2021-01-27T15:28:17.125] [INFO] system - ログインページに移動完了
+[2021-01-27T15:28:17.273] [INFO] system - send successful
+[2021-01-27T15:28:19.275] [INFO] system - 混線なし
+[2021-01-27T15:28:21.418] [INFO] system - ログイン完了
+[2021-01-27T15:28:21.543] [INFO] system - 「前方チケット整理番号券,通常チケット整理番号券」の存在を確認(.table #ticket-328362,.table #ticket-328363)
+[2021-01-27T15:34:18.895] [INFO] system - 【Windows版起動】
+[2021-01-27T15:34:18.896] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0128/","targetTicket":".table #ticket-334786","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notOnlyCheck":false}
+[2021-01-27T15:34:21.343] [INFO] system - send successful
+[2021-01-27T15:34:21.868] [INFO] system - 混線なし
+[2021-01-27T15:34:21.869] [INFO] system - ログインページに移動完了
+[2021-01-27T15:34:24.552] [INFO] system - 混線なし
+[2021-01-27T15:34:26.200] [INFO] system - ログイン完了
+[2021-01-27T15:34:26.229] [INFO] system - 「１部前売チケット整理番号券,２部前売チケット整理番号券」の存在を確認(.table #ticket-346097,.table #ticket-346098)
+[2021-01-27T15:34:26.231] [INFO] system - チェック完了／設定に問題ありません
+[2021-01-27T15:34:28.877] [INFO] system - send successful
+[2021-01-27T15:35:29.457] [INFO] system - 【Windows版起動】
+[2021-01-27T15:35:29.458] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0128/","targetTicket":".table #ticket-334786","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notOnlyCheck":true}
+[2021-01-27T15:35:32.365] [INFO] system - send successful
+[2021-01-27T15:35:32.591] [INFO] system - 混線なし
+[2021-01-27T15:35:32.592] [INFO] system - ログインページに移動完了
+[2021-01-27T15:35:34.839] [INFO] system - 混線なし
+[2021-01-27T15:35:36.583] [INFO] system - ログイン完了
+[2021-01-27T15:35:36.710] [INFO] system - 「１部前売チケット整理番号券,２部前売チケット整理番号券」の存在を確認(.table #ticket-346097,.table #ticket-346098)
+[2021-01-27T15:35:36.712] [INFO] system - チェック完了／設定に問題ありません
+[2021-01-27T15:35:39.328] [INFO] system - send successful
+[2021-01-27T15:37:13.652] [INFO] system - 【Windows版起動】
+[2021-01-27T15:37:13.653] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0128/","targetTicket":".table #ticket-334786","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T15:37:13.672] [INFO] system - 2021-01-27 21:45:00までログイン処理待機中...
+[2021-01-27T15:37:16.495] [INFO] system - send successful
+[2021-01-27T15:41:51.023] [INFO] system - 【Windows版起動】
+[2021-01-27T15:41:51.024] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0128/","targetTicket":".table #ticket-334786","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T15:41:51.041] [INFO] system - 2021-01-27 21:45:00までログイン処理待機中...
+[2021-01-27T15:41:54.107] [INFO] system - send successful
+[2021-01-27T20:39:17.775] [INFO] system - 【Windows版起動】
+[2021-01-27T20:39:17.777] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:39:17.781] [INFO] system - 【テスト】
+[2021-01-27T20:39:17.798] [INFO] system - 2021-01-27 21:45:00までログイン処理待機中...
+[2021-01-27T20:39:21.740] [INFO] system - send successful
+[2021-01-27T20:39:44.843] [INFO] system - 【Windows版起動】
+[2021-01-27T20:39:44.845] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-26 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:39:44.853] [INFO] system - 【テスト】
+[2021-01-27T20:39:44.863] [INFO] system - 2021-01-26 21:45:00にすでに到達
+[2021-01-27T20:39:44.865] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T20:39:47.360] [INFO] system - send successful
+[2021-01-27T20:40:31.392] [INFO] system - 【Windows版起動】
+[2021-01-27T20:40:31.394] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-26 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:40:31.395] [INFO] system - 【テスト】
+[2021-01-27T20:40:31.409] [INFO] system - 2021-01-26 21:45:00にすでに到達
+[2021-01-27T20:40:31.411] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T20:40:34.196] [INFO] system - send successful
+[2021-01-27T20:40:53.674] [INFO] system - 【Windows版起動】
+[2021-01-27T20:40:53.676] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-26 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:40:53.677] [INFO] system - 【テスト】
+[2021-01-27T20:40:53.697] [INFO] system - 2021-01-26 21:45:00にすでに到達
+[2021-01-27T20:40:53.701] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T20:40:56.501] [INFO] system - send successful
+[2021-01-27T20:40:57.225] [INFO] system - 混線なし
+[2021-01-27T20:40:57.226] [INFO] system - ログインページに移動完了
+[2021-01-27T20:40:59.664] [INFO] system - 混線なし
+[2021-01-27T20:41:01.828] [INFO] system - ログイン完了
+[2021-01-27T20:41:01.873] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-344483)
+[2021-01-27T20:41:01.875] [INFO] system - 2021-01-26 22:00にすでに到達
+[2021-01-27T20:41:01.876] [INFO] system - 購入処理想定時間到達
+[2021-01-27T20:41:01.877] [INFO] system - <成績時間カウント開始>
+[2021-01-27T20:41:04.525] [INFO] system - 混線なし
+[2021-01-27T20:41:04.527] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T20:41:04.528] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T20:42:06.395] [INFO] system - 【Windows版起動】
+[2021-01-27T20:42:06.397] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-26 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:42:06.406] [INFO] system - 【テスト】
+[2021-01-27T20:42:06.416] [INFO] system - 2021-01-26 21:45:00にすでに到達
+[2021-01-27T20:42:06.424] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T20:42:09.168] [INFO] system - 混線なし
+[2021-01-27T20:42:09.169] [INFO] system - ログインページに移動完了
+[2021-01-27T20:42:09.612] [INFO] system - send successful
+[2021-01-27T20:42:11.154] [INFO] system - 混線なし
+[2021-01-27T20:42:12.421] [INFO] system - ログイン完了
+[2021-01-27T20:42:12.538] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-344483)
+[2021-01-27T20:42:12.539] [INFO] system - 2021-01-26 22:00にすでに到達
+[2021-01-27T20:42:12.545] [INFO] system - 購入処理想定時間到達
+[2021-01-27T20:42:12.546] [INFO] system - <成績時間カウント開始>
+[2021-01-27T20:42:14.820] [INFO] system - 混線なし
+[2021-01-27T20:42:14.824] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T20:42:14.832] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T20:42:51.890] [INFO] system - 【Windows版起動】
+[2021-01-27T20:42:51.891] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-26 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:42:51.898] [INFO] system - 【テスト】
+[2021-01-27T20:42:51.907] [INFO] system - 2021-01-26 21:45:00にすでに到達
+[2021-01-27T20:42:51.912] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T20:42:54.706] [INFO] system - 混線なし
+[2021-01-27T20:42:54.707] [INFO] system - ログインページに移動完了
+[2021-01-27T20:42:55.409] [INFO] system - send successful
+[2021-01-27T20:42:56.853] [INFO] system - 混線なし
+[2021-01-27T20:42:58.108] [INFO] system - ログイン完了
+[2021-01-27T20:42:58.118] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-344483)
+[2021-01-27T20:42:58.120] [INFO] system - 2021-01-26 22:00にすでに到達
+[2021-01-27T20:42:58.120] [INFO] system - 購入処理想定時間到達
+[2021-01-27T20:42:58.122] [INFO] system - <成績時間カウント開始>
+[2021-01-27T20:43:00.397] [INFO] system - 混線なし
+[2021-01-27T20:43:00.399] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T20:43:00.400] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T20:43:13.808] [INFO] system - 【Windows版起動】
+[2021-01-27T20:43:13.810] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"通常チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-26 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:43:13.819] [INFO] system - 【テスト】
+[2021-01-27T20:43:13.829] [INFO] system - 2021-01-26 21:45:00にすでに到達
+[2021-01-27T20:43:13.831] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T20:43:16.733] [INFO] system - 混線なし
+[2021-01-27T20:43:16.734] [INFO] system - ログインページに移動完了
+[2021-01-27T20:43:18.817] [INFO] system - send successful
+[2021-01-27T20:43:18.901] [INFO] system - 混線なし
+[2021-01-27T20:43:20.222] [INFO] system - ログイン完了
+[2021-01-27T20:43:20.343] [INFO] system - 「通常チケット整理番号券」の存在を確認(.table #ticket-344483)
+[2021-01-27T20:43:20.344] [INFO] system - 2021-01-26 22:00にすでに到達
+[2021-01-27T20:43:20.346] [INFO] system - 購入処理想定時間到達
+[2021-01-27T20:43:20.349] [INFO] system - <成績時間カウント開始>
+[2021-01-27T20:43:22.579] [INFO] system - 混線なし
+[2021-01-27T20:43:22.580] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T20:43:22.581] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T20:45:22.025] [INFO] system - 【Windows版起動】
+[2021-01-27T20:45:22.027] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-26 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:45:22.035] [INFO] system - 【テスト】
+[2021-01-27T20:45:22.044] [INFO] system - 2021-01-26 21:45:00にすでに到達
+[2021-01-27T20:45:22.047] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T20:45:25.031] [INFO] system - 混線なし
+[2021-01-27T20:45:25.032] [INFO] system - ログインページに移動完了
+[2021-01-27T20:45:27.086] [INFO] system - 混線なし
+[2021-01-27T20:45:28.699] [INFO] system - ログイン完了
+[2021-01-27T20:45:28.724] [INFO] system - 「前方チケット整理番号券」の存在を確認(.table #ticket-344482)
+[2021-01-27T20:45:28.726] [INFO] system - 2021-01-26 22:00にすでに到達
+[2021-01-27T20:45:28.728] [INFO] system - 購入処理想定時間到達
+[2021-01-27T20:45:28.730] [INFO] system - <成績時間カウント開始>
+[2021-01-27T20:45:30.928] [INFO] system - 混線なし
+[2021-01-27T20:45:30.930] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T20:45:30.931] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T20:45:32.123] [INFO] system - 混線なし
+[2021-01-27T20:45:32.124] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-27T20:45:32.124] [INFO] system - 購入処理開始(有料)
+[2021-01-27T20:45:32.285] [INFO] system - 【テスト:決済ロジック】
+[2021-01-27T20:45:32.286] [INFO] system - <成績：3.555秒>
+[2021-01-27T20:45:32.627] [INFO] system - send successful
+[2021-01-27T20:45:37.369] [INFO] system - send successful
+[2021-01-27T20:47:53.806] [INFO] system - 【Windows版起動】
+[2021-01-27T20:47:53.807] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-26 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:47:53.815] [INFO] system - 【テスト】
+[2021-01-27T20:47:53.826] [INFO] system - 2021-01-26 21:45:00にすでに到達
+[2021-01-27T20:47:53.829] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T20:48:01.677] [INFO] system - send successful
+[2021-01-27T20:48:33.003] [INFO] system - 【Windows版起動】
+[2021-01-27T20:48:33.004] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-26 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:48:33.004] [INFO] system - 【テスト】
+[2021-01-27T20:48:33.018] [INFO] system - 2021-01-26 21:45:00にすでに到達
+[2021-01-27T20:48:33.020] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T20:48:37.341] [INFO] system - send successful
+[2021-01-27T20:50:18.066] [INFO] system - 【Windows版起動】
+[2021-01-27T20:50:18.067] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/nagoya_reny0202/","targetTicket":".table #ticket-334786","targetName":"前方チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-01-26 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:50:18.075] [INFO] system - 【テスト】
+[2021-01-27T20:50:18.084] [INFO] system - 2021-01-26 21:45:00にすでに到達
+[2021-01-27T20:50:18.087] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T20:50:21.078] [INFO] system - send successful
+[2021-01-27T20:50:21.116] [INFO] system - 混線なし
+[2021-01-27T20:50:21.117] [INFO] system - ログインページに移動完了
+[2021-01-27T20:50:23.112] [INFO] system - 混線なし
+[2021-01-27T20:50:24.792] [INFO] system - ログイン完了
+[2021-01-27T20:50:24.897] [INFO] system - 「前方チケット整理番号券」の存在を確認(.table #ticket-344482)
+[2021-01-27T20:50:24.898] [INFO] system - 2021-01-26 22:00にすでに到達
+[2021-01-27T20:50:24.899] [INFO] system - 購入処理想定時間到達
+[2021-01-27T20:50:24.899] [INFO] system - <成績時間カウント開始>
+[2021-01-27T20:50:27.001] [INFO] system - 混線なし
+[2021-01-27T20:50:27.004] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T20:50:27.010] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T20:50:30.083] [INFO] system - 混線なし
+[2021-01-27T20:50:30.097] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-27T20:50:30.098] [INFO] system - 購入処理開始(有料)
+[2021-01-27T20:50:30.273] [INFO] system - 【テスト:決済ロジック】
+[2021-01-27T20:50:30.274] [INFO] system - <成績：5.374秒>
+[2021-01-27T20:50:50.838] [INFO] system - 【Windows版起動】
+[2021-01-27T20:50:50.841] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"sugachan.tectec@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/wakkuru0128/","targetTicket":".table #ticket-334786","targetName":"１部前売チケット整理番号券,２部前売チケット整理番号券","targetNumber":"1,1","storeTypeId":"002","startTime":"2021-01-27 22:00","isBrowse":false,"isFree":false,"isCredit":false,"isTest":false,"isLanguage":"ja","---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"trigger@applet.ifttt.com","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"notCheckOnly":true}
+[2021-01-27T20:50:50.859] [INFO] system - 2021-01-27 21:45:00までログイン処理待機中...
+[2021-01-27T20:50:53.400] [INFO] system - send successful
+[2021-01-27T21:45:00.030] [INFO] system - ログイン処理想定時間到達
+[2021-01-27T21:45:03.123] [INFO] system - 混線なし
+[2021-01-27T21:45:03.124] [INFO] system - ログインページに移動完了
+[2021-01-27T21:45:05.776] [INFO] system - 混線なし
+[2021-01-27T21:45:07.273] [INFO] system - ログイン完了
+[2021-01-27T21:45:07.300] [INFO] system - 「１部前売チケット整理番号券,２部前売チケット整理番号券」の存在を確認(.table #ticket-346097,.table #ticket-346098)
+[2021-01-27T21:45:07.301] [INFO] system - 2021-01-27 22:00まで購入処理待機中...
+[2021-01-27T22:00:26.534] [INFO] system - 購入処理想定時間到達
+[2021-01-27T22:00:26.652] [INFO] system - <成績時間カウント開始>
+[2021-01-27T22:00:32.444] [INFO] system - 混線なし
+[2021-01-27T22:00:32.446] [INFO] system - 購入状態確認(1回目に成功)
+[2021-01-27T22:00:32.447] [INFO] system - 購入処理開始(確定前)
+[2021-01-27T22:00:43.254] [INFO] system - 混線なし
+[2021-01-27T22:00:43.280] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-01-27T22:00:43.280] [INFO] system - 購入処理開始(有料)
+[2021-01-27T22:00:43.709] [INFO] system - 混線なし
+[2021-01-27T22:01:00.088] [INFO] system - 購入処理完了(多分)
+[2021-01-27T22:01:00.089] [INFO] system - <成績：33.431秒>
+[2021-01-27T22:01:03.549] [INFO] system - send successful

@@ -1,0 +1,68 @@
+[2021-07-28T16:39:13.111] [INFO] system - キック：{"isWindows":["Windows"],"---1---":"====== BasicSetting ======","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","testUser":"kisyan3333@gmail.com","testPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/shanimuni0730/","targetName":"1部前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","loginTime":"2021-07-28 22:45","startTime":"2021-07-28 23:00","isBrowse":true,"isTest":false,"isJamCheck":true,"isCredit":false,"isMailSend":false,"notCheckOnly":true,"isClose":false,"isMobile":true,"dareSec":0,"isConnect":true,"isLogger":true,"advSec":-170,"isOrigin":true,"jamTryCnt":10,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com"}
+[2021-07-28T16:39:13.144] [INFO] system - 【本番】
+[2021-07-28T16:39:13.148] [INFO] system - 2021-07-28 22:45:00までログイン処理待機中...
+[2021-07-28T22:45:00.114] [INFO] system - ログイン処理想定時間到達
+[2021-07-28T22:45:00.826] [INFO] system - ブラウザ起動後準備完了
+[2021-07-28T22:45:02.212] [INFO] system - ログインページに移動完了
+[2021-07-28T22:45:02.223] [INFO] system - 混線なし
+[2021-07-28T22:45:04.560] [INFO] system - ログイン完了
+[2021-07-28T22:45:04.572] [INFO] system - 混線なし
+[2021-07-28T22:45:04.592] [INFO] system - 「1部前売チケット整理番号券」の存在を確認(.table #ticket-465178)
+[2021-07-28T22:45:07.039] [INFO] system - .table #ticket-465178ロック外し開始
+[2021-07-28T22:45:07.050] [INFO] system - 1セット選択終了
+[2021-07-28T22:45:07.055] [INFO] system - 2021-07-28 22:59:29までページバック待機中...
+[2021-07-28T22:59:29.849] [INFO] system - 前ページへ移動
+[2021-07-28T22:59:31.301] [INFO] system - 2021-07-28 22:59:59まで購入処理待機中...
+[2021-07-28T22:59:59.841] [INFO] system - 購入処理想定時間到達
+[2021-07-28T22:59:59.842] [INFO] system - <成績時間カウント開始>
+[2021-07-28T22:59:59.843] [INFO] system - 購入可能状態確認start(1回目)
+[2021-07-28T22:59:59.844] [INFO] system - 次ページへ移動
+[2021-07-28T23:00:03.279] [INFO] system - 購入可能状態確認end
+[2021-07-28T23:00:03.280] [INFO] system - 枚数選択start(1回目)
+[2021-07-28T23:00:03.281] [INFO] system - 購入クリック処理1回目
+[2021-07-28T23:00:03.284] [INFO] system - 購入クリック処理2回目
+[2021-07-28T23:00:03.304] [INFO] system - 購入クリック処理3回目
+[2021-07-28T23:00:03.311] [INFO] system - 購入クリック処理4回目
+[2021-07-28T23:00:03.320] [INFO] system - 購入クリック処理5回目
+[2021-07-28T23:00:03.327] [INFO] system - 購入クリック処理6回目
+[2021-07-28T23:00:03.329] [INFO] system - 購入クリック処理7回目
+[2021-07-28T23:00:03.330] [INFO] system - 購入クリック処理8回目
+[2021-07-28T23:00:03.332] [INFO] system - 購入クリック処理9回目
+[2021-07-28T23:00:03.334] [INFO] system - 購入クリック処理10回目
+[2021-07-28T23:00:03.336] [INFO] system - 購入クリック処理11回目
+[2021-07-28T23:00:03.338] [INFO] system - 購入クリック処理12回目
+[2021-07-28T23:00:03.345] [INFO] system - 購入クリック処理13回目
+[2021-07-28T23:00:03.347] [INFO] system - 購入クリック処理14回目
+[2021-07-28T23:00:03.348] [INFO] system - 購入クリック処理15回目
+[2021-07-28T23:00:03.350] [INFO] system - 購入クリック処理16回目
+[2021-07-28T23:00:03.352] [INFO] system - 購入クリック処理17回目
+[2021-07-28T23:00:03.353] [INFO] system - 購入クリック処理18回目
+[2021-07-28T23:00:03.354] [INFO] system - 購入クリック処理19回目
+[2021-07-28T23:00:03.362] [INFO] system - 購入クリック処理20回目
+[2021-07-28T23:00:03.364] [INFO] system - 購入クリック処理21回目
+[2021-07-28T23:00:03.365] [INFO] system - 購入クリック処理22回目
+[2021-07-28T23:00:03.366] [INFO] system - 購入クリック処理23回目
+[2021-07-28T23:00:03.368] [INFO] system - 購入クリック処理24回目
+[2021-07-28T23:00:03.374] [INFO] system - 購入クリック処理25回目
+[2021-07-28T23:00:03.377] [INFO] system - 購入クリック処理26回目
+[2021-07-28T23:00:06.577] [ERROR] system - Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:261:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:215:61)
+    at async ExecutionContext.evaluate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:106:16)
+    at async targetPageBuySelect (C:\source\yt-scraping\func-lpkick\lpkick.js:850:9)
+    at async newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:487:11)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:107:5
+[2021-07-28T23:00:07.073] [INFO] system - 枚数選択end(1回目)
+[2021-07-28T23:00:07.082] [INFO] system - 決済処理ページ遷移済
+[2021-07-28T23:00:07.083] [INFO] system - 決済処理start(1回目)
+[2021-07-28T23:00:07.084] [INFO] system - 購入処理確定開始(freeBuy:true)
+[2021-07-28T23:00:07.084] [INFO] system - 購入処理開始(無料)
+[2021-07-28T23:00:07.111] [INFO] system - 規約に同意クリック
+[2021-07-28T23:00:32.784] [INFO] system - (検証用)成功1
+[2021-07-28T23:00:32.789] [INFO] system - (検証用)成功2
+[2021-07-28T23:00:32.804] [INFO] system - (検証用)成功3
+[2021-07-28T23:00:32.809] [INFO] system - 決済処理end
+[2021-07-28T23:00:32.811] [INFO] system - <現在時刻：Wed Jul 28 2021 23:00:32 GMT+0900／成績：32.968秒>
+[2021-07-28T23:00:32.812] [INFO] system - <成績：32.969秒>

@@ -1,0 +1,95 @@
+[2021-04-12T20:34:43.607] [INFO] system - 【Windows版起動】
+[2021-04-12T20:34:43.608] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/kuji_change/","targetTicket":null,"targetName":"優先入場チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-12 21:30","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-12 21:15","notCheckOnly":true,"isClose":false}
+[2021-04-12T20:34:43.634] [INFO] system - 【テスト】
+[2021-04-12T20:34:43.640] [INFO] system - 2021-04-12 21:15:00までログイン処理待機中...
+[2021-04-12T21:15:00.011] [INFO] system - ログイン処理想定時間到達
+[2021-04-12T21:15:02.639] [INFO] system - ブラウザ起動後準備完了
+[2021-04-12T21:15:07.434] [INFO] system - ログインページに移動完了
+[2021-04-12T21:15:11.950] [INFO] system - ログイン完了
+[2021-04-12T21:15:11.981] [INFO] system - 「優先入場チケット整理番号券」の存在を確認(.table #ticket-394094)
+[2021-04-12T21:15:11.984] [INFO] system - 2021-04-12 21:30まで購入処理待機中...
+[2021-04-12T21:30:00.010] [INFO] system - 購入処理想定時間到達
+[2021-04-12T21:30:00.012] [INFO] system - <成績時間カウント開始>
+[2021-04-12T21:30:00.013] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-12T21:30:03.011] [INFO] system - 購入可能状態確認end
+[2021-04-12T21:30:03.012] [INFO] system - 枚数選択start(1回目)
+[2021-04-12T21:30:07.005] [INFO] system - 枚数選択end
+[2021-04-12T21:30:07.006] [INFO] system - 決済処理start(1回目)
+[2021-04-12T21:30:07.006] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-04-12T21:30:07.007] [INFO] system - 購入処理開始(有料)
+[2021-04-12T21:30:07.306] [INFO] system - 規約に同意クリック
+[2021-04-12T21:30:07.307] [INFO] system - 【テスト:決済ロジック】
+[2021-04-12T21:30:07.308] [INFO] system - テスト処理完了
+[2021-04-12T21:31:49.028] [INFO] system - 【Windows版起動】
+[2021-04-12T21:31:49.029] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/revenge0417/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-12 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-12 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-12T21:31:49.039] [INFO] system - 【テスト】
+[2021-04-12T21:31:49.046] [INFO] system - 2021-04-12 21:45:00までログイン処理待機中...
+[2021-04-12T21:45:00.028] [INFO] system - ログイン処理想定時間到達
+[2021-04-12T21:45:00.444] [INFO] system - ブラウザ起動後準備完了
+[2021-04-12T21:45:05.120] [INFO] system - ログインページに移動完了
+[2021-04-12T21:45:09.340] [INFO] system - ログイン完了
+[2021-04-12T21:45:09.402] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-394150)
+[2021-04-12T21:45:09.403] [INFO] system - 2021-04-12 22:00まで購入処理待機中...
+[2021-04-12T22:00:00.001] [INFO] system - 購入処理想定時間到達
+[2021-04-12T22:00:00.002] [INFO] system - <成績時間カウント開始>
+[2021-04-12T22:00:00.003] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-12T22:00:03.308] [INFO] system - 購入可能状態確認end
+[2021-04-12T22:00:03.309] [INFO] system - 枚数選択start(1回目)
+[2021-04-12T22:10:06.358] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-04-12T22:10:06.381] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-lpkick\lpkick.js:393:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-lpkick\lpkick.js:112:5
+[2021-04-12T22:10:10.885] [INFO] system - 【Windows版起動】
+[2021-04-12T22:10:10.886] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/revenge0417/","targetTicket":null,"targetName":"前売チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-12 22:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-12 21:45","notCheckOnly":true,"isClose":false}
+[2021-04-12T22:10:10.901] [INFO] system - 【テスト】
+[2021-04-12T22:10:10.907] [INFO] system - 2021-04-12 21:45:00にすでに到達
+[2021-04-12T22:10:10.909] [INFO] system - ログイン処理想定時間到達
+[2021-04-12T22:10:11.436] [INFO] system - ブラウザ起動後準備完了
+[2021-04-12T22:10:16.263] [INFO] system - ログインページに移動完了
+[2021-04-12T22:10:20.367] [INFO] system - ログイン完了
+[2021-04-12T22:10:20.512] [INFO] system - 「前売チケット整理番号券」の存在を確認(.table #ticket-394150)
+[2021-04-12T22:10:20.515] [INFO] system - 2021-04-12 22:00にすでに到達
+[2021-04-12T22:10:20.519] [INFO] system - 購入処理想定時間到達
+[2021-04-12T22:10:20.538] [INFO] system - <成績時間カウント開始>
+[2021-04-12T22:10:20.540] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-12T22:10:23.010] [INFO] system - 購入可能状態確認end
+[2021-04-12T22:10:23.011] [INFO] system - 枚数選択start(1回目)
+[2021-04-12T22:10:29.078] [INFO] system - 枚数選択end
+[2021-04-12T22:10:29.079] [INFO] system - 決済処理start(1回目)
+[2021-04-12T22:10:29.080] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-04-12T22:10:29.082] [INFO] system - 購入処理開始(有料)
+[2021-04-12T22:10:29.300] [INFO] system - 規約に同意クリック
+[2021-04-12T22:10:29.301] [INFO] system - 【テスト:決済ロジック】
+[2021-04-12T22:10:29.304] [INFO] system - テスト処理完了
+[2021-04-12T22:13:34.348] [INFO] system - 【Windows版起動】
+[2021-04-12T22:13:34.350] [INFO] system - キック：{"---1---":"====== BasicSetting ======","mainUrl":"https://t.livepocket.jp/","loginUrl":"https://t.livepocket.jp/login?acroot=header-new_p_u_nl","mypageUrl":"https://t.livepocket.jp/my_top","autoLogin":false,"confUser":"kisyan3333@gmail.com","confPass":"6yjAWLhCxVT2","targetUrl":"https://t.livepocket.jp/e/cos_haru/","targetTicket":null,"targetName":"優先入場チケット整理番号券","targetNumber":"1","storeTypeId":"002","startTime":"2021-04-12 23:00","isBrowse":true,"isFree":false,"isCredit":false,"isTest":true,"isLanguage":"ja","isStage":false,"isJamCheck":true,"isMailSend":false,"---2---":"====== MailSetting(GmailOnly) ======","fromMail":"sugachan.tectec@gmail.com","fromMailPass":"sero3202","toMail":"","toSysMail":"trigger@applet.ifttt.com","isWindows":["Windows"],"loginTime":"2021-04-12 22:45","notCheckOnly":true,"isClose":false}
+[2021-04-12T22:13:34.364] [INFO] system - 【テスト】
+[2021-04-12T22:13:34.371] [INFO] system - 2021-04-12 22:45:00までログイン処理待機中...
+[2021-04-12T22:45:00.018] [INFO] system - ログイン処理想定時間到達
+[2021-04-12T22:45:00.471] [INFO] system - ブラウザ起動後準備完了
+[2021-04-12T22:45:04.930] [INFO] system - ログインページに移動完了
+[2021-04-12T22:45:09.384] [INFO] system - ログイン完了
+[2021-04-12T22:45:09.408] [INFO] system - 「優先入場チケット整理番号券」の存在を確認(.table #ticket-394097)
+[2021-04-12T22:45:09.409] [INFO] system - 2021-04-12 23:00まで購入処理待機中...
+[2021-04-12T23:00:00.003] [INFO] system - 購入処理想定時間到達
+[2021-04-12T23:00:00.004] [INFO] system - <成績時間カウント開始>
+[2021-04-12T23:00:00.005] [INFO] system - 購入可能状態確認start(1回目)
+[2021-04-12T23:00:03.744] [INFO] system - 購入可能状態確認end
+[2021-04-12T23:00:03.745] [INFO] system - 枚数選択start(1回目)
+[2021-04-12T23:00:13.180] [INFO] system - 枚数選択end
+[2021-04-12T23:00:13.181] [INFO] system - 決済処理start(1回目)
+[2021-04-12T23:00:13.181] [INFO] system - 購入処理確定開始(freeBuy:false)
+[2021-04-12T23:00:13.182] [INFO] system - 購入処理開始(有料)
+[2021-04-12T23:00:13.366] [INFO] system - 規約に同意クリック
+[2021-04-12T23:00:13.366] [INFO] system - 【テスト:決済ロジック】
+[2021-04-12T23:00:13.367] [INFO] system - テスト処理完了

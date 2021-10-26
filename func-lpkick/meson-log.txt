@@ -1,0 +1,81 @@
+Build started at 2021-10-16T04:05:19.452117
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/usr -Dbuildtype=release
+Python system: Linux
+The Meson build system
+Version: 0.59.2
+Source dir: /home/ytsys/source/yt-scraping/func-lpkick/installer/build/at-spi2-atk-2.38.0
+Build dir: /home/ytsys/source/yt-scraping/func-lpkick/installer/build
+Build type: native build
+Project name: at-spi2-atk
+Project version: 2.38.0
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/ytsys/source/yt-scraping/func-lpkick/installer/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 8.4.1 "cc (GCC) 8.4.1 20200928 (Red Hat 8.4.1-1)")
+C linker for the host machine: cc ld.bfd 2.30-93
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/ytsys/source/yt-scraping/func-lpkick/installer/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 8.4.1 "cc (GCC) 8.4.1 20200928 (Red Hat 8.4.1-1)")
+C linker for the build machine: cc ld.bfd 2.30-93
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Configuring config.h using configuration
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (1.4.2)
+Determining dependency 'dbus-1' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion dbus-1` -> 1
+
+CMake binary for 1 is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Found CMake: /usr/bin/cmake (3.18.2)
+Extracting basic cmake information
+CMake Toolchain: Calling CMake once to generate the compiler state
+Calling CMake (['/usr/bin/cmake']) in /home/ytsys/source/yt-scraping/func-lpkick/installer/build/meson-private/__CMake_compiler_info__ with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/ytsys/source/yt-scraping/func-lpkick/installer/build/meson-private/__CMake_compiler_info__/CMakeMesonTempToolchainFile.cmake"
+  - "."
+Try CMake generator: auto
+Calling CMake (['/usr/bin/cmake']) in /home/ytsys/source/yt-scraping/func-lpkick/installer/build/meson-private/cmake_dbus-1 with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/ytsys/source/yt-scraping/func-lpkick/installer/build/meson-private/cmake_dbus-1/CMakeMesonToolchainFile.cmake"
+  - "."
+  -- Module search paths:    ['/', '/opt', '/usr', '/usr/local']
+  -- CMake root:             /usr/share/cmake
+  -- CMake architectures:    []
+  -- CMake lib search paths: ['lib', 'lib32', 'lib64', 'libx32', 'share']
+Preliminary CMake check failed. Aborting.
+Run-time dependency dbus-1 found: NO (tried pkgconfig and cmake)
+
+at-spi2-atk-2.38.0/meson.build:45:0: ERROR: Dependency "dbus-1" not found, tried pkgconfig and cmake

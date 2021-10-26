@@ -1,0 +1,232 @@
+[2021-01-22T22:56:37.929] [INFO] system - 2021-01-02 06:45:00にすでに到達
+[2021-01-22T22:56:37.933] [INFO] system - ログイン処理想定時間到達
+[2021-01-22T22:56:42.739] [INFO] system - ログインページに移動完了
+[2021-01-22T22:56:43.906] [INFO] system - ログイン完了
+[2021-01-22T22:56:43.908] [INFO] system - 2021-01-02 07:00にすでに到達
+[2021-01-22T22:56:43.912] [INFO] system - 購入処理想定時間到達
+[2021-01-22T22:56:43.925] [INFO] system - <成績時間カウント開始>
+[2021-01-22T22:56:43.927] [INFO] system - ターゲットページ：undefined
+[2021-01-22T22:56:43.930] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: mandatory field missing at position 49
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\source\yt-scraping\func-ofkick\ofkick.js:304:18)
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:195:34)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T22:56:44.247] [ERROR] system - 購入ページ確認NG
+[2021-01-22T22:56:44.248] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:198:13)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T22:56:44.272] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:253:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T22:57:47.634] [INFO] system - 2021-01-02 06:45:00にすでに到達
+[2021-01-22T22:57:47.638] [INFO] system - ログイン処理想定時間到達
+[2021-01-22T22:57:52.350] [INFO] system - ログインページに移動完了
+[2021-01-22T22:57:53.546] [INFO] system - ログイン完了
+[2021-01-22T22:57:53.549] [INFO] system - 2021-01-02 07:00にすでに到達
+[2021-01-22T22:57:53.556] [INFO] system - 購入処理想定時間到達
+[2021-01-22T22:57:53.565] [INFO] system - <成績時間カウント開始>
+[2021-01-22T22:57:53.567] [INFO] system - ターゲットページ：https://only-five.jp/posts/79427/
+[2021-01-22T22:57:53.861] [INFO] system - ターゲットページ：https://only-five.jp/posts/79427/
+[2021-01-22T22:57:54.160] [INFO] system - ターゲットページ：https://only-five.jp/posts/79427/
+[2021-01-22T22:57:54.442] [ERROR] system - 購入ページ確認NG
+[2021-01-22T22:57:54.443] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:198:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T22:57:54.463] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:253:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T22:59:43.096] [INFO] system - 2021-01-02 06:45:00にすでに到達
+[2021-01-22T22:59:43.100] [INFO] system - ログイン処理想定時間到達
+[2021-01-22T22:59:47.580] [INFO] system - ログインページに移動完了
+[2021-01-22T22:59:48.871] [INFO] system - ログイン完了
+[2021-01-22T22:59:48.874] [INFO] system - 2021-01-02 07:00にすでに到達
+[2021-01-22T22:59:48.877] [INFO] system - 購入処理想定時間到達
+[2021-01-22T22:59:48.889] [INFO] system - <成績時間カウント開始>
+[2021-01-22T22:59:48.891] [INFO] system - ターゲットページ：undefined
+[2021-01-22T22:59:48.893] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: mandatory field missing at position 49
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\source\yt-scraping\func-ofkick\ofkick.js:304:18)
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:195:34)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T22:59:49.230] [ERROR] system - 購入ページ確認NG
+[2021-01-22T22:59:49.231] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:198:13)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T22:59:49.250] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:253:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:00:17.666] [INFO] system - 2021-01-02 06:45:00にすでに到達
+[2021-01-22T23:00:17.670] [INFO] system - ログイン処理想定時間到達
+[2021-01-22T23:00:22.134] [INFO] system - ログインページに移動完了
+[2021-01-22T23:00:23.365] [INFO] system - ログイン完了
+[2021-01-22T23:00:23.368] [INFO] system - 2021-01-02 07:00にすでに到達
+[2021-01-22T23:00:23.370] [INFO] system - 購入処理想定時間到達
+[2021-01-22T23:00:23.384] [INFO] system - <成績時間カウント開始>
+[2021-01-22T23:00:23.385] [INFO] system - ターゲットページ：undefined
+[2021-01-22T23:00:23.388] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: mandatory field missing at position 49
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\source\yt-scraping\func-ofkick\ofkick.js:304:18)
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:195:34)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:00:23.688] [ERROR] system - 購入ページ確認NG
+[2021-01-22T23:00:23.690] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:198:13)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:00:23.706] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:253:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:01:40.269] [INFO] system - 2021-01-02 06:45:00にすでに到達
+[2021-01-22T23:01:40.273] [INFO] system - ログイン処理想定時間到達
+[2021-01-22T23:01:45.017] [INFO] system - ログインページに移動完了
+[2021-01-22T23:01:46.216] [INFO] system - ログイン完了
+[2021-01-22T23:01:46.219] [INFO] system - 2021-01-02 07:00にすでに到達
+[2021-01-22T23:01:46.222] [INFO] system - 購入処理想定時間到達
+[2021-01-22T23:01:46.235] [INFO] system - <成績時間カウント開始>
+[2021-01-22T23:01:46.237] [INFO] system - ターゲットページ：undefined
+[2021-01-22T23:01:46.239] [ERROR] system - Error: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: mandatory field missing at position 49
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:417:41)
+    at Page.goto (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:784:53)
+    at moveTargetPage (C:\source\yt-scraping\func-ofkick\ofkick.js:304:18)
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:195:34)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:01:46.565] [ERROR] system - 購入ページ確認NG
+[2021-01-22T23:01:46.566] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:198:13)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:01:46.587] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:253:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:02:17.958] [INFO] system - 2021-01-02 06:45:00にすでに到達
+[2021-01-22T23:02:17.962] [INFO] system - ログイン処理想定時間到達
+[2021-01-22T23:02:22.748] [INFO] system - ログインページに移動完了
+[2021-01-22T23:02:23.857] [INFO] system - ログイン完了
+[2021-01-22T23:02:23.861] [INFO] system - 2021-01-02 07:00にすでに到達
+[2021-01-22T23:02:23.863] [INFO] system - 購入処理想定時間到達
+[2021-01-22T23:02:23.881] [INFO] system - <成績時間カウント開始>
+[2021-01-22T23:02:23.883] [INFO] system - ターゲットページ：https://only-five.jp/creators/2187//
+[2021-01-22T23:02:24.109] [INFO] system - ターゲットページ：https://only-five.jp/creators/2187//
+[2021-01-22T23:02:24.267] [INFO] system - ターゲットページ：https://only-five.jp/creators/2187//
+[2021-01-22T23:02:24.428] [ERROR] system - 購入ページ確認NG
+[2021-01-22T23:02:24.430] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:198:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:02:24.451] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:253:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:02:45.854] [INFO] system - 2021-01-02 06:45:00にすでに到達
+[2021-01-22T23:02:45.859] [INFO] system - ログイン処理想定時間到達
+[2021-01-22T23:02:50.370] [INFO] system - ログインページに移動完了
+[2021-01-22T23:02:51.634] [INFO] system - ログイン完了
+[2021-01-22T23:02:51.637] [INFO] system - 2021-01-02 07:00にすでに到達
+[2021-01-22T23:02:51.639] [INFO] system - 購入処理想定時間到達
+[2021-01-22T23:02:51.653] [INFO] system - <成績時間カウント開始>
+[2021-01-22T23:02:51.654] [INFO] system - ターゲットページ：https://only-five.jp/creators/2187//
+[2021-01-22T23:02:52.865] [INFO] system - ターゲットページ：https://only-five.jp/creators/2187//
+[2021-01-22T23:02:53.025] [INFO] system - ターゲットページ：https://only-five.jp/creators/2187//
+[2021-01-22T23:02:53.191] [ERROR] system - 購入ページ確認NG
+[2021-01-22T23:02:53.192] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:198:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:02:53.213] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:253:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:03:15.209] [INFO] system - 2021-01-02 06:45:00にすでに到達
+[2021-01-22T23:03:15.214] [INFO] system - ログイン処理想定時間到達
+[2021-01-22T23:03:19.688] [INFO] system - ログインページに移動完了
+[2021-01-22T23:03:20.919] [INFO] system - ログイン完了
+[2021-01-22T23:03:20.923] [INFO] system - 2021-01-02 07:00にすでに到達
+[2021-01-22T23:03:20.926] [INFO] system - 購入処理想定時間到達
+[2021-01-22T23:03:20.939] [INFO] system - <成績時間カウント開始>
+[2021-01-22T23:03:20.941] [INFO] system - ターゲットページ：https://only-five.jp/creators/2187/
+[2021-01-22T23:03:21.160] [INFO] system - ターゲットページ：https://only-five.jp/creators/2187/
+[2021-01-22T23:03:21.323] [INFO] system - ターゲットページ：https://only-five.jp/creators/2187/
+[2021-01-22T23:03:21.484] [ERROR] system - 購入ページ確認NG
+[2021-01-22T23:03:21.485] [ERROR] system - Error
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:198:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:03:21.508] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkick.js:253:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkick.js:84:5
+[2021-01-22T23:11:53.135] [INFO] system - 2021-01-02 07:00:00にすでに到達
+[2021-01-22T23:11:53.139] [INFO] system - ログイン処理想定時間到達
+[2021-01-22T23:11:57.806] [INFO] system - ログインページに移動完了
+[2021-01-22T23:11:58.966] [INFO] system - ログイン完了
+[2021-01-22T23:11:58.967] [INFO] system - <成績時間カウント開始>
+[2021-01-22T23:11:58.968] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-22T23:11:59.224] [INFO] system - 2021-01-22 23:15:00まで画面更新処理待機中...
+[2021-01-22T23:15:00.244] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-22T23:15:00.464] [INFO] system - 2021-01-22 23:20:00まで画面更新処理待機中...
+[2021-01-22T23:20:00.473] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-22T23:20:00.687] [INFO] system - 2021-01-22 23:25:00まで画面更新処理待機中...
+[2021-01-22T23:25:00.703] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-22T23:25:00.976] [INFO] system - 2021-01-22 23:30:00まで画面更新処理待機中...
+[2021-01-22T23:30:00.983] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-22T23:30:01.300] [INFO] system - 2021-01-22 23:35:00まで画面更新処理待機中...
+[2021-01-22T23:35:00.304] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-22T23:35:00.508] [INFO] system - 2021-01-22 23:40:00まで画面更新処理待機中...
+[2021-01-22T23:40:00.510] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-22T23:40:00.710] [INFO] system - 2021-01-22 23:45:00まで画面更新処理待機中...
+[2021-01-22T23:45:00.713] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-22T23:45:00.996] [INFO] system - 2021-01-22 23:50:00まで画面更新処理待機中...
+[2021-01-22T23:50:01.008] [INFO] system - クリエイターズページ：https://only-five.jp/creators/2187
+[2021-01-22T23:50:01.300] [INFO] system - ターゲットページ：https://only-five.jp/posts/85321
+[2021-01-22T23:50:01.446] [INFO] system - 購入状態確認(9回目に成功)
+[2021-01-22T23:50:01.452] [INFO] system - 購入処理開始(確定前)
+[2021-01-22T23:50:05.000] [INFO] system - send successful
+[2021-01-22T23:54:54.100] [INFO] system - 購入処理開始(有料)
+[2021-01-22T23:55:41.008] [ERROR] system - Error: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at ExecutionContext._evaluateInternal (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:151:21)
+    at WaitTask.rerun (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:498:71)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-22T23:55:41.040] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-22T23:55:41.068] [ERROR] system - Error: Protocol error (Target.activateTarget): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:195:35)
+    at Page._screenshotTask (C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1084:28)
+    at C:\source\yt-scraping\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1081:62
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-01-22T23:55:41.072] [ERROR] system - ReferenceError: page is not defined
+    at newBrowser (C:\source\yt-scraping\func-ofkick\ofkickloop.js:245:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\source\yt-scraping\func-ofkick\ofkickloop.js:80:5
+[2021-01-22T23:56:20.008] [INFO] system - 2021-01-02 07:00:00にすでに到達
+[2021-01-22T23:56:20.012] [INFO] system - ログイン処理想定時間到達
+[2021-01-22T23:56:25.311] [INFO] system - ログインページに移動完了
