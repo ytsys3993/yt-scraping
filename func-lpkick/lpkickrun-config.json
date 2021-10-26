@@ -12,7 +12,7 @@
     "storeTypeId":"002",
     "loginTime": "2021-10-09 16:45",
     "startTime": "2021-10-09 17:00",
-    "isBrowse": true,   
+    "isBrowse": false,   
     "isTest": true,
     "isJamCheck": true,
     "isCredit": false,
