@@ -24,7 +24,7 @@
     "moment": "^2.29.1",
     "nodemailer": "^6.4.16",
     "prompts": "^2.4.0",
-    "puppeteer": "^5.4.1",
+    "puppeteer": "^5.5.0",
     "request": "^2.88.2",
     "tor": "^0.0.1"
   },

@@ -1,1719 +1,1270 @@
 @charset "UTF-8";
 
 
+/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+
+ヘッダー
+
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+#responsiveBaseFrame header {
+	border-bottom:1px solid #D9E0E0;
+}
+
+	#responsiveBaseFrame header section.clearfix {
+		padding: 10px;
+	}
+
+	#responsiveBaseFrame header section.clearfix > h2 {
+		float: left;
+		padding-top: 5px;
+	}
+	#responsiveBaseFrame header section.clearfix > nav {
+		float: right;
+	}
+
+	#responsiveBaseFrame header section.clearfix > h2,
+	#responsiveBaseFrame header section.clearfix > h2 a {
+		display:block;
+		text-indent:-9999px;
+		background-repeat:no-repeat;
+		background-position:0 0;
+		width:125px;
+		height:30px;
+	}
+
+	#responsiveBaseFrame header section.clearfix > h2 a {
+		background-image: url(../../pc_images_v2/sp/header/logo.png);
+		-webkit-background-size: 125px 30px;
+		background-size: 125px 30px;
+		/*behavior:url(../htc/PIE.htc);*/
+	}
+
+
+	#responsiveBaseFrame header section.clearfix > .header_logo {
+		float: left;
+		padding-top: 5px;
+	}
+
+	#responsiveBaseFrame header section.clearfix > .header_logo,
+	#responsiveBaseFrame header section.clearfix > .header_logo a {
+		display:block;
+		text-indent:-9999px;
+		background-repeat:no-repeat;
+		background-position:0 0;
+		width:125px;
+		height:30px;
+	}
+
+	#responsiveBaseFrame header section.clearfix > .header_logo a {
+		background-image: url(../../pc_images_v2/sp/header/logo.png);
+		-webkit-background-size: 125px 30px;
+		background-size: 125px 30px;
+	}
+
+	#responsiveBaseFrame header section.clearfix > nav {
+		float: right;
+		position: relative;
+	}
+
+	#responsiveBaseFrame header section.clearfix > nav > ul > li {
+		float: left;
+		margin-left: 10px;
+		font-size:10px;
+	}
+
+	#responsiveBaseFrame header section.clearfix > nav > ul > li,
+	#responsiveBaseFrame header section.clearfix > nav > ul > li a {
+		display: block;
+		background-repeat: no-repeat;
+		background-position: center 0;
+		overflow:visible;
+	}
+
+	#responsiveBaseFrame header section.clearfix > nav > ul > li a {
+		position: relative;
+		cursor: pointer;
+		padding-top: 25px;
+		-webkit-background-size: 24px 24px;
+		background-size: 24px 24px;
+		/*behavior:url(../htc/PIE.htc);*/
+	}
+
+	#responsiveBaseFrame header section.clearfix > nav > ul > li a,
+	#responsiveBaseFrame header section.clearfix > nav > ul > li a:link,
+	#responsiveBaseFrame header section.clearfix > nav > ul > li a:visited,
+	#responsiveBaseFrame header section.clearfix > nav > ul > li a:active {
+		text-decoration: none;
+	}
+
+	#responsiveBaseFrame header section.clearfix > nav > ul > li a span {
+		display: block;
+		height: 16px;
+		min-width: 6px;
+		border-radius: 8px;
+		background-color: #EF3581;
+		color: #FFFFFF;
+		position: absolute;
+		left: 10px;
+		top: -5px;
+		font-size:10px;
+		padding-left: 5px;
+		padding-right: 5px;
+		line-height: 1.7;
+
+		behavior:url(../htc/PIE.htc);
+	}
+
+	#responsiveBaseFrame header section.clearfix > nav > ul > li.buyTicket {
+		display: none;
+	}
+
+	#responsiveBaseFrame header section.clearfix > nav > ul > li.register a {
+		background-image: url(../../pc_images_v2/sp/header/iconRegister.png);
+	}
+	#responsiveBaseFrame header section.clearfix > nav > ul > li.login a {
+		background-image: url(../../pc_images_v2/sp/header/iconLogin.png);
+	}
+	#responsiveBaseFrame header section.clearfix > nav > ul > li.infromation a {
+		background-image: url(../../pc_images_v2/sp/header/iconInformation.png);
+	}
+	#responsiveBaseFrame header section.clearfix > nav > ul > li.menu a {
+		background-image: url(../../pc_images_v2/sp/header/iconMenu.png);
+	}
+
+
+	#responsiveBaseFrame header section.clearfix > nav > ul > li.register-login a {
+		display: block;
+		padding-top: 21px;
+		background-image: url(../../pc_images_v2/sp/common/icon/avator_circle.png);
+		background-repeat: no-repeat;
+		background-position: top center;
+		-webkit-background-size: 19px;
+		background-size: 19px;
+	}
+
+	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+	ドロップダウンメニュー
+	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+	#responsiveBaseFrame header #dropdownMenu {
+		position: absolute;
+		z-index:10;
+		right: 0;
+		top: 58px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 100%;
+		display: none;
+	}
+
+	#responsiveBaseFrame header #dropdownMenu nav {
+		background-color: #FFFFFF;
+		border:1px solid #d9e0e0;
+	}
+
+	#responsiveBaseFrame header #dropdownMenu h2 {
+		background-color: #EEF1F1;
+		text-align: center;
+		font-size:12px;
+		border-top:1px solid #d9e0e0;
+		padding: 10px;
+	}
+	#responsiveBaseFrame header #dropdownMenu h2:first-child {
+		border-top: none;
+		position: relative;
+	}
+
+	#responsiveBaseFrame header #dropdownMenu h2:first-child:before {
+		content: "";
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-image: url(../../pc_images_v2/sp/header/dropdownMenu.png);
+		-webkit-background-size: 10px 8px;
+		background-size: 10px 8px;
+		width: 10px;
+		height: 8px;
+		position: absolute;
+		top: -8px;
+		right: 15px;
+		/*behavior:url(../htc/PIE.htc);*/
+	}
+
+	#responsiveBaseFrame header #dropdownMenu li a {
+		display: block;
+		padding: 10px;
+		padding-left: 20px;
+		border-top:1px solid #d9e0e0;
+		position: relative;
+		background-repeat: no-repeat;
+		background-position: 10px center;
+		background-image: url(../../pc_images_v2/pc/common/arrowGrayRight.png);
+	}
+
+	#responsiveBaseFrame header #dropdownMenu li a,
+	#responsiveBaseFrame header #dropdownMenu li a:link,
+	#responsiveBaseFrame header #dropdownMenu li a:visited,
+	#responsiveBaseFrame header #dropdownMenu li a:active {
+		text-decoration: none;
+	}
+
+	#responsiveBaseFrame header #dropdownMenu p {
+		background-color: #707070;
+		color: #FFFFFF;
+		text-decoration: none;
+		padding: 10px;
+		text-align: center;
+		cursor: pointer;
+	}
+
+	#responsiveBaseFrame header #dropdownMenu p span {
+		background-image: url(../../pc_images_v2/sp/common/iconClose02.png);
+		background-repeat: no-repeat;
+		background-position: 0 center;
+		padding-left: 15px;
+		-webkit-background-size: 8px 8px;
+		background-size: 8px 8px;
+		/*behavior:url(../htc/PIE.htc);*/
+	}
+
+	#responsiveBaseFrame header #dropdownMenu li a span {
+		display: block;
+		height: 16px;
+		min-width: 6px;
+		border-radius: 8px;
+		background-color: #EF3581;
+		color: #FFFFFF;
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		margin-top: -8px;
+		font-size:10px;
+		padding-left: 5px;
+		padding-right: 5px;
+
+		behavior:url(../htc/PIE.htc);
+	}
+
+
+
+/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+
+共通
+
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+
 /* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-ページ
+見出し
 −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-#responsiveBaseFrame #areaContents {
-	padding-top: 10px;
+#responsiveBaseFrame h2.caption,
+#responsiveBaseFrame h1.caption {
+	display:block;
+	text-indent:-9999px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	height: 39px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+
+コンテンツ
+
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+#responsiveBaseFrame #contents {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+#responsiveBaseFrame #contents.content-no-side-mar {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-	イベントタイトル
+	ページタイトル
 	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-	#responsiveBaseFrame #eventTitle,
-	#responsiveBaseFrame #eventTitle * {
-		display: none;
+	#responsiveBaseFrame #pageTitle {
+		background-color: #FBFBFB;
+		border-bottom:1px solid #D9E0E0;
+		margin-bottom: 20px;
 	}
 
-
-	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-
-	イベント概要
-
-	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-	#responsiveBaseFrame #areaContents #information {
-		margin-bottom: 15px;
-	}
-
-	#responsiveBaseFrame #areaContents #layoutCntents #sideMenu #pageMenu {
-		display: none;
-	}
-
-	#responsiveBaseFrame #areaContents #information .clearfix {
+	#responsiveBaseFrame #pageTitle h1.caption {
 		margin-bottom: 0;
+		position: relative;
+		top: 15px;
+		padding-bottom: 30px;
 	}
 
-	#responsiveBaseFrame #areaContents #movie_area {
-		margin-bottom: 15px;
+	#responsiveBaseFrame #pageTitle section {
+		position: relative;
 	}
+
+	#responsiveBaseFrame #pageTitle .btnBack {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 12px;
+		height: 100%;
+		border-left:1px solid #D9E0E0;
+		border-right:1px solid #D9E0E0;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-image: url(../../pc_images_v2/sp/common/arrowGrayLeft.png);
+		-webkit-background-size: 5px 8px;
+		background-size: 5px 8px;
+		text-indent: -9999px;
+		padding-left: 12px;
+		padding-right: 12px;
+		/*behavior:url(../htc/PIE.htc);*/
+	}
+
 
 	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-	スライダー
+	コンテンツのレイアウト
 	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-	#responsiveBaseFrame #areaContents #information .eventSlider {
-		text-align: center;
-		margin-bottom: 10px;
-	}
-
-	#responsiveBaseFrame #areaContents #information .eventSlider + .data {
-		padding-top: 15px;
-	}
-
-	#responsiveBaseFrame #areaContents #information li img {
+	#responsiveBaseFrame .layoutImage {
+		display: table;
 		width: 100%;
-	}
-
-    #responsiveBaseFrame #areaContents #information .top-event-noimage {
-        border-bottom: 1px solid #D9E0E0;
-    }
-
-	#responsiveBaseFrame #areaContents #information .top-event-title {
-        font-size: 20px;
-        padding: 0 12px 9.5px 12px;
-		font-weight: bold;
-		display: inline-block;
-		color: #333333;
-        -webkit-font-smoothing: antialiased;
-        letter-spacing: -0.03em;
-        text-align: left;
-	}
-
-	#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary {
-		bottom: 0;
-		width: 100%;
-		background-repeat: repeat-x;
-		background-position: 0 bottom;
-		background-image: url(../../pc_images_v2/sp/event/shadow.png);
-		-webkit-background-size: 1px 80px;
-		background-size: 1px 80px;
-		/*min-height: 110px;*/
-		/*height: 110px;*/
-		min-height:110px;
 		padding: 10px;
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
-		vertical-align: bottom;
-		padding-bottom: 10px;
-		padding-top: 20px;
-		display: none;
 	}
 
-		#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .title h1 {
-			color: #FFFFFF;
-			text-shadow: 0px 2px 2px #000000;
-			font-size:14px;
-			margin-bottom: 10px;
-			word-break: break-all;
-		}
+	#responsiveBaseFrame .layoutImage h3 {
+		margin-bottom: 5px;
+	}
 
-		#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .title:last-child h1 {
-			display: table-cell;
-			height: 60px;
-			vertical-align: bottom;
-		}
+	#responsiveBaseFrame .layoutImage > section {
+		padding-left: 10px;
+	}
 
-		#responsiveBaseFrame #areaContents .shareAndBookmarkSP,
-		#responsiveBaseFrame #areaContents .shareAndBookmarkSP *{
-			box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			-webkit-box-sizing: border-box;
-		}
+	#responsiveBaseFrame .layoutImage > figure,
+	#responsiveBaseFrame .layoutImage > section,
+	#responsiveBaseFrame .layoutImage > .ticket-figure-wrapper {
+		display: table-cell;
+		vertical-align: top;
+	}
 
-		#responsiveBaseFrame #areaContents .shareAndBookmarkSP .btnBookmark a {
-			display: block;
-			width: 100%;
-			padding: 12px;
-			border: 1px solid #19b5af;
-			text-align: center;
-			font-size: 16px;
-			text-decoration: none;
-		}
+	#responsiveBaseFrame .layoutImage > figure,
+	#responsiveBaseFrame .layoutImage > .ticket-figure-wrapper {
+		width: 86px;
+	}
 
-		#responsiveBaseFrame #areaContents .shareAndBookmarkSP .btnBookmark {
-			margin: 30px 15px;
-		}
+	#responsiveBaseFrame .layoutImage > .ticket-figure-wrapper > figure {
+		max-height:	129px;
+		overflow: hidden;
+	}
 
-		#responsiveBaseFrame #areaContents .shareAndBookmarkSP .btnBookmark a.black:before {
-			content: "★";
-			margin-right: 5px;
-			position: relative;
-		}
+	#responsiveBaseFrame .layoutImage :not(.ticket-figure-wrapper) figure img {
+		width: 86px;
+		height: auto;
+	}
 
-		#responsiveBaseFrame #areaContents .shareAndBookmarkSP .btnBookmark a.white:before {
-			content: "☆";
-			margin-right: 5px;
-			position: relative;
-		}
+	#responsiveBaseFrame .layoutImage figure img.thumb-vertical {
+		width: 100%;
+	}
 
-		#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .shareAndBookmarkSP p {
-			display: inline-block;
-			text-align: left;
-			margin-right: 15px;
-			font-size:12px;
-			letter-spacing: -0.1px;
-			min-height:23px;
-		}
+	#responsiveBaseFrame .layoutImage figure img.thumb-horizontal {
+		position: relative;
+		height: 86px;
+		left: 50%;
+		-webkit-transform: translate(-50%, 0%);
+		-ms-transform: translate(-50%, 0%);
+		transform: translate(-50%, 0%);
+	}
 
-		#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .shareAndBookmarkSP p a {
-			display: block;
-			min-height:23px;
-			background-repeat:no-repeat;
-			background-position:0 center;
-			padding-left: 20px;
-			-webkit-background-size: 20px 23px;
-			background-size: 20px 23px;
-			color: #FFFFFF;
-			text-shadow: 0px 2px 2px #000000;
-		}
+	#responsiveBaseFrame .layoutImage ul li {
+		display: block;
+		background-repeat: no-repeat;
+		background-position: 0 2px;
+		padding-left: 15px;
+		margin-right: 10px;
+		font-size:10px;
+	}
 
-		#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .shareAndBookmarkSP p.btnShare a {
-			background-image: url(../../pc_images_v2/sp/event/iconShare.png);
-		}
-		#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .shareAndBookmarkSP p.btnBookmark a {
-			background-image: url(../../pc_images_v2/sp/event/iconBookmark.png);
-		}
-
-
-		#responsiveBaseFrame #areaContents #information .shareAndBookmark {
-			margin-top: 15px;
-			border:1px solid #D9E0E0;
-			margin-bottom: 10px;
-		}
-
-		#responsiveBaseFrame #areaContents #information .shareAndBookmark li {
-			float: left;
-			width: 50%;
-		}
-
-		#responsiveBaseFrame #areaContents #information .shareAndBookmark li a {
-			display:block;
-			color: #707070;
-			text-align: center;
-			text-decoration: none;
-			padding: 3px 5px;
-		}
-
-		#responsiveBaseFrame #areaContents #information .shareAndBookmark li.btnShare a {
-			border-right:1px solid #D9E0E0;
-		}
-
-		#responsiveBaseFrame #areaContents #information .shareAndBookmark li.btnShare a:before {
-			content: "";
-			display: inline-block;
-			background-repeat: no-repeat;
-			background-position: 0 bottom;
-			background-image: url(../../pc_images_v2/sp/event/iconShare.png);
-			-webkit-background-size: 16px 16px;
-			background-size: 16px 16px;
-			width: 16px;
-			height: 16px;
-			margin-right: 3px;
-			position: relative;
-			top: 2px;
-		}
-
-		#responsiveBaseFrame #areaContents #information .shareAndBookmark li.btnBookmark a:before {
-			content: "";
-			display: inline-block;
-			background-repeat: no-repeat;
-			background-position: 0 bottom;
-			background-image: url(../../pc_images_v2/sp/event/iconBookmark.png);
-			-webkit-background-size: 16px 16px;
-			background-size: 16px 16px;
-			width: 16px;
-			height: 16px;
-			margin-right: 3px;
-			position: relative;
-			top: 2px;
-		}
-
-		#responsiveBaseFrame .shareAndBookmarkPC,
-		#responsiveBaseFrame .shareAndBookmarkPC * {
-			display: none;
-		}
+	#responsiveBaseFrame .layoutImage ul li.artist {
+		background-image: url(../../pc_images_v2/sp/common/iconArtist.png);
+		-webkit-background-size: 13px 13px;
+		background-size: 13px 13px;
+		/*behavior:url(../htc/PIE.htc);*/
+	}
+	#responsiveBaseFrame .layoutImage ul li.open {
+		background-image: url(../../pc_images_v2/sp/common/iconOpen.png);
+		-webkit-background-size: 13px 13px;
+		background-size: 13px 13px;
+		/*behavior:url(../htc/PIE.htc);*/
+	}
+	#responsiveBaseFrame .layoutImage ul li.map {
+		background-image: url(../../pc_images_v2/sp/common/iconMap.png);
+		-webkit-background-size: 13px 13px;
+		background-size: 13px 13px;
+		/*behavior:url(../htc/PIE.htc);*/
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		width: 175px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
 
 	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-    画像なしイベント
-    −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-    #responsiveBaseFrame #areaContents #information .eventSlider .caption {
-        position: absolute;
-        bottom: 0px;
-        padding: 10px;
-
-    }
-
-    .no-img-title-box {
-        width:310px;
-        font-size: 24px;
-        color: #666666;
-    }
-
-    .no-img-ellipsis {
-        position: relative;
-        max-height: 56px;
-        overflow: hidden;
-        line-height: 28px;
-    }
-
-    #responsiveBaseFrame #areaContents #information .eventSlider .no-img-inner-period {
-        padding:0;
-        text-align:center !important;
-        font-size: 16px;
-        margin:0px;
-        color:#888888;
-    }
-    #responsiveBaseFrame #areaContents #information .eventSlider .no-img-inner-venue {
-        padding:0 !important;
-        max-height: 27px;
-        text-align:center !important;
-        font-size: 16px;
-        margin: 0px 15px 15px 21px;
-        color:#888888;
-        overflow:hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        width: 310px !important;
-    }
-
-	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-	概要
+	大きいリンクエリアボタン
 	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-	#responsiveBaseFrame #areaContents #information .clearfix .summary {
-		display: none;
-		margin-bottom: 35px;
+	#responsiveBaseFrame .arrowGreen {
+		position: relative;
+		padding-right: 35px;
 	}
 
-
-	/* チケットを買う */
-	#responsiveBaseFrame #areaContents #information .clearfix .summary .button a {
-		text-indent: -9999px;
-		background-position: center center;
-		background-image: url(../../pc_images_v2/sp/event/btnTicket.png);
-		-webkit-background-size: 229px 17px;
-		background-size: 229px 17px;
-		padding: 18px 0px;
-		background-color: #19B5AF;
+	#responsiveBaseFrame .arrowGreen:before {
+		content: "";
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-image: url(../../pc_images_v2/sp/common/arrowBigGreenRight.png);
+		-webkit-background-size: 9px 14px;
+		background-size: 9px 14px;
+		margin-top: -7px;
+		display: block;
+		height: 14px;
+		width: 9px;
 	}
 
-	#responsiveBaseFrame #areaContents #information .clearfix .summary .button a:before {
-		background-image: url(../../pc_images_v2/sp/common/arrowBigWhiteBottom.png);
-		-webkit-background-size: 11px 7px;
-		background-size: 11px 7px;
-		width: 11px;
+	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+	ボタン
+	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+	#responsiveBaseFrame .button + .button {
+		margin-top: 0;
+	}
+
+	#responsiveBaseFrame .button a,
+	#responsiveBaseFrame .button span,
+	#responsiveBaseFrame .button input {
+		background: none;
+		border:none;
+		display: block;
+		background-color: #707070;
+		color: #FFFFFF;
+		text-decoration: none;
+		text-align: center;
+		background-repeat: no-repeat;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		position: relative;
+		transition: 0.3s ease-in-out;
+		cursor: pointer;
+	}
+
+	#responsiveBaseFrame .button a:before,
+	#responsiveBaseFrame .button span:before {
+		content: "";
+		position: absolute;
+		display: block;
+		background-position: right center;
+		background-image: url(../../pc_images_v2/sp/common/arrowWhiteRight.png);
+		-webkit-background-size: 5px 7px;
+		background-size: 5px 7px;
+		width: 5px;
 		height: 7px;
+		top: 50%;
 		margin-top: -3px;
+		right: 5px;
+		/*behavior:url(../htc/PIE.htc);*/
+	}
+	#responsiveBaseFrame .button a.event-type-vimeo:before {
+		background-image: url(../../pc_images_v2/sp/common/arrowWhiteRightCircle.png);
+		width: 20px;
+		height: 20px;
+		margin-top: -10px;
+		background-size: 20px 20px;
+	}
+	#responsiveBaseFrame .accordion span:before {
+		background-image: url(../../pc_images_v2/sp/common/arrowWhiteBottom.png);
+		-webkit-background-size: 7px 5px;
+		background-size: 7px 5px;
+		width: 7px;
+		height: 5px;
+		margin-top: -2px;
+	}
+	#responsiveBaseFrame .open span:before {
+		background-image: url(../../pc_images_v2/sp/common/arrowWhiteTop.png);
+		-webkit-background-size: 7px 5px;
+		background-size: 7px 5px;
+		width: 7px;
+		height: 5px;
+		margin-top: -2px;
+	}
+
+	#responsiveBaseFrame .button a:hover,
+	#responsiveBaseFrame .button span:hover {
+		background-color: #8d8d8d;
+	}
+
+	#responsiveBaseFrame .button.btnList a {
+		font-size:14px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	#responsiveBaseFrame .button.btnList a:before {
+		content: "";
+		position: absolute;
+		display: block;
+		background-position: right center;
+		background-image: url(../../pc_images_v2/sp/common/arrowBigWhiteRight.png);
+		-webkit-background-size: 9px 14px;
+		background-size: 9px 14px;
+		width: 9px;
+		height: 14px;
+		top: 50%;
+		margin-top: -7px;
 		right: 10px;
 	}
 
-	#responsiveBaseFrame #areaContents #information .clearfix .summary .button a:hover {
-		background-color: #69cac5;
-	}
 
 	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-	イベント概要
+	マイチケット一覧
 	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-		#responsiveBaseFrame #areaContents #information .clearfix .data h2.caption {
-			background-image: url(../../pc_images_v2/sp/event/captionInformation.png);
-			-webkit-background-size: 191px 39px;
-			background-size: 191px 39px;
-			width: 191px;
-		}
-
-		#responsiveBaseFrame #areaContents #information .clearfix .data section {
-			border-bottom:1px solid #D9E0E0;
-			padding: 15px 15px 13px;
-			display: table;
-			width: 100%;
-			box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			-webkit-box-sizing: border-box;
-			font-size: 15px;
-			color: #111;
-            -webkit-font-smoothing: antialiased;
-            font-family: initial;
-		}
-
-        #responsiveBaseFrame #areaContents #information .clearfix .data .overview h2{
-            text-align: center;
-            font-size: medium;
-            color: #666666;
-        }
-
-        #responsiveBaseFrame #areaContents #information .clearfix .data .overview p.caption_under{
-            font-size: 28px;
-            color: #333333;
-            letter-spacing: 2px;
-            margin-right: -2px;
-            text-align:center;
-        }
-
-	/*	#responsiveBaseFrame #areaContents #information .clearfix .data section h3, */
-		#responsiveBaseFrame #areaContents #information .clearfix .data section div {
-			display: table-cell;
-			text-align: left;
-			padding-left: 15px;
-		}
-
-		#responsiveBaseFrame #areaContents #information .clearfix .data section h3{
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-		#responsiveBaseFrame #areaContents #information .clearfix .data section h3 {
-			width: 3em;
-			font-size:15px;
-		}
-
-		#responsiveBaseFrame #areaContents #information .clearfix .data .map-link {
-				padding: 10px;
-				border: 1px solid #19B5AF;
-				display: block;
-				text-decoration: none;
-				margin-top: 10px;
-				text-align: center;
-				font-weight: bold;
-				position: relative;
-		}
-
-		#responsiveBaseFrame #areaContents #information .clearfix .data .map-link:after {
-			content: "";
-			display: inline-block;
-			background-repeat: no-repeat;
-			background-position: 0 bottom;
-			background-image: url(../../pc_images_v2/sp/event/arrow/right_green.png);
-			background-repeat: no-repeat;
-			width: 6px;
-			height: 9px;
-			-webkit-background-size: 6px 9px;
-			background-size: 6px 9px;
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			margin: auto;
-			right: 10px;
-		}
-
-
-			/* 出演者 */
-			#responsiveBaseFrame #areaContents #information .clearfix .data .artist .artist-list{
-				color: #19B5AF;
-			}
-
-			/* 会場 */
-			#responsiveBaseFrame #areaContents #information .clearfix .data section.venue .button {
-				width: 150px;
-				margin-top: 3px;
-			}
-
-			#responsiveBaseFrame #areaContents #information .clearfix .data section.venue ul li {
-				border-top:1px dashed #D9E0E0;
-				padding-top: 8px;
-				margin-top: 8px;
-			}
-			#responsiveBaseFrame #areaContents #information .clearfix .data section.venue ul li:first-child {
-				border-top: none;
-				padding-top: 0;
-				margin-top: 0;
-			}
-
-			/* 販売元 */
-			#responsiveBaseFrame #areaContents #information .organizer a[target="_blank"]:after {
-				content: "";
-				display: inline-block;
-				margin-left: 3px;
-				background-repeat: no-repeat;
-				background-position: right bottom;
-				background-image: url(../../pc_images_v2/sp/common/iconLink.png);
-				-webkit-background-size: 8px 8px;
-				background-size: 8px 8px;
-				width: 8px;
-				height: 8px;
-			}
-
-			/* イベント紹介 */
-			#responsiveBaseFrame #areaContents #information > .data h3 {
-				border-bottom:1px solid #c9d3d3;
-				color: #000;
-				text-align: center;
-				padding: 5px;
-				color: #19B5AF;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data section {
-				margin-bottom: 15px;
-				color: #111;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data .accordion span {
-				background-image: url(../../pc_images_v2/sp/event/arrow/circle_bottom_green.png);
-				background-position: center;
-				background-color: transparent;
-				height: 28px;
-				background-size: 28px 28px;
-				padding-top: 5px;
-				padding-bottom: 5px;
-				text-indent: -9999px;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data .accordion {
-				background-image: url(../../pc_images_v2/sp/event/background/mask_read_more.png);
-				background-position: 0 0;
-				background-repeat: repeat-x;
-				background-size: 100% 40px;
-				padding-top: 40px;
-				margin-top: -40px!important;
-				position: relative;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data .accordion.open {
-				background-image: none;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data .accordion.open span {
-				background-image: url(../../pc_images_v2/sp/event/arrow/circle_top_green.png);
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data .accordion span:before {
-				background-image: none;
-				width: 7px;
-				height: 0;
-				margin-top: 0;
-				border-top: 1px solid #c9d3d3;
-				width: 100%;
-				z-index: -1;
-				right: 0;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data section:last-child {
-				margin-bottom: 0;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data div {
-				padding: 15px;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data .intro > div,
-			#responsiveBaseFrame #areaContents #information > .data .remarks > div {
-				overflow:hidden;
-				transition: 0.3s ease-in-out;
-			}
-			#responsiveBaseFrame #areaContents #information > .data div .catch {
-				font-size:12px;
-				color: #19b5af;
-				margin-top: 3px;
-				background-position: 0 4px;
-				width: auto;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data div.closeConts {
-				height: 123px !important;
-			}
-			#responsiveBaseFrame #areaContents #information > .data div.openConts {
-				margin-bottom: 44px !important;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data .intro div.closeConts {
-				height: 524px !important;
-			}
-			#responsiveBaseFrame #areaContents #information > .data .intro div.openConts {
-				margin-bottom: 44px !important;
-			}
-
-			#responsiveBaseFrame #areaContents #information > .data .intro > .button,
-			#responsiveBaseFrame #areaContents #information > .data .remarks > .button {
-				margin-top: 10px;
-			}
-
-
-
-		/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-		チケット
-		−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-		#responsiveBaseFrame #areaContents #ticket {
-		}
-
-		#responsiveBaseFrame #areaContents #ticket .overview {
-            padding-bottom: 15px;
-            width: 100%;
-            font-size: 15px;
-            -webkit-font-smoothing: antialiased;
-            font-family: initial;
-        }
-
-        #responsiveBaseFrame #areaContents #ticket .overview h2{
-            text-align: center;
-            font-size: medium;
-            color: #666666;
-        }
-
-        #responsiveBaseFrame #areaContents #ticket .overview p.caption_under{
-            font-size: 28px;
-            color: #333333;
-            text-align:center;
-        }
-
-		#responsiveBaseFrame #areaContents #ticket h2.caption {
-			background-image: url(../../pc_images_v2/sp/event/captionBuyTicket.png);
-			-webkit-background-size: 163px 39px;
-			background-size: 163px 39px;
-			width: 163px;
-		}
-
-			#responsiveBaseFrame #areaContents #ticket #smartphoneTicket {
-				margin-bottom: 20px;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket #smartphoneTicket a {
-				display:block;
-				text-indent:-9999px;
-				background-repeat:no-repeat;
-				background-position:0 0;
-				background-image: url(../../pc_images_v2/sp/event/bannerSmartphone.jpg);
-				-webkit-background-size: 300px 161px;
-				background-size: 300px 161px;
-				width:300px;
-				height:161px;
-				margin-left: auto;
-				margin-right: auto;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .wrapAllTicket {
-				border:1px solid #D9E0E0;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .wrapAllTicket h3 {
-				display: block;
-				background-color: #ddf4f3;
-				font-size: 20px;
-				padding: 16px;
-				margin-left: -15px;
-				margin-right: -15px;
-				margin-bottom: 15px;
-				text-align:center;
-				color: #111;
-				font-weight: bold;
-                -webkit-font-smoothing: antialiased;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .wrapTicket {
-				padding: 0px 15px;
-			}
-
-			/* SNS */
-			#responsiveBaseFrame #areaContents #ticket .snsTicket {
-				position: relative;
-				width: 100%;
-				/*margin-bottom: 20px;*/
-				margin-bottom: 10px;
-				box-sizing: border-box;
-				-moz-box-sizing: border-box;
-				-webkit-box-sizing: border-box;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .snsTicket h4,
-			#responsiveBaseFrame #areaContents #ticket .snsTicket p.text {
-				letter-spacing: -0.3px;
-			}
-			#responsiveBaseFrame #areaContents #ticket .snsTicket h4 {
-				background-repeat: no-repeat;
-				background-position: 10px center;
-				padding-left: 43px;
-				-webkit-background-size: 22px 22px;
-				background-size: 22px 22px;
-				width: 100%;
-				vertical-align: middle;
-				box-sizing: border-box;
-				-moz-box-sizing: border-box;
-				-webkit-box-sizing: border-box;
-				padding-left: 35px;
-				margin-bottom: 2px;
-				font-size: 10px;
-				font-weight: bold;
-				position: relative;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .snsTicket h4:before {
-				position: absolute;
-				content: '';
-				-webkit-box-sizing: border-box;
-				-moz-box-sizing: border-box;
-				box-sizing: border-box;
-				width: 28px;
-				height: 28px;
-				vertical-align: middle;
-				background-repeat: no-repeat;
-				background-position: 0 center;
-				-webkit-background-size: 28px 28px;
-				background-size: 28px 28px;
-				left: 0;
-				top: 0;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .snsTicket p.text {
-				font-size: 10px;
-				margin-left: 35px;
-			}
-
-
-			#responsiveBaseFrame #areaContents #ticket .snsTicket p.button {
-				margin-top: 5px;
-			}
-			#responsiveBaseFrame #areaContents #ticket .snsTicket p.button a {
-				padding:0 20px 0 10px;
-				height: 31px;
-				line-height: 31px;
-			}
-
-
-				#responsiveBaseFrame #areaContents #ticket .facebookTicket .button a {
-					background-color: #3A5897;
-				}
-				#responsiveBaseFrame #areaContents #ticket .facebookTicket .button a:hover {
-					background-color: #768bb4;
-				}
-				#responsiveBaseFrame #areaContents #ticket .facebookTicket h4 {
-				}
-				#responsiveBaseFrame #areaContents #ticket .facebookTicket h4:before {
-					background-image: url(../../pc_images_v2/sp/event/icon/facebook_circle.png);
-				}
-
-				#responsiveBaseFrame #areaContents #ticket .twitterTicket {
-				}
-				#responsiveBaseFrame #areaContents #ticket .twitterTicket .button a {
-					background-color: #2FA6DF;
-				}
-				#responsiveBaseFrame #areaContents #ticket .twitterTicket .button a:hover {
-					background-color: #73c1e6;
-				}
-				#responsiveBaseFrame #areaContents #ticket .twitterTicket h4 {
-				}
-
-				#responsiveBaseFrame #areaContents #ticket .twitterTicket h4:before {
-					background-image: url(../../pc_images_v2/sp/event/icon/twitter_circle.png);
-				}
-
-
-			/* 日付 */
-			#responsiveBaseFrame #areaContents #ticket .day {
-				width: 100%;
-				margin-bottom: 7px;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .day h5 {
-				font-size:14px;
-				vertical-align: middle;
-				color: #333333;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .day p {
-                font-size:12px;
-                vertical-align: middle;
-                color: #111;
-                font-family: 'ヒラギノ明朝 Pro W6';
-                -webkit-font-smoothing: antialiased;
-            }
-
-			#responsiveBaseFrame #areaContents #ticket .day h5 {
-				font-weight: bold;
-				width: 4em;
-				margin-bottom: 5px;
-			}
-
-			/*　備考　*/
-			#responsiveBaseFrame #areaContents #ticket .remarks {
-				font-size: 10px;
-				padding: 8px 10px;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .remarks-view {
-                padding-bottom: 7px;
-            }
-
-            #responsiveBaseFrame #areaContents #ticket .remarks-view p {
-            }
-
-            /* チケット */
-            #responsiveBaseFrame #areaContents #ticket .ticket {
-                border:1px solid #D9E0E0;
-                margin-bottom: 10px;
-            }
-
-
-                #responsiveBaseFrame #areaContents #ticket .ticket .table section {
-                    border-bottom:1px solid #D9E0E0;
-                }
-                #responsiveBaseFrame #areaContents #ticket .ticket .table section:last-child {
-                    border-bottom: none;
-                }
-
-                /* タイトル */
-                #responsiveBaseFrame #areaContents #ticket .ticket .table section.title {
-                    padding: 10px;
-                    text-align: left;
-                }
-
-                #responsiveBaseFrame #areaContents #ticket .ticket .table section.title h4 {
-                    margin-top: 10px;
-                    font-size:14px;
-                }
-
-                /* 料金 */
-                #responsiveBaseFrame #areaContents #ticket .ticket .table .price,
-                #responsiveBaseFrame #areaContents #ticket .ticket .table .num {
-                    display: table;
-                    width: 100%;
-                }
-
-                #responsiveBaseFrame #areaContents #ticket .ticket .table .price div,
-                #responsiveBaseFrame #areaContents #ticket .ticket .table .num > div,
-                #responsiveBaseFrame #areaContents #ticket .ticket .table .price h5,
-                #responsiveBaseFrame #areaContents #ticket .ticket .table .num h5
-                 {
-                    display: table-cell;
-                    text-align: left;
-                    vertical-align: middle;
-                    font-size:14px;
-                    padding: 10px;
-                }
-
-                #responsiveBaseFrame #areaContents #ticket .ticket .table .price h5,
-                #responsiveBaseFrame #areaContents #ticket .ticket .table .num h5 {
-                    width: 4em;
-                    background-color: #F5F5F6;
-                }
-
-			/* 説明 */
-			#responsiveBaseFrame #areaContents #ticket .ticket .disc {
-				/*border: none!important;
-				text-align: left;
-				padding: 8px 0;
-				font-size:10px;
-				overflow: hidden;
-				transition: 0.3s ease-in-out;*/
-				border-top: 1px solid #D9E0E0;
-                text-align: left;
-                padding: 8px 10px;
-                font-size:10px;
-                overflow: hidden;
-                transition: 0.3s ease-in-out;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .ticket .disc2 {
-                border-top: 1px solid #D9E0E0;
-                text-align: left;
-                padding: 8px 10px;
-                /*font-size:14px;*/
-                font-size: 12px;
-                overflow: hidden;
-                transition: 0.3s ease-in-out;
-            }
-
-			#responsiveBaseFrame #areaContents #ticket .ticket .disc.closeConts {
-				height: 2.7em !important;
-			}
-
-
-			/* 送るボタン */
-			#responsiveBaseFrame #areaContents #ticket .fixed-btn {
-				position: fixed;
-				bottom: 0;
-				right: 0;
-				left: 0;
-				z-index: 100;
-				background-repeat: no-repeat;
-			}
-
-			#responsiveBaseFrame #areaContents #ticket .normal-btn {
-                padding: 5px 15px;
-                background-repeat: no-repeat;
-                background-position: center 10px;
-                background-image: url(../../pc_images_v2/pc/event/arrow.png);
-                padding-top: 45px;
-                margin-bottom: 20px;
-               /* margin-top:0px;*/
-            }
-
-			#responsiveBaseFrame #areaContents #ticket #submit .button input {
-				background-image: url(../../pc_images_v2/sp/event/btnBuy.png);
-				-webkit-background-size: 223px 16px;
-				background-size: 223px 16px;
-				background-repeat: no-repeat;
-				background-position: 60px center;
-				display: block;
-				width: 300px;
-				height: 16px;
-				padding-top: 25px;
-				padding-bottom: 25px;
-				background-color: #EF3581;
-				text-indent: -9999px;
-				margin-left: auto;
-				margin-right: auto;
-			}
-			#responsiveBaseFrame #areaContents #ticket #submit .button input:hover {
-				background-color: #f175a7;
-			}
-
-			/* 注釈 */
-				#responsiveBaseFrame #areaContents #ticket #discription section {
-					margin-bottom: 10px;
-					color: #111;
-                    -webkit-font-smoothing: antialiased;
-				}
-				#responsiveBaseFrame #areaContents #ticket #discription section:first-child {
-					border-top: none;
-				}
-
-				#responsiveBaseFrame #areaContents #ticket #discription section h6 {
-					font-size:15px;
-					margin-bottom: 3px;
-					font-weight: bold;
-				}
-				#responsiveBaseFrame #areaContents #ticket #discription section p {
-					font-size:15px;
-				}
-
-				#responsiveBaseFrame #areaContents #ticket #discription #admissionNotice {
-					text-align: left;
-                    color: #111;
-					font-size: 15px;
-				}
-
-				/* セレクト */
-				#responsiveBaseFrame #areaContents #ticket .ticket .table .num label {
-					position:relative;
-					overflow:hidden;
-					background-color:#ffffff;
-					border:1px solid #19B5AF;
-					box-sizing: border-box;
-					-moz-box-sizing: border-box;
-					-webkit-box-sizing: border-box;
-					margin-top: 3px;
-					display: block;
-				}
-
-				#responsiveBaseFrame #areaContents #ticket .ticket .table .num label select{
-					-webkit-appearance:none;
-					-moz-appearance:none;
-					appearance:none;
-					appearance:none;
-					position:relative;
-					z-index:2;
-					display:block;
-					width:200%;/* fallback non calc support */
-					width:-webkit-calc(100% + 5em);
-					margin:0;
-					padding: 7px 5px;
-					padding-right: 25px;
-					background:transparent;
-					border:0;
-					outline:none;
-				}
-
-				#responsiveBaseFrame #areaContents #ticket .ticket .table .num label:before{
-					content: '';
-					position: absolute;
-					display: block;
-					z-index: 1;
-					top: 0;
-					right: 0;
-					border-left: 1px solid #19b5af;
-					color: #19b5af;
-					font-size: 8px;
-					height: 100%;
-					width: 33px;
-					background-color: #19b5af;
-					background-image: url(../../pc_images_v2/sp/event/arrow/select_box_bottom.png);
-					background-repeat: no-repeat;
-					-webkit-background-size: 9px auto;
-					background-size: 9px auto;
-					background-position: center;
-				}
-
-					/* disabled */
-				#responsiveBaseFrame #areaContents #ticket .ticket .table .num label.disabled {
-					background-color:#F5F5F6;
-					border:1px solid #D9E0E0;
-				}
-
-				#responsiveBaseFrame #areaContents #ticket .ticket .table .num label.disabled select {
-					color: #666666;
-				}
-
-				#responsiveBaseFrame #areaContents #ticket .ticket .table .num label.disabled:before {
-					border-left:1px solid #D9E0E0;
-					color: #666666;
-					background-color: #D9E0E0;
-				}
-
-				.can_not_buy {
-					color: #a0a0a0;
-				}
-
-		/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-		アクセス制限
-		−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-
-        #responsiveBaseFrame #areaContents #access_limit .overview p.title_sorry{
-			text-align: center;
-			font-size: 36px;
-			color: #00b5af;
-		}
-
-        #responsiveBaseFrame #areaContents #access_limit .overview p.caption_under{
-			text-align: center;
-			font-size: medium;
-			color: #a0a0a0;
-			margin-top: 5px;
-		}
-
-        #responsiveBaseFrame #areaContents #access_limit .overview div.remain_message{
-			 text-align: center;
-			 font-size: medium;
-			 color: #111;
-			 margin-top: 5px;
-		}
-
-        #responsiveBaseFrame #areaContents #access_limit .overview div.remain_message span{
-			font-size: 24px;
-		}
-
-		#responsiveBaseFrame #areaContents #access_limit button.reload_button{
-			font-size: 20px;
-			width: 90%;
-			height: 50px;
-            border-style: none;
-			color: #FFFFFF;
-            cursor: pointer;
-			background-color: #00b5af;
-			margin-top: 20px;
-			margin-bottom: 30px;
-		}
-
-        #responsiveBaseFrame #areaContents #access_limit img.sorry_image{
-			width: 300px;
-			height: 180px;
-			margin-top: 20px;
-			margin-bottom: 20px;
-		}
-
-
-
-	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-	スケジュール
-	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-	#responsiveBaseFrame #areaContents #schedule {
+	#responsiveBaseFrame #myTicket {
 		margin-bottom: 40px;
 	}
 
-	#responsiveBaseFrame #areaContents #schedule h2.caption {
-		background-image: url(../../pc_images_v2/sp/event/captionSchedule.png);
-		-webkit-background-size: 149px 39px;
-		background-size: 149px 39px;
-		width: 149px;
+	#responsiveBaseFrame #myTicket h2.caption {
+		background-image: url(../../pc_images_v2/sp/myticket/captionTicket.png);
+		-webkit-background-size: 146px 39px;
+		background-size: 146px 39px;
 	}
 
-		#responsiveBaseFrame #areaContents #schedule > ul {
-			border:1px solid #C9D3D3;
-		}
-
-		#responsiveBaseFrame #areaContents #schedule > ul > li {
-			border-top:1px solid #C9D3D3;
-		}
-		#responsiveBaseFrame #areaContents #schedule > ul > li:first-child {
-			border-top: none;
-		}
-
-		#responsiveBaseFrame #areaContents #schedule > ul li a {
-			position: relative;
-			text-decoration: none;
-			color: #666666;
-		}
-		#responsiveBaseFrame #areaContents #schedule > ul li a:hover {
-			color: #878787;
-		}
-
-		#responsiveBaseFrame #areaContents #schedule > ul li a > section {
-			display: table-cell;
-		}
-
-			#responsiveBaseFrame #areaContents #schedule > ul li a section.day {
-				vertical-align: top;
-				width: 60px;
-				padding: 0;
-			}
-
-			#responsiveBaseFrame #areaContents #schedule > ul li a section.day p {
-				border:1px solid #DDE1E1;
-			}
-
-			#responsiveBaseFrame #areaContents #schedule > ul li a section.day span {
-				text-align: center;
-				display: block;
-				font-size:10px;
-			}
-
-			#responsiveBaseFrame #areaContents #schedule > ul li a section.day .year {
-				background-color: #DDE1E1;
-			}
-			#responsiveBaseFrame #areaContents #schedule > ul li a section.day .day {
-				padding-top: 3px;
-				font-size:14px;
-			}
-			#responsiveBaseFrame #areaContents #schedule > ul li a section.day .time {
-				padding-bottom: 5px;
-			}
-
-			#responsiveBaseFrame #areaContents #schedule > ul li a section.date {
-				padding-left: 10px;
-			}
-
-			#responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li {
-				display: block;
-			}
-
-			#responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.map {
-				font-size:12px;
-				margin-top: 3px;
-				background-position: 0 4px;
-				width: auto;
-			}
-
-
-
-	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-	リンクとお問い合わせ
-	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-	#responsiveBaseFrame #areaContents #linkContactOrganizer {
-		border: none;
-		margin-bottom: 10px;
-		padding: 10px;
+	#responsiveBaseFrame #myTicket > ul > li {
+		border:1px solid #C9D3D3;
+		margin-bottom: 15px;
+		width: 100%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
 	}
 
-		/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-		リンク
-		−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link {
-			margin-bottom: 35px;
+		#responsiveBaseFrame #myTicket > ul > li h3 {
+			font-size:14px;
+			height: 1.3em;
+			margin-bottom: 8px;
 		}
 
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link .overview {
-                padding-bottom: 15px;
-                width: 100%;
-                font-size: 15px;
-                -webkit-font-smoothing: antialiased;
-                font-family: initial;
-        }
-
-        #responsiveBaseFrame #areaContents #linkContactOrganizer #link .overview h2{
-            text-align: center;
-            font-size: medium;
-            color: #666666;
-        }
-
-        #responsiveBaseFrame #areaContents #linkContactOrganizer #link .overview p.caption_under{
-            font-size: 28px;
-            color: #333333;
-            text-align:center;
-        }
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link ul {
-			border:1px solid #D9E0E0;
+		#responsiveBaseFrame #myTicket > ul > li h3 a {
+			display: block;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+			width: 175px;
 		}
 
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li {
-			border-top:1px solid #D9E0E0;
+		#responsiveBaseFrame #myTicket > ul > li ul {
+			margin-bottom: 10px;
 		}
 
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li:first-child {
-			border-top: none;
+		#responsiveBaseFrame #myTicket > ul > li li.ticket,
+		#responsiveBaseFrame #myTicket > ul > li li.number {
+			padding-left: 0px;
 		}
 
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a {
-			position: relative;
-			text-decoration: none;
-			display: table;
+		#responsiveBaseFrame #myTicket > ul > li li.number {
+			letter-spacing: -0.1px;
+		}
+
+		#responsiveBaseFrame #myTicket > ul > li span.status {
 			width: 100%;
+			border:1px solid #19B5AF;
+			color: #19B5AF;
+			padding-left: 10px;
+			padding-right: 10px;
 			box-sizing: border-box;
 			-moz-box-sizing: border-box;
 			-webkit-box-sizing: border-box;
 		}
 
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a:before {
-			right: 10px;
+	#responsiveBaseFrame #myTicket .nextstep {
+		border-top:1px solid #C9D3D3;
+		background-color: #F5F5F6;
+		padding: 10px;
+	}
+
+		#responsiveBaseFrame #myTicket .nextstep ul {
+			margin-bottom: -8px;
 		}
 
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a figure,
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a section {
-			display: table-cell;
-			vertical-align: top;
-		}
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a figure {
-			text-align: left;
-		}
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a section {
-			padding: 10px;
-		}
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a section h4 {
-			font-size:14px;
-		}
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a section p {
-			color: #666666;
-		}
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a:hover section p {
-			color: #878787;
-		}
-
-
-		/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-		コンタクト
-		−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #organizer{
-			padding: 15px;
-			background-color: #f2f2f2;
-		}
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer .organizer-name {
-			font-size: 12px;
-			font-weight: bold;
-		}
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #contact .overview {
-	            padding-bottom: 15px;
-	            width: 100%;
-	            font-size: 15px;
-	            -webkit-font-smoothing: antialiased;
-	            font-family: initial;
-	    }
-
-	    #responsiveBaseFrame #areaContents #linkContactOrganizer #contact .overview h2{
-	        text-align: center;
-	        font-size: medium;
-	        color: #666666;
-	    }
-
-	    #responsiveBaseFrame #areaContents #linkContactOrganizer #contact .overview p.caption_under{
-	        font-size: 28px;
-	        color: #333333;
-	        text-align:center;
-	    }
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section {
-            padding: 10px 0;
-		    border-bottom: 1px solid #D9E0E0;
-		    /*border-top: 1px solid #D9E0E0;*/
-		}
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section h3 {
-		    color: #111;
-		    font-size: 17px;
-        }
-
-        #responsiveBaseFrame #areaContents #linkContactOrganizer #contact section div {
-            font-size: 15px;
-            color: #111;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        #responsiveBaseFrame #areaContents #linkContactOrganizer #organizer section {
-        }
-
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #contact .button,
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #organizer .button {
-			margin-top: 8px;
+		#responsiveBaseFrame #myTicket .nextstep ul li {
+			width: 50%;
 			margin-bottom: 8px;
+			float: left;
 		}
 
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section a[href*="tel:"] {
-			text-align: left;
-			background-repeat: no-repeat;
-			background-position: 10px center;
-			background-image: url(../../pc_images_v2/sp/event/iconTel.png);
-			-webkit-background-size: 14px 14px;
-			background-size: 14px 14px;
-			padding-left: 30px;
+		#responsiveBaseFrame #myTicket ul.button li.btnDownload {
+			width: 100%;
 		}
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section a[href*="http"] {
-			text-align: left;
-			background-repeat: no-repeat;
-			background-position: 8px center;
-			background-image: url(../../pc_images_v2/sp/event/iconWeb.png);
-			-webkit-background-size: 17px 17px;
-			background-size: 17px 17px;
-			padding-left: 30px;
-		}
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section a[href*="mailto:"] {
-			text-align: left;
-			background-repeat: no-repeat;
-			background-position: 10px center;
-			background-image: url(../../pc_images_v2/sp/event/iconMail.png);
-			-webkit-background-size: 17px 11px;
-			background-size: 17px 11px;
-			padding-left: 30px;
+		#responsiveBaseFrame #myTicket ul.button li.btnDownload a:before {
+			content: "";
+			position: absolute;
+			display: block;
+			background-position: right center;
+			background-image: url(../../pc_images_v2/sp/common/iconDownload.png);
+			-webkit-background-size: 10px 9px;
+			background-size: 10px 9px;
+			width: 10px;
+			height: 9px;
+			top: 50%;
+			margin-top: -4px;
+			right: 5px;
+			/*behavior:url(../htc/PIE.htc);*/
 		}
 
-		/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-		販売元
-		−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #organizer h2.caption {
-			background-image: url(../../pc_images_v2/sp/event/captionOrganizer.png);
-			-webkit-background-size: 164px 39px;
-			background-size: 164px 39px;
-			width: 164px;
+		#responsiveBaseFrame #myTicket .nextstep ul li.btn01 a {
+			margin-right: 4px;
+		}
+		#responsiveBaseFrame #myTicket .nextstep ul li.btn02 a {
+			margin-left: 4px;
 		}
 
-		#responsiveBaseFrame #areaContents #linkContactOrganizer #organizer p.button {
-			margin-top: 6px;
-		}
-
-
-	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-	友達にシェア
-	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-	#responsiveBaseFrame #areaContents #share {
-		background-color: #DDE1E1;
-		padding: 25px 10px;
-		padding-bottom: 35px;
-	}
-
-	#responsiveBaseFrame #areaContents #share .overview {
-            padding-bottom: 15px;
-            width: 100%;
-            font-size: 15px;
-            -webkit-font-smoothing: antialiased;
-            font-family: initial;
-    }
-
-    #responsiveBaseFrame #areaContents #share .overview h2{
-        text-align: center;
-        font-size: medium;
-        color: #666666;
-    }
-
-    #responsiveBaseFrame #areaContents #share .overview p.caption_under{
-        font-size: 28px;
-        color: #333333;
-        text-align:center;
-    }
-
-		#responsiveBaseFrame #areaContents #share h2.caption {
-			background-image: url(../../pc_images_v2/sp/event/captionShare.png);
-			-webkit-background-size: 195px 39px;
-			background-size: 195px 39px;
-			width: 195px;
-		}
-
-
-
-
-	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-	パンくずリスト
-	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-	#responsiveBaseFrame #areaContents #breadcrumbList {
-		margin-top: 0;
-	}
-
-	.register_input_submit {
-		background-image: none;
-		width: 100%;
-		height: 50px;
-		border-style: none;
-		color: #fff;
-		cursor: pointer;
-		text-indent: 0;
-		padding-bottom: 0;
-		font-size: 20px;
-		text-align: center;
+	#responsiveBaseFrame #myTicket .smartphoneTicket {
+		padding: 10px;
+		border-top:1px solid #C9D3D3;
+		font-size:10px;
+		background-repeat: no-repeat;
+		background-position: -5px 5px;
+		background-image: url(../../pc_images_v2/sp/myticket/smartphoneTicket.png);
+		-webkit-background-size: 107px 57px;
+		background-size: 107px 57px;
+		min-height: 57px;
+		padding-left: 110px;
 		vertical-align: middle;
-	}
-	/*-- カラーバリエーション --*/
-	.button .register_input_submit {
-		/*background-color: #f373a7;*/
-	}
-	/*.button .register_input_submit:hover {
-		background-color: #F175A7;
-	}*/
-	.button .register_input_submit_pink:hover {
-        background-color: #F175A7;
-    }
-
-    .button .register_input_submit_pink {
-        background-color: #ef3481;
-    }
-    .button .register_input_submit_disabled {
-        background-color: #C9C9C4;
-    }
-
-    .button .register_input_submit_blue {
-        background-color: #00ced1;
-    }
-
-    .button .register_input_submit_blue:hover {
-        background-color: #add8e6;
-    }
-
-	/*-- 販売終了の特殊レイアウト --*/
-	#responsiveBaseFrame .event-expired-link {
-		color: #fff;
-	}
-	#responsiveBaseFrame .event-expired-link .btn-gray {
-		background-color: #707070;
-		padding: 4px;
-	}
-	#responsiveBaseFrame .event-expired-link .btn-pink {
-		color: #fff;
-		background: #ef3481;
-	}
-	#responsiveBaseFrame .event-expired-link .btn-pink:hover {
-		background: #F175A7;
-	}
-	#responsiveBaseFrame .event-expired-link .btn-green {
-		color: #fff;
-		background: #14b5b1;
-	}
-	#responsiveBaseFrame .event-expired-link .btn-green:hover {
-		background: #53c8c3;
-	}
-	#responsiveBaseFrame .event-expired-link .link {
-		display: block;
-		width: 50%;
-		color: #fff;
-		line-height: 1.4;
-		padding: 10px 0;
-	}
-	#responsiveBaseFrame .event-expired-link .link.left {
-		float: left;
-	}
-	#responsiveBaseFrame .event-expired-link .link.right {
-		float: right;
-	}
-	#responsiveBaseFrame .event-expired-link .link.link-full {
-		width: 100%;
+		display: table-cell;
+		letter-spacing: -0.01em;
+		/*behavior:url(../htc/PIE.htc);*/
 	}
 
 
-	/*-- タグ --*/
-	#responsiveBaseFrame #areaContents .tag-section {
-		/*text-align: left;*/
-		text-align: center;
-		margin-bottom: 20px;
-		/*padding: 0 15px;*/
-		padding: 0;
-	}
-
-	#responsiveBaseFrame #areaContents .tag-section .tag-outer {
-		/*float: left;*/
-		/*margin-left: 30px;*/
-		line-height: 1.3;
-	}
-
-	#responsiveBaseFrame #areaContents .tag-section .title {
-		font-size: 12px;
-		line-height: 1.3;
-		float: left;
-		margin-right: -30px;
-	}
-
-	#responsiveBaseFrame #areaContents .tag-section .tag {
-		text-align: left;
-		font-size: 12px;
-		line-height: 1.3;
-		display: inline-block;
-		overflow: inherit;
-		border-right: 1px solid #CCC;
-		padding: 0 15px;
-		margin-bottom: 3px;
-	}
-
-	#responsiveBaseFrame #areaContents .tag-section .tag-outer .tag:last-child {
-		border-right: none;
-	}
-
-    /* レスポンシブ対応 start */
-    #responsiveBaseFrame #areaContents #sideMenu .bottom-content{
-        display: none;
-    }
-    #responsiveBaseFrame #areaContents #banner.is-pc-banner {
-        display: none;
-    }
-    .is-pc-no-img-display {
-        display: none;
-    }
-    /* レスポンシブ対応 end */
-
-	#responsiveBaseFrame #areaContents .bottom-content *{
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-
-	#responsiveBaseFrame #areaContents .bottom-content{
-        display: block;
-		margin-top: 10px;
-		font-size: 12px;
-	}
-
-	#responsiveBaseFrame #areaContents .bottom-content .information-area{
-
-	}
-
-	#responsiveBaseFrame #areaContents .information-area{
-		padding: 15px 0;
-	}
-
-    #responsiveBaseFrame #areaContents .information-area .overview {
-        padding-bottom: 15px;
-        width: 100%;
-        font-size: 15px;
-        -webkit-font-smoothing: antialiased;
-        font-family: initial;
-        border-bottom: 1px solid #D9E0E0;
-    }
-
-    #responsiveBaseFrame #areaContents .information-area .overview h2{
-        text-align: center;
-        font-size: medium;
-        color: #666666;
-    }
-
-    #responsiveBaseFrame #areaContents .information-area .overview p.caption_under{
-        font-size: 28px;
-        color: #333333;
-        text-align:center;
-    }
-
-	#responsiveBaseFrame #areaContents .information-area .title{
-		font-size: 32px;
-		font-weight: normal;
-		text-align: center;
-		font-family: sans-serif;
-		text-align: center;
-		/*letter-spacing: .5em;*/
-	}
-
-    #responsiveBaseFrame #areaContents .information-area .title .disp-char{
-        letter-spacing: 0.1em;
-        margin-right: -.6em;
-        color: #111;
-    }
-
-	#responsiveBaseFrame #areaContents .information-area .list{
-	}
-
-	#responsiveBaseFrame #areaContents .information-area .list-item {
-		padding: 15px;
-		border-top: 1px solid #ccc;
-		color: #111;
-        -webkit-font-smoothing: antialiased;
-        font-family: initial;
-	}
-
-
-	#responsiveBaseFrame #areaContents .information-area .list .list-item:first-child {
-		margin-top: 0;
-		border-top: none;
-	}
-
-	#responsiveBaseFrame #areaContents .information-area .date {
-		display: inline-block;
-		font-size: 12px;
-		font-weight: normal;
-	}
-
-	#responsiveBaseFrame #areaContents .information-area .place{
-        display: inline-block;
-        font-size: 14.5px;
-        font-weight: normal;
-    }
-
-	#responsiveBaseFrame #areaContents .information-area .place{
-		margin-left: 10px;
-	}
-	#responsiveBaseFrame #areaContents .information-area .ev-title {
-		display: block;
-		font-size: 15px;
-	}
-
-	#responsiveBaseFrame #areaContents .bottom-content .information-area .information-link {
-		display: block;
-		padding-top: 10px;
-		padding-bottom: 8px;
-		border-top: 1px solid #19B5AF;
-		border-bottom: 1px solid #19B5AF;
-		text-decoration: none;
-		position: relative;
-		font-size: 16px;
-	}
-
-	#responsiveBaseFrame #areaContents .bottom-content .information-area .information-link:after {
-		content: "";
-		display: inline-block;
-		background-repeat: no-repeat;
-		background-position: 0 bottom;
-		background-image: url(../../pc_images_v2/sp/event/arrow/right_green.png);
-		background-repeat: no-repeat;
-		width: 6px;
-		height: 9px;
-		-webkit-background-size: 6px 9px;
-		background-size: 6px 9px;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		margin: auto;
-		right: 25px;
-	}
-
-	#responsiveBaseFrame #areaContents .banner-area {
-		margin: 15px 15px 30px;
-	}
-
-	#responsiveBaseFrame #areaContents .banner-area .banner {
-		display: block;
-		border: 1px solid #00b5b2;
-		padding: 5px;
-	}
-
-	#responsiveBaseFrame #areaContents .banner-area .banner img{
-		width: 100%;
-	}
-
-	#responsiveBaseFrame .annotation {
-		background: none repeat scroll 0 0 #fff !important;
-		color: #ee2f3c !important;
-		margin: 7px 0 !important;
-		text-align: left !important;
-		margin-top: 0 !important;
-	}
-
-
-	#responsiveBaseFrame footer {
-		padding-bottom: 80px;
-	}
-
-	#responsiveBaseFrame .bx-next,
-	#responsiveBaseFrame .bx-prev {
-		background-color: transparent;
-		background-position: 0;
-		width: 27px;
-		height: 27px;
-		-webkit-background-size: 27px;
-		background-size: 27px;
-		margin-top: -19px;
-		display: block;
-		top: 50%;
-	}
-
-	#responsiveBaseFrame .bx-next {
-		background-image: url(../../pc_images_v2/sp/event/arrow/circle_right_white.png);
-		right: 15px;
-	}
-
-	#responsiveBaseFrame .bx-prev {
-		background-image: url(../../pc_images_v2/sp/event/arrow/circle_left_white.png);
-		left: 15px;
-	}
-
-	#responsiveBaseFrame .bx-controls-direction {
-		position: absolute;
-		top: 50%;
-		width: 100%;
-	}
-
-	#responsiveBaseFrame .bx-pager div a {
-		-webkit-background-size: 5px 5px;
-		background-size: 5px 5px;
+	/* 10件ずつ表示 */
+	#responsiveBaseFrame .moreBtn span:before {
+		background-image: url(../../pc_images_v2/sp/common/arrowWhiteBottom.png);
+		-webkit-background-size: 8px 5px;
+		background-size: 8px 5px;
+		width: 8px;
 		height: 5px;
-		width: 5px;
-		background-image: url(../../pc_images_v2/sp/event/icon/circle_green_transparent.png);
+		margin-top: -2px;
+		/*behavior:url(../htc/PIE.htc);*/
 	}
 
-	#responsiveBaseFrame .bx-pager div a.active {
-		background-image: url(../../pc_images_v2/sp/event/icon/circle_green.png);
+
+
+
+/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+
+サイドメニュー
+
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+
+	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+	マイページメニュー
+	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+	#responsiveBaseFrame #areaContents #layoutCntents #sideMenu #pageMenu {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
 	}
 
-	#responsiveBaseFrame .bx-pager .bx-pager-item {
-		vertical-align: bottom;
+		#responsiveBaseFrame #areaContents #layoutCntents #sideMenu #pageMenu ul {
+/*			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			box-sizing:border-box;*/
+			display: table;
+			width: 100%;
+			border:1px solid #D9E0E0;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		}
+
+		#responsiveBaseFrame #areaContents #layoutCntents #sideMenu #pageMenu ul li {
+/*			-webkit-box-flex: 1;
+			-moz-box-flex: 1;
+			-webkit-flex: 1;
+			-ms-flex: 1;
+			flex: 1;*/
+			display: table-cell;
+		}
+
+		#responsiveBaseFrame #areaContents #layoutCntents #sideMenu #pageMenu ul li a {
+			white-space: nowrap;
+			text-align: center;
+			border-left:1px solid #D9E0E0;
+			display: block;
+			padding: 5px 0px;
+			background-color: #EEF1F1;
+			color: #666666;
+			text-decoration: none;
+			font-size:10px;
+		}
+		#responsiveBaseFrame #areaContents #layoutCntents #sideMenu #pageMenu ul li:first-child a {
+			border-left:none;
+		}
+
+	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+	ログインメニュー
+	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+	#responsiveBaseFrame #areaContents #layoutCntents #sideMenu #loginMenu {
+		display: none;
 	}
 
-	/*-- wovn用 --*/
+	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+	マイページメニュー
+	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+	#responsiveBaseFrame #areaContents #layoutCntents #sideMenu #mypageMenu {
+		display: none;
+	}
 
-#wovn-translate-widget {
-    /*bottom: 50px!important;*/
+	/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+	カテゴリメニュー
+	−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+	#responsiveBaseFrame #areaContents #layoutCntents #sideMenu .category-menu {
+		display: none;
+	}
+
+	#responsiveBaseFrame #areaContents #layoutCntents #sideMenu .search-section {
+		display: none;
+	}
+
+
+
+/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+
+パンくずリスト
+
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+#responsiveBaseFrame #areaContents #breadcrumbList {
+	border-top:1px solid #D9E0E0;
+	border-bottom:1px solid #D9E0E0;
+	margin-top: 40px;
 }
-#wovn-translate-widget.slid-out {
-    bottom: -3em!important;
+
+#responsiveBaseFrame #areaContents #breadcrumbList ul {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top: 1px solid #D9E0E0;
 }
-#wovn-translate-widget.mobile.slide-in {
-    -webkit-animation: slidein_mod .2s!important;
-            animation: slidein_mod .2s!important;
+
+#responsiveBaseFrame #areaContents #breadcrumbList ul:first-child {
+	border-top: none;
 }
-#wovn-translate-widget.mobile.slide-out {
-    -webkit-animation: slideout_mod .5s!important;
-            animation: slideout_mod .5s!important;
-}
-#wovn-translate-widget.mobile.slide-out {
-    -webkit-animation: slideout_mod .5s!important;
-            animation: slideout_mod .5s!important;
-}
-@-webkit-keyframes slidein_mod {
-    0% {
-        bottom: -3em;
-        opacity: 0;
-    }50% {
-        opacity: 1;
-    }100% {
-        bottom: 50px;
-    }
-}
-@keyframes slidein_mod {
-    0% {
-        bottom: -3em;
-        opacity: 0;
-    }50% {
-        opacity: 1;
-    }100% {
-        bottom: 50px;
-    }
-}
-@-webkit-keyframes slideout_mod {
-    0% {
-        bottom: 50px;
-        opacity: 1;
-    }100% {
-        bottom: -3em;
-        opacity: 0;
-    }
-}
-@keyframes slideout_mod {
-    0% {
-        bottom: 50px;
-    }50% {
-        opacity: 1;
-    }100% {
-        bottom: -3em;
-        opacity: 0;
-    }
-}
-#relational_event_list_section div {
-    float: left;
-    margin-right: 10px;
-}
-#relational_event_list_section div:last-child {
-    float:none;
-    margin-right: 0px;
-    text-align:right;
-    margin-top:32px;
-}
-#relational_event_list_section div figure {
-    min-height: 85px;
-}
-#relationalEventOrganizer {
-	padding:0 10px;
-}
-#responsiveBaseFrame .layoutImage ul#relational_event_detail_sp li{
-	max-height:17px;
-	max-width:150px;
+
+#responsiveBaseFrame #areaContents #breadcrumbList ul li {
+	float: left;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position:0;
+	background-image: url(../../pc_images_v2/sp/common/breadcrumbList.png);
+	-webkit-background-size: 13px 37px;
+	background-size: 13px 37px;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 20px;
+	margin-right: 4px;
+	/*behavior:url(../htc/PIE.htc);*/
+
 	overflow: hidden;
+	white-space: nowrap;
 	text-overflow: ellipsis;
+	max-width: 80px;
 }
 
-.grecaptcha-badge {
-	bottom: 124px !important;
-	z-index: 2;
+#responsiveBaseFrame #areaContents #breadcrumbList ul li:first-child {
+	background: none;
+	padding-left: 0;
+}
+
+#responsiveBaseFrame #areaContents #breadcrumbList ul li.item-2.last_li {
+	max-width: 240px;
+}
+#responsiveBaseFrame #areaContents #breadcrumbList ul li.item-3.last_li {
+	max-width: 140px;
+}
+
+#responsiveBaseFrame #areaContents #breadcrumbList ul li.item-4 {
+	max-width: 60px;
+}
+#responsiveBaseFrame #areaContents #breadcrumbList ul li.item-4.last_li {
+	max-width: 75px;
+}
+
+#responsiveBaseFrame #areaContents #breadcrumbList ul li.item-5 {
+	max-width: 40px;
+}
+#responsiveBaseFrame #areaContents #breadcrumbList ul li.item-5.last_li {
+	max-width: 50px;
+}
+
+/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+フッター
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+#responsiveBaseFrame footer {
+    background-color: #868686;
+    padding-bottom: 30px;
+}
+#responsiveBaseFrame footer small {
+	color: #d4d4d4;
+	font-size: 13px;
+	font-family:Helvetica,Arial,sans-serif;
+}
+#responsiveBaseFrame footer p {
+    text-align: center;
+}
+#responsiveBaseFrame footer .copyright {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 19px;
+}
+
+#responsiveBaseFrame footer .copyright small {
+	display: block;
+}
+
+#responsiveBaseFrame footer .copyright p:first-child {
+	margin-bottom: 13px;
+}
+
+
+
+/*-------------------------------
+about-service-area
+-------------------------------*/
+#responsiveBaseFrame footer nav {
+    background-color: #868686;
+    padding-bottom: 30px;
+}
+#responsiveBaseFrame footer nav ul {
+    border-bottom: 1px solid #999;
+}
+
+#responsiveBaseFrame footer nav li a{
+    display: block;
+    color: #fff;
+    font-weight: normal!important;
+    font-size:12px;
+    line-height: 42px;
+    border-top: 1px solid #999;
+    padding: 0 10px;
+    font-size:17px;
+}
+	#responsiveBaseFrame footer nav li a,
+	#responsiveBaseFrame footer nav li a:link,
+	#responsiveBaseFrame footer nav li a:visited,
+	#responsiveBaseFrame footer nav li a:active {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+#responsiveBaseFrame footer nav li a:hover{
+    background-color: #aaa;
+}
+#responsiveBaseFrame footer nav li a:after{
+    content: " ";
+    float: right;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-top: 17px;
+    background-image: url("../../pc_images_v2/sp/common/arrowWhiteRight.png");
+    -webkit-background-size: 5px 7px;
+    background-size: 5px 7px;
+    background-repeat: no-repeat;
+    /*behavior:url(../htc/PIE.htc);*/
+}
+#responsiveBaseFrame footer nav .to-top {
+    width: 45px;
+    height: 45px;
+    margin: 35px auto 0px;
+    display: block;
+    background-position: 0 top;
+    background-image: url("../../pc_images_v2/sp/footer/to_top.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    text-indent: -9999px;
+    /*behavior:url(../htc/PIE.htc);*/
+}
+
+#responsiveBaseFrame footer nav .to-top:hover {
+	background-position: 0 bottom;
+}
+
+
+/*-------------------------------
+news-area
+-------------------------------*/
+#responsiveBaseFrame .news-area {
+    background-color: #dde1e1;
+}
+#responsiveBaseFrame .news-area .inner {
+    margin-right: 0;
+    margin-left: 0;
+}
+#responsiveBaseFrame .news-area .news-list {
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+#responsiveBaseFrame .news-area .news-list a {
+    display: block;
+    padding: 5px;
+    position: relative;
+}
+#responsiveBaseFrame .news-area .news-list a:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    width: 10px;
+    height: 10px;
+    margin-top: -5px;
+    background-image: url("../../images/top/icon_arrow_right_gray.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*behavior:url(../htc/PIE.htc);*/
+}
+#responsiveBaseFrame .news-area .news-list a:hover {
+    display: block;
+    background-color: #c6caca;
+}
+#responsiveBaseFrame .news-area .news-date {
+    font-weight: normal!important;
+    color: #333;
+}
+#responsiveBaseFrame .news-area .news-text {
+    font-weight: normal!important;
+    color: #666;
+}
+
+#responsiveBaseFrame .news-area .button {
+	font-size:17px;
+}
+
+/*-------------------------------
+sns-area
+-------------------------------*/
+#responsiveBaseFrame .sns-area {
+    background-color: #dde1e1;
+}
+
+/*----- bookmark-event-list -----*/
+#responsiveBaseFrame .bookmark-event-area {
+    background-color: #19b5af;
+    padding-bottom: 35px;
+}
+#responsiveBaseFrame .myticket-area {
+    background-color: #eef1f1;
+    padding-bottom: 35px;
+}
+#responsiveBaseFrame .myticket-area .inner,
+#responsiveBaseFrame .bookmark-event-area .inner {
+    margin-right: 0;
+    margin-left: 0;
+}
+#responsiveBaseFrame .bookmark-event-list > li {
+    margin: 0 auto 20px;
+}
+#responsiveBaseFrame .bookmark-event-list a{
+    position: relative;
+    display: block;
+}
+#responsiveBaseFrame .bookmark-event-list figure {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#responsiveBaseFrame .myticket-area .bookmark-event-list a:hover {
+    background-color: #dfe2e3;
+}
+#responsiveBaseFrame .bookmark-event-area .bookmark-event-list a:hover {
+    background-color: #17aaa5;
+}
+#responsiveBaseFrame .bookmark-event-list .right-content {
+    float: right;
+    margin-left: -100px;
+    width: 100%;
+}
+#responsiveBaseFrame .bookmark-event-list img {
+    float: left;
+}
+#responsiveBaseFrame .bookmark-event-list figure {
+    margin: 0;
+    max-width: 95%;
+}
+#responsiveBaseFrame .bookmark-event-list figcaption {
+    width: 60%;
+    margin-left: 100px;
+    height: 100px;
+    padding-left: 15px;
+    padding-right: 25px;
+    float: left;
+}
+#responsiveBaseFrame .bookmark-event-list a:after {
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    margin-top: -5px;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    /*behavior:url(../htc/PIE.htc);*/
+}
+#responsiveBaseFrame .bookmark-event-list figcaption li {
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#responsiveBaseFrame .myticket-area .bookmark-event-list figcaption li {
+    color: #666;
+}
+#responsiveBaseFrame .bookmark-event-area .bookmark-event-list figcaption li {
+    color: #e6e6e6;
+}
+#responsiveBaseFrame .bookmark-event-list .icon-min {
+    margin-right: 6px;
+}
+#responsiveBaseFrame .bookmark-event-list h2 {
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 39px;
+    word-wrap: break-word;
+}
+#responsiveBaseFrame .bookmark-event-area .bookmark-event-list h2 {
+    color: #bee2d6;
+}
+#responsiveBaseFrame .myticket-area .bookmark-event-list h2 {
+    color: #249da5;
+}
+#responsiveBaseFrame .myticket-area .bookmark-event-list a:after {
+    background-image: url("../../images/top/icon_arrow_right_green.png");
+}
+#responsiveBaseFrame .bookmark-event-area .bookmark-event-list a:after {
+    background-image: url("../../images/top/icon_arrow_right_white.png");
+}
+
+
+
+
+
+/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+お知らせやSNSなど
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+#responsiveBaseFrame #news-section {
+	margin-top: 10px;
+	background-color: #dde1e1;
+}
+#responsiveBaseFrame #news-section .inner {
+	padding-top: 25px;
+}
+#responsiveBaseFrame #news-section .sns-area h2,
+#responsiveBaseFrame #news-section .sns-area .qr-block {
+	display: none;
+}
+
+
+	#responsiveBaseFrame #news-section .news-area {
+		margin-bottom: 30px;
+	}
+
+	#responsiveBaseFrame #news-section .news-area h2 {
+		display:block;
+		text-indent:-9999px;
+		background-repeat:no-repeat;
+		background-position:0 0;
+		background-image: url(../../pc_images_v2/sp/footer/captionNotice.png);
+		-webkit-background-size: 79px 39px;
+		background-size: 79px 39px;
+		width: 79px;
+		height: 39px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 25px;
+	}
+
+    #responsiveBaseFrame #news-section .news-area #news-list {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+	#responsiveBaseFrame #news-section .news-area #news-list li {
+		margin-bottom: 15px;
+	}
+
+	#responsiveBaseFrame #news-section .news-area #news-list li a {
+		display: block;
+		text-decoration: none;
+		color: #666666;
+		position: relative;
+		padding-right: 18px;
+	}
+	#responsiveBaseFrame #news-section .news-area #news-list li a:before {
+		position: absolute;
+		content: "";
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-image: url(../../pc_images_v2/sp/common/arrowGrayRight.png);
+		-webkit-background-size: 5px 7px;
+		background-size: 5px 7px;
+		display: block;
+		width: 5px;
+		height: 7px;
+		right: 0px;
+		top: 50%;
+		margin-top: -4px;
+	}
+
+	#responsiveBaseFrame #news-section .news-area #news-list li a:hover {
+		background-color: #c6caca;
+	}
+
+	#responsiveBaseFrame #news-section .news-area #news-list li a p.font-bold {
+		color: #333333;
+	}
+
+	#responsiveBaseFrame #news-section .news-area .button a {
+		border-top: 1px solid #259B9F;
+		border-bottom: 1px solid #259B9F;
+		color: #259B9F;
+		background: none;
+		padding: 8px 0;
+	}
+	#responsiveBaseFrame #news-section .news-area .button a:hover {
+		background-color: #32b5c4;
+		color: #FFFFFF;
+	}
+
+	#responsiveBaseFrame #news-section .news-area .button a:before {
+		background-image: url(../../pc_images_v2/sp/common/arrowGreenRight.png);
+	}
+	#responsiveBaseFrame #news-section .news-area .button a:hover:before {
+		background-image: url(../../pc_images_v2/sp/common/arrowWhiteRight.png);
+	}
+
+
+	/* SNS */
+	#responsiveBaseFrame #news-section .sns-block {
+		padding-bottom: 30px;
+	}
+
+	#responsiveBaseFrame .sns-block ul {
+		width: 285px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#responsiveBaseFrame .sns-block li,
+	#responsiveBaseFrame .sns-block li a {
+		display:block;
+		text-indent:-9999px;
+		background-repeat:no-repeat;
+		background-position:0 0;
+		width:45px;
+		height:45px;
+		text-indent: -9999px;
+		-webkit-background-size: 45px 90px;
+		background-size: 45px 90px;
+	}
+
+	#responsiveBaseFrame .sns-block li a:hover {
+		background-position: 0 bottom;
+	}
+
+	#responsiveBaseFrame .sns-block li {
+		float: left;
+		margin-right: 15px;
+	}
+	#responsiveBaseFrame .sns-block li:last-child{
+		margin-right: 0;
+	}
+
+	#responsiveBaseFrame .sns-block li.twitter a {
+		background-image: url(../../pc_images_v2/sp/common/iconTwitter.png);
+	}
+	#responsiveBaseFrame .sns-block li.facebook a {
+		background-image: url(../../pc_images_v2/sp/common/iconFacebook.png);
+	}
+	#responsiveBaseFrame .sns-block li.mixi a {
+		background-image: url(../../pc_images_v2/sp/common/iconMixi.png);
+	}
+	#responsiveBaseFrame .sns-block li.line a {
+		background-image: url(../../pc_images_v2/sp/common/iconLine.png);
+	}
+	#responsiveBaseFrame .sns-block li.mail a {
+		background-image: url(../../pc_images_v2/sp/common/iconMail.png);
+	}
+
+
+/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+スライダー
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
+  #responsiveBaseFrame .bx-prev,
+  #responsiveBaseFrame .bx-next {
+  	display: none;
+  }
+
+   #responsiveBaseFrame .bx-pager div a {
+    background-size:7px 7px;
+    height: 7px;
+    width: 7px;
+  }
+
+  #responsiveBaseFrame .bx-pager {
+    text-align: center;
+    padding-top: 0px;
+  }
+
+/*--------------------
+Remove outline border on smart phone when focus
+----------------------*/
+  *:focus {
+    outline: none;
+}
+#prepareRegist {
+    margin-bottom: 30px;
+}
+#prepareRegist p {
+    color: #E25454;
+    font-size: 12px;
+    width: 92%;
+    text-align: left !important;
+    margin-left: 4%;
+}
+#prepareRegist a {
+    color: #FFF!important;
+    display: inline-block;
+    width: 91%;
+    height: 35px;
+    line-height: 41px;
+    padding: 5px;
+    margin-top: 0px;
+    color: #fff;
+    font-size: 18px;
+    background: #e94d67;
+    border-bottom: 2px solid #d52e43;
+    border-radius: 2px;
+    transition-property: background-color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
 }

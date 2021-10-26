@@ -1,486 +1,1550 @@
-/*
- * jQuery Templating Plugin
- * Copyright 2010, John Resig
- * Dual licensed under the MIT or GPL Version 2 licenses.
- */
-(function( jQuery, undefined ){
-	var oldManip = jQuery.fn.domManip, tmplItmAtt = "_tmplitem", htmlExpr = /^[^<]*(<[\w\W]+>)[^>]*$|\{\{\! /,
-		newTmplItems = {}, wrappedItems = {}, appendToTmplItems, topTmplItem = { key: 0, data: {} }, itemKey = 0, cloneIndex = 0, stack = [];
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
-	function newTmplItem( options, parentItem, fn, data ) {
-		// Returns a template item data structure for a new rendered instance of a template (a 'template item').
-		// The content field is a hierarchical array of strings and nested items (to be
-		// removed and replaced by nodes field of dom elements, once inserted in DOM).
-		var newItem = {
-			data: data || (parentItem ? parentItem.data : {}),
-			_wrap: parentItem ? parentItem._wrap : null,
-			tmpl: null,
-			parent: parentItem || null,
-			nodes: [],
-			calls: tiCalls,
-			nest: tiNest,
-			wrap: tiWrap,
-			html: tiHtml,
-			update: tiUpdate
-		};
-		if ( options ) {
-			jQuery.extend( newItem, options, { nodes: [], parent: parentItem } );
-		}
-		if ( fn ) {
-			// Build the hierarchical content to be used during insertion into DOM
-			newItem.tmpl = fn;
-			newItem._ctnt = newItem._ctnt || newItem.tmpl( jQuery, newItem );
-			newItem.key = ++itemKey;
-			// Keep track of new template item, until it is stored as jQuery Data on DOM element
-			(stack.length ? wrappedItems : newTmplItems)[itemKey] = newItem;
-		}
-		return newItem;
-	}
+.gheader, .gheader *,
+.gfooter, .gfooter *,
+#lp-top, #lp-top * {
+    font-family: -apple-system, 'Hiragino Kaku Gothic Pro', 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
 
-	// Override appendTo etc., in order to provide support for targeting multiple elements. (This code would disappear if integrated in jquery core).
-	jQuery.each({
-		appendTo: "append",
-		prependTo: "prepend",
-		insertBefore: "before",
-		insertAfter: "after",
-		replaceAll: "replaceWith"
-	}, function( name, original ) {
-		jQuery.fn[ name ] = function( selector ) {
-			var ret = [], insert = jQuery( selector ), elems, i, l, tmplItems,
-				parent = this.length === 1 && this[0].parentNode;
+#lp-top * {
+    letter-spacing: 0.05em;
+}
 
-			appendToTmplItems = newTmplItems || {};
-			if ( parent && parent.nodeType === 11 && parent.childNodes.length === 1 && insert.length === 1 ) {
-				insert[ original ]( this[0] );
-				ret = this;
-			} else {
-				for ( i = 0, l = insert.length; i < l; i++ ) {
-					cloneIndex = i;
-					elems = (i > 0 ? this.clone(true) : this).get();
-					jQuery.fn[ original ].apply( jQuery(insert[i]), elems );
-					ret = ret.concat( elems );
-				}
-				cloneIndex = 0;
-				ret = this.pushStack( ret, name, insert.selector );
-			}
-			tmplItems = appendToTmplItems;
-			appendToTmplItems = null;
-			jQuery.tmpl.complete( tmplItems );
-			return ret;
-		};
-	});
+/*ヘッダ*/
+    .gheader * {
+        box-sizing: border-box;
+    }
+    .gheader section.clearfix > h1, header section.clearfix > h2 {
+        padding: 0;
+    }
+    .gheader section.clearfix.sp-login > h1 {
+        padding-top: 5px;
+    }
+    .gheader section.clearfix > h1 a, header section.clearfix > h2 a {
+        display: block;
+        width: 117px;
+        height: 28px;
+        background-image: url(../../pc_images_v3/sp/global_top/hd_logo.png);
+        background-size: cover;
+    }
+    .gheader section.clearfix {
+        padding: 8px 5px 0 10px;
+        min-height: 40px;
+    }
+    .gheader .gheader_menu {
+        position: relative;
+    }
+    .gheader .gheader_menu .gheader_menu_open {
+        display: block;
+        width: 120px;
+        height: 24px;
+        line-height: 24px;
+        background: #e94d67;
+        border: 1px solid #e94d67;
+        border-radius: 2px;
+        text-align: center;
+        font-size: 10px;
+        color: #fff;
+    }
+    .gheader .gheader_menu .gheader_menu_open {
+        background: url(../../pc_images_v3/sp/global_top/hd_login.png) 6px 6px no-repeat;
+        background-size: 10px;
+        padding-left: 12px;
+        background-color: #e94d67;
+    }
+    .gheader .gheader_menu .gheader_menu_close {
+        display: block;
+        width: 120px;
+        height: 24px;
+        line-height: 24px;
+        background: #fff;
+        border: 1px solid #14b5b0;
+        border-radius: 2px;
+        text-align: center;
+        font-size: 10px;
+        color: #14b5b1;
+    }
+    .gheader .gheader_menu .gheader_menu_close {
+        background: url(../../pc_images_v3/sp/global_top/hd_close.png) 100px 7px no-repeat;
+        background-size: 10px;
+    }
+    .gheader .gheader_menu dt .gheader_menu_close {
+        display: none;
+    }
+    .gheader .gheader_menu.active dt .gheader_menu_close {
+        display: block;
+    }
+    .gheader .gheader_menu.active dt .gheader_menu_open {
+        display: none;
+    }
+    /*メニュー*/
+    .gheader .gheader_menu {
+        position: relative;
+    }
+    .gheader .gheader_menu dd {
+        position: absolute;
+        top: 32px;
+        right: -5px;
+        z-index: 1;
+        height: 0;
+        overflow: hidden;
 
-	jQuery.fn.extend({
-		// Use first wrapped element as template markup.
-		// Return wrapped set of template items, obtained by rendering template against data.
-		tmpl: function( data, options, parentItem ) {
-			return jQuery.tmpl( this[0], data, options, parentItem );
-		},
+        transition-property: height;
+        transition-duration: .3s;
+        transition-timing-function: ease-out;
+    }
+    .gheader .gheader_menu.active dd {
+        /*height: auto;*/
+        height: 350px;
+    }
+    .gheader .gheader_menu .gheader_menu_content {
+        border: 1px solid #14b5b1;
+        background: #fff;
+        width: 285px;
+        padding: 10px;
+    }
+    .gheader .gheader_menu .gheader_menu_content p {
+        font-size: 15px;
+        color: #333;
+        background: #eee;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .gheader .gheader_menu .gheader_menu_content .btn {
+        display: block;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+        background: #e94d67;
+        border-bottom: 3px solid #b12a3c;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin: 10px auto 20px;
+    }
+    .gheader .gheader_menu .gheader_menu_content ul {
+        margin-bottom: 20px;
+    }
+    .gheader .gheader_menu .gheader_menu_content li a {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        color: #14b5b1;
+        padding: 6px 10px;
+        border-bottom: 1px solid #dcdcdc;
+        background: transparent url(../../pc_images_v3/sp/global_top/link_arrow_green.png) right center no-repeat;
+        background-size: 14px;
+    }
+    .gheader .gheader_menu .gheader_menu_content a img {
+        width: 100%;
+        height: auto;
+    }
+    .gheader .gheader_menu .gheader_menu_content .gheader_menu_close {
+        margin: 20px auto 0;
+    }
 
-		// Find which rendered template item the first wrapped DOM element belongs to
-		tmplItem: function() {
-			return jQuery.tmplItem( this[0] );
-		},
+/*共通パーツ*/
+    /*見出し*/
+    #lp-top .section-title {
+        font-size: 100%;
+        font-size: 10px;
+        font-weight: normal;
+        text-align: center;
+        color: #555;
+    }
+    #lp-top .section-title span {
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    /*もっと見るボタン*/
+    #lp-top .btn-more-large {
+        display: block;
+        width: 100%;
+        max-width: 343px;
+        height:60px;
+        line-height: 60px;
+        color: #fff;
+        background: #15c7c0 url(../../pc_images_v3/sp/global_top/arrow_bar_right_big.png) right 20px center no-repeat;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0px auto 40px;
+        border-radius: 35px;
+        box-shadow: 2px 2px 6px 0 rgb(128, 128, 128, 0.5)
+    }
+    /*トグルボタン*/
+    #lp-top .btn-more-large.btn-toggle {
+        background: #ffffff url(../../pc_images_v3/sp/global_top/arrow_bar_down_green.png) right 20px center no-repeat;
+        color: #3b3b3b !important;
+        line-height: 60px !important;
+        float: none !important;
+        margin: 20px 0 !important;
+        font-size: 20px !important;
+    }
+    #lp-top .btn-more-large.btn-toggle .btn-toggle-open {
+        display: none;
+    }
+    #lp-top .btn-more-large.btn-toggle.active {
+        background: #ffffff url(../../pc_images_v3/sp/global_top/arrow_bar_up_green.png) right 20px center no-repeat;
+    }
+    #lp-top .btn-more-large.btn-toggle.active .btn-toggle-open {
+        display: inline;
+    }
+    #lp-top .btn-more-large.btn-toggle.active .btn-toggle-close {
+        display: none;
+    }
+    #lp-top .search-panel-area .search-panel-content dl {
+        width: 100%;
+    }
+    /*リンクリスト*/
+    #lp-top .list-item {
+        margin: 20px 0;
+        margin-top: 20px;
+    }
+    #lp-top .list-item a {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 15px 20px 15px 20px;
+        background-size: 16px;
+    }
+    #lp-top .list-item a .date {
+        display: block;
+        width: 100%;
+        font-size: 12px;
+        color: #999;
+        margin: 0;
+        padding: 0;
+    }
+    #lp-top .list-item a .title {
+        display: block;
+        width: 100%;
+        font-size: 12px;
+        color: #333;
+        white-space: normal;
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+        line-height: 1.3;
+        max-height: 45px;
+    }
+    /*バナー*/
+    #lp-top .banner-item-large {
+        margin-top: 20px;
+    }
+    #lp-top .banner-item-large img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 3px 3px 0 rgb(128, 128, 128, 0.5);
+        object-fit: contain;
+    }
+    #lp-top .banner-item-top-medium img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 3px 3px 0 rgb(128, 128, 128, 0.5);
+        object-fit: contain;
+    }
+    #lp-top .banner-item-top-medium img {
+        height: auto;
+        border-radius: 10px;
+    }
+    #lp-top .banner-bottom {
+        padding: 20px 20px;
+    }
+/*キービジュアル*/
+    #lp-top .keyvisual {
+        position: relative;
+        height: 500px;
+        margin-bottom: 60px;
+        overflow: hidden;
+    }
+    #lp-top .keyvisual a img {
+        width: 100%;
+        height: auto;
+    }
+    #lp-top .keyvisual-slide img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    #lp-top .keyvisual-inner {
+        position: absolute;
+        top: 20px;
+        padding: 0 12px;
+    }
+    #lp-top .keyvisual-inner .keyvisual-heading {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+        text-shadow: 0 0 6px #000000;
+    }
+        #lp-top .keyvisual-inner .keyvisual-txt {
+        margin-top: 10px;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 600;
+        text-shadow: 0 0 6px #000000;
+        line-height: 1.4;
+    }
+/*イベント検索*/
+    #lp-top .search-area {
+        background: none;
+        margin-bottom: 20px;
+    }
+    #lp-top .search-area.border-gray {
+        border: 1px solid transparent;
+        width: 662px;
+        height: 40px;
+    }
+    #lp-top .search-area .search-keyword-box {
+        width: 610px;
+        height: 38px;
+    }
+    #lp-top .search-area .search-form .ui-hide-label .inner {
+        border: none !important;
+        overflow: hidden;
+        background: transparent;
+        margin-left: 0;
+    }
+    #lp-top .search-area .search-form .ui-hide-label .inner #keyword {
+        background-size: 14px;
+        height: 50px;
+        padding-left: 15px;
+        float: left;
+        margin-right: -50px;
+        margin-bottom: 4px;
+        width: 100%;
+        border-radius: 35px;
+        box-shadow: 0 3px 3px  rgba(0, 0, 0, 0.3);
+    }
+    #lp-top .search-area .search-icon-btn {
+        background-color: transparent !important;
+        background-image: url(../../pc_images_v3/sp/global_top/search_btn2.png);
+        background-size: cover;
+        width: 46px;
+        height: 46px;
+        margin: 2px 2px 0 0;
+        border-color: transparent;
+        float: right;
+    }
+    #lp-top .search-area .form-flat {
+        margin: 0;
+    }
+    #lp-top .search-area .search-keywords {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #lp-top .search-area .search-keywords li {
+        display: inline;
+        float: left;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 10px 10px 0 0;
+        padding: 0 20px;
+        background-color: #ffffff;
+        border-radius: 35px;
+    }
+    #lp-top .search-area .search-keywords li {
+        text-decoration: none;
+    }
+    #lp-top .search-area .search-keywords li a {
+        color: #3b3b3b;
+        text-decoration: underline;
+    }
+    #lp-top .search-area .hot-keywords {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    #lp-top .search-area .hot-keywords li {
+        display: inline;
+        float: left;
+        font-size: 12px;
+        margin-right: 15px;
+        border-radius: 35px;
+    }
+    #lp-top .search-area .hot-keywords li {
+        text-decoration: none;
+    }
+    #lp-top .search-area .hot-keywords li a {
+        display: inline-block;
+        max-width: 120px;
+        color: #ffffff;
+        text-decoration: underline;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    #lp-top .search-sub-area {
+        position: absolute;
+        top: 440px;
+        width: 160px;
+        right: 20px;
+        height: 39px;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        line-height: 40px;
+        margin-top: 4px;
+        border-radius: 15px 15px 0 0;
+        background-color: #ffffff;
+        
+    }
+    #lp-top .search-sub-area a{
+        margin-right: 10px;
+    }
+    #lp-top .search-sub-area .new_events{
+        background-image: url(../../images/icon_new.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        -webkit-background-size: 24px;
+        background-size: 24px;
+        cursor: pointer;
+        margin-left: 12px;
+    }
+    #lp-top .search-sub-area .category_link{
+        display: inline-block;
+        width: 100%;
+        background-image: url(../../pc_images_v3/sp/global_top/arrow_bar_right_green.png);
+        background-repeat: no-repeat;
+        background-position: right 15px center;
+        -webkit-background-size: 14px;
+        background-size: 14px;
+        cursor: pointer;
+    }
+    #lp-top .search-sub-area .category_link a {
+        font-size: 14px;
+        font-weight: 600;
+        color: #15c7c0;
+    }
+/*ピックアップ*/
+    #lp-top .pickup-area {
+        background-color: #d3ebeb;
+    }
+    #lp-top .content-title {
+        text-align: center;
+        margin-top: 5px;
+    }
+    #lp-top .content-title h2 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #3b3b3b;
+    }
+    #lp-top .content-title p {
+        font-family: -apple-system, 'Montserrat', 'Hiragino Kaku Gothic Pro', 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #15c7c0;
+        border-bottom: solid 1px #15c7c0
+    }
+    #lp-top .pickup-area .content-title p {
+        width: 137px;
+    }
+    #lp-top .pickup-area .inner {
+        padding-top: 30px;
+    }
+    #lp-top .event-list-full-img {
+        padding-top: 20px;
+    }
+    #lp-top .event-list-full-img .item {
+        width: 145px;
+        height: 145px;
+        border: none;
+    }
+    #lp-top .event-list-full-img .item > a {
+        background-position: top center;
+        background-size: cover;
+        height: 145px;
+        overflow: hidden;
+        position: relative;
+    }
+    #lp-top .event-list-full-img .item a:after {
+        white-space: pre;
+        text-align: center;
+        position: absolute;
+        top: -128px;
+        right: -85px;
+        transform: rotate(45deg);
+        font-size: 10px;
+        display: block;
+        width: 100px;
+        height: 25px;
+        padding-top: 160px;
+    }
+    #lp-top .event-list-full-img .item a.status-comingsoon:after {
+        content: 'coming\Asoon';
+        background: #434343;
+        color: #ea4d68;
+        line-height: 1;
+    }
+    #lp-top .event-list-full-img .item a.status-onsale:after {
+        content: 'on sale';
+        background: #ea4d68;
+        color: #fff;
+        line-height: 2;
+    }
+    #lp-top .event-list-full-img .item a.status-close:after {
+        content: 'close';
+        background: #000;
+        color: #fff;
+        line-height: 2;
+    }
+    #lp-top .event-list-full-img .item .caption {
+        width: 100%;
+        padding: 5px;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .2) 25%, rgba(0, 0, 0, .4) 100%)
+    }
+    #lp-top .event-list-full-img .item .title {
+        font-size: 12px;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 0 1px 8px rgb(0,0,0);
+    }
+    #lp-top .event-list-full-img .item .title .title-inner {
+        width: 100%;
+        line-height: 1.3;
+        max-height: 4em;
+        white-space: normal;
+        font-weight: bold;
+    }
+    #lp-top .event-list-full-img .item .info {
+        font-size: 10px;
+        color: #fff;
+        width: 100%;
+        line-height: 1.2;
+    }
+    #lp-top p.status-label {
+        font-weight: bold;
+    }
 
-		// Consider the first wrapped element as a template declaration, and get the compiled template or store it as a named template.
-		template: function( name ) {
-			return jQuery.template( name, this[0] );
-		},
+/*新着イベント*/
+    #lp-top .new_events_area {
+        padding-top: 30px;
+    }
+    #lp-top .new_events_area .banner-area-middle {
+        padding: 0 10px;
+    }
+    #lp-top .new_events_area h2 { /* add nakazato */
+        letter-spacing: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: auto;
+        padding-left: 0;
+        line-height: 1.7;
+    }
+    #lp-top .new_events_area .content-title p {
+        width: 190px;
+    }
+    #lp-top .new_events .list-item  {
+        margin-top: 0;
+    }
+    #lp-top .new_events_area .new_events a .title {
+        margin-bottom: 5px;
+        color: #15c7c0;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    #lp-top .new_events_area .new_events a .date {
+        display: inline-block;
+        width: 100%;
+        color: #3b3b3b;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #lp-top .new_events_area .new_events a .prefecture {
+        display: inline-block;
+        width: 100%;
+        color: #3b3b3b;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+/*〜を探す*/
+    #lp-top .search-panel * {
+        box-sizing: border-box;
+    }
+    #lp-top .search-panel {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #lp-top .search-panel-section {
+        background-color: #ededed;
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+    }
+    #lp-top .search-panel.search-panel-area {
+        margin-top: 4px;
+        padding: 0 20px;
+    }
+    #lp-top .search-panel h2 {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        padding-left: 30px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.3;
+    }
+    #lp-top .search-panel-content {
+        width: 100%;
+        padding-bottom: 30px;
+        border-top: none;
+        border-bottom: 2px solid #cbcbcb;
+    }
+    #lp-top .search-panel-content .search-panel-card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 2px 2px 6px 0 rgb(128 128 128 / 50%);
+        margin-bottom: 20px;
+    }
+    #lp-top .search-panel-content .search-panel-subtitle a {
+        font-size: 16px;
+        font-weight: 600 !important;
+        color: #ffffff;
+        font-weight: normal;
+        text-decoration: none !important;
+    }
+    #lp-top .search-panel-content .search-panel-subtitle h3 {
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+        text-align: left;
+        background-color: #15c7c0;
+        border-radius: 10px 10px 0 0;
+        background-image: url(../../pc_images_v3/pc/global_top/arrow_bar_right_mini.png);
+        background-repeat:  no-repeat;
+        background-position: right 20px center;
+        padding-left: 20px;
+    }
+    #lp-top .search-panel-category {
+        padding: 30px 20px 10px 20px;
+    }
+    #lp-top .search-panel-category h2 {
+        background-image: url(../../pc_images_v3/pc/global_top/search_panel_circle.png);
+        background-repeat:  no-repeat;
+        background-position: left 20px center;
+    }
+    #lp-top .search-panel-area h2 {
+        background-image: url(../../pc_images_v3/pc/global_top/search_panel_circle.png);
+        background-repeat:  no-repeat;
+        background-position: left 20px center;
+    }
+    #lp-top .search-panel-venue h2 {
+        background-image: url(../../pc_images_v3/pc/global_top/search_panel_circle.png);
+        background-repeat:  no-repeat;
+        background-position: left 20px center;
+    }
+    #lp-top .search-panel-category .search-panel-content .search-panel-subtitle a {
+        text-decoration: underline;
+        display: inline-block;
+        width: 100%;
+    }
+    /* #lp-top .search-panel-content .search-panel-list {
+        padding-left: 20px;
+    } */
+    #lp-top .search-panel-content .search-panel-list.no-padding-top {
+        padding-top: 0;
+    }
+    #lp-top #search-panel-category .search-panel-content .search-panel-list {
+        padding-bottom: 15px;
+        padding: 15px 0 15px 20px;
+    }
+    #lp-top .search-panel-content .search-panel-list a {
+        display: inline-block;
+        font-size: 14px;
+        color: #3b3b3b;
+        float: left;
+        margin-right: 20px;
+        line-height: 2;
+    }
+    /* #lp-top .search-panel-content .search-panel-list li:last-child a {
+        margin-right: 0;
+    } */
+    #lp-top #search-panel-category .search-panel-content .search-panel-list a,
+    #lp-top .search-panel-area .search-panel-content .search-panel-list a {
+        text-decoration: underline;
+    }
+    #lp-top .search-panel-area .search-panel-content .search-panel-list a.btn-more-large {
+        text-decoration: none;
+    }
+    #lp-top .search-panel-area {
+        padding: 30px 0 10px 0;
+    }
+    #lp-top .search-panel-content .search-panel-list a:hover {
+        color: #999;
+    }
+    #lp-top .search-panel-content .search-panel-sublist dl {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    #lp-top .search-panel-content .search-panel-sublist > ul li {
+        display: inline-block;
+        float: left;
+        padding-right: 25px;
+    }
+    #lp-top .search-panel-content .search-panel-sublist > ul li a {
+        margin-right: 0;
+    }
+    #lp-top .search-panel-content .search-panel-sublist .search-panel-subtitle a {
+        color: #ffffff;
+        line-height: 1;
+        font-size: 16px;
+    }
+    #lp-top .search-panel-area .search-panel-content .search-panel-sublist .search-panel-subtitle a {
+        text-decoration: underline;
+    }
+    #lp-top .search-panel-content .search-panel-sublist .search-panel-list {
+        padding-bottom: 9px;
+    }
+    #lp-top .search-panel-content .search-panel-sublist .search-panel-list a {
+        font-size: 12px;
+        line-height: 1;
+        float: none;
+        margin: 0;
+    }
+    #lp-top .search-panel-content .search-panel-sublist .search-panel-list li {
+        display: inline-block;
+        float: left;
+        padding-right: 5px;
+        height: 14px;
+        margin-bottom: 10px;
+    }
+    #lp-top .search-panel-content h3{
+        font-size: 14px;
+        color: #14b5b1;
+        text-align: center;
+    }
+    #lp-top .search-panel-content h3.left{
+        text-align: left;
+    }
+    #lp-top .search-panel-artist .search-panel-content,
+    #lp-top .search-panel-venue .search-panel-content {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    #lp-top .search-panel-content .search-panel-list-img {
+        position: relative;
+        width: 320px;
+        height: 585px;
+        margin: 0 auto;
+    }
+    #lp-top .search-panel-content .search-panel-list-img li {
+        display: inline;
+    }
+    #lp-top .search-panel-content .search-panel-list-img a {
+        display: inline-block;
+        width: 145px;
+        height: 170px;
+        float: left;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    #lp-top .search-panel-content .search-panel-list-img a img {
+        width: 145px;
+        height: 145px;
+    }
+    #lp-top .search-panel-content .search-panel-list-img a span {
+        display: block;
+        font-size: 12px;
+        color: #666666;
+    }
+    #lp-top .search-panel-artist .btn-more-large,
+    #lp-top .search-panel-venue .btn-more-large {
+        display: inline-block;
+        background-position: 210px 8px;
+        letter-spacing: 0;
+    }
+    #lp-top .search-panel-area .search-panel-area-prefectures {
+        height: 0;
+        overflow: hidden;
+    }
+    #lp-top .search-panel-area .search-panel-area-prefectures.active {
+        height: auto;
+        overflow: visible;
+    }
+    /* #lp-top .search-panel-area .search-panel-content .search-panel-sublist {
+        padding-top: 19px;
+    } */
+    #lp-top .search-panel-area .search-panel-popular-area {
+        margin-bottom: 30px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 2px 2px 6px 0 rgb(128 128 128 / 50%)
+    }
+    #lp-top .search-panel-area .search-panel-popular-area div {
+        position: relative;
+        text-align: center;
+        height: 70px;
+        line-height: 70px;
+    }
+    #lp-top .search-panel-area .search-panel-popular-area h3 {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        max-width: 100px;
+        height: 30px;
+        border: 2px solid;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center !important;
+        overflow: hidden;
+        border-radius: 45px;
+        left: 30px;
+        bottom: 20px;
+        font-weight: 600;
+    }
+    #lp-top .search-panel-area .search-panel-popular-area ul {
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        left: 50px;
+    }
+    #lp-top .search-panel-area .search-panel-popular-area li {
+        float: left;
+        padding-left: 15px;
+    }
+    #lp-top .search-panel-area .search-panel-popular-area li a {
+        font-size: 14px;
+        color: #000000;
+        text-decoration: underline;
+    }
+    #lp-top .search-panel-area .search-panel-region-area li {
+        display: inline-block;
+        margin-right: 35px;
+    }
+    #lp-top .search-panel-area .search-panel-region-area li a {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        color: #15c7c0;
+        text-decoration: underline;
+        background-image: url(../../pc_images_v3/sp/global_top/arrow_bar_right_green_mini.png);
+        background-repeat:  no-repeat;
+        background-position: right  center;
+    }
+    #lp-top .search-panel-area .search-panel-content .search-panel-card {
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    #lp-top .search-panel-area .search-panel-content .search-panel-card.search-panel-card-small {
+        height: 100px;
+    }
+    #lp-top .search-panel .search-panel-content .search-panel-sublist .search-panel-list {
+        padding: 15px 15px 0 15px;
+    }
+    #lp-top .search-panel-area .search-panel-content .search-panel-list .search-panel-area-prefectures .search-panel-subtitle a {
+        line-height: 40px;
+        display: inline-block;
+        width: 100%;
+    }
+    #lp-top .search-panel-area .search-panel-content .search-panel-list .search-panel-area-prefectures .search-panel-list a {
+        padding-right: 13px;
+        font-size: 14px;
+    }
+    #lp-top .search-panel.search-panel-category {
+        margin-bottom: 0;;
+    }
+    /* ライブハウスを探す */
+    #lp-top .search-panel-venue {
+        padding: 10px 0 10px 0;
+    }
+    #lp-top .search-panel-venue .search-panel-content {
+        border: none;
+    }
+    #lp-top .search-panel-venue .search-panel-venue-title {
+        padding: 0 20px;
+    }
+    #lp-top .search-panel.search-panel-venue .venue-item {
+        float: left;
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 150px;
+        height: 185px;
+        margin-bottom: 15px;
+        box-shadow: 2px 2px 6px 0 rgb(128, 128, 128, 0.5);
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+    .venue-item-left {
+        margin-right: 20px;
+    }
+    #lp-top .search-panel.search-panel-venue .venue-item a {
+        width: 100%;
+        text-decoration: none;
+    }
+    #lp-top .search-panel.search-panel-venue .venue-item span {
+        display: inline-block;
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 40px;
+        margin: 0;
+        padding-left: 10px;
+        text-align: left;
+        color: #ffffff;
+        background-color: #15c7c0;
+    }
+    #lp-top .search-panel.search-panel-venue .venue-item-center {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
 
-		domManip: function( args, table, callback, options ) {
-			// This appears to be a bug in the appendTo, etc. implementation
-			// it should be doing .call() instead of .apply(). See #6227
-			if ( args[0] && args[0].nodeType ) {
-				var dmArgs = jQuery.makeArray( arguments ), argsLength = args.length, i = 0, tmplItem;
-				while ( i < argsLength && !(tmplItem = jQuery.data( args[i++], "tmplItem" ))) {}
-				if ( argsLength > 1 ) {
-					dmArgs[0] = [jQuery.makeArray( args )];
-				}
-				if ( tmplItem && cloneIndex ) {
-					dmArgs[2] = function( fragClone ) {
-						// Handler called by oldManip when rendered template has been inserted into DOM.
-						jQuery.tmpl.afterManip( this, fragClone, callback );
-					};
-				}
-				oldManip.apply( this, dmArgs );
-			} else {
-				oldManip.apply( this, arguments );
-			}
-			cloneIndex = 0;
-			if ( !appendToTmplItems ) {
-				jQuery.tmpl.complete( newTmplItems );
-			}
-			return this;
-		}
-	});
+/*トピックス*/
+    #lp-top .topics_area {
+        width: 100%;
+        padding: 40px 0 1px;
+        background: #d3ebeb;
+        text-align: center;
+    }
+    #lp-top .topics_area .topics_content {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+    }
+    #lp-top .topics_area .content-title p {
+        width: 122px;
+    }
+    #lp-top .topics_area .topics_list {
+        padding: 35px 0 0;
+        padding-top: 17px;
+        padding-bottom: 5px;
+    }
+    #lp-top .topics_area .topics_item {
+        display: block;
+        position: relative;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    #lp-top .topics_area .topics_item dt {
+        display: inline-block;
+        position: absolute;
+        left: 150px;
+    }
+    #lp-top .topics_area .topics_item_date {
+        font-size: 14px;
+    }
+    #lp-top .topics_area .topics_category {
+        padding-bottom: 2px;
+        margin: 0 10px 10px;
+        color: #3b3b3b;
+        font-size: 12px;
+    }
+    #lp-top .topics_area .topics_item h3{
+        width: 100%;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    /* このcssは使用しない add nakazato */
+    #lp-top .topics_area .topics_category:before {
+        /*content: '';
+        display: inline-block;
+        text-align: center;
+        padding: 0px 8px;
+        margin-right: 6px;
+        color: #fff;
+        border-radius: 1px;
+        font-size: 10px;
+        line-height: 1.3;*/
+    }
+    #lp-top .topics_area .topics_category p {
+        margin-bottom: 5px;
+        font-size: 12px;
+        color: #3b3b3b;
+    }
+    #lp-top .topics_area .topics_category .category-label-display { /* add nakazato */
+        content: '';
+        margin-bottom: 5px;
+        display: inline-block;
+        text-align: center;
+        padding: 4px 15px;
+        margin-right: 6px;
+        color: #fff;
+        border-radius: 1px;
+        font-size: 12px;
+        line-height: 12px;
+        border-radius: 35px;
+    }
+    #lp-top .topics_area .topics_category_feature:before {
+        content: '特集';
+        background: #fa2e5f;
+    }
+    #lp-top .topics_area .topics_category_report:before {
+        content: 'イベントレポート';
+        background: #5380d3;
+    }
+    #lp-top .topics_area .topics_category_interview:before {
+        content: 'インタビュー';
+        background: #1abfc1;
+    }
+    #lp-top .topics_area .topics_category_release:before {
+        content: 'リリース';
+        background: #ca9cff;
+    }
+    #lp-top .topics_area .topics_category_news:before {
+        content: 'ニュース';
+        background: #ffad00;
+    }
+    #lp-top .topics_area .topics_category_column:before {
+        content: 'コラム';
+        background: #8a4f00;
+    }
+    #lp-top .topics_area .topics_category_organizer:before {
+        content: '主催者ニュース';
+        background: #151537;
+    }
+    #lp-top .topics_area .topics_item a {
+        display: block;
+        width: 100%;
+        height: 140px;
+        margin-bottom: 17px;
+        padding: 0 10px;
+        font-size: 13px;
+        color: #333;
+        position: relative;
+        box-sizing:border-box;
+    }
+    #lp-top .topics_area .topics_item a figure {
+        /* TODO:横並べ */
+        position: relative;
+        float: left;
+        height: 140px;
+        max-height: 140px;
+        width: 140px;
+        background: white;
+        overflow: hidden;
+        margin: 0;
+        border-radius: 10px;
+        box-shadow: 2px 2px 6px 0 rgb(128, 128, 128, 0.5);
+        
+    }
+    #lp-top .topics_area .topics_item a img {
+        display: inline-block;
+        max-width: 140px;
+        max-height: 140px;
+        position: relative;
+    }
+    #lp-top .topics_area .topics_item a img.square {
+        position: relative;
+        min-width: 140px;
+        min-height: 140px;
+    }
+    #lp-top .topics_area .topics_item a img.vertical {
+        position: relative;
+        max-height: none;
+        width: 100%;
+        min-width: 140px;
+    }
+    #lp-top .topics_area .topics_item a img.horizontal {
+        position: relative;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        transform: translate(-50%, 0%);
+        height: 100%;
+        min-height: 140px;
+        max-width: none;
+    }
+    #lp-top .topics_area .topics_item a span {
+        display: block;
+        width: 100%;
+        height: 130px;
+        margin-left: -140px;
+        padding-top: 48px;
+        padding-left: 150px;
+        line-height: 1.5;
+        vertical-align: top;
+        float: left;
+    }
+    #lp-top .topics_area .btn-more-large {
+        background: #15c7c0 url(../../pc_images_v3/sp/global_top/arrow_bar_right_big.png) right 15px center no-repeat;
+    }
+    #lp-top .topics_area .topics_item .display-new-text { /* add nakazato */
+        padding: 0px 5px;
+        color: #f12d80;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 1.3;
+    }
 
-	jQuery.extend({
-		// Return wrapped set of template items, obtained by rendering template against data.
-		tmpl: function( tmpl, data, options, parentItem ) {
-			var ret, topLevel = !parentItem;
-			if ( topLevel ) {
-				// This is a top-level tmpl call (not from a nested template using {{tmpl}})
-				parentItem = topTmplItem;
-				tmpl = jQuery.template[tmpl] || jQuery.template( null, tmpl );
-				wrappedItems = {}; // Any wrapped items will be rebuilt, since this is top level
-			} else if ( !tmpl ) {
-				// The template item is already associated with DOM - this is a refresh.
-				// Re-evaluate rendered template for the parentItem
-				tmpl = parentItem.tmpl;
-				newTmplItems[parentItem.key] = parentItem;
-				parentItem.nodes = [];
-				if ( parentItem.wrapped ) {
-					updateWrapped( parentItem, parentItem.wrapped );
-				}
-				// Rebuild, without creating a new template item
-				return jQuery( build( parentItem, null, parentItem.tmpl( jQuery, parentItem ) ));
-			}
-			if ( !tmpl ) {
-				return []; // Could throw...
-			}
-			if ( typeof data === "function" ) {
-				data = data.call( parentItem || {} );
-			}
-			if ( options && options.wrapped ) {
-				updateWrapped( options, options.wrapped );
-			}
-			ret = jQuery.isArray( data ) ? 
-				jQuery.map( data, function( dataItem ) {
-					return dataItem ? newTmplItem( options, parentItem, tmpl, dataItem ) : null;
-				}) :
-				[ newTmplItem( options, parentItem, tmpl, data ) ];
-			return topLevel ? jQuery( build( parentItem, null, ret ) ) : ret;
-		},
+/*イベント主催者の方*/
+    #lp-top .organizer_area {
+        background-color: #d3ebeb;
+        padding-bottom: 20px;
+    }
+    #lp-top .organizer_area .organizer_border {
+        width: 100%;
+        display: inline-block;
+    }
+    #lp-top .organizer_area .organizer_bg {
+        width: 100%;
+        height: 248px;
+        background: transparent url(../../pc_images_v3/sp/global_top/start_free.png) center bottom no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 20px 0 0;
+    }
+    #lp-top .organizer_area .organizer-inner {
+        width: 100%;
+        padding-top: 30px;
+        text-align: left;
+        text-align: center;
+        color: #3b3b3b;
+    }
+    #lp-top .organizer_area .organizer-txt p {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        
+    }
+    #lp-top .organizer_area .organizer-txt span {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    #lp-top .organizer_area .btn-more-large {
+        margin-top: 10px;
+        color: #15c7c0;
+        background: #ffffff url(../../pc_images_v3/sp/global_top/arrow_bar_right_green_big.png) right 20px center no-repeat;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 35px;
+        border: 3px solid #15c7c0;
+        box-shadow: 2px 2px 6px 0 rgb(128 128 128 / 50%);
+        margin-bottom: 10px;
+    }
 
-		// Return rendered template item for an element.
-		tmplItem: function( elem ) {
-			var tmplItem;
-			if ( elem instanceof jQuery ) {
-				elem = elem[0];
-			}
-			while ( elem && elem.nodeType === 1 && !(tmplItem = jQuery.data( elem, "tmplItem" )) && (elem = elem.parentNode) ) {}
-			return tmplItem || topTmplItem;
-		},
+    /*LivePocketとは？*/
+    #lp-top .organizer_area .organizer_list {
+        width: 100%;
+        margin: 40px auto;
+        padding: 0 10px 0 0;
+        margin-bottom: 30px;
+    }
+    #lp-top .organizer_area .organizer_list li a {
+        display: inline-block;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: calc(50% - 10px);
+    }
+    #lp-top .organizer_area .organizer_list .organizer_link1,
+    #lp-top .organizer_area .organizer_list .organizer_link6 {
+        width: calc(100% - 10px);
+    }
+    #lp-top .organizer_area .organizer_list li a img {
+        width: 100%;
+        height: 100%;
+    }
 
-		// Set:
-		// Use $.template( name, tmpl ) to cache a named template,
-		// where tmpl is a template string, a script element or a jQuery instance wrapping a script element, etc.
-		// Use $( "selector" ).template( name ) to provide access by name to a script block template declaration.
+/*お知らせ*/
+    #lp-top .news_area {
+        width: 100%;
+        background: #fafafa;
+        border-bottom: 2px solid #f4f4f4;
+        text-align: center;
+        padding: 30px 0;
+    }
+    #lp-top .news_content {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+    }
+    #lp-top .news_area .content-title p {
+        width: 202px;
+    }
+    #lp-top .news_area li a .title {
+        display: inline-block;
+        color: #3b3b3b;
+        font-size: 14px;
+        margin-top: 2px;
+        line-height: 1.3;
+    }
+    #lp-top .news_area li a span {
+        display: inline-block;
+        overflow: hidden;
+    }
+    #lp-top .news_area li a .date{
+        width: 103px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #15c7c0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    #lp-top .news_area li a .news_title{
+        max-width: 876px;
+        font-size: 14px;
+    }
+    #lp-top .news_area .btn-more-large {
+        margin: 20px auto 20px;
+    }
 
-		// Get:
-		// Use $.template( name ) to access a cached template.
-		// Also $( selectorToScriptBlock ).template(), or $.template( null, templateString )
-		// will return the compiled template, without adding a name reference.
-		// If templateString includes at least one HTML tag, $.template( templateString ) is equivalent
-		// to $.template( null, templateString )
-		template: function( name, tmpl ) {
-			if (tmpl) {
-				// Compile template and associate with name
-				if ( typeof tmpl === "string" ) {
-					// This is an HTML string being passed directly in.
-					tmpl = buildTmplFn( tmpl )
-				} else if ( tmpl instanceof jQuery ) {
-					tmpl = tmpl[0] || {};
-				}
-				if ( tmpl.nodeType ) {
-					// If this is a template block, use cached copy, or generate tmpl function and cache.
-					tmpl = jQuery.data( tmpl, "tmpl" ) || jQuery.data( tmpl, "tmpl", buildTmplFn( tmpl.innerHTML ));
-				}
-				return typeof name === "string" ? (jQuery.template[name] = tmpl) : tmpl;
-			}
-			// Return named compiled template
-			return name ? (typeof name !== "string" ? jQuery.template( null, name ): 
-				(jQuery.template[name] || 
-					// If not in map, treat as a selector. (If integrated with core, use quickExpr.exec) 
-					jQuery.template( null, htmlExpr.test( name ) ? name : jQuery( name )))) : null; 
-		},
+/* バナー */
+    .banner-area-medium {
+        padding-bottom: 0 !important;
+    }
+    .banner-area-medium .banner-item {
+        margin-top: 20px;
+    }
 
-		encode: function( text ) {
-			// Do HTML encoding replacing < > & and ' and " by corresponding entities.
-			return ("" + text).split("<").join("&lt;").split(">").join("&gt;").split('"').join("&#34;").split("'").join("&#39;");
-		}
-	});
+/*フッタ*/
+    .gfooter {
+        width: 100%;
+        padding: 0px 0 20px;
+        text-align: center;
+        background: #a0a0a0 url(../../pc_images_v3/sp/global_top/ft_logo.png) center 25px no-repeat;
+        background-size: 130px;
+    }
+    .gfooter .gfooter_sns {
+        width: 100%;
+        padding: 0 0 30px;
+        text-align: center;
+    }
+    .gfooter .gfooter_sns li {
+        display: inline;
+    }
+    .gfooter .gfooter_sns li a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: transparent url() 0 0 no-repeat;
+        background-size: contain;
+    }
+    .gfooter .gfooter_sns li + li a {
+        margin-left: 10px;
+    }
+    .gfooter .gfooter_sns li.twitter a {
+        background-image: url(../../pc_images_v3/sp/global_top/ft_twitter.png);
+    }
+    .gfooter .gfooter_sns li.facebook a {
+        background-image: url(../../pc_images_v3/sp/global_top/ft_facebook.png);
+    }
+    .gfooter .gfooter_sns li.line a {
+        background-image: url(../../pc_images_v3/sp/global_top/ft_line.png);
+    }
+    .gfooter .gfooter_sns li.mixi a {
+        background-image: url(../../pc_images_v3/sp/global_top/ft_mixi.png);
+    }
+    .gfooter .gfooter_sns li.mail a {
+        background-image: url(../../pc_images_v3/sp/global_top/ft_mail.png);
+    }
+    .gfooter .gfooter_links {
+        padding: 130px 10px 30px;
+        text-align: left;
+        padding-top: 10px;
+    }
+    .gfooter .gfooter_links li {
+        display: inline;
+    }
+    .gfooter .gfooter_links li a {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        color: #fff;
+        line-height: 2;
+        padding: 7px 10px;
+        border-bottom: 1px solid #929292;
+        background: transparent url(../../pc_images_v3/sp/global_top/link_arrow_white.png) right center no-repeat;
+        background-size: 16px;
+    }
+    .gfooter .gfooter_links li:first-child a {
+        border-top: 1px solid #929292;
+    }
+    .gfooter .gfooter_links li:nth-child(3) a {
+        font-size: 14px;
+    }
+    .gfooter .gfooter_terms p {
+        font-size: 10px;
+        color: #444;
+        margin-bottom: 10px;
+    }
+    .gfooter .gfooter_terms p:last-child {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #444;
+    }
 
-	jQuery.extend( jQuery.tmpl, {
-		tag: {
-			"tmpl": {
-				_default: { $2: "null" },
-				open: "if($notnull_1){_=_.concat($item.nest($1,$2));}"
-				// tmpl target parameter can be of type function, so use $1, not $1a (so not auto detection of functions)
-				// This means that {{tmpl foo}} treats foo as a template (which IS a function). 
-				// Explicit parens can be used if foo is a function that returns a template: {{tmpl foo()}}.
-			},
-			"wrap": {
-				_default: { $2: "null" },
-				open: "$item.calls(_,$1,$2);_=[];",
-				close: "call=$item.calls();_=call._.concat($item.wrap(call,_));"
-			},
-			"each": {
-				_default: { $2: "$index, $value" },
-				open: "if($notnull_1){$.each($1a,function($2){with(this){",
-				close: "}});}"
-			},
-			"if": {
-				open: "if(($notnull_1) && $1a){",
-				close: "}"
-			},
-			"else": {
-				_default: { $1: "true" },
-				open: "}else if(($notnull_1) && $1a){"
-			},
-			"html": {
-				// Unecoded expression evaluation. 
-				open: "if($notnull_1){_.push($1a);}"
-			},
-			"=": {
-				// Encoded expression evaluation. Abbreviated form is ${}.
-				_default: { $1: "$data" },
-				open: "if($notnull_1){_.push($.encode($1a));}"
-			},
-			"!": {
-				// Comment tag. Skipped by parser
-				open: ""
-			}
-		},
+/* レスポンシブ用 */
+#responsiveBaseFrame .gheader,
+#responsiveBaseFrame .gheader *,
+#responsiveBaseFrame .gfooter,
+#responsiveBaseFrame .gfooter * {
+    font-family: -apple-system, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
 
-		// This stub can be overridden, e.g. in jquery.tmplPlus for providing rendered events
-		complete: function( items ) {
-			newTmplItems = {};
-		},
+/*ヘッダ*/
+    #responsiveBaseFrame .gheader * {
+        box-sizing: border-box;
+    }
+    #responsiveBaseFrame .gheader section.clearfix > h1, #responsiveBaseFrame header section.clearfix > h2 {
+        padding: 0;
+    }
+    #responsiveBaseFrame .gheader section.clearfix.sp-login > h1 {
+        padding-top: 5px;
+    }
+    #responsiveBaseFrame .gheader section.clearfix > h1 a, #responsiveBaseFrame header section.clearfix > h2 a {
+        display: block;
+        width: 117px;
+        height: 28px;
+        background-image: url(../../pc_images_v3/sp/global_top/hd_logo.png);
+        background-size: cover;
+    }
+    #responsiveBaseFrame .gheader section.clearfix {
+        padding: 8px 5px 0 10px;
+        min-height: 40px;
+    }
+    #responsiveBaseFrame .gheader section.clearfix.sp-login {
+        min-height: 42px;
+    }
 
-		// Call this from code which overrides domManip, or equivalent
-		// Manage cloning/storing template items etc.
-		afterManip: function afterManip( elem, fragClone, callback ) {
-			// Provides cloned fragment ready for fixup prior to and after insertion into DOM
-			var content = fragClone.nodeType === 11 ?
-				jQuery.makeArray(fragClone.childNodes) :
-				fragClone.nodeType === 1 ? [fragClone] : [];
+    #responsiveBaseFrame .gheader .gheader_menu {
+        position: relative;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_open {
+        display: block;
+        width: 120px;
+        height: 24px;
+        line-height: 24px;
+        background: #e94d67;
+        border: 1px solid #e94d67;
+        border-radius: 2px;
+        text-align: center;
+        font-size: 10px;
+        color: #fff;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_open {
+        background: url(../../pc_images_v3/sp/global_top/hd_login.png) 6px 6px no-repeat;
+        background-size: 10px;
+        padding-left: 12px;
+        background-color: #e94d67;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_close {
+        display: block;
+        width: 120px;
+        height: 24px;
+        line-height: 24px;
+        background: #fff;
+        border: 1px solid #14b5b0;
+        border-radius: 2px;
+        text-align: center;
+        font-size: 10px;
+        color: #14b5b1;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_close {
+        background: url(../../pc_images_v3/sp/global_top/hd_close.png) 100px 7px no-repeat;
+        background-size: 10px;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu dt .gheader_menu_close {
+        display: none;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu.active dt .gheader_menu_close {
+        display: block;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu.active dt .gheader_menu_open {
+        display: none;
+    }
+    /*メニュー*/
+    #responsiveBaseFrame .gheader .gheader_menu {
+        position: relative;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu dd {
+        position: absolute;
+        top: 32px;
+        right: -5px;
+        z-index: 1;
+        height: 0;
+        overflow: hidden;
 
-			// Return fragment to original caller (e.g. append) for DOM insertion
-			callback.call( elem, fragClone );
+        transition-property: height;
+        transition-duration: .3s;
+        transition-timing-function: ease-out;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu.active dd {
+        /*height: auto;*/
+        height: 350px;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_content {
+        border: 1px solid #14b5b1;
+        background: #fff;
+        width: 285px;
+        padding: 10px;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_content p {
+        font-size: 15px;
+        color: #333;
+        background: #eee;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_content .btn {
+        display: block;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+        background: #e94d67;
+        border-bottom: 3px solid #b12a3c;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin: 10px auto 20px;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_content ul {
+        margin-bottom: 20px;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_content li a {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        color: #14b5b1;
+        padding: 6px 10px;
+        border-bottom: 1px solid #dcdcdc;
+        background: transparent url(../../pc_images_v3/sp/global_top/link_arrow_green.png) right center no-repeat;
+        background-size: 14px;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_content a img {
+        width: 100%;
+        height: auto;
+    }
+    #responsiveBaseFrame .gheader .gheader_menu .gheader_menu_content .gheader_menu_close {
+        margin: 20px auto 0;
+    }
 
-			// Fragment has been inserted:- Add inserted nodes to tmplItem data structure. Replace inserted element annotations by jQuery.data.
-			storeTmplItems( content );
-			cloneIndex++;
-		}
-	});
+    /* PCヘッダは非表示に */
+    #responsiveBaseFrame .gheader nav .login {
+        display: none;
+    }
 
-	//========================== Private helper functions, used by code above ==========================
+    /* SPヘッダは表示 */
+    #responsiveBaseFrame .gheader .gheader_menu {
+        display: block;
+    }
 
-	function build( tmplItem, nested, content ) {
-		// Convert hierarchical content into flat string array 
-		// and finally return array of fragments ready for DOM insertion
-		var frag, ret = content ? jQuery.map( content, function( item ) {
-			return (typeof item === "string") ? 
-				// Insert template item annotations, to be converted to jQuery.data( "tmplItem" ) when elems are inserted into DOM.
-				(tmplItem.key ? item.replace( /(<\w+)(?=[\s>])(?![^>]*_tmplitem)([^>]*)/g, "$1 " + tmplItmAtt + "=\"" + tmplItem.key + "\" $2" ) : item) :
-				// This is a child template item. Build nested template.
-				build( item, tmplItem, item._ctnt );
-		}) : 
-		// If content is not defined, insert tmplItem directly. Not a template item. May be a string, or a string array, e.g. from {{html $item.html()}}. 
-		tmplItem;
-		if ( nested ) {
-			return ret;
-		}
+/*フッタ*/
+    #responsiveBaseFrame .gfooter {
+        width: 100%;
+        padding: 0px 0 20px;
+        text-align: center;
+        background: #a0a0a0 url(../../pc_images_v3/sp/global_top/ft_logo.png) center 25px no-repeat;
+        background-size: 130px;
+    }
+    #responsiveBaseFrame .footer-sp-category-list {
+        /* 追加 */
+        padding: 85px 20px 12px 12px;
+    }
+    #responsiveBaseFrame .footer-sp-category-list .cat {
+        /* 追加 */
+        margin: 12px 0 0;
+    }
+    #responsiveBaseFrame .footer-sp-category-list .category-view a {
+        /* 追加 */
+        font-weight: bold;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_sns {
+        width: 100%;
+        padding: 0 0 30px;
+        text-align: center;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_sns li {
+        display: inline;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_sns li a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: transparent url() 0 0 no-repeat;
+        background-size: contain;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_sns li + li a {
+        margin-left: 10px;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_sns li.twitter a {
+        background-image: url(../../pc_images_v3/sp/global_top/ft_twitter.png);
+    }
+    #responsiveBaseFrame .gfooter .gfooter_sns li.facebook a {
+        background-image: url(../../pc_images_v3/sp/global_top/ft_facebook.png);
+    }
+    #responsiveBaseFrame .gfooter .gfooter_sns li.line a {
+        background-image: url(../../pc_images_v3/sp/global_top/ft_line.png);
+    }
+    #responsiveBaseFrame .gfooter .gfooter_sns li.mixi a {
+        background-image: url(../../pc_images_v3/sp/global_top/ft_mixi.png);
+    }
+    #responsiveBaseFrame .gfooter .gfooter_sns li.mail a {
+        background-image: url(../../pc_images_v3/sp/global_top/ft_mail.png);
+    }
+    #responsiveBaseFrame .gfooter .gfooter_links {
+        padding: 10px 10px 30px;
+        text-align: left;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_links li {
+        display: inline;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_links li a {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        color: #fff;
+        line-height: 2;
+        padding: 7px 10px;
+        border-bottom: 1px solid #929292;
+        background: transparent url(../../pc_images_v3/sp/global_top/link_arrow_white.png) right center no-repeat;
+        background-size: 16px;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_links li:first-child a {
+        border-top: 1px solid #929292;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_links li:nth-child(3) a {
+        font-size: 14px;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_terms p {
+        font-size: 10px;
+        color: #444;
+        margin-bottom: 10px;
+    }
+    #responsiveBaseFrame .gfooter .gfooter_terms p:last-child {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #444;
+    }
 
-		// top-level template
-		ret = ret.join("");
+    /* SPフッダは表示 */
+    #responsiveBaseFrame .gfooter .gfooter_links.sp {
+        display: block;
+    }
 
-		// Support templates which have initial or final text nodes, or consist only of text
-		// Also support HTML entities within the HTML markup.
-		ret.replace( /^\s*([^<\s][^<]*)?(<[\w\W]+>)([^>]*[^>\s])?\s*$/, function( all, before, middle, after) {
-			frag = jQuery( middle ).get();
-
-			storeTmplItems( frag );
-			if ( before ) {
-				frag = unencode( before ).concat(frag);
-			}
-			if ( after ) {
-				frag = frag.concat(unencode( after ));
-			}
-		});
-		return frag ? frag : unencode( ret );
-	}
-
-	function unencode( text ) {
-		// Use createElement, since createTextNode will not render HTML entities correctly
-		var el = document.createElement( "div" );
-		el.innerHTML = text;
-		return jQuery.makeArray(el.childNodes);
-	}
-
-	// Generate a reusable function that will serve to render a template against data
-	function buildTmplFn( markup ) {
-		return new Function("jQuery","$item",
-			"var $=jQuery,call,_=[],$data=$item.data;" +
-
-			// Introduce the data as local variables using with(){}
-			"with($data){_.push('" +
-
-			// Convert the template into pure JavaScript
-			jQuery.trim(markup)
-				.replace( /([\\'])/g, "\\$1" )
-				.replace( /[\r\t\n]/g, " " )
-				.replace( /\$\{([^\}]*)\}/g, "{{= $1}}" )
-				.replace( /\{\{(\/?)(\w+|.)(?:\(((?:[^\}]|\}(?!\}))*?)?\))?(?:\s+(.*?)?)?(\(((?:[^\}]|\}(?!\}))*?)\))?\s*\}\}/g,
-				function( all, slash, type, fnargs, target, parens, args ) {
-					var tag = jQuery.tmpl.tag[ type ], def, expr, exprAutoFnDetect;
-					if ( !tag ) {
-						throw "Template command not found: " + type;
-					}
-					def = tag._default || [];
-					if ( parens && !/\w$/.test(target)) {
-						target += parens;
-						parens = "";
-					}
-					if ( target ) {
-						target = unescape( target ); 
-						args = args ? ("," + unescape( args ) + ")") : (parens ? ")" : "");
-						// Support for target being things like a.toLowerCase();
-						// In that case don't call with template item as 'this' pointer. Just evaluate...
-						expr = parens ? (target.indexOf(".") > -1 ? target + parens : ("(" + target + ").call($item" + args)) : target;
-						exprAutoFnDetect = parens ? expr : "(typeof(" + target + ")==='function'?(" + target + ").call($item):(" + target + "))";
-					} else {
-						exprAutoFnDetect = expr = def.$1 || "null";
-					}
-					fnargs = unescape( fnargs );
-					return "');" + 
-						tag[ slash ? "close" : "open" ]
-							.split( "$notnull_1" ).join( target ? "typeof(" + target + ")!=='undefined' && (" + target + ")!=null" : "true" )
-							.split( "$1a" ).join( exprAutoFnDetect )
-							.split( "$1" ).join( expr )
-							.split( "$2" ).join( fnargs ?
-								fnargs.replace( /\s*([^\(]+)\s*(\((.*?)\))?/g, function( all, name, parens, params ) {
-									params = params ? ("," + params + ")") : (parens ? ")" : "");
-									return params ? ("(" + name + ").call($item" + params) : all;
-								})
-								: (def.$2||"")
-							) +
-						"_.push('";
-				}) +
-			"');}return _;"
-		);
-	}
-	function updateWrapped( options, wrapped ) {
-		// Build the wrapped content. 
-		options._wrap = build( options, true, 
-			// Suport imperative scenario in which options.wrapped can be set to a selector or an HTML string.
-			jQuery.isArray( wrapped ) ? wrapped : [htmlExpr.test( wrapped ) ? wrapped : jQuery( wrapped ).html()]
-		).join("");
-	}
-
-	function unescape( args ) {
-		return args ? args.replace( /\\'/g, "'").replace(/\\\\/g, "\\" ) : null;
-	}
-	function outerHtml( elem ) {
-		var div = document.createElement("div");
-		div.appendChild( elem.cloneNode(true) );
-		return div.innerHTML;
-	}
-
-	// Store template items in jQuery.data(), ensuring a unique tmplItem data data structure for each rendered template instance.
-	function storeTmplItems( content ) {
-		var keySuffix = "_" + cloneIndex, elem, elems, newClonedItems = {}, i, l, m;
-		for ( i = 0, l = content.length; i < l; i++ ) {
-			if ( (elem = content[i]).nodeType !== 1 ) {
-				continue;
-			}
-			elems = elem.getElementsByTagName("*");
-			for ( m = elems.length - 1; m >= 0; m-- ) {
-				processItemKey( elems[m] );
-			}
-			processItemKey( elem );
-		}
-		function processItemKey( el ) {
-			var pntKey, pntNode = el, pntItem, tmplItem, key;
-			// Ensure that each rendered template inserted into the DOM has its own template item,
-			if ( (key = el.getAttribute( tmplItmAtt ))) {
-				while ( pntNode.parentNode && (pntNode = pntNode.parentNode).nodeType === 1 && !(pntKey = pntNode.getAttribute( tmplItmAtt ))) { }
-				if ( pntKey !== key ) {
-					// The next ancestor with a _tmplitem expando is on a different key than this one.
-					// So this is a top-level element within this template item
-					// Set pntNode to the key of the parentNode, or to 0 if pntNode.parentNode is null, or pntNode is a fragment.
-					pntNode = pntNode.parentNode ? (pntNode.nodeType === 11 ? 0 : (pntNode.getAttribute( tmplItmAtt ) || 0)) : 0;
-					if ( !(tmplItem = newTmplItems[key]) ) {
-						// The item is for wrapped content, and was copied from the temporary parent wrappedItem.
-						tmplItem = wrappedItems[key];
-						tmplItem = newTmplItem( tmplItem, newTmplItems[pntNode]||wrappedItems[pntNode], null, true );
-						tmplItem.key = ++itemKey;
-						newTmplItems[itemKey] = tmplItem;
-					}
-					if ( cloneIndex ) {
-						cloneTmplItem( key );
-					}
-				}
-				el.removeAttribute( tmplItmAtt );
-			} else if ( cloneIndex && (tmplItem = jQuery.data( el, "tmplItem" )) ) {
-				// This was a rendered element, cloned during append or appendTo etc.
-				// TmplItem stored in jQuery data has already been cloned in cloneCopyEvent. We must replace it with a fresh cloned tmplItem.
-				cloneTmplItem( tmplItem.key );
-				newTmplItems[tmplItem.key] = tmplItem;
-				pntNode = jQuery.data( el.parentNode, "tmplItem" );
-				pntNode = pntNode ? pntNode.key : 0;
-			}
-			if ( tmplItem ) {
-				pntItem = tmplItem;
-				// Find the template item of the parent element. 
-				// (Using !=, not !==, since pntItem.key is number, and pntNode may be a string)
-				while ( pntItem && pntItem.key != pntNode ) { 
-					// Add this element as a top-level node for this rendered template item, as well as for any
-					// ancestor items between this item and the item of its parent element
-					pntItem.nodes.push( el );
-					pntItem = pntItem.parent;
-				}
-				// Delete content built during rendering - reduce API surface area and memory use, and avoid exposing of stale data after rendering...
-				delete tmplItem._ctnt;
-				delete tmplItem._wrap;
-				// Store template item as jQuery data on the element
-				jQuery.data( el, "tmplItem", tmplItem );
-			}
-			function cloneTmplItem( key ) {
-				key = key + keySuffix;
-				tmplItem = newClonedItems[key] = 
-					(newClonedItems[key] || newTmplItem( tmplItem, newTmplItems[tmplItem.parent.key + keySuffix] || tmplItem.parent, null, true ));
-			}
-		}
-	}
-
-	//---- Helper functions for template item ----
-
-	function tiCalls( content, tmpl, data, options ) {
-		if ( !content ) {
-			return stack.pop();
-		}
-		stack.push({ _: content, tmpl: tmpl, item:this, data: data, options: options });
-	}
-
-	function tiNest( tmpl, data, options ) {
-		// nested template, using {{tmpl}} tag
-		return jQuery.tmpl( jQuery.template( tmpl ), data, options, this );
-	}
-
-	function tiWrap( call, wrapped ) {
-		// nested template, using {{wrap}} tag
-		var options = call.options || {};
-		options.wrapped = wrapped;
-		// Apply the template, which may incorporate wrapped content, 
-		return jQuery.tmpl( jQuery.template( call.tmpl ), call.data, options, call.item );
-	}
-
-	function tiHtml( filter, textOnly ) {
-		var wrapped = this._wrap;
-		return jQuery.map(
-			jQuery( jQuery.isArray( wrapped ) ? wrapped.join("") : wrapped ).filter( filter || "*" ),
-			function(e) {
-				return textOnly ?
-					e.innerText || e.textContent :
-					e.outerHTML || outerHtml(e);
-			});
-	}
-
-	function tiUpdate() {
-		var coll = this.nodes;
-		jQuery.tmpl( null, null, null, this).insertBefore( coll[0] );
-		jQuery( coll ).remove();
-	}
-})( jQuery );
+    /* PCフッダは非表示 */
+    #responsiveBaseFrame .gfooter .gfooter_links.pc {
+        display: none;
+    }

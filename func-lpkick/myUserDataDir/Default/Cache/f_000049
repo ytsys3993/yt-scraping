@@ -1,700 +1,513 @@
-@charset "UTF-8";
-
-#responsiveBaseFrame #areaContents {
-    padding-top: 10px;
-}
-
-/*-- 購入ボタンが無い場合のマージン --*/
-/*-- (ある場合は相殺) --*/
-#discription {
-    padding: 15px;
-}
-
-/*-- イベントスケジュール --*/
-#responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.map,
-#responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.artist {
-    max-width: 175px;
-    box-sizing: content-box;
-    margin-right: 0;
-}
-@media screen and (min-width: 340px) {
-    #responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.map,
-    #responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.artist {
-        max-width: 185px;
-    }
-}
-@media screen and (min-width: 360px) {
-    #responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.map,
-    #responsiveBaseFrame #areaContents #schedule > ul li a section.date ul li.artist {
-        max-width: 205px;
-    }
-}
-#responsiveBaseFrame #areaContents #schedule .arrowGreen {
-    padding-right: 30px;
-}
-
-#responsiveBaseFrame #areaContents #schedule .label-status {
-    margin-right: 3px;
-}
-
-/*-- 関連リンク --*/
-#responsiveBaseFrame #areaContents #linkContactOrganizer .fix-button a{
-}
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer .fix-button a:before{
-    right: 10px;
-}
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer .fix-button a span:before{
-    background-image: none;
-}
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a figure{
-    vertical-align: middle;
-}
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #link li a section {
-    width: 100%;
-}
-
-#responsiveBaseFrame #areaContents #ticket .reception-end {
-}
-
-#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary {
-    min-height: 0;
-}
-
-/* 販売元 */
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section.fix-border {
-    border-top: none;
-}
-
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #organizer .button {
-    margin-bottom: 0;
-}
-
-
-/*-- 購入枚数制限で申込済み --*/
-#responsiveBaseFrame #areaContents #ticket .ticket .table .num .ordered-text {
-    color: #E25454;
-    margin-top: 5px;
-}
-
-/*-- 受付ごとにマージン調整 −−*/
-#responsiveBaseFrame #areaContents #ticket .wrapAllTicket {
-    border: none;
-}
-
-#responsiveBaseFrame #areaContents #ticket .wrapAllTicket h2 {
-    text-align:center;
-}
-
-#responsiveBaseFrame #areaContents #ticket .wrapAllTicket .wrapTicket {
-    margin-top: 10px;
-    color: #111;
-}
-
-#responsiveBaseFrame #areaContents #ticket .wrapAllTicket .wrapTicket:first-child {
-    margin-top: 0;
-}
-
-/*-- お問い合わせアイコン付きボタン --*/
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="http"],
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="mailto:"],
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="tel:"] {
-    background-image: none;
-    position: relative;
-    text-align: center;
-    padding-left: 10px;
-}
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="http"]:after,
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="mailto:"]:after,
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="tel:"]:after {
-    display: none;
-}
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a span {
-	margin-left: -23px;
-    padding-left: 23px;
-    background-repeat: no-repeat;
-    background-position: left center;
-}
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="tel:"] span {
-    margin-left: -20px;
-    padding-left: 20px;
-}
-
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="mailto:"] span {
-	
-}
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="http"] span {
-	background-image: url(../../pc_images_v2/sp/event/iconWeb.png);
-    -webkit-background-size: 17px 17px;
-    background-size: 17px 17px;
-}
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .button.fix-button a[href*="tel:"] span {
-}
-
-
-#responsiveBaseFrame #areaContents #information > .data div.content-body {
-    padding: 0px;
-}
-
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section a.no-icon:after {
-    background-image: none;
-}
-
-#responsiveBaseFrame #areaContents #ticket .ticket .table .num label select {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .title {
-    margin-bottom: 3px;
-}
-
-#responsiveBaseFrame #areaContents #information .shareAndBookmarkSP {
-    text-align: left;
-}
-
-#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .shareAndBookmarkSP p a {
-    line-height: 23px;
-}
-
-/*-- wysiwygから入る情報等 --*/
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg,
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg * ,
-#responsiveBaseFrame #areaContents #contact .wysiwyg,
-#responsiveBaseFrame #areaContents #contact .wysiwyg * {
-    text-align: left;
-    padding: 0;
-    margin: 0;
-}
-
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg a,
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg a:link,
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg a:visited,
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg a:active {
-    color: #19B5AF!important;
-}
-
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg a:hover {
-    color: #53c8c3!important;
-}
-
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg ul {
-    list-style: disc;
-}
-
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg ol {
-    list-style: decimal;
-}
-
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg li {
-    list-style-image: none;
-    list-style-position: inside;
-}
-
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg ul li {
-    list-style-type: disc;
-}
-
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg ol li {
-    list-style-type: decimal;
-}
-
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg em {
-    font-family: 'ＭＳ Ｐゴシック', Arial, verdana, sans-serif;
-}
-
-#responsiveBaseFrame #areaContents #information > .data .wysiwyg img {
-    width: 100%!important;
-    height: auto;
-}
-
-/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-SMS認証
-(シリアルコード/FC連携を参考に記述
- 変更する場合は共通部分も変更すること)
-−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-#responsiveBaseFrame #areaContents #ticket .auth-ticket {
-    position: relative;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-#responsiveBaseFrame #areaContents #ticket .sms-auth-ticket {
-
-}
-
-#responsiveBaseFrame #areaContents #ticket .auth-ticket .title,
-#responsiveBaseFrame #areaContents #ticket .auth-ticket .text {
-    letter-spacing: -.3px;
-}
-
-#responsiveBaseFrame #areaContents #ticket .auth-ticket .title {
-    font-size: 13px;
-    font-weight: bold;
-    position: relative;
-    color: #111;
-}
-
-#responsiveBaseFrame #areaContents #ticket .auth-ticket .title:before {
-    position: absolute;
-    content: '';
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 28px;
-    height: 28px;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: 0 center;
-    -webkit-background-size: 28px 28px;
-    background-size: 28px 28px;
-    left: 0;
-    top: 0;
-}
-
-#responsiveBaseFrame #areaContents #ticket .sms-auth-ticket .title {
-    padding-left: 35px;
-    margin-bottom: 2px;
-}
-
-#responsiveBaseFrame #areaContents #ticket .sms-auth-ticket .title:before {
-    background-image: url(../../pc_images_v2/sp/event/icon/sms_auth_sq.png);
-}
-
-
-#responsiveBaseFrame #areaContents #ticket .auth-ticket .text {
-    font-size: 12px;
-    margin-left: 35px;
-    color: #111;
-    -webkit-font-smoothing: antialiased;
-}
-
-/* −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-シリアルコード / FC連携
-( 変更する場合はSMS認証の共通部分も変更すること)
-−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− */
-#responsiveBaseFrame #areaContents #ticket .limited-ticket {
-    position: relative;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-#responsiveBaseFrame #areaContents #ticket .serial-code-ticket {
-
-}
-
-#responsiveBaseFrame #areaContents #ticket .fan-club-ticket {
-    color: #666;
-    border: none;
-}
-
-#responsiveBaseFrame #areaContents #ticket .limited-ticket .title,
-#responsiveBaseFrame #areaContents #ticket .limited-ticket .text {
-    letter-spacing: -.3px;
-}
-#responsiveBaseFrame #areaContents #ticket .limited-ticket .title {
-    font-size: 13px;
-    font-weight: bold;
-    position: relative;
-    color: #111;
-}
-
-#responsiveBaseFrame #areaContents #ticket .limited-ticket .title:before {
-    position: absolute;
-    content: '';
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 28px;
-    height: 28px;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: 0 center;
-    -webkit-background-size: 28px 28px;
-            background-size: 28px 28px;
-    left: 0;
-    top: 0;
-}
-
-#responsiveBaseFrame #areaContents #ticket .serial-code-ticket .title,
-#responsiveBaseFrame #areaContents #ticket .fan-club-ticket .title,
-#responsiveBaseFrame #areaContents #ticket .fc-appli-ticket .title {
-    padding-left: 35px;
-    margin-bottom: 2px;
-}
-
-#responsiveBaseFrame #areaContents #ticket .serial-code-ticket .title:before {
-    background-image: url(../../pc_images_v2/sp/event/icon/serial_code_circle.png);
-}
-
-#responsiveBaseFrame #areaContents #ticket .fan-club-ticket .title:before,
-#responsiveBaseFrame #areaContents #ticket .fc-appli-ticket .title:before {
-    background-image: url(../../pc_images_v2/sp/event/icon/fan_club_circle.png);
-}
-
-#responsiveBaseFrame #areaContents #ticket .fc-appli-ticket .element {
-    margin-right: 14px;
-}
-
-#responsiveBaseFrame #areaContents #ticket .fc-appli-ticket .caution {
-    text-align: justify;
-}
-
-#responsiveBaseFrame #areaContents #ticket .limited-ticket .text {
-    font-size: 12px;
-    margin-left: 35px;
-    color: #111;
-    -webkit-font-smoothing: antialiased;
-}
-
-
-#responsiveBaseFrame #areaContents #ticket .limited-ticket.fan-club-ticket .text .date {
-    color: #fff;
-    padding: 2px 5px 1px;
-    margin-right: 0.5em;
-    background-color: #f012b5;
-    display: block;
-    width: 100px;
-    text-align: center;
-    margin-top: 0.3em;
-    margin-bottom: 0.4em;
-}
-
-
-#responsiveBaseFrame #areaContents #information .eventSlider .eventSummary .shareAndBookmarkSP p.btnBookmark a#delete_bookmark_sp {
-    background-image: url(../../pc_images_v2/sp/event/iconBookmarkOn.png);
-}
-
-/* wysiwygの background-image 打ち消し */
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg {
-    margin-top: 10px;
-}
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="http"],
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="mailto:"],
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="tel:"] {
-    position: static;
-    height: auto;
-    margin: 0;
-    padding-left: 0;
-    text-align: left;
-    line-height: 1.7;
-    background-image: none;
-}
-
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="http"]:after,
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="mailto:"]:after,
-#responsiveBaseFrame #areaContents #linkContactOrganizer #contact section .wysiwyg a[href*="tel:"]:after {
-    display: none;
-    background-image: none;
-    margin-top: 0;
-    margin-left: 0;
-    width: 0;
-    height: 0;
-    background-repeat: no-repeat;
-}
-
-/* -- 関連イベント -- */
-#responsiveBaseFrame #areaContents #information .related-event a {
-    margin-top: 15px;
-    padding: 3px 5px;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    border: 1px solid #D9E0E0;
-    font-size: 15px;
-}
-
-#responsiveBaseFrame #areaContents #information .related-event a:hover {
-}
-
-#responsiveBaseFrame #areaContents #information .related-event a:before {
-    content: "";
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: 0 bottom;
-    background-image: url(../../pc_images_v2/sp/event/icon_chain.png);
-    width: 10px;
-    height: 10px;
-    -webkit-background-size: 10px;
-    background-size: 10px;
-    margin-right: 3px;
-    position: relative;
-    top: 1px;
-}
-
-/*-- 問合わせボタン修正 --*/
-#responsiveBaseFrame #areaContents .button.fix-button span {
-    background: none;
-    display: inline-block;
-    background-color: transparent;
-    color: #fff;
-    padding-top: 0;
-    padding-bottom: 0;
-    position: static;
-}
-
-/*-- 中止設定のお問い合わせボタン --*/
-#responsiveBaseFrame .atention-msg .btn-inquiry {
-    margin-top: 7px;
-}
-
-
-/* -- QRcode section -- */
-#responsiveBaseFrame .outer-below-box .pull-left {
-    float: left;
-    margin-bottom: 20px;
-}
-
-#responsiveBaseFrame .sec-qr-code {
-    width: 100%;
-    height: 130px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid #D9E0E0;
-    margin: 0 10px 0 0;
-    padding: 10px 15px;
-}
-
-#responsiveBaseFrame .sec-qr-code-qr {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
-    border: 1px solid #D9E0E0;
-}
-
-#responsiveBaseFrame .sec-qr-code-text .title {
-    margin-top: 13px;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-#responsiveBaseFrame .sec-qr-code-text .body {
-    line-height: 1.3;
-    margin-top: 5px;
-    font-size: 11px;
-}
-
-#responsiveBaseFrame .sec-share-module {
-    width: 100%;
-    height: 116px;
-    border: 1px solid #D9E0E0;
-    padding: 15px 10px;
-
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-#responsiveBaseFrame .sec-share-module .share-button-outer {
-    width: 278px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#responsiveBaseFrame .sec-share-module .share-button {
-    width: 50px;
-    height: 50px;
-    margin-left: 7px;
-    -webkit-background-size: 100%;
-    background-size: 100%;
-}
-
-#responsiveBaseFrame .sec-share-module .share-button a{
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-indent: -9999px;
-}
-
-#responsiveBaseFrame .sec-share-module .share-button:first-child {
-    margin-left: 0;
-}
-
-#responsiveBaseFrame .sec-share-module .title {
-    width: 188px;
-    height: 20px;
-    background-image: url(../../pc_images_v2/sp/event/share_event.png);
-    -webkit-background-size: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-bottom: 10px;
-    text-indent: -9999px;
-}
-
-#responsiveBaseFrame .sec-share-module .twitter {
-    background-image: url(../../pc_images_v2/sp/event/share/tw.png);
-}
-
-#responsiveBaseFrame .sec-share-module .fb {
-    background-image: url(../../pc_images_v2/sp/event/share/fb.png);
-}
-
-#responsiveBaseFrame .sec-share-module .mixi {
-    background-image: url(../../pc_images_v2/sp/event/share/mixi.png);
-}
-
-#responsiveBaseFrame .sec-share-module .mail {
-    background-image: url(../../pc_images_v2/sp/event/share/mail.png);
-}
-
-#responsiveBaseFrame .sec-share-module .line {
-    background-image: url(../../pc_images_v2/sp/event/share/line.png);
-}
-
-/*-- 招待コードPOPUPリンク --*/
-#responsiveBaseFrame .discount-code-link {
-    background: rgba(255, 255, 255, 1); !important;
-    width: 100% !important;
-    padding-top: 6px !important;
-    padding-bottom: 6px !important;
-}
-#responsiveBaseFrame .discount-code-uncheck {
-    /*text-align: right;*/
-}
-#responsiveBaseFrame .discount-code-link a {
-    text-decoration: underline;
-    font-size:  20px;
-    padding-left: 30px;
-    padding-right: 24px;
-    padding-top: 2px;
-    color: #ef3481;
-}
-
-/*-- 招待コード金額 --*/
-#responsiveBaseFrame .real_price {
-    color: #000000;
-    margin-right: 8px;
-}
-
-/* ----------------
-   LINK
----------------- */
-#responsiveBaseFrame a,
-#responsiveBaseFrame a:link,
-#responsiveBaseFrame a:visited,
-#responsiveBaseFrame a:active,
-#responsiveBaseFrame a:hover,
-#responsiveBaseFrame header a:hover,
-#responsiveBaseFrame #sideMenu a:hover
-{
-    text-decoration:none!important;
-}
-
-.button.btn-procedure-pc-only {
-    display: none;
-}
-
-/**
- * event detail lightbox
+/*!
+ * Lightbox v2.9.0
+ * by Lokesh Dhakar
+ *
+ * More info:
+ * http://lokeshdhakar.com/projects/lightbox2/
+ *
+ * Copyright 2007, 2015 Lokesh Dhakar
+ * Released under the MIT license
+ * https://github.com/lokesh/lightbox2/blob/master/LICENSE
  */
-#lightboxOverlay {
-    opacity: 1;
-}
 
-#lightbox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
+// Uses Node, AMD or browser globals to create a module.
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module.
+        define(['jquery'], factory);
+    } else if (typeof exports === 'object') {
+        // Node. Does not work with strict CommonJS, but
+        // only CommonJS-like environments that support module.exports,
+        // like Node.
+        module.exports = factory(require('jquery'));
+    } else {
+        // Browser globals (root is window)
+        root.lightbox = factory(root.jQuery);
+    }
+}(this, function ($) {
 
-#lightbox .lb-wrapContainer {
-    position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-}
+  function Lightbox(options) {
+    this.album = [];
+    this.currentImageIndex = void 0;
+    this.init();
 
-#lightbox .lb-outerContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    border: 0 none;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    background-color: transparent;
-}
+    // options
+    this.options = $.extend({}, this.constructor.defaults);
+    this.option(options);
+  }
 
-#lightbox .lb-image {
-    border: 0 none;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-}
+  // Descriptions of all options available on the demo site:
+  // http://lokeshdhakar.com/projects/lightbox2/index.html#options
+  Lightbox.defaults = {
+    albumLabel: 'Image %1 of %2',
+    alwaysShowNavOnTouchDevices: false,
+    fadeDuration: 600,
+    fitImagesInViewport: true,
+    imageFadeDuration: 600,
+    // maxWidth: 800,
+    // maxHeight: 600,
+    positionFromTop: 50,
+    resizeDuration: 700,
+    showImageNumberLabel: true,
+    wrapAround: false,
+    disableScrolling: false,
+    /*
+    Sanitize Title
+    If the caption data is trusted, for example you are hardcoding it in, then leave this to false.
+    This will free you to add html tags, such as links, in the caption.
 
-#lightbox .lb-prev,
-#lightbox .lb-next,
-#lightbox .lb-zoom-in,
-#lightbox .lb-zoom-reset,
-#lightbox .lb-zoom-out,
-#lightbox .lb-close {
-    position: absolute;
-    outline: none;
-    background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
-    cursor: pointer;
-}
-#lightbox .lb-prev,
-#lightbox .lb-next {
-    height: 77px;
-    width: 46px;
-    bottom: 0;
-    display: block;
-    background-color: rgb(226, 226,226) !important;
-    opacity: 0.6;
-}
-#lightbox .lb-prev {
-    left: 0;
-    background: url('/pc_js_v2/lightbox2/images/prev.png') 48% 48% no-repeat;
-}
-#lightbox .lb-next {
-    right: 0;
-    background: url('/pc_js_v2/lightbox2/images/next.png') 48% 48% no-repeat;
-}
-#lightbox .lb-zoom-in,
-#lightbox .lb-zoom-out,
-#lightbox .lb-zoom-reset {
-    display: none;
-}
+    If the caption data is user submitted or from some other untrusted source, then set this to true
+    to prevent xss and other injection attacks.
+     */
+    sanitizeTitle: false,
+    contentsHTML: '<div id="lightboxOverlay" class="lightboxOverlay"></div><div id="lightbox" class="lightbox"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /><div class="lb-nav"><a class="lb-prev" href="" ></a><a class="lb-next" href="" ></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>'
+  };
 
-#lightbox .lb-close {
-    top: 16px;
-    right: 8px;
-    width: 48px;
-    height: 48px;
-    display: block;
-    background: url(/pc_js_v2/lightbox2/images/close.png) top right no-repeat;
-    outline: none;
-    -webkit-transition: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    transition: opacity 0.2s;
-}
+  Lightbox.prototype.option = function(options) {
+    $.extend(this.options, options);
+  };
+
+  Lightbox.prototype.imageCountLabel = function(currentImageNum, totalImages) {
+    return this.options.albumLabel.replace(/%1/g, currentImageNum).replace(/%2/g, totalImages);
+  };
+
+  Lightbox.prototype.init = function() {
+    var self = this;
+    // Both enable and build methods require the body tag to be in the DOM.
+    $(document).ready(function() {
+      self.enable();
+      self.build();
+    });
+  };
+
+  // Loop through anchors and areamaps looking for either data-lightbox attributes or rel attributes
+  // that contain 'lightbox'. When these are clicked, start lightbox.
+  Lightbox.prototype.enable = function() {
+    var self = this;
+    $('body').on('click', 'a[rel^=lightbox], area[rel^=lightbox], a[data-lightbox], area[data-lightbox]', function(event) {
+      self.start($(event.currentTarget));
+      return false;
+    });
+  };
+
+  // Build html for the lightbox and the overlay.
+  // Attach event handlers to the new DOM elements. click click click
+  Lightbox.prototype.build = function() {
+    var self = this;
+    $(this.options.contentsHTML).appendTo($('body'));
+
+    // Cache jQuery objects
+    this.$lightbox       = $('#lightbox');
+    this.$overlay        = $('#lightboxOverlay');
+    this.$outerContainer = this.$lightbox.find('.lb-outerContainer');
+    this.$container      = this.$lightbox.find('.lb-container');
+    this.$image          = this.$lightbox.find('.lb-image');
+    this.$nav            = this.$lightbox.find('.lb-nav');
+
+    // Store css values for future lookup
+    this.containerPadding = {
+      top: parseInt(this.$container.css('padding-top'), 10),
+      right: parseInt(this.$container.css('padding-right'), 10),
+      bottom: parseInt(this.$container.css('padding-bottom'), 10),
+      left: parseInt(this.$container.css('padding-left'), 10)
+    };
+
+    this.imageBorderWidth = {
+      top: parseInt(this.$image.css('border-top-width'), 10),
+      right: parseInt(this.$image.css('border-right-width'), 10),
+      bottom: parseInt(this.$image.css('border-bottom-width'), 10),
+      left: parseInt(this.$image.css('border-left-width'), 10)
+    };
+
+    // Attach event handlers to the newly minted DOM elements
+    this.$overlay.hide().on('click', function() {
+      self.end();
+      return false;
+    });
+
+    this.$lightbox.hide().on('click', function(event) {
+      if ($(event.target).attr('id') === 'lightbox') {
+        self.end();
+      }
+      return false;
+    });
+
+    this.$outerContainer.on('click', function(event) {
+      if ($(event.target).attr('id') === 'lightbox') {
+        self.end();
+      }
+      return false;
+    });
+
+    this.$lightbox.find('.lb-prev').on('click', function() {
+      if (self.currentImageIndex === 0) {
+        self.changeImage(self.album.length - 1);
+      } else {
+        self.changeImage(self.currentImageIndex - 1);
+      }
+      return false;
+    });
+
+    this.$lightbox.find('.lb-next').on('click', function() {
+      if (self.currentImageIndex === self.album.length - 1) {
+        self.changeImage(0);
+      } else {
+        self.changeImage(self.currentImageIndex + 1);
+      }
+      return false;
+    });
+
+    /*
+      Show context menu for image on right-click
+
+      There is a div containing the navigation that spans the entire image and lives above of it. If
+      you right-click, you are right clicking this div and not the image. This prevents users from
+      saving the image or using other context menu actions with the image.
+
+      To fix this, when we detect the right mouse button is pressed down, but not yet clicked, we
+      set pointer-events to none on the nav div. This is so that the upcoming right-click event on
+      the next mouseup will bubble down to the image. Once the right-click/contextmenu event occurs
+      we set the pointer events back to auto for the nav div so it can capture hover and left-click
+      events as usual.
+     */
+    this.$nav.on('mousedown', function(event) {
+      if (event.which === 3) {
+        self.$nav.css('pointer-events', 'none');
+
+        self.$lightbox.one('contextmenu', function() {
+          setTimeout(function() {
+              this.$nav.css('pointer-events', 'auto');
+          }.bind(self), 0);
+        });
+      }
+    });
 
 
+    this.$lightbox.find('.lb-loader, .lb-close').on('click', function() {
+      self.end();
+      return false;
+    });
+  };
+
+  // Show overlay and lightbox. If the image is part of a set, add siblings to album array.
+  Lightbox.prototype.start = function($link) {
+    var self    = this;
+    var $window = $(window);
+
+    $window.on('resize', $.proxy(this.sizeOverlay, this));
+
+    $('select, object, embed').css({
+      visibility: 'hidden'
+    });
+
+    this.sizeOverlay();
+
+    this.album = [];
+    var imageNumber = 0;
+
+    function addToAlbum($link) {
+      self.album.push({
+        link: $link.attr('href'),
+        title: $link.attr('data-title') || $link.attr('title')
+      });
+    }
+
+    // Support both data-lightbox attribute and rel attribute implementations
+    var dataLightboxValue = $link.attr('data-lightbox');
+    var $links;
+
+    if (dataLightboxValue) {
+      $links = $($link.prop('tagName') + '[data-lightbox="' + dataLightboxValue + '"]');
+      for (var i = 0; i < $links.length; i = ++i) {
+        addToAlbum($($links[i]));
+        if ($links[i] === $link[0]) {
+          imageNumber = i;
+        }
+      }
+    } else {
+      if ($link.attr('rel') === 'lightbox') {
+        // If image is not part of a set
+        addToAlbum($link);
+      } else {
+        // If image is part of a set
+        $links = $($link.prop('tagName') + '[rel="' + $link.attr('rel') + '"]');
+        for (var j = 0; j < $links.length; j = ++j) {
+          addToAlbum($($links[j]));
+          if ($links[j] === $link[0]) {
+            imageNumber = j;
+          }
+        }
+      }
+    }
+
+    // Position Lightbox
+    var top  = $window.scrollTop() + this.options.positionFromTop;
+    var left = $window.scrollLeft();
+    this.$lightbox.css({
+      top: top + 'px',
+      left: left + 'px'
+    }).fadeIn(this.options.fadeDuration);
+
+    // Disable scrolling of the page while open
+    if (this.options.disableScrolling) {
+      $('body').addClass('lb-disable-scrolling');
+      $('html').css('overflow', 'hidden');
+    }
+
+    this.changeImage(imageNumber);
+  };
+
+  // Hide most UI elements in preparation for the animated resizing of the lightbox.
+  Lightbox.prototype.changeImage = function(imageNumber) {
+    var self = this;
+
+    this.disableKeyboardNav();
+    var $image = this.$lightbox.find('.lb-image');
+
+    this.$overlay.fadeIn(this.options.fadeDuration);
+
+    $('.lb-loader').fadeIn('slow');
+    this.$lightbox.find('.lb-image, .lb-nav, .lb-prev, .lb-next, .lb-dataContainer, .lb-numbers, .lb-caption').hide();
+
+    this.$outerContainer.addClass('animating');
+
+    // When image to show is preloaded, we send the width and height to sizeContainer()
+    var preloader = new Image();
+    preloader.onload = function() {
+      var $preloader;
+      var imageHeight;
+      var imageWidth;
+      var maxImageHeight;
+      var maxImageWidth;
+      var windowHeight;
+      var windowWidth;
+
+      $image.attr('src', self.album[imageNumber].link);
+
+      $preloader = $(preloader);
+
+      $image.width(preloader.width);
+      $image.height(preloader.height);
+
+      if (self.options.fitImagesInViewport) {
+        // Fit image inside the viewport.
+        // Take into account the border around the image and an additional 10px gutter on each side.
+
+        windowWidth    = $(window).width();
+        windowHeight   = $(window).height();
+        maxImageWidth  = windowWidth - self.containerPadding.left - self.containerPadding.right - self.imageBorderWidth.left - self.imageBorderWidth.right - 20;
+        maxImageHeight = windowHeight - self.containerPadding.top - self.containerPadding.bottom - self.imageBorderWidth.top - self.imageBorderWidth.bottom - 120;
+
+        // Check if image size is larger then maxWidth|maxHeight in settings
+        if (self.options.maxWidth && self.options.maxWidth < maxImageWidth) {
+          maxImageWidth = self.options.maxWidth;
+        }
+        if (self.options.maxHeight && self.options.maxHeight < maxImageWidth) {
+          maxImageHeight = self.options.maxHeight;
+        }
+
+        // Is there a fitting issue?
+        if ((preloader.width > maxImageWidth) || (preloader.height > maxImageHeight)) {
+          if ((preloader.width / maxImageWidth) > (preloader.height / maxImageHeight)) {
+            imageWidth  = maxImageWidth;
+            imageHeight = parseInt(preloader.height / (preloader.width / imageWidth), 10);
+            $image.width(imageWidth);
+            $image.height(imageHeight);
+
+          } else {
+            imageHeight = maxImageHeight;
+            imageWidth = parseInt(preloader.width / (preloader.height / imageHeight), 10);
+            $image.width(imageWidth);
+            $image.height(imageHeight);
+          }
+        }
+      }
+
+      self.sizeContainer($image.width(), $image.height());
+    };
+
+    preloader.src          = this.album[imageNumber].link;
+    this.currentImageIndex = imageNumber;
+  };
+
+  // Stretch overlay to fit the viewport
+  Lightbox.prototype.sizeOverlay = function() {
+    this.$overlay
+      .width($(document).width())
+      .height($(document).height());
+  };
+
+  // Animate the size of the lightbox to fit the image we are showing
+  Lightbox.prototype.sizeContainer = function(imageWidth, imageHeight) {
+    var self = this;
+
+    var oldWidth  = this.$outerContainer.outerWidth();
+    var oldHeight = this.$outerContainer.outerHeight();
+    var newWidth  = imageWidth + this.containerPadding.left + this.containerPadding.right + this.imageBorderWidth.left + this.imageBorderWidth.right;
+    var newHeight = imageHeight + this.containerPadding.top + this.containerPadding.bottom + this.imageBorderWidth.top + this.imageBorderWidth.bottom;
+
+    function postResize() {
+      self.$lightbox.find('.lb-dataContainer').width(newWidth);
+      self.$lightbox.find('.lb-prevLink').height(newHeight);
+      self.$lightbox.find('.lb-nextLink').height(newHeight);
+      self.showImage();
+    }
+
+    if (oldWidth !== newWidth || oldHeight !== newHeight ) {
+      this.$outerContainer.animate({
+        width: newWidth,
+        height: newHeight
+      }, this.options.resizeDuration, 'swing', function() {
+        postResize();
+      });
+    } else {
+      postResize();
+    }
+  };
+
+  // Display the image and its details and begin preload neighboring images.
+  Lightbox.prototype.showImage = function() {
+    this.$lightbox.find('.lb-loader').stop(true).hide();
+    this.$lightbox.find('.lb-image').fadeIn(this.options.imageFadeDuration);
+
+    this.updateNav();
+    this.updateDetails();
+    this.preloadNeighboringImages();
+    this.enableKeyboardNav();
+  };
+
+  // Display previous and next navigation if appropriate.
+  Lightbox.prototype.updateNav = function() {
+    // Check to see if the browser supports touch events. If so, we take the conservative approach
+    // and assume that mouse hover events are not supported and always show prev/next navigation
+    // arrows in image sets.
+    var alwaysShowNav = false;
+    try {
+      document.createEvent('TouchEvent');
+      alwaysShowNav = (this.options.alwaysShowNavOnTouchDevices) ? true : false;
+    } catch (e) {}
+
+    this.$lightbox.find('.lb-nav').show();
+
+    if (this.album.length > 1) {
+      if (this.options.wrapAround) {
+        if (alwaysShowNav) {
+          this.$lightbox.find('.lb-prev, .lb-next').css('opacity', '1');
+        }
+        this.$lightbox.find('.lb-prev, .lb-next').show();
+      } else {
+        if (this.currentImageIndex > 0) {
+          this.$lightbox.find('.lb-prev').show();
+          if (alwaysShowNav) {
+            this.$lightbox.find('.lb-prev').css('opacity', '1');
+          }
+        }
+        if (this.currentImageIndex < this.album.length - 1) {
+          this.$lightbox.find('.lb-next').show();
+          if (alwaysShowNav) {
+            this.$lightbox.find('.lb-next').css('opacity', '1');
+          }
+        }
+      }
+    }
+  };
+
+  // Display caption, image number, and closing button.
+  Lightbox.prototype.updateDetails = function() {
+    var self = this;
+
+    // Enable anchor clicks in the injected caption html.
+    // Thanks Nate Wright for the fix. @https://github.com/NateWr
+    if (typeof this.album[this.currentImageIndex].title !== 'undefined' &&
+      this.album[this.currentImageIndex].title !== '') {
+      var $caption = this.$lightbox.find('.lb-caption');
+      if (this.options.sanitizeTitle) {
+        $caption.text(this.album[this.currentImageIndex].title);
+      } else {
+        $caption.html(this.album[this.currentImageIndex].title);
+      }
+      $caption.fadeIn('fast')
+        .find('a').on('click', function(event) {
+          if ($(this).attr('target') !== undefined) {
+            window.open($(this).attr('href'), $(this).attr('target'));
+          } else {
+            location.href = $(this).attr('href');
+          }
+        });
+    }
+
+    if (this.album.length > 1 && this.options.showImageNumberLabel) {
+      var labelText = this.imageCountLabel(this.currentImageIndex + 1, this.album.length);
+      this.$lightbox.find('.lb-number').text(labelText).fadeIn('fast');
+    } else {
+      this.$lightbox.find('.lb-number').hide();
+    }
+
+    this.$outerContainer.removeClass('animating');
+
+    this.$lightbox.find('.lb-dataContainer').fadeIn(this.options.resizeDuration, function() {
+      return self.sizeOverlay();
+    });
+  };
+
+  // Preload previous and next images in set.
+  Lightbox.prototype.preloadNeighboringImages = function() {
+    if (this.album.length > this.currentImageIndex + 1) {
+      var preloadNext = new Image();
+      preloadNext.src = this.album[this.currentImageIndex + 1].link;
+    }
+    if (this.currentImageIndex > 0) {
+      var preloadPrev = new Image();
+      preloadPrev.src = this.album[this.currentImageIndex - 1].link;
+    }
+  };
+
+  Lightbox.prototype.enableKeyboardNav = function() {
+    $(document).on('keyup.keyboard', $.proxy(this.keyboardAction, this));
+  };
+
+  Lightbox.prototype.disableKeyboardNav = function() {
+    $(document).off('.keyboard');
+  };
+
+  Lightbox.prototype.keyboardAction = function(event) {
+    var KEYCODE_ESC        = 27;
+    var KEYCODE_LEFTARROW  = 37;
+    var KEYCODE_RIGHTARROW = 39;
+
+    var keycode = event.keyCode;
+    var key     = String.fromCharCode(keycode).toLowerCase();
+    if (keycode === KEYCODE_ESC || key.match(/x|o|c/)) {
+      this.end();
+    } else if (key === 'p' || keycode === KEYCODE_LEFTARROW) {
+      if (this.currentImageIndex !== 0) {
+        this.changeImage(this.currentImageIndex - 1);
+      } else if (this.options.wrapAround && this.album.length > 1) {
+        this.changeImage(this.album.length - 1);
+      }
+    } else if (key === 'n' || keycode === KEYCODE_RIGHTARROW) {
+      if (this.currentImageIndex !== this.album.length - 1) {
+        this.changeImage(this.currentImageIndex + 1);
+      } else if (this.options.wrapAround && this.album.length > 1) {
+        this.changeImage(0);
+      }
+    }
+  };
+
+  // Closing time. :-(
+  Lightbox.prototype.end = function() {
+    this.disableKeyboardNav();
+    $(window).off('resize', this.sizeOverlay);
+    this.$lightbox.fadeOut(this.options.fadeDuration);
+    this.$overlay.fadeOut(this.options.fadeDuration);
+    $('select, object, embed').css({
+      visibility: 'visible'
+    });
+    if (this.options.disableScrolling) {
+      $('body').removeClass('lb-disable-scrolling');
+      $('html').css('overflow', 'auto');
+    }
+  };
+
+  return new Lightbox();
+}));
